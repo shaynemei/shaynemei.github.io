@@ -996,10 +996,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="9115eca9-af58-49bd-8605-2a333d509457"&gt;&lt;/div&gt;
+&lt;div id="de077c34-0df6-404d-908c-cd05235d9057"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#9115eca9-af58-49bd-8605-2a333d509457');
+var element = $('#de077c34-0df6-404d-908c-cd05235d9057');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -1133,6 +1133,4686 @@ French President Emmanuel Macron celebrated the special relationship between the
 
 
 法国总统埃马纽埃尔马克隆上周在华盛顿的国事访问期间庆祝了美国和法国之间的特殊关系，他在白宫的土地上与唐纳德特朗普总统一棵树种植了一棵树。现在橡树苗木已经消失了 - 至少是暂时的。白色众议院摄影师注意到，树已经种植了几天后。随之而来的是神秘。事实上，来自法国Belleau Wood的这棵树，在第一次世界大战中死亡的近2,000名美国士兵在种植后不久被挖出。据美国和法国官员说，它被隔离了。问题是：树上的寄生虫可能会传播到白宫的其他地方，“Macron办公室的一位官员说，”这实际上是特朗普到法国的一个特殊情况，因为在总统访问当天能够种植这棵树。 （路透社）
+--------------------------------------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry><entry><title>Articles 11-20</title><link href="https://shaynemei.github.io/article20.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article20.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Articles-11-20"&gt;Articles 11-20&lt;a class="anchor-link" href="#Articles-11-20"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nx"&gt;javascript&lt;/span&gt;
+&lt;span class="nx"&gt;IPython&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;OutputArea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;prototype&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;_should_scroll&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div id="09d669ac-f211-4029-bf69-a79f81084fc3"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_javascript "&gt;
+&lt;script type="text/javascript"&gt;
+var element = $('#09d669ac-f211-4029-bf69-a79f81084fc3');
+IPython.OutputArea.prototype._should_scroll = function(lines) {
+    return false;
+}
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_excel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/Users/Shayne/webScraping/final_fixed.xlsx'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'--------------------------------------------------'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;
+
+Unlike his dictator father, who famously shunned air travel, North Korean leader Kim Jong Un jetted off to the northeastern Chinese city of Dalian, becoming the first North Korean ruler to fly abroad in 32 years.Since taking office in late 2011, Kim has occasionally flown inside North Korea. The recent foreign trip, albeit not far from the North Korean border, comes ahead of his summit with U.S. President Donald Trump aimed at ending the North Korean nuclear problem.Schooled for several years in Switzerland, Kim is believed to have traveled by air often as a teenager.After he became North Korea’s leader, state media said he was aboard Chammae-1 when he reviewed air force planes taking part in combat aeronautics contests and inspected construction work in Pyongyang. North Korean media photos also showed Kim looking out the windows of his plane; walking down the stairs from the plane, and walking with his wife, Ri Sol Ju, on a red carpet placed on an airstrip. （AP）
+
+
+和他以迴避搭機聞名的獨裁者父親不同，北韓領導人金正恩搭機前往中國東北部城市大連，成為32年來首位搭機出訪的北韓統治者。自2011年底執政以來，金正恩偶爾會在北韓國內搭乘飛機。最近這趟（訪中）海外行程，儘管（地點）距離北韓邊界不遠，時間點落在他與美國總統唐納．川普會面、以解決北韓核武問題為主旨的高峰會之前。金正恩曾在瑞士求學多年，據信在青少年時期經常搭機。成為北韓領導人後，（北韓）國營媒體說，金正恩曾搭乘「蒼鷹1號」校閱參與空中戰鬥競賽的空軍機隊，與視察平壤的建設工程。北韓媒體發佈的照片也顯示，金正恩坐在專機內朝窗外看、步下專機階梯，以及與妻子李雪主聯袂踏上機場跑道的紅地毯。（美聯社）
+
+
+不像他独裁父亲那样着名避开航空旅行，朝鲜领导人金正恩（Jet Jong）在中国东北部城市大连涌入，成为第一位在32年内飞往国外的朝鲜统治者。自从2011年底上任以来，金曾偶尔在朝鲜境内飞行。最近的这次外国之行，尽管离朝鲜边境不远，但是在他与美国总统唐纳德特朗普举行首脑会议之前，旨在结束朝鲜的核问题。在瑞士冷静了好几年，金被认为经常乘飞机旅行，一名青少年。在他成为朝鲜领导人后，官方媒体称他在回顾参加空战飞机参加战斗航空比赛并检查平壤建筑工作时正在参加Chammae-1。朝鲜媒体的照片也显示金正望着他的飞机的窗户;从飞机上走下楼梯，然后和他的妻子Ri Sol Ju一起走在放在简易机场上的红地毯上。 （AP）
+--------------------------------------------------
+
+
+Workers spending their lunch break at the gym may be commonplace in most Western countries, but in Sweden some employers are pushing the idea even further, making on-the-job exercise compulsory.Every Friday, employees of fashion and sportswear retailer Bjorn Borg leave their desks at the company’s Stockholm headquarters to get their weekly workout at a nearby gym.There is no getting out of it：for more than two years the company founded by the Swedish tennis legend has made on-the-job exercise mandatory at the initiative of chief executive Henrik Bunge, a 44-year-old built like a wrestler."If you don’t want to exercise or be a part of the company culture, you have to go," says Bunge, without batting an eye. So far no one has quit because of the requirement, he adds.The main aims of the policy are to boost productivity and profitability while fostering camaraderie in the work force.
+
+
+在多數西方國家，勞工在健身房度過午休時間，似乎司空見慣，但在瑞典，有些雇主延伸思考，讓運動成為工作上的義務。每週五，瑞典運動服飾零售商「比約恩．柏格」的員工，都會離開斯德哥爾摩公司總部的辦公室，到附近一間健身房進行每週運動。沒有人可以例外，因為這間由瑞典網球傳奇人物比約恩．柏格創立的公司，2年多來貫徹體態宛如摔角選手的44歲執行長漢瑞克．邦吉的倡議，強制要求員工在工作時間運動。「如果你不想運動，或不願融入企業文化，你就必須離開。」邦吉眼睛眨也不眨地說。他還提到，迄今沒有任何人因為這項要求而辭職。這項政策的主要目標，是希望在提高生產力和利潤之外，也能增進同事間的情誼。
+
+
+在大多数西方国家，工作人员在健身房度过午餐时间可能是司空见惯的，但在瑞典，一些雇主正在进一步推动这一想法，使得在职锻炼成为强制性的。每周五，时尚和运动服饰零售商比约恩博格的员工离开他们在公司的斯德哥尔摩总部工作，每周在附近的健身房锻炼身体。没有脱身：由瑞典网球传奇公司创办的公司已经有两年多的时间在职首席执行官亨里克·邦格（Henrik Bunge），44岁，如同一名摔跤手一样，“如果你不想锻炼或成为公司文化的一部分，你就必须走了，”邦格说，没有打击眼睛。到目前为止，还没有人因需求而退出，他补充道。该政策的主要目标是提高生产力和盈利能力，同时培养劳动力中的友谊。
+--------------------------------------------------
+
+
+A Japanese rail company has apologized for ’’any inconvenience’’ caused to customers after a train left the station 25 seconds early, the second such case in months.The train was scheduled to depart Notogawa Station, in Japan’s Shiga province, at 7.12am. The train conductor thought the train was meant to leave at 7.11am, so he closed the doors a little early. He realized his mistake but as he couldn’t see anyone on the platform and decided to take off.The early departure didn’t affect any other travel schedules that day, but there were still people hoping to get onboard. They complained to the rail operator JR West and an official apology was issued shortly afterwards.Japanese trains have a reputation for extreme punctuality. It comes after a similar incident in autumn last year, when a train from Tokyo to the eastern city of Tsukuba departed 20 seconds early, prompting the operator of the Tsukuba Express to issue a public apology.
+
+
+日本一家鐵路公司為火車提早25秒離開車站，造成乘客的「任何不便」表達歉意，此為近幾個月來第二起這類事件。該班火車原訂上午7時12分駛離日本滋賀縣能登川車站。列車長以為火車應於上午7時11分離開，因此他提早關閉車門。當時他雖發現錯誤，但因為看到月台上沒有人，便決定啟程。提早開車並未影響任何乘客的旅遊行程，但仍有乘客希望搭上車。他們向鐵路營運商「西日本旅客鐵道株式會社」抱怨，不久便有官方道歉聲明發出。日本火車以極度準時享有盛名。去年秋天也有一起類似事件，當時一輛東京駛往東部城市筑波的火車提前20秒出發，導致營運商「筑波特快」發布公開聲明道歉。
+
+
+一列日本铁路公司已经为火车离开火车站25秒后离开火车站造成的任何不便表示歉意，这是几个月后的第二起火车票。火车定于上午7点22分离开日本滋贺省的Notogawa车站。列车售票员认为火车本打算在早上7点11分离开，所以他早早关上了车门。他意识到自己的错误，但因为他看不到任何人在平台上并决定起飞。提前离开并没有影响当天的其他旅行时间表，但仍有人希望上车。他们向铁路运营商JR West投诉，并在事后不久发布了正式道歉。日本火车以极端的守时而闻名。去年秋天发生类似事件之后，东京至东部城市筑波的火车早20秒离开，促使筑波特快公司的经营者公开道歉。
+--------------------------------------------------
+
+
+Wood frogs hold in urine all winter as a survival mechanism by recycling urea, according to a study published Tuesday （May 1）.In Alaska, wood frogs go eight months without urinating, and now scientists have figured out how they do it – more accurately, how they survive without doing it.Special microbes in the frogs’ guts recycle the urea, which is the main waste in urine, the study in the journal Proceedings of the Royal Society B reported.In turn, recycling urea into useful nitrogen keeps the small frogs alive as they hibernate and freeze, inside and out. Although it doesn’t warm them up, urea still protects cells and tissues, even as the critter’s heart, brain and bloodstream stop.Alaskan wood frogs get as cold as zero degrees. But once the temperatures warm near springtime, the frogs come back to life; they thaw and begin feeding and mating again. 
+
+
+根據週二（5月1日）發表的一項研究，木蛙整個冬季會一直憋尿，透過回收尿素維生。（美國）阿拉斯加州的木蛙能夠8個月不排尿，現在科學家已經弄清楚牠們是怎麼辦到的；更準確地講，是牠們如何透過不排尿來維持生命。這項刊登在《皇家學會報告生物科學版》期刊的研究報告指出，這種青蛙的腸道擁有能夠回收尿素的特殊微生物，而尿素是尿液中的主要廢棄物。藉由回收尿素成為有用的氮，這種小青蛙能在冬眠及受凍時維持生命。儘管回收尿素無法暖和身體，但它能保護細胞和組織，即便當時牠們的心臟、腦和血流停止運作。阿拉斯加木蛙的體溫可降至零度低溫。一旦接近春天、溫度回升，這種青蛙就會恢復生機；牠們解凍後再次開始進食和交配。
+
+
+根据周二（5月1日）公布的一项研究，木青蛙在整个冬季都将尿液作为回收尿素的生存机制。在阿拉斯加，木蛙历经八个月不排尿，现在科学家已经弄清楚他们是如何做到的 - 更准确地说，他们如何在不做它的情况下生存下来。青蛙内胆中的特殊微生物回收尿素，这是尿液中的主要废物，在英国皇家学会会刊B的报告中报道。反过来，将尿素回收利用成为有用的氮气，小青蛙活着，因为他们冬眠和冻结，里面和外面。尽管它不会使它们变暖，但尿素仍能保护细胞和组织，即使这些小动物的心脏，大脑和血流也停止了。阿拉斯加的青蛙冷得像零度。但一旦温度接近春天，青蛙就会恢复生机;他们解冻并开始喂食和再次交配。
+--------------------------------------------------
+
+
+Rival parties’ wrangling over the local elections and North Korean denuclearization continued Sunday. " (Liberty Korea Party) Chairman Hong Joon-pyo is misleading the public as if the Moon Jae-in administration pleaded with the US to hold the US-North Korea summit on June 12, a day before the local elections," said Rep. Back Hye-ryun of the Democratic Party. "According to Chairman Hong’s words, the US government is interfering with our elections, it is a very dangerous statement.""In the end, the administration is trying to bury the June 13 local elections with the South-North peace show." Hong claimed. Hong and his hard-line conservative party accused Moon Jae-in and North Korean leader Kim Jong-un of putting up "a show of false peace."
+
+
+南韓敵對政黨針對該國地方選舉和北韓無核化的爭吵，週日仍未平息。「共同民主黨」國會議員白惠蓮說，「『自由韓國黨』黨魁洪準杓正誤導社會大眾，彷彿是文在寅政府乞求美國於6月12日舉行美國—北韓峰會，也就是南韓地方選舉前一天」。「據他所述，美國政府正在干預我國選舉，這可是非常危險的說法。」洪準杓聲稱，「到頭來，文在寅政府正企圖利用兩韓和平秀，掩蓋6月13日舉行的地方選舉」。洪及其領導的強硬派保守政黨指控文與北韓領導人金正恩聯手建構「一場虛偽的和平秀」。
+
+
+周日，竞争党对地方选举和朝鲜无核化问题的争论继续进行。 “（自由韩国党）洪俊杓董事长误导公众，好像月亮政府恳求美国在地方选举前一天的6月12日举行美朝会议。”返回民主党的惠云。 “按照洪主席的话说，美国政府正在干涉我们的选举，这是一个非常危险的说法。”“最后，政府试图将6月13日的地方选举埋葬在南北和平展览中。”洪声称。洪秀全和他的强硬派保守党指责文在仁和朝鲜领导人金正恩提出“虚假和平表现”。
+--------------------------------------------------
+
+
+Kangaroos are one of Australia’s biggest tourist draws, but visitors to one park are getting more than they bargained for.Tourists in Lake Macquarie, a two-hour train ride from Sydney, are ignoring warnings and feeding carrots to kangaroos who become aggressive at the sight of their favorite sugary snack.Each week thousands of people flock to see the kangaroos on grassy slopes near a psychiatric hospital, enticed by travel blogs promising “adorable wild kangaroos” that are “tame enough to get close to and take photos with”.Carrots in hand, the tourists approach the kangaroos, seeking a selfie with an Australian symbol.It doesn’t always end well.A photo posted on Facebook showed a kangaroo leaping up to kick a tourist with its powerful legs. Other photos showed a woman with a scratched face and a man with a bloody gouge in his stomach.“Kangaroos can occasionally be aggressive no matter what the circumstances are, but 90 percent of the time it’s the people who are trying to feed them who are attacked,” Shane Lewis, who operates a tourist shuttle service to the park, told Reuters.
+
+
+袋鼠是澳洲觀光引人入勝的要角之一，但一家公園的遊客所獲超乎了他們所求。距離雪梨有兩小時火車路程的麥覺理湖市觀光客忽略警示，餵袋鼠吃紅蘿蔔，牠們一看到最愛之含糖零食就變得具有攻擊性。受到保證「可愛野生袋鼠」是「溫馴到可以靠近及一起拍照」的眾多旅遊部落格誘惑，每週有數千人蜂擁來看一家精神病院附近草坡上的袋鼠。手裡拿紅蘿蔔，遊客接近袋鼠，想和澳洲象徵來個自拍。但結局並非一向美好。一張貼到臉書的照片顯示，一隻袋鼠跳起來，用牠有力的腿踢了一名遊客。其他照片顯示，一名婦女臉遭抓傷，一名男子流血破肚。經營到這處公園觀光巴士服務的謝恩．路易斯告訴路透，「不論在什麼情境下，袋鼠可能偶爾具有侵略性，但九成是試著餵牠們的民眾被攻擊。」
+
+
+袋鼠是澳大利亚最大的旅游景点之一，但来到一个公园的游客获得的价格超过了他们的预算。来自悉尼的两个小时火车车程的麦觉理湖的旅游者忽视了警告并将胡萝卜送给袋鼠，因为它们在视线上变得咄咄逼人每周有数千人涌入精神病医院附近的草坡上看袋鼠，并被旅游博客引诱，他们承诺“可爱的野生袋鼠”能够“驯服到接近并拍照”。胡萝卜在手中，游客接近袋鼠，寻求一种带有澳大利亚象征的自拍照。它并不总是很好。Facebook上发布的一张照片显示，一只袋鼠以强有力的腿跳跃起来游客。其他照片显示，一名女子脸部有刮痕，一名男子肚子里有血迹。“无论情况如何，袋鼠偶尔会有攻击性，但90％的时间是试图喂养他们的人袭击“，负责公园旅游接送服务的Shane Lewis告诉路透社。
+--------------------------------------------------
+
+
+The emailed response from the Guggenheim’s chief curator to the White House was polite but firm：The museum could not accommodate a request to borrow a painting by Vincent van Gogh for President and Melania Trump’s private living quarters.Instead, wrote the curator, Nancy Spector, another piece was available, one that was nothing like "Landscape With Snow," the 1888 van Gogh rendering of a man in a black hat walking along a path in Arles, France, with his dog.The curator’s alternative： an 18-karat, fully functioning, solid gold toilet — an interactive work titled "America" that critics have described as pointed satire aimed at the excess of wealth in this country.For a year, the Guggenheim had exhibited "America" — the creation of contemporary artist Maurizio Cattelan — in a public restroom on the museum’s fifth floor for visitors to use.
+
+
+古根漢博物館總館長回覆白宮的電子郵件很有禮貌，但立場也很堅定：該館無法應允出借一幅梵谷的畫作，讓川普總統與第一夫人梅蘭妮亞掛在私人起居區的要求。取而代之的是，館長南西．史貝克特寫道，另一件藝術創作倒是可以出借，但該作品與描繪一名戴黑帽的男子，沿著法國阿爾勒的小徑遛狗的1888年梵谷畫作「雪景」，毫無相似之處。館長的替代方案是：1個18K、功能完備的黃金馬桶—一件名為「美國」、被批評者形容為尖銳諷刺美國財富過剩的互動式作品。
+
+
+古根海姆首席策展人给白宫的电子邮件回应很有礼貌但坚定：博物馆无法容纳Vincent van Gogh为总统和Melania Trump的私人住所借用一幅画的请求。相反，该馆馆长Nancy Spector写道，另一件作品可以提供，其中一件与“雪景”无关，1888年梵高渲染一名戴着黑帽子的男子正在法国阿尔勒的一条小路上与他的狗一起走。策展人的另一种选择是：18克拉，功能齐全的纯金洗手间 - 这是一部名为“美国”的互动作品，评论家称这些作品是针对这个国家财富过剩的尖锐讽刺。一年来，古根海姆展出了“美国” - 创作当代艺术家莫里吉奥卡特兰 - 在博物馆五楼的公共休息室供游人使用。
+--------------------------------------------------
+
+
+Syrian student Nour wistfully examines her bare ring finger, then scans fellow classmates around her at Damascus University. Amid the sea of women, there’s no eligible single man in sight.At 30, Nour says she is eager to get married － but Syria’s protracted conflict means potential suitors have emigrated, joined the army or lost their lives.Syria’s conflict erupted in 2011 with mass protests, just as Nour was preparing to graduate with her first degree in economics. Later Nour has opted to pursue her second degree at Damascus University in literature."I’ve got nothing to fill my time with. No friend, no lover, no husband," Nour sighs, pulling her dyed blonde hair away. "I’m terrified I’ll find a grey hair before I get married."In Syria’s conservative society, women were generally expected to marry in their 20s, but the lack of eligible bachelors has somewhat relaxed those norms."Now, a woman could marry at 32 without people saying she’s late to wed," said Salam Qassem, a psychology professor in Damascus.
+
+
+敘利亞學生諾爾若有所思地看著自己空無一物的無名指，接著掃視大馬士革大學裡的同班同學。在女人堆中，遍尋不著一名合適的單身男子。30歲的諾爾說自己很渴望婚姻，但敘利亞漫長的內戰，讓潛在的追求者不是移民、從軍，就是已一命嗚呼。敘利亞在2011年爆發大規模示威後陷入內戰，當時諾爾即將取得第一個經濟學學位。之後，諾爾選擇在大馬士革大學攻讀第二個文學學位。「我不知道如何打發時間。沒有朋友、沒有情人、也沒有丈夫。」諾爾一邊感嘆，一邊撥開染成金黃色的秀髮。「我很害怕在我出嫁前，頭上就出現華髮。」在保守的敘利亞社會，女性通常被期待20幾歲就結婚，但由於欠缺合適的單身漢，這些規範已有所鬆動。大馬士革心理學教授薩朗．卡瑟姆說：「女性現在就算在32歲結婚，也沒人會說她晚嫁了。」
+
+
+叙利亚学生努尔渴望检查她的无名指，然后在大马士革大学扫描身边的同学。在女性的海洋中，没有合适的单身男子在望。30日，努尔表示她渴望结婚 - 但叙利亚的长期冲突意味着潜在的求婚者已经移民，加入军队或失去生命。2011年的叙利亚冲突爆发大众抗议，就像努尔正准备毕业并获得经济学学士学位。后来，努尔选择在大马士革大学攻读文学学士学位，“我没有什么可以填补我的空间的，没有朋友，没有情人，没有丈夫，”努尔叹了一口气，把她染成金色的头发拉开。 “我害怕在结婚之前会发现一头灰白的头发。”在叙利亚保守的社会中，女性通常会在20多岁时结婚，但缺乏符合条件的单身汉已经略微放松了这些标准。“现在，一位女士可以在32岁就结婚，没有人说她晚婚了，“大马士革心理学教授萨拉姆卡西姆说。
+--------------------------------------------------
+
+
+A Japanese author of children’s books, Eiko Kadono, has won the Hans Christian Andersen Award, considered the Nobel Prize for children’s literature. The Swiss-based International Board on Books for Young People made the announcement on Monday.Kadono is best known as the author of "Kiki’s Delivery Service". The novel, about a young witch, was adapted into an animated film directed by Hayao Miyazaki called "Majo no Takkyubin".Kadono has published nearly 200 books, including a series about 3 little monsters. The board called her a great Japanese author and said her work possesses an ineffable charm, compassion, and flair. It also said that her stories are deeply rooted in her native land and show children a Japan that is filled with all kinds of unexpected people.Kadono is the 3rd Japanese to win the award. It went to Michio Mado in 1994 and Nahoko Uehashi in 2014.
+
+
+日本童書作者角野榮子贏得「安徒生獎」，該獎被視為兒童文學的諾貝爾獎。總部設於瑞士的國際兒童圖書評議會，週一公佈這項訊息。角野最為人所知的身分，是「魔女宅急便」的作者。這部有關一名年輕女巫的小說，被改編成宮崎駿執導的動畫影片「魔女宅急便」。角野發表了近200本書，包括有關3個小怪獸的系列作品。該評議會稱她是偉大的日本作家，並說她的作品具有難以言喻的魅力、憐憫與文采。評議會還說，她的故事深刻扎根於她的原鄉，並向兒童展現一個充滿各種意外人物的日本。角野是第3位贏得該獎項的日本人。1994年這座大獎獎落窗道雄，2014年則是上橋菜穗子。
+
+
+日本的儿童书籍作家英子嘉多诺赢得了安徒生奖，被认为是诺贝尔儿童文学奖。总部位于瑞士的国际青年书籍委员会周一宣布。卡多诺以“Kiki的送货服务”的作者而闻名。这部小说关于一个年轻的女巫，被改编成由宫崎骏导演的动画电影“魔女的高阶像”.Kadono出版了近200本书，其中包括一系列约3个小怪物。董事会称她是一位伟大的日本作家，并称她的作品具有不可思议的魅力，同情心和才华。它还说，她的故事深深地扎根于她的祖国，并向孩子们展示了一个充满各种意想不到的人的日本。卡多诺是第三位获此殊荣的日本人。它于1994年参加了Michio Mado和2014年的Nahoko Uehashi。
+--------------------------------------------------
+
+
+New research reveals eating bananas every day could help prevent heart attacks and strokes. High in potassium, foods like bananas can stop fatal blockages from occurring and inhibit the hardening and narrowing of arteries. Researchers at the University of Alabama analyzed mice who were at risk of heart disease. The mice were fed either low, normal or high levels of potassium with the results showing that the arteries of mice fed a low-potassium diet became significantly harder. In contrast, the mice given high potassium had less artery hardening.The vital mineral － which spuds, broccoli and sprouts are also rich in － was found to aid blood flow to the heart and brain and reduce the risk of clots. Other foods rich in the mineral include parsnips, seeds, fish and poultry.However, eating too much potassium can cause stomach ache, nausea and diarrhea. Older people may be more at risk because their kidneys may be less able to remove potassium from the blood.
+
+
+新研究揭露，每天吃香蕉可能有助於預防心臟病及中風。香蕉等富含鉀的食物，可防止致命心血管堵塞發生，並抑制動脈硬化及狹窄。阿拉巴馬大學研究人員分析具心臟病風險的老鼠。這些老鼠被餵食低、中或高水平的鉀，結果顯示給予低鉀飲食的老鼠動脈顯著硬化。對照之下，餵食高鉀的老鼠較少動脈硬化。 這種重要的礦物質—土豆、花椰菜及豆芽也富含—被發現有助於血液流入心臟及大腦，並可降低血栓風險。其他富含這種礦物質的食物，還包括防風草、種子、魚類及家禽等。然而，食用過多的鉀可能導致胃痛、噁心及腹瀉。老年人的危險性可能更高，因為他們的腎臟可能比較無法排除血液中的鉀。
+
+
+新的研究表明，每天吃香蕉可以帮助预防心脏病发作和中风。钾含量高，像香蕉这样的食物可以阻止致命的阻塞发生并抑制动脉硬化和变窄。阿拉巴马大学的研究人员分析了有心脏病危险的小鼠。给小鼠喂食低，正常或高水平的钾，结果显示喂食低钾饮食的小鼠的动脉变得明显更难。相反，给予高钾的小鼠动脉硬化较少。发现重要的矿物质（这些矿物质 - 土豆，西兰花和芽菜也富含）有助于血液流向心脏和大脑，并降低凝块的风险。其他富含矿物质的食物包括欧洲萝卜，种子，鱼类和家禽。但是，吃太多的钾会导致胃痛，恶心和腹泻。老年人可能更危险，因为他们的肾脏可能不能从血液中去除钾。
+--------------------------------------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry><entry><title>Articles 21-30</title><link href="https://shaynemei.github.io/article30.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article30.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Articles-21-30"&gt;Articles 21-30&lt;a class="anchor-link" href="#Articles-21-30"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nx"&gt;javascript&lt;/span&gt;
+&lt;span class="nx"&gt;IPython&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;OutputArea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;prototype&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;_should_scroll&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div id="89db23f0-2870-4a1b-a221-1882eea5c264"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_javascript "&gt;
+&lt;script type="text/javascript"&gt;
+var element = $('#89db23f0-2870-4a1b-a221-1882eea5c264');
+IPython.OutputArea.prototype._should_scroll = function(lines) {
+    return false;
+}
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_excel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/Users/Shayne/webScraping/final_fixed.xlsx'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'--------------------------------------------------'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;
+
+On May 19, Prince Harry and Meghan Markle will marry. The couple will wed in St. George’s Chapel in Windsor Castle — a royal residence in the small town of Windsor some 22 miles west of central London.The bells of St. George’s will chime to mark the happy event, but the cash tills are already ringing. Tourism is by far Windsor’s biggest industry. Thanks to the royals, 7 million visitors flock to the town every year, and an extra 100,000 are expected on the wedding day, boosting the local economy.The deputy leader of the local council, Phillip Bicknell, anticipates that many free-spending Americans will be among the tourists.“The Americans are very keen on the wedding because they’re going to get in to the royal family at last.” Bicknell said. In the King and Queen Gift Shop at the foot of Windsor’s Castle Hill, Harry and Meghan memorabilia have been flying off the shelves. Tourists have been snapping up fridge magnets, T-shirts, tea towels and mugs bearing images of the happy couple and costing $18 or more. The royal wedding has triggered an avalanche of royal tat, including some bizarre products like the Harry and Meghan breakfast cereal, and the aim is obvious：to make a quick buck.
+
+
+（英國）哈利王子和梅根．馬克爾5月19日即將完婚。這對小倆口將在溫莎古堡的聖喬治禮拜堂結婚，那是一處皇家宅邸，位於距離倫敦市中心西方約22英里的一座小鎮內。聖喬治禮拜堂的鐘聲即將為這樁幸福大事敲響，但收銀台的鈴聲早已響起。觀光業是溫莎鎮迄今規模最大的產業。感謝王室家族，每年都有700萬名遊客結伴到訪這座小鎮，婚禮當天則預計再增加10萬訪客，帶動當地經濟。當地議會的副主席菲利普．比克內爾預期，會有許多出手闊綽的美國觀光客到訪。「美國人非常熱衷這場婚禮，因為終於有美國人即將成為王室一員。」比克內爾表示。坐落於溫莎古堡山腳下的「國王與王后禮物店」裡，哈利與梅根的紀念商品持續暢銷。觀光客搶購印上這對幸福小倆口的冰箱磁鐵、T恤、茶巾和杯具，為此掏出18美元或更多的錢。這場王室婚禮引領鋪天蓋地的皇家圖飾風潮，包括一些稀奇古怪的產品，例如哈利與梅根早餐穀片，顯然旨在輕鬆賺取近利。
+
+
+5月19日，哈里王子与梅根马克尔将结婚。这对夫妇将在温莎城堡的圣乔治教堂结婚，该城堡位于伦敦市中心以西约22英里处的温莎小镇的皇家住宅内。圣乔治钟声将为这件喜事庆祝，但现金帐单已经售罄铃声。旅游业是迄今为止温莎最大的行业。由于皇室成员，每年有700万游客慕名前往，而在婚礼当天预计会有10万人参加，推动了当地经济的发展。当地议会副主席菲利普比克内尔预计，许多自由消费的美国人将会在游客中间“。美国人对婚礼非常热衷，因为他们最终会进入王室。”比克内尔说。在温莎城堡山脚下的国王和女王礼品店里，哈利和梅甘的纪念品已经从货架上飞走了。游客们一直在抢购冰箱磁铁，T恤，茶巾和杯子，上面印有幸福夫妇的照片，花费18美元或更多。皇室婚礼已经引发了一系列皇室达特，包括一些奇怪的产品，如哈里和梅根早餐麦片，其目的很明显：快速降压。
+--------------------------------------------------
+
+
+The sight of the leaders of the two Koreas eating Pyongyang cold noodles at the Inter-Korea banquet whetted the appetites of Seoul residents and long queues of people formed outside of restaurants."I often enjoy eating Pyongyang cold noodles. After seeing the two leaders (Kim Jong Un and Moon Jae-in) having it at the banquet, I felt I had to have it too so I came here today. I wish we will be unified in the near future so that I can go to Pyongyang to enjoy the original Pyongyang cold noodles there," said one customer, Choi Ho-won, 30.
+
+
+看到南、北韓領導人在兩韓峰會晚宴品嘗平壤冷麵，激起首爾民眾的食慾，在餐館外形成排隊人龍。
+
+
+韩国领导人在韩国宴会上吃平壤冷面的景象刺激了首尔居民的胃口和餐馆外形成的长队人群。“我经常喜欢吃平壤冷面，看到两位领导人Kim Jong Un和Moon Jae-in）参加宴会时，我觉得我必须得到它，所以我今天来到这里，希望我们在不久的将来能够统一，以便我能去平壤享受原创平壤的冷面，“一位客户说，30岁的崔和元说。
+--------------------------------------------------
+
+
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）
+
+
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）
+
+
+克里斯汀巴纳比是一位自称恐怖分子的恐怖分子，他找到了一种方法来克服她在北卡罗来纳汉堡联盟中所惧怕的事情。“我要吃掉我的恐惧，”这位27岁的年轻人在牛市汉堡和啤酒厂说，她蜷缩在一个汉堡包里，上面放满了一个脆脆的成熟的烤箱烤成的狼蛛。泰兰塔拉斯在餐厅老板Seth Gross看到他们是如何成为柬埔寨的街头小吃主食后，在那里他们与盐和糖混合并熟。狼蛛汉堡不适合每个人。格罗斯每年只得到15只养殖的有机饲养的动物，因此食客需要运气和勇气才能品尝到。“你进来后，你可以填写一张彩票，”他说。 “如果我们画出你的名字，你就来吃一个。”幸运的获奖者有多达48小时的时间才能获得奖金，格罗斯说没有人退出。（路透社）
+--------------------------------------------------
+
+
+A Republican in Missouri who hopes to replace Democratic Sen. Claire McCaskill in the U.S. Senate said he expects to come home to a home-cooked meal from his fiancée at 6 p.m. every night, and plans for his future daughters to do the same.Courtland Sykes on Tuesday took to Facebook to repost comments he wrote last year, to clear up his views on women’s rights. "In light of recent questions regarding my views on Women’s Rights, attached is my full statement," he posted on his verified "Courtland Sykes for Senate" Facebook page. On whether he favors women’s rights, Sykes said his fiancée, Chanel Rion, has given him orders to favor them, "so I’d better.""But Chanel knows that my obedience comes with a small price that she loves to pay anyway：I want to come home to a home-cooked dinner at six every night, one that she fixes and one that I expect one day to have daughters learn to fix after they become traditional homemakers and family wives," he said in the post. 
+
+
+一名希望取代美國民主黨籍聯邦參議員克萊兒．麥卡斯基的密蘇里州共和黨人說，他希望每晚6點回到家時能吃到未婚妻親手做的飯菜，並打算讓未來的女兒比照辦理。柯特蘭．賽克斯週二在臉書上重新貼出他去年寫的這篇評論，澄清他對女權的看法。「有鑑於近日針對我對女權看法的質疑，在此附上我的完整聲明。」他在經過認證的「柯特蘭．賽克斯進軍參議院」臉書專頁上的貼文中如是說。針對他是否支持女權？賽克斯說，他的未婚妻，香奈兒．瑞昂下令他要支持，「所以我最好（照辦）。」「但香奈兒知道，我的順從是她要付出一個她也樂意支付的小代價：我每晚6點回家時，要有自家煮、而且是她煮的晚餐，也是有朝一日我希望我女兒成為傳統家庭主婦後學會煮的晚餐。」他在貼文中說。
+
+
+密苏里州的一位共和党人希望在美国参议院取代民主党参议员克莱尔·麦卡斯基尔，他表示他希望每晚在晚上6点回家为他的未婚妻做家常餐，并计划让他未来的女儿们也这样做.Courtland周二，赛克斯去Facebook发表了他去年写的评论，以澄清他对女性权利的看法。 “根据最近关于我对妇女权利的看法的问题，附上的是我的全部陈述，”他在他的经过验证的“Courtland Sykes参议院”Facebook页面上发布。关于他是否赞成女性权利，赛克斯表示，他的未婚妻香奈儿里翁已经下令让他们支持他们，“所以我会更好。”“但是香奈儿知道我的顺从来自她喜欢支付的一小笔费用：我想每天晚上六点回家吃一顿晚餐，一次她修好了，一次我希望有一天能让女儿在成为传统的家庭主妇和家庭妻子之后学会修复，“他在帖子中说。
+--------------------------------------------------
+
+
+No one told them it was gonna be this way.Millions of Chinese "Friends" fans are heartbroken after top portal Sohu, citing only "copyright issues" in April, abruptly pulled the US sitcom, beloved by millennials in China for its endearing characters and as an English conversation resource.The move has touched off anguish on Chinese social media sites such as Weibo, where a "Friends offline" hashtag has generated millions of posts. Many have called for Sohu to re-up on its "Friends" rights, with others indicating where to download pirated episodes.Millions of Chinese youngsters identify with the theme song’s lament － "your job’s a joke, you’re broke, your love life’s DOA." And they grab the chance to burnish their American-style English. "There are so much conversational English in it; things that you can’t learn from books."Some English training courses in China even assign the show as teaching material.
+
+
+沒人告訴他們，生活會變成這個樣子。中國頂尖入口網站「搜狐」4月間僅以「版權問題」為由，突然下架角色討喜、可當作英語會話學習資源，受到中國千禧世代喜愛的美國情境喜劇《六人行》，讓數百萬名粉絲為之心碎。此舉在「微博」等中國社群媒體引爆憤慨，「老友記（中國譯名）下架」的標籤累積達數百萬則。許多人要求搜狐重新取得《六人行》版權，也有人提供可下載盜版影集的網站。數百萬名中國年輕人對該劇主題曲的慨歎感同身受─「你的工作根本是笑話，你口袋裡沒半毛錢，你的感情生活胎死腹中。」他們也抓住這個可以增進美式英語能力的機會。「裡頭有很多英語會話，都是你無法在書本上學到的內容。」在中國，有些英文教學課程甚至指定這個節目為教材。
+
+
+没有人告诉他们会这样。中国“好友”粉丝的数百万粉丝在排名榜首的搜狐之后，仅在4月份仅引用“版权问题”，突然拉动了美国情景喜剧，在中国千禧一代喜爱中国人喜爱的角色和作为英语会话资源。此举引发了中国社交媒体网站（如微博）的痛苦，“好友下线”标签吸引了数百万的帖子。许多人呼吁搜狐加强其“朋友”权利，其他人指示在哪里下载盗版剧集。中国的年轻人认为这首歌曲的哀叹 - “你的工作是个玩笑，你破产了，你的爱人生DOA“。他们抓住机会去打磨他们的美式英语。 “这里有很多会话英语，你不能从书本上学到的东西。”在中国的一些英语培训课程甚至把这个表演作为教材。
+--------------------------------------------------
+
+
+More than 100,000 Critically Endangered orangutans have been killed in Borneo since 1999, research has revealed. Scientists who carried out a 16-year survey on the island described the figure as "mind-boggling". Deforestation, driven by logging, oil palm, mining and paper mills, continues to be the main culprit. But the research, published in the journal Current Biology, also revealed that animals were "disappearing" from areas that remained forested.This implied large numbers of orangutans were simply being slaughtered, said lead researcher Maria Voigt of the Max Planck Institute for Evolutionary Anthropology in Germany. She said the animals are being targeted by hunters and are being killed in retaliation for crop-raiding.Prof Serge Wich from Liverpool John Moores University, UK said： "When these animals come into conflict with people on the edge of a plantation, people will kill them. Just last week, we had a report of an orangutan that had 130 pellets in its body, after being shot."Deforestation alone could wipe out a further 45,000 orangutans over the next 35 years. 
+
+
+自1999年以來，超過10萬隻極度瀕危的紅毛猩猩在婆羅洲遭殺害，研究顯示。在該島進行16年調查的科學家形容，這個數字「令人難以接受」。因伐木、（種植）油棕、採礦以及造紙業而驅動的森林砍伐，仍是主要的罪魁禍首。然而，這份刊登在「當代生物學」期刊的研究也披露，該動物仍從森林覆蓋的地區「逐漸消失」。這意味著為數可觀的紅毛猩猩就是遭屠殺，首席研究員、德國「馬克斯．普朗克進化人類學研究所」的沃伊特說。她指出，紅毛猩猩被獵人鎖定並格殺，以報復其危害作物。英國利物浦約翰摩爾斯大學教授威齊指出：「當這些動物在種植園邊緣與人類發生衝突時，人們將殺掉牠們。就在上週，我們獲報有隻紅毛猩猩遭射殺，身上有130顆彈丸。」單是砍伐森林，便可能在未來35年進一步毀滅4萬5000隻紅毛猩猩。
+
+
+研究显示，自1999年以来，婆罗洲有超过100,000只严重濒危的猩猩死亡。在岛上进行为期16年的调查的科学家称这一数字“令人难以置信”。由伐木，油棕，采矿和造纸厂驱动的砍伐森林仍然是主要的罪魁祸首。但该研究发表在“当代生物学”杂志上，也揭示了动物在仍然是森林的地区“消失”。这意味着大量的猩猩只是被屠杀，马克斯普朗克进化人类学研究所的首席研究员玛丽亚福伊特说。德国。她说这些动物是猎人的目标，并因作物捕杀报复而被杀害。英国利物浦约翰摩尔斯大学的Serge Serge Wich说：“当这些动物与种植园边缘的人发生冲突时，人们会杀死他们，就在上个星期，我们收到一条猩猩的报告，在被枪杀后，它的体内有130颗粒。“仅在今后的35年里，森林砍伐就可能使另外45,000只猩猩丧生。
+--------------------------------------------------
+
+
+The next time you feel stressed, grab a bar or two of chocolate - as new research suggests eating chocolate can actually help lower your stress levels.According to researchers at Loma Linda University in Southern California, consuming dark chocolate can have a positive effect on your brain health. They found that eating dark chocolate with a high percentage of cacao, typically chocolate over 70 per cent, reduces stress levels and inflammation.They also found eating dark chocolate improves your mood, memory and immunity - confirming chocolate is the greatest invention on the planet. Cacao contains flavonoids, which are potent antioxidants and anti-inflammatory agents that can help both brain and cardiovascular health.Lead researcher Lee Berk said the higher the concentration of cacao, the more positive the impact on cognition, memory, mood and immunity but it is only dark chocolate that has the benefits.
+
+
+當您下次感到壓力時，不妨抓起一、兩塊巧克力─一項新研究指出，吃巧克力確實可以幫助您降低壓力水平。南加州羅馬林達大學研究人員表示，攝取黑巧克力對您的大腦健康有正面功效。他們發現，食用高可可含量的黑巧克力─通常是可可含量70％以上的巧克力，可減輕壓力水平及發炎。他們也發現，食用黑巧克力可改善您的情緒、記憶與免疫能力─證實巧克力是地球上最偉大的發明。可可含有黃酮類化合物，是有力的抗氧化劑及抗炎劑，對大腦及心血管健康有益。首席研究員李．伯克指出，可可的濃度愈高，對認知、記憶、情緒與免疫愈有正面影響，但只有黑巧克力有這些益處。
+
+
+下一次你感到压力时，可以拿一两块巧克力 - 正如新的研究表明，吃巧克力实际上可以帮助降低你的压力水平。根据南加州罗马琳达大学的研究人员，消费黑巧克力可以对你的身体产生积极影响大脑健康。他们发现吃高比例可可的黑巧克力，通常是70％以上的巧克力可以减少压力水平和炎症。他们还发现吃黑巧克力可以改善你的情绪，记忆力和免疫力 - 确认巧克力是这个星球上最伟大的发明。可可含有黄酮类化合物，它们是有效的抗氧化剂和抗炎剂，可以帮助改善大脑和心血管健康。研究人员Lee Berk说，可可浓度越高，对认知，记忆，情绪和免疫的影响越积极，但它是只有黑巧克力才有好处。
+--------------------------------------------------
+
+
+Hot peppers aren’t just a pain in the mouth — they may be a pain in the head, too. After eating the hottest known pepper in the world, a man suffered from splitting headaches that drove him to the hospital emergency room, and into case-study history.His is the first known instance of reversible cerebral vasoconstriction syndrome — a temporary narrowing of arteries in the brain — to be tied to eating a hot pepper, researchers report April 9 in British Medical Journal Case Reports. Such narrowed arteries can lead to severe pain called “thunderclap headaches” and are often associated with pregnancy complications or illicit drug use.During a hot-pepper-eating contest, the man ate a chili dubbed the Carolina Reaper, named by Guinness World Records as the hottest pepper in the world. The Carolina Reaper is over 200 times as spicy as a jalapeno. About a minute later, he reported experiencing splitting headaches that came and went over two days before he sought treatment.Initial tests failed to find anything out of the ordinary. But a CT scan of blood vessels in the man’s brain showed severely narrowed arteries. When the researchers imaged his brain five weeks later, the arteries had returned to their normal size.
+
+
+辣椒不只能讓嘴巴發疼，也可能造成頭痛。一名男子在食用被稱為全球最辣的辣椒後，頭痛欲裂到不得不去掛急診，而被記載於個案研究史冊。他的案例是迄今首例與吃辣椒有關的可逆性腦血管收縮症候群，即一種暫時性的腦動脈收縮，研究人員4月9日刊登在《英國醫學期刊病例報告》的研究指出。此類動脈收縮會導致劇烈疼痛，也被稱為「霹靂頭疼」，通常與妊娠併發症或使用違禁藥物有關。該名男子在吃辣椒比賽上食用被金氏世界紀錄評選為地表上最辣辣椒的「卡羅萊納死神」辣椒。卡羅萊納死神比「墨西哥辣椒」辣上逾200倍。他宣稱吃完辣椒1分鐘後便感到頭痛欲裂，而且在尋求治療之前，這種情況持續2天之久。初步檢查並未發現異狀。但該名男子的腦部血管電腦斷層掃描顯示，多處動脈出現收縮情況。研究人員5週後再次檢查其腦內影像時，則發現動脈已恢復原本大小。
+
+
+辣椒不仅仅是口中的疼痛 - 它们也可能是头部疼痛。在吃了世界上最知名的辣椒之后，一个患有头痛的人将他赶到医院的急诊室，并进入病例研究的历史。他是第一个已知的可逆性脑血管收缩综合征 - 一种暂时性的动脉缩窄研究人员在4月9日的英国医学期刊病例报告中报告说，大脑 - 与吃辣椒有关。这种狭窄的动脉可导致严重的疼痛，称为“霹雳头痛”，通常与妊娠并发症或非法药物使用有关。在辣椒食用比赛中，该男子吃了被称为吉尼斯世界纪录的Carolina Reaper的辣椒世界上最辣的辣椒。卡罗来纳州收割者比墨西哥辣椒辣了200倍以上。大约一分钟后，他报告说，在他寻求治疗前两天，他遇到了分裂性头痛，并且已经过去了。初步检查未能发现任何异常情况。但是该男子脑部血管的CT扫描显示动脉严重狭窄。当研究人员在五周后对他的大脑进行成像时，动脉已恢复到正常大小。
+--------------------------------------------------
+
+
+President Moon Jae-in’s approval rating has shot up to an 11-month high this week, a poll showed Thursday, following his historic summit with North Korean leader Kim Jong-un.In a survey conducted by Realmeter, 78.3 percent of respondents said they approved of the way the president managed state affairs. The latest figure apparently reflects the people’s approval of the outcome of the inter-Korean summit.In a separate survey conducted by Realmeter, 71.4 percent of 501 respondents said they believe the North will actually denuclearize this time around in a complete, verifiable and irreversible way. The approval rating of the ruling Democratic Party also enjoyed a sharp increase, advancing 2.7 percentage points to 54.9 percent from a week earlier. The main opposition Liberty Korea Party’s rating, on the other hand, slipped 3.2 percentage points to 17.9 percent.
+
+
+週四公布的一份民調顯示，在南韓總統文在寅與北韓領導人金正恩的歷史性峰會後，文在寅的支持率本週衝上11個月來高點。在南韓民調機構「Realmeter」所做的一項調查中，78.3％的受訪者表示，支持文在寅的施政。此一最新民調數字明顯反映出民眾支持「文金會」的成果。在Realmeter所做的另一項調查中，501位受訪者中，71.4％回答，相信北韓這次真的會以完全、可查證和不可逆的方式無核化。南韓執政黨「共同民主黨」的支持率也顯著增加，較上週提高2.7個百分點至54.9％。另一方面，最大在野黨「自由韓國黨」支持率下滑3.2％至17.9％。
+
+
+民意调查显示，本周星期四，在与朝鲜领导人金正恩举行历史性首脑会议后，民主党总统Moon Jae-in的支持率已经达到了11个月高点。在由Realmeter进行的一项调查中，78.3％的受访者表示他们批准了总统管理国家事务的方式。最新数字显然反映了人们对韩朝首脑会议结果的批准。在由Realmeter进行的一项独立调查中，501名受访者中有71.4％表示他们认为北韩实际上将以完整，可核查和不可逆转的方式实现无核化。执政的民主党的支持率也大幅提高，比前一周上涨了2.7个百分点至54.9％。另一方面，主要反对党Liberty Korea Party的评级下滑3.2个百分点至17.9％。
+--------------------------------------------------
+
+
+Supermarket shoppers in the western German city of Aachen have stepped out of their comfort zone to sample insect burgers made of buffalo worms.The worms, highly nutritious due to their high protein content, are the larvae of buffalo beetles and are bred in the Netherlands.Served in rolls with lettuce, onions and tomatoes, they are being offered to customers at a supermarket in Aachen after proving successful in the Netherlands and Belgium.One passerby who tried one of the burgers, Manfred Roedder, said he believed they were a good alternative to meat, adding: "I had reservations at first but I got a second serving because it tasted so good."Baris Oezel, one of the founders of the start-up called Bugfoundation that makes the burgers, said he spent four years working on the concept along with company co-founder Max Kraemer."It’s quite simple. You have to create an aesthetic product that looks good and doesn’t show any insects," Oezel said, adding that people were attracted by the smell of the burgers. (Reuters) 
+
+
+德國西部亞琛市的超級市場消費者踏出了他們的舒適圈，品嚐水牛蠕蟲製成的昆蟲漢堡。因蛋白質含量高而極度營養的這些蠕蟲，是水牛甲蟲的幼蟲，於荷蘭繁殖培育。用萵苣、洋蔥和蕃茄包捲上菜，在荷蘭和比利時證明成功後，它們被供應給亞琛一家超市的顧客。試過其中一個漢堡的路人曼弗雷德．勒德爾說，他相信它們是替代肉類的好選擇，並補充指出：「我最初持保留態度，但我吃了第二份，因為它吃起來好棒。」製作這些漢堡的新創公司「蟲蟲基金會」的成立者之一巴利斯．歐澤爾說，他花了4年時間和公司共同創辦人馬克斯．克拉瑪構思出這個概念。歐澤爾說，「相當簡單。你必須創造一個有美感的產品，好看但不要露出任何昆蟲」，並補充指出，人們受到這些漢堡味道的吸引。（路透）
+
+
+德国西部城市亚琛的超市购物者已经走出了他们的舒适区，去品尝由水牛蠕虫制成的昆虫汉堡。由于其高蛋白质含量，高营养的蠕虫是水牛甲虫的幼虫，并在荷兰繁殖。在荷兰和比利时成功证明，他们在生菜，洋葱和西红柿卷中供应亚琛超市的顾客。一名尝试汉堡包之一Manfred Roedder的路人说，他相信他们是一个很好的选择“我最初有所保留，但我获得了第二份，因为它的味道非常好。”创业公司的创始人之一，叫做Bugfoundation的创始人之一Baris Oezel说，他花了四年的时间研究这个概念与公司联合创始人马克斯·克拉默（Max Kraemer）一样，“这很简单，你必须创造一种看起来不错并且不会出现任何昆虫的美学产品，”Oezel补充道，人们被气味所吸引汉堡包。 （路透社）
+--------------------------------------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry><entry><title>Articles 31-40</title><link href="https://shaynemei.github.io/article40.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article40.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Articles-31-40"&gt;Articles 31-40&lt;a class="anchor-link" href="#Articles-31-40"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nx"&gt;javascript&lt;/span&gt;
+&lt;span class="nx"&gt;IPython&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;OutputArea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;prototype&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;_should_scroll&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div id="f5d8f427-e5ee-4b8d-9f03-1762be8f651a"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_javascript "&gt;
+&lt;script type="text/javascript"&gt;
+var element = $('#f5d8f427-e5ee-4b8d-9f03-1762be8f651a');
+IPython.OutputArea.prototype._should_scroll = function(lines) {
+    return false;
+}
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [3]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_excel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/Users/Shayne/webScraping/final_fixed.xlsx'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;40&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'--------------------------------------------------'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;
+
+An overpowering stench of raw garbage, cockroaches scuttling up the walls and junk piled high in every nook and cranny：It’s hard to believe that anyone would call it home.Welcome to a typical "trash house," a term coined for dwellings whose residents seem to have given up on basic norms of hygiene by throwing nothing away.It is a growing problem for local authorities across Japan faced with clearing out these homes so the occupants can put their lives back together.Dementia and depression can be factors behind hoarding, but there are also other causes.The son of a woman in her 80s living alone in Osaka Prefecture got the shock of his life on a rare visit home to find an awful mess inside.It wasn’t just the smell of garbage, or the flies and the cockroaches. The dining room was piled 30 centimeters high with everything from a carton of eggs to dirty bed linen and a cookbook.
+
+
+令人無法忍受的生廚餘惡臭、竄爬上牆的蟑螂，以及堆得到處都是的垃圾，令人難以想像有人能將此處稱之為家。歡迎來到典型的「垃圾屋」，這是專為看似放棄基本衛生準則、什麼東西都不丟掉的居住者的住處所打造的詞彙。「垃圾屋」問題令日本各地方政府愈來愈頭大，得清理這些住處好讓居住者能回歸正常生活。失智與憂鬱可能是（導致）居家囤積垃圾的因素，但也還有其他原因。大阪府1名80多歲獨居老嫗的兒子難得造訪母親的家，結果發現家裡一團亂而嚇了一大跳。令人驚嚇的不只是垃圾的惡臭或蒼蠅與蟑螂。堆積在餐廳的垃圾足足有30公分高，從一盒蛋到髒床單與食譜什麼都有。
+
+
+生garbage over的恶臭，蟑螂在墙壁上坍塌，垃圾堆积在每一个角落和裂缝中：很难相信任何人都会把它称之为家。欢迎来到典型的“垃圾房”，这是一个为住户放弃了基本的卫生规范。日本各地的地方政府面临着清理这些住宅的问题，这使居住者可以将生活重新放在一起，这是一个日益严重的问题。痴呆和抑郁症可能是囤积居留的原因，但还有其他的原因。一位80多岁的独居在大阪府的女子的儿子在一次难得的访问中受到了他的生命冲击，在里面发现了一个可怕的混乱。不仅是垃圾的味道，还有苍蝇和蟑螂。餐厅堆满了30厘米高的一切，从一箱鸡蛋到肮脏的床单和一本食谱。
+--------------------------------------------------
+
+
+When Lebanese chef Alan Geaam first arrived in Paris two decades ago he found himself sleeping on the streets, lost and penniless with hardly a word of French.Geaam, who began his career as a dishwasher, finally received his first Michelin star from the French gastronomic bible for his acclaimed new restaurant.In the childhood Geaam had a fascination with food, watching cookery shows on television rather than cartoons after school. He started cooking while doing his national service in Lebanon, and the colonel of his regiment was so impressed he made him his personal chef.But Geaam never thought he would be able to cut the mustard in France. "I worked during the day as a construction worker and at night delivering pizzas and washing dishes. One night the cook cut his hand and had to go to hospital. No one asked me, but I just took over. There were 14 tables and I just feed the customers and at the end of the night they were delighted."
+
+
+黎巴嫩裔廚師艾倫．吉姆20年前初到巴黎時，身無分文只能露宿街頭，而且法語一竅不通，找不到人生方向。從擔任一名洗碗工開始打拚事業的吉姆，憑藉備受讚揚的新餐廳，終於首度榮獲法國飲食界聖經「米其林」的一星評價。吉姆從小便著迷於食物，放學後看電視不是看卡通，而是烹飪節目。他在黎巴嫩服役時開始下廚，讓隊裡的上校印象深刻，還邀請他擔任私人廚師。然而，吉姆來到法國後不曾想過自己夠資格下廚。「我白天是建築工，晚上去送披薩和洗碗。有一晚，廚師切傷手進了醫院。雖然沒人問我，但我接手他的工作。當時有14桌客人，我就煮給他們吃，最後他們吃得很盡興。」
+
+
+二十年前，当黎巴嫩厨师Alan Geaam第一次来到巴黎时，他发现自己在街头流浪，失去了身无分文的法语.Geaam最初是一名洗碗机，最后他从法国美食学院获得了他的第一颗米其林星级圣经为他着名的新餐厅。童年Geaam有食物的魅力，看电视上的烹饪节目，而不是放学后的漫画。他在黎巴嫩服役期间开始烹饪，他的团队上校对他的个人厨师印象深刻，他让他成为他的私人厨师。但是基亚姆从来没有想过他能够切断法国的芥末。 “我白天做一名建筑工人，晚上做比萨饼和洗盘子，一天晚上厨师剪了手，不得不去医院，没有人问我，但我刚接手，有14张桌子，我只是为客户提供食物，在晚上他们很高兴。“
+--------------------------------------------------
+
+
+Sculpture artists gathered in Scotland on Sunday to compete for the title of champion stone stacker. More than 30 participants from America, Spain, Italy and from around Britain converged on Dunbar, near Edinburgh, for the second European Stone Stacking Championships. Competitors must create the most complex and gravity-defying artistic sculptures from rocks and pebbles gathered on the town’s Eye Cave Beach. "（It’s） the most ancient art form that there is," James Craig Page, the fledgling contest’s founder, said. Stone stacking however has angered some conservationists who accuse enthusiasts of "rubbing out history" by removing rocks from ancient neolithic monuments. Page insists the professional artists take care to preserve the natural and historic environment. Pedro Duran, from Spain, was named European champion for the second year running for his stone archway, while James Brunt, 46, from the English city Sheffield, won runner-up for his intricate sculpture of a rollercoaster. "I got into stone stacking about seven years ago," said Brunt. "Everyone thought it was a kind of magic, and I saw the science behind it."
+
+
+雕塑藝術家週日齊聚蘇格蘭，為堆石頭冠軍頭銜一較高下。逾30名來自美國、西班牙、義大利及英國各地的參賽者，為了第二屆歐洲堆石錦標賽，聚集在愛丁堡附近的鄧巴。參賽者必須以取自該鎮眼洞海灘的石塊與小卵石，創造出最複雜與挑戰地心引力的藝術雕塑。「這是現存最古老的藝術形式。」這個剛起步的競賽創辦人佩吉說。然而，堆石頭激怒一些生態保育人士，他們指控狂熱份子搬動新石器時代遺址的石塊，「抹除歷史」。佩吉堅稱，專業的藝術家會小心維護自然與歷史環境。來自西班牙的杜蘭以他的石頭拱門，連續第二年獲頒歐洲冠軍；現年46歲、來自英國城市雪菲爾的布朗特，則以他複雜精細的雲霄飛車雕塑贏得亞軍。「約在7年前我對堆石產生興趣，」 布朗特說。「大家以為這是一種魔術，但我看到背後的科學。」
+
+
+周日，苏格兰的雕塑艺术家聚集在一起，争夺冠军石头堆积者的头衔。来自美国，西班牙，意大利和英国各地的30多名参赛者聚集在爱丁堡附近的邓巴举办第二届欧洲石牌堆叠锦标赛。参赛者必须从城镇的眼洞海滩聚集的石块和鹅卵石制作出最复杂，最具挑战性的艺术雕塑。 “（这是）最古老的艺术形式，”羽翼未丰的比赛创始人詹姆斯克雷格佩奇说。然而，石材堆放激怒了一些环保主义者，他们指责发烧友通过从古代新石器时代纪念碑中移除岩石来“剔除历史”。页面坚持专业艺术家注意保护自然和历史环境。来自西班牙的佩德罗杜兰因其石拱门而连续第二年获得欧洲冠军，而来自英国谢菲尔德市的46岁的詹姆斯布伦特因其精湛的过山车雕塑而获得亚军。 “我大约七年前就进入了石头堆积，”布伦特说。 “每个人都认为这是一种魔术，我看到了它背后的科学。”
+--------------------------------------------------
+
+
+Migrants hoping to start a new life in New Zealand can add a new skill to their visa applications. Under a new plan, would-be immigrants can claim points as skilled sex workers and escorts.According to information on Immigration New Zealand’s website, sex work is listed as ANZSCO level 5 skilled employment, and applicants could claim points towards their VISA if they are paid at or above NZ$ 36.44 per hour. They should also have relevant recognized qualifications or have at least three years of work experience in the relevant industry. But New Zealand Association of Migration and Investment（NZAMI）spokesperson Peter Moses said prostitution is listed as skilled employment, but applying for a resident visa as a sex worker would still be extremely difficult. Escort and sex work are on the skilled employment list, but they are not included on the skill-shortage list.
+
+
+希望在紐西蘭展開新生活的移民，可在簽證申請表上增加一項新技能。根據一項新的計畫，準移民能以有技術的性工作者及伴遊身分要求加分。紐西蘭移民資訊網站顯示，性工作被列為「澳紐標準職業分類」第5級技術性職業，申請者只要時薪36.44紐幣以上，即可就其簽證要求加分。他們也應擁有相關認證資格，或有相關產業至少3年工作經驗。
+
+
+希望在新西兰开始新生活的移民可以为他们的签证申请增加一项新技能。根据一项新计划，即将入境的移民可以获得积分作为熟练的性工作者和护送人员。根据新西兰移民局网站上的信息，性工作被列为ANZSCO第5级熟练工，并且申请人可以向VISA申请积分支付每小时36.44新元或以上。他们还应具有相关的认可资格，或在相关行业至少有三年的工作经验。但新西兰移民与投资协会（NZAMI）发言人彼得摩西表示，卖淫被列为熟练工，但申请居民签证作为性工作者仍然非常困难。护卫和性工作都在熟练的就业名单上，但他们不包括在技能短缺名单中。
+--------------------------------------------------
+
+
+Night owls may be more fun at parties, but a preference for staying out late may come with some serious drawbacks, suggests a new study published this week in Chronobiology International.Researchers looked data from a large, ongoing population study of UK residents, known as the UK Biobank Study. Around a half a million participants enrolled in the study from 2006 to 2010 and have had their health tracked ever since. In the current study, the researchers specifically looked at over 400,000 volunteers between the ages of 38 to 73 who answered a question about whether they were a morning or evening type, then followed them for an average 6.5 years.Over 10,000 of those people died during the study period. And compared to people who described themselves as definite morning people, night owls were about 10 percent more likely to have died. More than that, night owls were also just generally unhealthier.According to the authors, it’s the first to suggest that gastrointestinal and neurological problems are more common among owls.
+
+
+夜貓子更能在派對上玩開，然其對熬夜的偏好，可能招致若干嚴重的壞處，一項本週發表於《國際時間生物學》期刊的新研究指出。研究人員檢視一項持續進行中的大型英國居民人口研究「英國人體生物資料庫」的數據。自2006年至2010年，約有50萬人報名參與這項研究，啟動他們的健康情況追蹤。在該次研究中，研究人員聚焦於年齡介於38歲至73歲、曾自述為晨型人或夜型人的逾40萬名志願者，平均追蹤他們6.5年。研究期間，這些志願者中有超過1萬人逝世。而相較於明確形容自己為晨型人的志願者，夜貓子的死亡機率高出約10％。不僅如此，夜貓子也普遍地更不健康。這項研究的作者指出，該研究首次顯示夜貓子更常有胃腸和神經問題。
+
+
+夜猫子在派对上可能会更有趣，但是对于迟到的偏好可能会带来一些严重的缺陷，建议本周在Chronobiology International上发布一项新的研究。研究人员查看了一项正在进行的大规模英国居民人口研究的数据，英国生物银行研究。从2006年到2010年，约有50万参与者参加了这项研究，并从此开始追踪他们的健康状况。在目前的研究中，研究人员专门研究了40岁以上的38岁至73岁的志愿者，他们回答了他们是否是早上或晚上类型的问题，然后跟踪他们平均6。5年。这些人中有超过1万人死于研究期间。与那些将自己描述为明确的早晨人群的人相比，夜猫子的死亡可能性大约为10％。不仅如此，夜猫子通常也不健康。据作者说，这是第一个表明猫头鹰中胃肠和神经问题更为常见的病例。
+--------------------------------------------------
+
+
+The North has conducted its all six nuclear detonations at the Punggye-ri facility in North Hamgyong Province. Last month, the U.S.-based North Korean analysis website 38 North assessed that the reduction in activity could be attributed to recent diplomacy between Pyongyang and Seoul and Washington."It appears that the North is trying to show that its proposal to denuclearize is not an empty promise," Yang Moo-jin, a professor at the University of North Korean studies, said.The head of South Korea’s weather agency, Korea Meteorological Administration, warned last year during a parliamentary meeting that another nuclear blast could trigger a collapse of the North’s mountainous test site and a leak of radioactive materials. Geological experts have raised concerns that the site’s nuclear tests may have influenced volcanic activities in the nearby Mt.Paekdu, which can lead to serious environmental consequences.
+
+
+北韓迄今的6次核子試爆，均在咸鏡北道豐溪里核試場進行。上月份，位在美國的北韓事務分析網站「北緯38度」研判，北韓核子相關活動的減少，可能與近來平壤和首爾、華府之間的外交接觸有關。南韓「北韓大學院大學」教授楊武仁（譯音）說，「北韓似乎正試圖展現，它的非核化提議並非空頭承諾。」南韓氣象當局「氣象廳」廳長去年曾在國會會議中警告，再有一次核試，恐引發位處山區的豐溪里核試場崩塌及輻射物質外洩。地質專家擔憂，在當地核試可能影響附近白頭山的火山活動，可能對環境造成嚴重後果。
+
+
+北部在咸镜北部的丰业里设施进行了六次核爆炸。上个月，总部位于美国的北韩分析网站38North评估说，活动的减少可能是由于平壤，首尔和华盛顿之间最近的外交所致。“看起来，北韩试图表明它的无核化建议不是朝鲜研究院教授杨谟金说。韩国气象局局长韩国气象局去年在一次议会会议上警告说，另一次核爆炸可能会引发北部的山区试验场和放射性物质泄漏。地质专家担心该场址的核试验可能会影响附近Mt.Paekdu山的火山活动，这可能会导致严重的环境后果。
+--------------------------------------------------
+
+
+A man in northeastern China who always wanted to own an aircraft is doing the next best thing：building a full-scale replica of an Airbus A320 jet.Zhu Yue, an aviation buff who worked as a welder and an auto mechanic, spent months studying plane models and technical drawings before he started building a homemade version a year ago with his friends.Zhu, 40, who lives in the city of Kaiyuan in Liaoning province, said he planned to turn the replica into an aviation-themed restaurant."I want to make sure the plane is created with finesse and be the best A320 model in China," he said.The replica - 37.8 meters long with a wingspan of 36 meters and height of 12 meters - will feature model engine turbines that can rotate and a simulation cockpit, he added.Zhu, who has so far spent more than 1 million yuan of his savings and used 40 tonnes of steel on his project, hopes to complete it by the end of year at a total cost of 2 million yuan. （Reuters） 
+
+
+中國東北一位一直想要擁有一架飛機的男子，正進行退而求其次的方案：打造一架空中巴士A320噴射機的原尺寸仿製品。朱躍，一名擔任焊工和汽車技工的飛機迷，在他1年前和朋友們開始打造手工版本前，花了數個月研究飛機模型與工程製圖。40歲的朱躍住在遼寧省開原市，他說計畫把這架仿製品變身為一間飛機主題餐廳。他說：「我想確保這架飛機製造精美，並且是中國最棒的A320模型。」他補充，這件仿製品——37.8公尺長，翼展36公尺，以及12公尺高——將主打可旋轉的模型渦輪引擎以及模擬駕駛艙。朱躍至今已在他的計畫投入超過100萬人民幣積蓄及40公噸的鋼材，希望在年底前以總造價200萬人民幣完成它。（路透）
+
+
+中国东北部一直想拥有一架飞机的男士正在做的第二件事是：制造一架空中客车A320喷气式飞机的全面复制品。作为焊工和汽车修理工的航空爱好者朱跃花了几个月的时间学习飞机模型和技术图纸，一年前他和他的朋友们开始制作自制版本。居住在辽宁省开元市的朱，40岁，他表示他计划把复制品变成一个以航空为主题的餐厅。“我希望确保飞机的制造精良，并成为中国最好的A320飞机型号。“他说。副翼 -  37.8米长，翼展36米，高12米 - 将配备可旋转的模型发动机涡轮机一个模拟驾驶舱。他补充说。迄今为止，他的储蓄已经花费了100多万元人民币，并且在他的项目中使用了40吨钢材，他希望在年底之前完成该项目，总成本为200万元人民币。 （路透社）
+--------------------------------------------------
+
+
+The driver of a high-speed Shinkansen bullet train admitted to being asleep at the wheel when he pulled into JR Sendai Station on April 1 and overshot the stopping point.The Tohoku Shinkansen Line train arrived at the station at faster than normal speed, forcing the conductor to apply the emergency brakes.The train came to a halt 20 meters beyond its designated stop, and had to reverse, according to the Sendai branch office of operator East Japan Railway Co. （JR East） on April 13.Initially, the driver in his 40s said that he mistook the stopping point. But on April 13, he admitted that he had been nodding off at the time.The train carried 500 or so passengers, none of whom was injured.According to the branch office, the Shinkansen, Yamabiko No. 59, departed from Tokyo and was bound for Morioka. The incident occurred around 10：20 p.m.
+
+
+一名（日本）高速新幹線子彈列車的駕駛員坦承，他在4月1日駛進JR仙台站時睡著，衝過停車點。這列東北新幹線列車以高於正常的速度抵達該站，迫使車掌啟動緊急煞車。根據負責營運的JR東日本鐵路公司仙台支社4月13日的說法，該列車最後在超出指定停車點20公尺處停下，還被迫倒車。起初，該名40幾歲的駕駛員表示，他弄錯了停車點。但在4月13日，他坦承當時在打瞌睡。該列車搭載約500名旅客，所幸無人因此受傷。仙台支社表示，這班「山彥」59號列車從東京出發，目的地是盛岡。此事發生在晚間約10時20分。
+
+
+4月1日，当他驶入JR仙台站时，高速新干线子弹头列车的司机承认在车轮上睡着了，并超过了停靠点。东北新干线列车以高于正常速度的速度抵达车站，迫使根据运营商东日本铁路株式会社（东日本铁路株式会社）的仙台分公司，4月13日，列车停在离指定站点20米处停车，并且不得不扭转。最初，司机在40多岁的时候说他误解了停车点。但在4月13日，他承认他当时正在点头。火车上载有500名左右的乘客，其中没有人受伤。根据分支机构，新干线山马子59号从东京出发，当时是开往盛冈。事件发生在晚上十点二十分左右
+--------------------------------------------------
+
+
+Mao Shan Wang, a Singapore eatery themed with durian, has caught the opportunity of success as patrons flock to the cafe in droves for a bite of its exotic offerings.The pungent tropical fruit long regarded as a delicacy in Southeast Asia has left a divisive trail － you either love it or hate it.Detractors often describe its intense smell as a mix of gym socks and onions, while enthusiasts liken the creamy texture and intense aroma to blue cheese.While the "bittersweet" fruit is usually eaten on its own or as dessert, the Mao Shan Wang cafe has a special menu with durian in all dishes.Customers can opt for chicken nuggets with a durian dip, pizza topped with durian flesh, all washed down with coffee － durian infused, of course."What our company wanted to do was put it with savory stuff like fries and nuggets. We will be looking to expand the offerings as well, with maybe rice, pasta and other things," company spokesman Lance Lee said.
+
+
+「貓山王」是新加坡一家榴槤主題餐廳，隨著饕客蜂擁而至想一嚐異國風味料理，這家餐廳抓住了成功的契機。這種味道具刺激性的熱帶水果，長期被視為東南亞的佳餚，但也引發兩極意見——不是喜愛就是討厭。討厭的人通常將榴槤強烈的味道，形容為體育館裡的襪子和洋蔥的混合物，喜愛的人則將其綿密的果肉和濃郁的香氣，與藍紋乳酪相提並論。雖然這種「愛恨分明」的水果通常都是直接吃或做成甜點，但貓山王的特別菜單上有著用榴槤做成的各種菜餚。顧客可選擇搭配榴槤沾醬的炸雞、鋪滿榴槤果肉的披薩，或者隨著咖啡一飲而盡——榴槤當然加在裡頭。該店發言人蘭斯．李表示：「我們的店想主打結合榴槤和薯條、炸雞等鹹食的餐點。我們也會嘗試擴增菜單，可能與米飯、義大利麵和其他食物一起搭配。」
+
+
+以榴莲为主题的新加坡餐馆毛山王，抓住了成功的机会，因为顾客蜂拥而至，挤满了咖啡馆，吃了一口其异国情调的东西。长期以来在东南亚被视为美味的辛辣热带水果已经留下了一条分裂的道路 - 你要么喜欢它，要么讨厌它。修饰者通常将其强烈的气味描述为健身袜和洋葱的混合物，而热爱者将奶油质地和强烈的香气比作蓝乳酪。虽然“苦乐参半”的水果通常自己吃，或者作为甜点，毛山王咖啡馆在所有菜肴中都有榴莲的特别菜单。顾客可以选择带有榴莲蘸料的鸡块，披上榴莲肉的披萨，当然都是用咖啡 - 榴莲注入。“公司发言人Lance Lee说，公司想要做的就是将薯条和金块等咸味食品放入其中，我们也希望扩大产品范围，包括大米，面食和其他东西，“公司发言人Lance Lee说。
+--------------------------------------------------
+
+
+Visitors to a zoo in southeastern China killed one kangaroo and injured another by throwing bricks at them in an attempt to get a reaction from the big marsupials, state media reported. A 12-year-old female kangaroo suffered a severely injured foot when it was struck by bricks and concrete chunks on February 28 at the Fuzhou Zoo in Fujian province, China Central Television reported. The kangaroo died days later and an examination by a veterinarian revealed that the cause of death was likely a ruptured kidney caused by being struck by the projectiles. A few weeks later, a five-year-old male kangaroo at the same zoo was slightly injured in a similar way, said the report. The report included pictures of the first kangaroo’s smashed and nearly severed foot, and of the animal receiving treatment via intravenous drip before it died. Visitors to the zoo were known to try to provoke the Australia marsupials to get them to display their signature hopping mode of locomotion using their powerful hind legs. The report did not mention whether anyone was punished over the matter, but it said the dead female would be stuffed and put on display and the zoo would look to install security cameras to deter visitors from harming animals. 
+
+
+中國東南部一座動物園的遊客對袋鼠丟磚塊，試圖獲取這類大型有袋動物的反應，結果砸死一頭袋鼠，並砸傷另一頭，國營媒體報導。12歲的母袋鼠2月28日在福建省福州動物園被磚頭與水泥塊擊中，腳部重傷，中國中央電視台報導。這頭袋鼠幾天後死亡，獸醫的檢查揭示，死因可能是被拋射物擊中而導致腎臟破裂。幾週後，同一座動物園的5歲公袋鼠也因類似情況受到輕傷，報導指出。報導包括第一頭袋鼠遭猛擊、幾近斷裂的腳，以及牠死前接受靜脈點滴治療的照片。眾所周知，該動物園的遊客會試圖刺激這種澳洲有袋動物，讓牠們以有力後腿展現其招牌跳躍的移動模式。報導並未提及是否有任何人因此事受罰，僅表示死亡的母袋鼠將被填充並陳列展示，動物園也將裝設監視器，以遏阻遊客傷害動物。
+
+
+官方媒体报道，去中国东南部动物园的游客为了试图从大型有袋动物身上得到反应，杀死了一只袋鼠，并给他们扔砖头而使另一只受伤。据中央电视台报道，一只12岁的女袋鼠在2月28日在福建省福州动物园被砖块和混凝土块击中时脚受重伤。几天后，袋鼠死亡，兽医检查发现死亡原因可能是被射弹击中造成的肾脏破裂。报道说，几周后，在同一动物园的一只五岁的雄性袋鼠受到类似的伤害。这份报告包括第一只袋鼠被撞碎和几乎断裂的脚的照片，以及在死亡前通过静脉滴注接受治疗的动物的照片。知道动物园的游客试图挑起澳大利亚有袋动物，让他们用强大的后腿展示他们的运动标志性跳跃模式。该报道没有提到是否有人受到处罚，但它说死去的女性会被塞进并展示，动物园会安装安全摄像头来阻止访客伤害动物。
+--------------------------------------------------
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry><entry><title>Articles 41-50</title><link href="https://shaynemei.github.io/article50.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article50.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Articles-41-50"&gt;Articles 41-50&lt;a class="anchor-link" href="#Articles-41-50"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;%%&lt;/span&gt;&lt;span class="nx"&gt;javascript&lt;/span&gt;
+&lt;span class="nx"&gt;IPython&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;OutputArea&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;prototype&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;_should_scroll&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;lines&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div id="32b3bf4c-e7c0-4732-ab5f-b939a1c68dbc"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_javascript "&gt;
+&lt;script type="text/javascript"&gt;
+var element = $('#32b3bf4c-e7c0-4732-ab5f-b939a1c68dbc');
+IPython.OutputArea.prototype._should_scroll = function(lines) {
+    return false;
+}
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;span class="n"&gt;df&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_excel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/Users/Shayne/webScraping/final_fixed.xlsx'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;40&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;df&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;loc&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleEN'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'articleCH'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'Translated'&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'--------------------------------------------------'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;
+
+Six out of Australia’s eight states and territories are currently experiencing a man drought, according to McCrindle Research — and there are almost 100,000 more women than men."The man drought is a demographic reality," Australian social researcher Mark McCrindle said the country has 100,000 more females than males even though there are more male babies born than females. One of the reasons is because men are increasingly heading overseas to work.Sydney on the whole has 98.5 men for every 100 women. The city is experiencing a severe man drought, with some areas having as few as 86 men for every 100 women. Hardest hit states include Tasmania and Victoria, where every single town is experiencing a man drought. The man drought combined with women making up 60 per cent of university graduates left many unable to find a qualified man. Women prefer partners with an equal or higher level of education, but as they now outnumber men with degrees they may need to look elsewhere. 
+
+
+據「麥克蘭登研究所」調查，澳洲8個州和領地中，有6個正陷入男人荒，女性比男性多出近10萬人。「男人荒是人口統計上的現實」，澳洲社會研究員馬克．麥克蘭登表示，該國女性比男性多出10萬人，即便男嬰多於女嬰。原因之一是前往海外工作的男性愈來愈多。雪梨的整體男女比例為98.5比100。該城市正面臨嚴重男人荒，部分地區男女比例低至86比100。衝擊最嚴重的州包括塔斯馬尼亞州及維多利亞州，當地每個城鎮都陷入男人荒。男人荒，加上女性在大學畢業生中佔60%，導致許多女性無法找到合格對象。女性偏好同等或較高教育水準的伴侶，但由於如今她們擁有學位的人數超過男性，她們可能得到別地尋偶。
+
+
+根据McCrindle Research的数据，澳大利亚八个州和领地中有六个目前正在经历一场人类干旱 - 而且女性人口数量比男性多出十万人。“澳大利亚社会研究人员马克麦克林德尔说，该国的人口干旱是一个人口现实，尽管出生的男婴比女婴多，但女性多于男性。其中一个原因是因为男性越来越多地去海外工作。悉尼每100名女性就有98.5名男性。该市正在经历严重的人类干旱，一些地区每100名妇女只有86人。最受打击的国家包括塔斯马尼亚和维多利亚，每个城镇都经历着一场人类干旱。男性干旱加上占60％大学毕业生的女性，使许多人无法找到合格的男性。女性更喜欢受过相同或更高等级教育的合作伙伴，但由于他们现在超过了拥有学位的男性，他们可能需要在别处寻找。
+--------------------------------------------------
+
+
+Queen Elizabeth II, Britain’s longest reigning monarch, celebrated her 92nd birthday on Saturday. To mark the occasion, the Royal Family Twitter account released archive photos of a young Queen Elizabeth and paid tribute to her lifelong dedication to public service.The Queen welcomed Commonwealth leaders to Britain this week for a summit at which it was confirmed that her son, Prince Charles, would be the organization’s next leader.On Sunday, she will start the London Marathon remotely from a special podium in the grounds of Windsor Castle. It will be 110 years after the 1908 Olympic Marathon was started at Windsor Castle by the then Princess Mary, grandmother to the Queen.週日，她將在溫莎古堡廣場上的特別指揮台，隔空宣布倫敦馬拉松賽起跑。110年前，女王的祖母、當時的瑪麗公主也曾在溫莎古堡為1908年奧林匹克馬拉松發出起跑令。下個月，她的孫子哈利王子則將在溫莎古堡與梅根．馬克爾完婚。
+
+
+女王伊莉莎白二世，英國在位最久的君王，週六慶祝92歲生日。為彰顯此一重要時刻，王室家族的「推特」帳號發佈多張伊莉莎白女王年輕時的舊照片，讚頌她一生對公共服務的奉獻。女王本週款待前往英國出席峰會的大英國協領袖，藉此證實她的兒子查爾斯王子即將成為該組織（大英國協）的下任元首。Next month, her grandson, Prince Harry, and Meghan Markle will wed at Windsor Castle.
+
+
+Queen Elizabeth II, Britain&amp;amp;#39;s longest reigning monarch, celebrated her 92nd birthday on Saturday. To mark the occasion, the Royal Family Twitter account released archive photos of a young Queen Elizabeth and paid tribute to her lifelong dedication to public service.The Queen welcomed Commonwealth leaders to Britain this week for a summit at which it was confirmed that her son, Prince Charles, would be the organization&amp;amp;#39;s next leader.On Sunday, she will start the London Marathon remotely from a special podium in the grounds of Windsor Castle. It will be 110 years after the 1908 Olympic Marathon was started at Windsor Castle by the then Princess Mary, grandmother to the Queen.周日，她将在温莎古堡广场上的特别指挥台，隔空宣布伦敦马拉松赛起跑。 110年前，女王的祖母、当时的玛丽公主也曾在温莎古堡为1908年奥林匹克马拉松发出起跑令。下个月，她的孙子哈利王子则将在温莎古堡与梅根．马克尔完婚。
+--------------------------------------------------
+
+
+If you want to help abandoned dogs find new homes, take part in overseas adoption programs. The voluntary program has recently been organized by animal rights groups in Korea. Previously it was sporadically done by pet lovers.All medical treatments and quarantine procedures ahead, and at the end, of the trips as well as flight expenses for the dogs will be covered by the rights groups that have organized the project. If the volunteers take the dogs with them on their flights, the fee per animal is 200,000 won."Some dogs rescued from dog meat farms weigh about 20 kilograms and the price of shipping them in the cargo bay is over 1 million won," said Melissa Baek, an animal rights activist with Animal Peace Korea. "These larger dogs are not being adopted in Korea because domestic adopters living in apartments prefer small dogs."
+
+
+若你想幫遭棄養的狗狗找個新家，就加入海外收養計畫。在南韓，該志願計畫近來已由動物權團體籌組，過去則是個別喜愛寵物的人士所為。狗狗所有事前和到達目的地後的醫療與檢疫程序及搭機費用，均由籌組該計畫的動物權團體支付。若志工帶這些狗狗一起搭機，每隻狗需20萬韓元。「韓國動物和平」組織的動物保育人士梅麗莎．白表示，「有些從狗肉場救出的狗，體重約20公斤，置於班機貨艙托運需上百萬韓元」，「韓國國內住在公寓的領養人，較偏好小型犬，所以國內目前不會收養這些大型犬」。
+
+
+如果你想帮助被遗弃的狗找到新家，参加海外收养计划。最近由韩国的动物权利组织组织了自愿方案。此前，它是由宠物爱好者零星地完成的。所有的医疗和检疫程序提前，并在最后，旅行和狗的飞行费用将由组织该项目的权利组织覆盖。如果这些志愿者在他们的航班上带着他们的狗，每只动物的费用是200,000韩元。“有些从狗肉养殖场救出的狗重约20公斤，在货舱中运输它们的价格超过100万韩元。” Animal Peace Korea动物权利活动家Melissa Baek。 “这些较大的狗在韩国没有被采用，因为居住在公寓的国内采用者更喜欢小狗。”
+--------------------------------------------------
+
+
+Take the highway past the Dutch village of Jelsum and the road will play you a tune.Created by strategically laid "rumble strips" as a way of livening up journeys across the flat landscape, the novelty has worn thin for locals who say the constant droning melody is driving them mad.The tune is created when car tyres drive over the strips - which are usually deployed at the side of major roads to warn drivers they are straying off course.If hit at the correct speed - the 60 kph limit - the road will sing out the anthem of the Friesland region - a northern part of the Netherlands that has a distinct language and culture.But it is loud and the sound travels, and locals say the musical road had created a never-ending cacophony that keeps them awake at night.The Friesland authority has agreed to remove the rumble strips later this week. （Reuters） 
+
+
+取道那條行經荷蘭耶爾瑟姆村的公路，它將為你奏上一曲。由策略性鋪設的「減速標線」所製造出的歌曲，是讓橫越那段平坦風景的路程充滿生氣的方式，但這條新奇道路已讓當地人們興味索然，他們說持續嗡嗡作響的旋律要把他們逼瘋了。曲調會在汽車輪胎壓過標線時揚出，這些標線通常配置於主要道路旁，以警告駕駛他們正偏離道路。若以正確速度壓過標線——時速60公里上限——這條路會唱出荷蘭北部擁有不同語言和文化的菲士蘭地區省歌。但音量很大且聲音四傳，當地人說，這條聲音美妙的道路造成了讓他們夜間醒來的無盡雜音。菲士蘭當局已同意本週稍後拆掉這段減速標線。（路透）
+
+
+通过高速公路穿过荷兰村庄耶尔苏姆，路上会播放你的曲调。通过策略性地设置“隆隆带”作为一种在平坦的景观中激活旅程的方式来创建的，对于说持续不断的嗡嗡声的当地人来说，旋律驱使他们发疯。这个曲调是在汽车轮胎驶过条带时产生的 - 这些条带通常部署在主要道路旁，以警告他们偏离航线的驾驶员。如果以正确的速度--60公里的限制 - 公路将唱出弗里斯兰地区的歌 - 荷兰北部有着独特的语言和文化。但它很响亮，声音传播，当地人说音乐之路造成了一个永无止境的喧嚣，使他们在晚上醒来。弗里斯兰当局同意在本周晚些时候消除隆隆声。 （路透社）
+--------------------------------------------------
+
+
+A 19-year-old who launched his campaign for a council seat in an Ohio city while still in high school has officially taken office.Eric Harmon tells WEWS-TV he’s expecting a busy four years as he starts his first term as at-large member of the Uhrichsville City Council and his second semester at Kent State’s Tuscarawas campus.A Democrat, Harmon ran unopposed to replace former Councilwoman Linda Davis, who had served the city since before Harmon was born. He announced his intention to seek the office during his senior year at Claymont High School.
+
+
+1名在還在念高中時競選（美國）俄亥俄州某市市議員的19歲新科市議員，已正式走馬上任。艾瑞克．哈蒙告訴WEWS電視台，隨著他將在尤里克斯維爾市議會展開首任無特定選區議員任期，以及在肯特州立大學塔斯卡羅瓦斯校區開始念第2學期，他預期未來4年會相當忙碌。
+
+
+一位19岁的孩子在俄亥俄州的一个城市举行议会议席时仍然在高中正式就职。艾瑞克·哈蒙告诉WEWS-TV，他在开始第一个任期时忙于四年Uhrichsville市议会成员和他在肯特州立大学塔斯卡拉沃斯校区的第二个学期。一位民主党人，哈蒙没有选择接替前任女议员琳达戴维斯，后者曾在哈蒙出生之前担任城市任务。他宣布他打算在克莱蒙特高中的高年级寻找办公室。
+--------------------------------------------------
+
+
+When Dawa Yangzum Sherpa first set her sights on being a mountain guide, she was told it was no job for a girl.Now the 27-year-old completed a rigorous course run by the Swiss-based International Federation of Mountain Guides, often described as a PhD in mountaineering, becoming Nepal’s first woman to earn an international qualificationDawa belongs to the Himalayan ethnic group Sherpa, which has become synonymous with mountain guiding thanks to their reputation for being strong climbers with a natural tolerance for the lack of oxygen at high altitudes. But in Nepal － home to eight of the world’s highest mountains － climbing remains a man’s job.After racking up a number of summits of smaller mountains, in 2012 Dawa was selected to join an expedition organized by National Geographic to the world’s highest peak."Everest was my aim. I used to think that once I scale Everest it will be enough. But climbing is like an addiction. The more I climbed, the more I wanted to climb," she said.
+
+
+達瓦．揚格札姆．雪巴初次將登山嚮導視為志向時，大家都告訴她這不是女孩子該做的工作。27歲的她如今完成瑞士「國際高山嚮導協會」承辦，通常被形容為登山界博士學位的嚴苛課程，成為首位取得國際認證的尼泊爾女性。達瓦是喜馬拉雅山雪巴族成員，該族群在氧氣稀薄的高山地區具有天生的適應力，以強健登山者聞名，已是高山嚮導的同義詞。但在世界排名前八大高山林立的尼泊爾，登山向來是男人的工作。在累計許多較小型山脈的登頂經驗後，「國家地理頻道」2012年選中達瓦加入其籌組的全球最高峰遠征隊。她說：「艾佛勒斯峰是我的目標。我以前認為，一旦我征服艾佛勒斯峰，就會心滿意足。但登山會上癮。我爬得愈多，就愈想再爬。」
+
+
+当Dawa Yangzum Sherpa第一次将自己的目光瞄准了一个登山导游时，她被告知这对一个女孩来说是没有任何工作的。现在这个27岁的孩子完成了一个由瑞士国际山地协会组织的严格课程，作为登山学博士，成为尼泊尔第一位获得国际资格的女性大瓦属于喜马拉雅山脉族群夏尔巴，由于他们是一名强壮的登山者，因为他们对高海拔地区缺乏氧气有着天生的忍耐力，这已成为登山指导的代名词。 。但在尼泊尔 - 拥有世界上最高的八座山峰 - 登山仍然是一个男人的工作。2012年，Dawa被选为加入由国家地理组织的世界最高峰组织的远征队。珠峰是我的目标，我曾经认为，只要攀登珠穆朗玛峰就足够了，但攀岩就像是一种瘾，攀登的越多，我想爬的越多，“她说。
+--------------------------------------------------
+
+
+Agence France-Presse photographer Ronaldo Schemidt won the prestigious 2018 World Press Photo of the Year Award with a fiery image of a masked Venezuelan protester which judges said symbolised a country "burning". Schemidt’s photo, taken during violent clashes with riot police and protesters demonstrating against President Nicolas Maduro’s regime in Caracas last year, invoked an instant emotion, the judges said. Schemidt was covering the demonstrations for AFP in May 2017 when the then 28-year-old Victor Salazar went up in flames as he and other protestors were trying to destroy a police motorbike and the gas tank exploded in his face. The image shows Salazar － who is wearing a mask － running as a cloak of fire envelopes his body. He survived the incident with first and second-degree burns. 
+
+
+法新社攝影記者施密特，以一名頭戴防護面罩的委內瑞拉抗議者的浴火影像，贏得夙負盛名的2018世界新聞攝影獎的年度照片獎，評審說這張照片象徵一個「烈焰燃燒的」國家。施密特這張去年在卡拉卡斯鎮暴警察與反總統馬杜羅政權的示威群眾爆發衝突時拍攝的照片，引發立即情緒，評審表示。2017年5月，在時年28歲的薩拉札身上燃起大火之際，施密特正為法新社採訪這場示威新聞，當時薩拉札與其他抗爭者試圖摧毀一輛警用摩拖車，結果油箱在他面前爆炸。
+
+
+法国新闻摄影记者罗纳尔多·施米特凭借一位蒙面委内瑞拉抗议者的热烈形象赢得了享有盛誉的2018年世界新闻摄影奖，法官称这是一个国家“燃烧”的象征。法官表示，施密特的照片是在去年与抗议警察和抗议者在加拉加斯展示反对总统尼古拉斯·马杜罗政权的暴力冲突中拍摄的。 2017年5月，Schemidt报道了法新社的示威游行，当时他28岁的Victor Salazar因为和其他示威者试图摧毁警察摩托车而燃起火焰，并且油箱爆炸。这张照片显示萨拉扎 - 戴着面具 - 身披火焰斗篷罩住他的身体。他在一级和二级烧伤事件中幸存下来。
+--------------------------------------------------
+
+
+For the past 15 years fans of tormented superstar Leslie Cheung, one of the first celebrities to come out as gay in Asia, have gathered at Hong Kong’s Mandarin Oriental Hotel to mourn the day he took his own life. One of Hong Kong’s most popular male singers and actors of the mid-1980s, Leslie Cheung Kwok Wing was not afraid of provoking controversy with his overt sexuality and provocative performances during a more socially conservative era. And 15 years after his death, Cheung is still attracting new fans, including teenagers and millennials. Lam, a 15-year-old who attended 1 April’s vigil, was only a few months old when Cheung died. She told BBC Chinese she had "discovered him on YouTube"."He was charismatic; especially when he went androgynous...it’s gorgeous," she said. 25-year-old Wu travelled from Hunan province on mainland China with his boyfriend to mourn the icon. Wu told BBC Chinese he drew strength from Cheung’s "spirit of being true to oneself".
+
+
+張國榮，飽受折磨的超級巨星，亞洲最早的出櫃名人之一，15年來粉絲們持續聚集在香港文華東方酒店，在他的自殺日進行追悼。 張國榮，香港1980年代中期最受歡迎的男歌手及演員，在當年社會風氣更保守的時代，無懼於其公開性向及挑逗表演會引起爭議。在過世15年後，張國榮依然吸引新粉絲，包括青少年及千禧世代。 林姓15歲少女於4月1日參加燭光追悼會，當張國榮過世時她只有幾個月大。她告訴英國廣播公司中文網，她在「YouTube上發現他」。她表示：「他充滿魅力，尤其是他雌雄莫辨時…相當動人。」 吳姓25歲男同志則從中國大陸湖南省，與男友到此悼念這位偶像。吳先生告訴英國廣播公司中文網，他從張國榮「忠於自我的精神」獲得力量。
+
+
+在过去的15年中，在亚洲出现的首位名人之一的受折磨的超级明星张国荣的​​粉丝聚集在香港文华东方酒店，为自己的生命哀悼一天。 80年代中期香港最受欢迎的男歌手和演员之一，张国荣不惧怕在一个更为社会保守的时代，以其公开的性和挑衅性表演引发争议。在他去世15年后，张继续吸引了包括青少年和千禧一代在内的新粉丝。参加4月1日守夜活动的15岁的林先生，在张死后才刚刚过去几个月。她告诉英国广播公司中国人，她“在YouTube上发现了他”，“他很有魅力，特别是当他走向雌雄同体时，她很华丽，”她说。 25岁的吴先生和男友一起从中国大陆的湖南省来到这里，悼念这个偶像。吴先生告诉英国广播公司中文，他从张的“对自己的真实精神”中吸取了力量。
+--------------------------------------------------
+
+
+A single human finger bone from at least 86,000 years ago points to Arabia as a key destination for Stone Age excursions out of Africa that allowed people to rapidly spread across Asia.Excavations at Al Wusta, a site in Saudi Arabia’s Nefud desert, produced this diminutive discovery. It’s the oldest known Homo sapiens fossil outside of Africa and the narrow strip of the Middle East that joins Africa with Asia, based on dating of the bone itself, says a team led by archaeologists Huw Groucutt and Michael Petraglia. This new find strengthens the idea that early human dispersals out of Africa began well before the traditional estimated departure time of 60,000 years ago and extended deep into Arabia, the scientists report April 9 in Nature Ecology &amp;amp; Evolution.The 2016 Al Wusta find is probably the middle bone from an adult’s middle finger, suspects Groucutt, of the University of Oxford. It’s unclear whether the bone came from a man or a woman, or from a right or left hand.\n新聞辭典
+
+
+至少8萬6000年前的一件人類手指骨骼顯示，阿拉伯半島是石器時代人類遷出非洲的重要地點，人類藉此迅速擴散至亞洲。這項微型證據產於沙烏地阿拉伯內夫得沙漠中一處遺址、位於中央區的出土文物。考古學家豪烏畢．格魯卡特和米赫依．派特利雅領導的團隊表示，根據該件骨骼的定年，它是迄今在非洲以外所發現最古老的智人化石，並指出這塊中東地區的狹長地帶，連結非洲與亞洲。科學家在4月9日刊登於《自然生態學與進化》期刊的報告中表示，這項新發現強化了以下觀點：早期人類遷出非洲的時間，早於傳統上估計的6萬年前，人類的擴散並曾深入阿拉伯半島。牛津大學的格魯卡特猜測，這件2016年在中央區的發現，可能是一名成人的中指中節指骨。但還不清楚這塊骨骼來自男性或女性，是右手或左手。
+
+
+至少86,000年前的一颗人类指骨指向阿拉伯，是石器时代远离非洲的一个重要目的地，它允许人们在亚洲迅速传播。在沙乌地阿拉伯的Nefud沙漠的Al Wusta地区进行的勘探工作产生了这种小型化发现。考古学家Huw Groucutt和Michael Petraglia领导的一个研究小组说，这是迄今为止非洲以外最古老的人类化石，也是非洲与亚洲连接在一起的狭长地带。这个新发现强化了这样一个观点：早在6万年前的传统估计起飞时间之前，早期人类驱散到非洲以外的地方就开始了，并且延伸到了阿拉伯深处，科学家们在4月9日报道了自然生态学和进化论。2016年Al Wusta发现可能是来自成年中指的中骨，怀疑牛津大学的Groucutt。目前还不清楚骨头是来自男人还是女人，还是来自右手或左手。\ n新闻辞典
+--------------------------------------------------
+
+
+About 440,000 people in South Korea are estimated to be preparing to take the state-run civil service exams. The research was conducted by Kim Hyang-duck and Lee Dae-joong, who are in doctoral courses at Konkuk University and Korea Advanced Institute of Science and Technology, respectively.More than half of the test applicants counted "job security" as the primary motivation for choosing a civil servant as a job, while 48 percent said they study more than 10 hours every day for the exams. Only 2.9 percent of test applicants said they want to be a civil servant "to serve the country." 
+
+
+據估計，南韓約44萬人正準備參加由國家舉辦的公務人員考試。這項研究是由南韓「建國大學」博士生金向德（譯音）和韓國科學技術院博士生李大中（譯音）所進行。
+
+
+据估计，韩国约有44万人正准备参加国家公务员考试。这项研究由分别在建国大学和韩国高等科学技术研究院进行的博士课程的金香鸭和李大conducted分别进行。一半以上的考生将“工作安全”作为主要动机选择公务员作为一项工作，而48％的人表示他们每天要为考试进行超过10小时的学习。只有2.9％的考生表示他们想成为“为国服务”的公务员。
 --------------------------------------------------
 &lt;/pre&gt;
 &lt;/div&gt;
