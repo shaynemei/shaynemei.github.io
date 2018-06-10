@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Translation Corpora</title><link href="https://shaynemei.github.io/" rel="alternate"></link><link href="https://shaynemei.github.io/feeds/en_mid.atom.xml" rel="self"></link><id>https://shaynemei.github.io/</id><updated>2018-06-08T18:00:00+08:00</updated><entry><title>Sims 0.5 - 0.6</title><link href="https://shaynemei.github.io/mid30.html" rel="alternate"></link><published>2018-06-08T18:00:00+08:00</published><updated>2018-06-08T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-08:mid30.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Translation Corpora</title><link href="https://shaynemei.github.io/" rel="alternate"></link><link href="https://shaynemei.github.io/feeds/en_low.atom.xml" rel="self"></link><id>https://shaynemei.github.io/</id><updated>2018-06-08T15:00:00+08:00</updated><entry><title>Sims Low 0-30</title><link href="https://shaynemei.github.io/low0-30.html" rel="alternate"></link><published>2018-06-08T15:00:00+08:00</published><updated>2018-06-08T15:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-08:low0-30.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -975,6 +975,15 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;There are 297 lines in this range of similarity score (0-0.6).&lt;br/&gt;
+Here are 30 examples.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;"The needs of friendship."&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
 查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。&lt;/p&gt;
@@ -1005,7 +1014,7 @@ The chief curator of the Guggenheim Museum responded politely to the White House
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
 The emailed response from the Guggenheim’s chief curator to the White House was polite but firm：The museum could not accommodate a request to borrow a painting by Vincent van Gogh for President and Melania Trump’s private living quarters.Instead, wrote the curator, Nancy Spector, another piece was available, one that was nothing like "Landscape With Snow," the 1888 van Gogh rendering of a man in a black hat walking along a path in Arles, France, with his dog.The curator’s alternative： an 18-karat, fully functioning, solid gold toilet — an interactive work titled "America" that critics have described as pointed satire aimed at the excess of wealth in this country.For a year, the Guggenheim had exhibited "America" — the creation of contemporary artist Maurizio Cattelan — in a public restroom on the museum’s fifth floor for visitors to use.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
-The chief curator of the Guggenheim Museum responded politely to the White House’s e-mail, but his position was also firm: the museum could not obtain a copy of Van Gogh's paintings, allowing President Trump to hang in the private living area with First Lady Melanie. The request. &lt;strong&gt;Instead, the curator is Nanxi.&lt;/strong&gt; Shibike noted that another piece of art can be loaned, but the work is not similar to the depiction of a man wearing a black hat and painting the snow scene of the 1888 Van Gogh walking along the trail in Arles, Fran&lt;strong&gt;The place.&lt;/strong&gt;ace. The curator's alternative is: An 18K fully functional gold toilet - an interactive piece called "The United States" that critics describe as a sharp irony of American wealth.&lt;/p&gt;
+The chief curator of the Guggenheim Museum responded politely to the White House’s e-mail, but his position was also firm: the museum could not obtain a copy of Van Gogh's paintings, allowing President Trump to hang in the private living area with First Lady Melanie. The request. &lt;strong&gt;Instead, the curator is Nanxi.&lt;/strong&gt; Shibike noted that another piece of art can be loaned, but the work is not similar to the depiction of a man wearing a black hat and painting the snow scene of the 1888 Van Gogh walking along the trail in Arles, France. The curator's alternative is: An 18K fully functional gold toilet - an interactive piece called "The United States" that critics describe as a sharp irony of American wealth.&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;strong&gt;"Lebanese chef Allen."&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
@@ -1214,6 +1223,1263 @@ The daughters of a fallen Danville police officer got a special escort to their 
 Hajj is an annual piligrimage to Mecca for millions of Muslims from all over the world.In 2016, Hajj, one of the world’s largest gatherings, is to begin on September 10.The dates of the pilgrimage was confirmed by Hajj authorities in Saudi Arabia on September 1 based on the sighting of the moon.On the third day of Hajj each year, Muslims celebrate the Eid al-Adha, Islam’s holiest festival.In the Islamic calendar, Hajj begins on the eighth day of the Dhu al-Hijjah lunar month, and ends on the 13th day of Dhu al-Hijjah. The religious rituals of the Hajj pilgrimage, however, can be completed in five days.For Muslims, the Hajj re-enacts the actions of the Prophet Muhammad in his "farewell pilgrimage" in AD 632, and is a central pillar of the Islamic faith meant to cleanse the faithful of sin and bring them closer to God.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
 Mecca is the annual event of countless Muslims around the world. In 2016, the Hajj, one of the largest gatherings in the world, will begin on September 10. The date of Hajj is determined by the Hajj authorities in Saudi Arabia on September 1 according to the phases of the moon. On the third day of the annual Hajj activities, Muslims celebrate Eid al-Adha, the most sacred festival in the Islamic world. In the Islamic calendar, the Hajj started from the eighth day of the Durkhor month (the pilgrimage month, December) and ended on the thirteenth day. However, the religious ceremony of Hajj can be completed within 5 days. &lt;strong&gt;For Muslims, the Hajj is the re-emergence of the Prophet Muhammad's "last pilgrimage" in 632 AD.&lt;/strong&gt; It is the core of Islamic faith, symbolizing the cleansing of evil and further leaning toward God.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry><entry><title>Sims Low 31-60</title><link href="https://shaynemei.github.io/low31-60.html" rel="alternate"></link><published>2018-06-08T10:00:00+08:00</published><updated>2018-06-08T10:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-08:low31-60.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;There are 297 lines in this range of similarity score (0-0.6).&lt;br/&gt;
+Here are 30 examples.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;"When Natalie."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+（美國）猶他州歐格登的坎斯維爾小學每年西洋情人節當天都會舉行小六生舞會，藉此鼓勵學童融入與和睦，傳統上老師會告訴學生，被同學邀舞時要說好。但時代變了，而且在得知今年的舞會禮節後，部分學生家長火大了。當娜塔莉．李察從念小六的女兒處得知，不能在即將到來的舞會中拒絕男生的邀舞時，她為此震驚不已。值此家長教導孩子沒有必要擁抱朋友或甚至親吻其祖父母的時代，孩童掌握對自己身體的主控權已蔚為運動。對許多家長來說，無法拒絕舞伴有違此一原則。「此種女孩必須答應的作法，對女孩傳達一種不良訊息－－女孩不能說『不』，也對男孩傳達不良訊息。」李察說。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Kanesville Elementary School in Ogden, Utah, holds a sixth-grade dance on Valentine’s Day each year. The dance is intended to promote inclusion and kindness, and students have traditionally been told by their teachers to say yes when a classmate asks them to dance.But times have changed, and some parents were angry when they got wind of the dance’s protocol this year.Natalie Richard was shocked when her sixth-grade daughter told her she couldn’t refuse a dance with a boy at the upcoming dance.At a time when parents are teaching kids they don’t need to hug a friend or even kiss their grandparents, there’s been a movement toward children maintaining control of their own bodies.To many parents, not being able to turn down a dance partner goes against that.It "sends a bad message to girls that girls have to say ’yes’ － sends a bad message to boys that girls can’t say ’no,’" Richard said.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+(USA) The Cansville Elementary School in Ogden, Utah Each year, a six-dollar ball will be held on Valentine's Day to encourage students to integrate into harmony. Traditionally, teachers will tell students that they should be good when invited by classmates. However, the times have changed, and after learning of this year's dance etiquette, some students’ parents have become very hot. &lt;strong&gt;When Natalie.&lt;/strong&gt; When Richard learned from the daughter of Nian Xiaoliu that she could not reject the boy's invitation dance at the upcoming dance party, she was shocked by this. Parents teach children that there is no need to embrace friends or even kiss their grandparents. Children have mastered the right to exercise control over their bodies. For many parents, the inability to refuse the partner violates this principle. "This kind of girl must agree to the practice, to convey a bad message to the girl - the girl can not say "no", but also to convey bad news to the boy." Richard said.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The request."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+古根漢博物館總館長回覆白宮的電子郵件很有禮貌，但立場也很堅定：該館無法應允出借一幅梵谷的畫作，讓川普總統與第一夫人梅蘭妮亞掛在私人起居區的要求。取而代之的是，館長南西．史貝克特寫道，另一件藝術創作倒是可以出借，但該作品與描繪一名戴黑帽的男子，沿著法國阿爾勒的小徑遛狗的1888年梵谷畫作「雪景」，毫無相似之處。館長的替代方案是：1個18K、功能完備的黃金馬桶—一件名為「美國」、被批評者形容為尖銳諷刺美國財富過剩的互動式作品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The emailed response from the Guggenheim’s chief curator to the White House was polite but firm：The museum could not accommodate a request to borrow a painting by Vincent van Gogh for President and Melania Trump’s private living quarters.Instead, wrote the curator, Nancy Spector, another piece was available, one that was nothing like "Landscape With Snow," the 1888 van Gogh rendering of a man in a black hat walking along a path in Arles, France, with his dog.The curator’s alternative： an 18-karat, fully functioning, solid gold toilet — an interactive work titled "America" that critics have described as pointed satire aimed at the excess of wealth in this country.For a year, the Guggenheim had exhibited "America" — the creation of contemporary artist Maurizio Cattelan — in a public restroom on the museum’s fifth floor for visitors to use.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The chief curator of the Guggenheim Museum responded politely to the White House’s e-mail, but his position was also firm: the museum could not obtain a copy of Van Gogh's paintings, allowing President Trump to hang in the private living area with First Lady Melanie. &lt;strong&gt;The request.&lt;/strong&gt; Instead, the curator is Nanxi. Shibike noted that another piece of art can be loaned, but the work is not similar to the depiction of a man wearing a black hat and painting the snow scene of the 1888 Van Gogh walking along the trail in Arles, France. The place. The curator's alternative is: An 18K fully functional gold toilet - an interactive piece called "The United States" that critics describe as a sharp irony of American wealth.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Karamay conceived this concept."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+德國西部亞琛市的超級市場消費者踏出了他們的舒適圈，品嚐水牛蠕蟲製成的昆蟲漢堡。因蛋白質含量高而極度營養的這些蠕蟲，是水牛甲蟲的幼蟲，於荷蘭繁殖培育。用萵苣、洋蔥和蕃茄包捲上菜，在荷蘭和比利時證明成功後，它們被供應給亞琛一家超市的顧客。試過其中一個漢堡的路人曼弗雷德．勒德爾說，他相信它們是替代肉類的好選擇，並補充指出：「我最初持保留態度，但我吃了第二份，因為它吃起來好棒。」製作這些漢堡的新創公司「蟲蟲基金會」的成立者之一巴利斯．歐澤爾說，他花了4年時間和公司共同創辦人馬克斯．克拉瑪構思出這個概念。歐澤爾說，「相當簡單。你必須創造一個有美感的產品，好看但不要露出任何昆蟲」，並補充指出，人們受到這些漢堡味道的吸引。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Supermarket shoppers in the western German city of Aachen have stepped out of their comfort zone to sample insect burgers made of buffalo worms.The worms, highly nutritious due to their high protein content, are the larvae of buffalo beetles and are bred in the Netherlands.Served in rolls with lettuce, onions and tomatoes, they are being offered to customers at a supermarket in Aachen after proving successful in the Netherlands and Belgium.One passerby who tried one of the burgers, Manfred Roedder, said he believed they were a good alternative to meat, adding: "I had reservations at first but I got a second serving because it tasted so good."Baris Oezel, one of the founders of the start-up called Bugfoundation that makes the burgers, said he spent four years working on the concept along with company co-founder Max Kraemer."It’s quite simple. You have to create an aesthetic product that looks good and doesn’t show any insects," Oezel said, adding that people were attracted by the smell of the burgers. (Reuters)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Supermarket consumers in Aachen, western Germany, have stepped out of their comfort zone and ate an insect burger made from buffalo worms. These worms, which are extremely nutritious due to their high protein content, are larvae of buffalo beetles and breed in the Netherlands. After being wrapped with lettuce, onions and tomatoes, they proved to be successful in the Netherlands and Belgium. They were then served to customers in a supermarket in Aachen. One of the tried passersby Manfred of Hamburg. Lederer said he believes they are a good alternative to meat and added: "I initially held my reservation, but I ate the second one because it tasted great." Balis, one of the founders of the Pest Foundation. Ouzel said that he spent four years with the company co-founder Max. &lt;strong&gt;Karamay conceived this concept.&lt;/strong&gt; Ouzel said, "It's quite simple. You have to create an aesthetic product that looks good but you don't expose any insects," and added that people are attracted by the taste of these burgers. (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Grukat and Mihei."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+至少8萬6000年前的一件人類手指骨骼顯示，阿拉伯半島是石器時代人類遷出非洲的重要地點，人類藉此迅速擴散至亞洲。這項微型證據產於沙烏地阿拉伯內夫得沙漠中一處遺址、位於中央區的出土文物。考古學家豪烏畢．格魯卡特和米赫依．派特利雅領導的團隊表示，根據該件骨骼的定年，它是迄今在非洲以外所發現最古老的智人化石，並指出這塊中東地區的狹長地帶，連結非洲與亞洲。科學家在4月9日刊登於《自然生態學與進化》期刊的報告中表示，這項新發現強化了以下觀點：早期人類遷出非洲的時間，早於傳統上估計的6萬年前，人類的擴散並曾深入阿拉伯半島。牛津大學的格魯卡特猜測，這件2016年在中央區的發現，可能是一名成人的中指中節指骨。但還不清楚這塊骨骼來自男性或女性，是右手或左手。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A single human finger bone from at least 86,000 years ago points to Arabia as a key destination for Stone Age excursions out of Africa that allowed people to rapidly spread across Asia.Excavations at Al Wusta, a site in Saudi Arabia’s Nefud desert, produced this diminutive discovery. It’s the oldest known Homo sapiens fossil outside of Africa and the narrow strip of the Middle East that joins Africa with Asia, based on dating of the bone itself, says a team led by archaeologists Huw Groucutt and Michael Petraglia. This new find strengthens the idea that early human dispersals out of Africa began well before the traditional estimated departure time of 60,000 years ago and extended deep into Arabia, the scientists report April 9 in Nature Ecology &amp;amp; Evolution.The 2016 Al Wusta find is probably the middle bone from an adult’s middle finger, suspects Groucutt, of the University of Oxford. It’s unclear whether the bone came from a man or a woman, or from a right or left hand.\n新聞辭典&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+At least 80,000 years ago, the skeleton of a human finger showed that the Arabian peninsula was an important place for humans to move out of Africa during the Stone Age, and humanity quickly spread to Asia. This miniature evidence was produced at a site in the Nefde Desert in Saudi Arabia and was found in the Central District. Archaeologist Howe. &lt;strong&gt;Grukat and Mihei.&lt;/strong&gt; The team led by Patria has stated that according to the dating of the skeleton, it is the oldest Homo sapiens found outside Africa so far, and points out that this narrow strip of Middle East connects Africa with Asia. In a report published in the journal Nature Ecology and Evolution, published on April 9th, the scientists said that this new discovery reinforces the idea that early humans migrated from Africa earlier than the traditional estimate of 60,000 years ago. Proliferated and went deep into the Arabian Peninsula. Glencroft of Oxford University speculated that this discovery in Central District in 2016 may be the middle finger of an adult's middle finger. It is unclear whether this bone is from a male or a female, right or left hand.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Carremon created."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一名生於阿爾伯特．愛因斯坦發表狹義相對論之前幾個月的112歲日本男子，週二被認定為世界最老男人。金氏世界紀錄說，生於1905年7月25日的野中正造，在西班牙的弗朗西斯科．努涅斯．奧利韋拉今年以113歲高齡辭世後，取得該頭銜。年輕時當過農夫和樵夫，之後野中在位於東京北方900公里的家鄉北海道足寄町經營溫泉旅館，育有2子3女。野中喜歡泡溫泉且愛好甜食，尤其是草莓海綿蛋糕。親戚和官員週二和他一起參加了頒獎典禮。金氏世界紀錄史上最老男人頭銜，由另一名日本男子木村次郎右衛門保持著，他2013年以116歲又54天的年紀過世。人類獲認證的最高年紀為122歲又164天，由1997年往生的法國珍．露易絲．卡勒蒙締造。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A 112-year-old Japanese man born months before Albert Einstein published his theory of special relativity was recognized on Tuesday as the world’s oldest man.Masazo Nonaka, born on July 25, 1905, took the title after Francisco Nunez Olivera of Spain died this year at the aged 113, Guinness World Records said.A farmer and lumberjack in his youth, Nonaka later ran a hot spring inn in his hometown of Ashoro, on Hokkaido island, 900 km north of Tokyo, and raised two sons and three daughters.Nonaka enjoys dipping in a spa and is fond of sweets, especially a strawberry sponge cake. He was joined at an award ceremony on Tuesday by relatives and officials.The Guinness World Records title for the oldest man who ever lived is held by another Japan man, Jiroemon Kimura, who died in 2013 at the age of 116 years and 54 days.The greatest authenticated age for any human is 122 years, 164 days by Jeanne Louise Calment of France, who died in 1997. （Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+One was born in Albert. Einstein's 112-year-old Japanese man a few months before the publication of special theory of relativity was recognized as the oldest man in the world on Tuesday. The Guinness World Record says that he was born in the wild on July 25, 1905, in Francisco, Spain. Nunez. Oliveira obtained this title after his 113-year-old died this year. He was a farmer and a widower when he was young. After that, he runs a hot spring hotel in Ashorocho, Hokkaido, 900 kilometers north of Tokyo, and has 2 children and 3 women. Yezhong likes hot springs and loves sweets, especially strawberry sponge cakes. Relatives and officials attended the ceremony on Tuesday with him. The title of the oldest man in the history of the Jinshi world record was maintained by another Japanese man, Jiro Kimura, who passed away in 2013 at the age of 116 and 54 days. The highest age of human beings was 122 years and 164 days. Louise. &lt;strong&gt;Carremon created.&lt;/strong&gt; (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"21-year-old Mavia."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+巴基斯坦一個電視新聞頻道聘僱了該國首位跨性別電視新聞播報員。她在經過3個月的訓練後，週五主持她的第一個節目。21歲的瑪維亞．馬里克，在科希諾爾電視新聞頻道首度亮相。馬里克女士是新聞科班出身，也曾以模特兒為業，她告訴英國廣播公司（BBC），當她獲得這項工作時感動落淚。她希望她的工作有助於改善巴國跨性別社群的生活。她說：「我們的社群應受平等對待，不應有任何性別歧視。我們應該被給予平等權利，並被視為一般公民，而非第三性別。」跨性別人士在巴國面臨嚴重歧視，許多人很難找到工作。有些被迫乞討、跳舞或賣淫謀生。許多跨性別人士、雙性人士及閹人在該國遭到攻擊、謀殺及強暴，在印度及孟加拉等其他南亞國家也是如此。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A Pakistani news channel has hired the country’s first transgender TV newsreader. She anchored her first show on Friday, after three months of training.Marvia Malik, 21, made her debut appearance on the Kohenoor TV news channel. Ms Malik, a journalism graduate who has also worked as a model, told the BBC she was moved to tears when she was offered the job.She hoped her work would help improve the lives of Pakistan’s transgender community. "Our community should be treated equally and there must not be any gender discrimination. We should be given equal rights and be considered ordinary citizens, instead of third-gender," she said.Transgender people face severe discrimination in Pakistan and many struggle to find jobs. Some are forced into begging, dancing or prostitution to earn money. Many transgender people, intersex people and eunuchs have been attacked, murdered, and raped in the country, as well as other South Asian nations such as India and Bangladesh.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A television news channel in Pakistan hired the country’s first transgender television newscaster. After three months of training, she hosted her first program on Friday. &lt;strong&gt;21-year-old Mavia.&lt;/strong&gt; Marik, who made his debut on Corsinol TV News Channel. Ms. Malik, who is a journalism class teacher and a former model, told the British Broadcasting Corporation (BBC) that she felt tears when she got the job. She hopes that her work will help improve the lives of transgender communities in Pakistan. She said: "Our community should be treated equally and there should be no gender discrimination. We should be given equal rights and be treated as ordinary citizens instead of the third sex." Transgender people face severe discrimination in Pakistan Many people find it difficult to find a job. Some are forced to beg, dance or prostitute themselves for a living. Many transgender, bisexual and deaf people have been attacked, murdered and raped in the country, as have other South Asian countries such as India and Bangladesh.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Its trace."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+前史丹佛大學校長軒尼詩、美國加州大學柏克萊分校退休教授帕特森，週三獲選總獎金100萬美元的「2017年圖靈獎」，他們在1980年代設計節能晶片的開創性成就，奠定如今智慧型手機無所不在的基礎。他們1980年代初期分別在史丹佛和柏克萊進行的研究專案，為他們贏得圖靈獎。帕特森和他在柏克萊的團隊，開創出「精簡指令集運算（RISC）」，兩人均為這種新型微處理器設計的先驅。「精簡指令集」架構可讓晶片使用精簡、高度優化的指令運作，節省用電和時間，效能也超越競爭對手。美國計算機協會（ACM）資料顯示，如今每年生產的160億顆微處理器中，近99%均為「精簡指令集」處理器，幾乎所有智慧型手機、平板電腦和其他智慧型裝置均可發現其蹤跡。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Former Stanford president John Hennessy and UC Berkeley professor emeritus Dave Patterson won the $1 million 2017 Alan Turing Award on Wednesday for their breakthrough work in designing energy-efficient chips in the 1980s that set the stage for smartphones’ omnipresence today.They won the Turing Award for their separate projects at Stanford and Berkeley in the early 1980s that pioneered a new microprocessor design called reduced instruction set computer (RISC), coined by Patterson and his Berkeley team.RISC’s architecture allowed the chip to use a small, highly optimized set of instructions, saving energy and time while outperforming its competition. Today, nearly 99 percent of the 16 billion microprocessors produced every year are RISC processors, and they are found in nearly all smartphones, tablets and other smart devices, according to the ACM.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Former University of Denver President Hennessy Henry Patterson and University of California Berkeley retired professor Patterson won the 2017 Turing Award for a total prize of US$1 million. They designed pioneering achievements in energy saving chips in the 1980s. Lay the foundation of today's smart phones everywhere. Their research projects at Stanford and Berkeley in the early 1980s won the Turing Award for them. Patterson and his team at Berkeley created "Reduced Instruction Set Computing (RISC)", both of whom are pioneers of this new type of microprocessor design. The "Streamlined Instruction Set" architecture allows the chip to operate with streamlined, highly-optimized instructions, saving electricity and time, and surpassing the competition. According to ACM, nearly 99% of the 16 billion microprocessors produced each year are now "reduced instruction set" processors. Almost all smart phones, tablets, and other smart devices can be found. &lt;strong&gt;Its trace.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"And "Kakao Story" each has 11.2% and 9.6%."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+週五一項民調顯示，YouTube在南韓已成為最受歡迎的社群媒體平台，10個網路使用者中，有近3人為該平台的愛用者。據1月份對200名20歲（含）以上南韓民眾的調查，27.6%的受訪者選YouTube為其最喜愛的社群媒體平台。南韓當地民調機構「Open Survey」所做民調顯示，本土的「Naver部落格」以17%居次，「臉書」以15.6%緊跟在後， Instagram為14.8%、本土的「Band」和「Kakao故事」各有11.2%與9.6%。同時，南韓最大入口網站Naver乃該國最受歡迎的搜尋引擎，有壓倒性的75.2%受訪者選它，「Google」以11.8%排第2位，本土的「多音」則以10.2%排在Google之後。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+YouTube has emerged as the most popular social media platform in South Korea with nearly three in 10 users relying on the platform, a poll showed Friday.According to the January survey of 200 South Koreans aged 20 or older, 27.6 percent of respondents picked YouTube as their favorite social network platform. Naver Blog came next with 17 percent, followed by Facebook with 15.6 percent, Instagram with 14.8 percent, Band with 11.2 percent and Kakao Story with 9.6 percent, according to the poll taken by local pollster Open Survey.Meanwhile, Naver, South Korea’s top online portal, was the most popular search engine in the country with an overwhelming 75.2 percent of those surveyed choosing it. Google placed second with 11.8 percent, trailed by Daum with 10.2 percent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A poll on Friday showed that YouTube has become the most popular social media platform in South Korea. Nearly 3 of the 10 Internet users are lovers of the platform. According to a survey of 200 people aged 20 or above in South Korea in January, 27.6% of respondents chose YouTube as their favorite social media platform. According to a poll conducted by "Open Survey", a local polling organization in South Korea, the local "Naver blog" ranked second with 17%, "Facebook" followed with 15.6%, and Instagram was 14.8% with local "Band". &lt;strong&gt;And "Kakao Story" each has 11.2% and 9.6%.&lt;/strong&gt; At the same time, South Korea’s largest portal, Naver, is the country’s most popular search engine. Overwhelming 75.2% of respondents chose it, “Google” ranked second with 11.8%, and local “multi-tone” with 10.&lt;strong&gt;After Google.&lt;/strong&gt;gle.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"After Google."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+週五一項民調顯示，YouTube在南韓已成為最受歡迎的社群媒體平台，10個網路使用者中，有近3人為該平台的愛用者。據1月份對200名20歲（含）以上南韓民眾的調查，27.6%的受訪者選YouTube為其最喜愛的社群媒體平台。南韓當地民調機構「Open Survey」所做民調顯示，本土的「Naver部落格」以17%居次，「臉書」以15.6%緊跟在後， Instagram為14.8%、本土的「Band」和「Kakao故事」各有11.2%與9.6%。同時，南韓最大入口網站Naver乃該國最受歡迎的搜尋引擎，有壓倒性的75.2%受訪者選它，「Google」以11.8%排第2位，本土的「多音」則以10.2%排在Google之後。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+YouTube has emerged as the most popular social media platform in South Korea with nearly three in 10 users relying on the platform, a poll showed Friday.According to the January survey of 200 South Koreans aged 20 or older, 27.6 percent of respondents picked YouTube as their favorite social network platform. Naver Blog came next with 17 percent, followed by Facebook with 15.6 percent, Instagram with 14.8 percent, Band with 11.2 percent and Kakao Story with 9.6 percent, according to the poll taken by local pollster Open Survey.Meanwhile, Naver, South Korea’s top online portal, was the most popular search engine in the country with an overwhelming 75.2 percent of those surveyed choosing it. Google placed second with 11.8 percent, trailed by Daum with 10.2 percent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A poll on Friday showed that YouTube has become the most popular social media platform in South Korea. Nearly 3 of the 10 Internet users are lovers of the platform. According to a survey of 200 people aged 20 or above in South Korea in January, 27.6% of respondents chose YouTube as their favorite social media platform. According to a poll conducted by "Open Survey", a local polling organization in South Korea, the local "Naver blog" ranked second with 17%, "Facebook" followed with 15.6%, and Instagram was 14.8% with local "Band". &lt;strong&gt;And "Kakao Story" each has 11.2% and 9.6%.&lt;/strong&gt; At the same time, South Korea’s largest portal, Naver, is the country’s most popular search engine. Overwhelming 75.2% of respondents chose it, “Google” ranked second with 11.8%, and local “multi-tone” with 10.&lt;strong&gt;After Google.&lt;/strong&gt;gle.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Is it okay?" Barbara."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+「如果我們有機會重來，告訴我，可能嗎？可以嗎？」芭芭拉．史翠珊在熱門歌曲《往日情懷》中，詠出這點疑問，但一講到養隻新寵物，她就無須疑惑了。這名《妙女郎》歌手暨女演員讓她心愛的14歲棉花面紗犬珊曼莎2017年過世後被複製，現在有2隻新的小狗狗。史翠珊受訪告訴週二出版的好萊塢娛樂業刊物《綜藝》，細胞由珊曼莎嘴部及腹部取得。史翠珊說，「牠們有不同的個性」，「我等待牠們長大，這樣我就能看牠們是否有牠的棕色眼睛和嚴肅態度。」史翠珊說，當這2隻複製狗到來，她把牠們打扮成一紅一紫以分辨，這也是牠們名字——史嘉蕾小姐與紫羅蘭小姐——的由來。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+"If we had the chance to do it all again, tell me would we, could we?" Barbra Streisand had a hit singing this question in "The Way We Were," but when it comes to getting a new pet she does not have to wonder.The "Funny Girl" singer and actress had her beloved 14- year-old Coton de Tulear dog Samantha cloned after her death in 2017, and now has two new pups.Streisand told Hollywood trade publication Variety in an interview published on Tuesday that cells were taken from the mouth and stomach of Samantha."They have different personalities," Streisand said. "I’m waiting for them to get older so I can see if they have her brown eyes and her seriousness."Streisand said that when the cloned dogs arrived, she dressed them in red and lavender to tell them apart, which is how they got their names — Miss Scarlett and Miss Violet.（Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+"If we have the opportunity to come back, tell me, is it possible? &lt;strong&gt;Is it okay?" Barbara.&lt;/strong&gt; In her popular song, "The Old Feelings," Streisand asked this question, but as soon as she talks about raising a new pet, she doesn't have to wonder. The "My Girl" singer and actress had her favorite 14-year-old cotton veil dog Samantha copied after she passed away in 2017 and now has two new puppy dogs. Shi Cuishan interviewed the Hollywood entertainment magazine "Variety of Variety" published on Tuesday. The cells were obtained from Samantha's mouth and abdomen. Shi Tsui Shan said, "They have different personalities." "I wait for them to grow up so that I can see if they have brown eyes and seriousness." Shi Tsui Shan said that when the two copy dogs arrived, she dressed them up as a Red and purple are used to distinguish. This is also the origin of their names, Miss Scarlett and Miss Violet. (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"I'm just sad.""&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+艾許莉．賈德與蜜拉．索維諾，已就導演彼得．傑克森說（前好萊塢王牌製片）哈維．溫斯坦將她們列入黑名單的評論，做出回應。傑克森在接受紐西蘭媒體Stuff訪問時表示，哈維與鮑伯．溫斯坦曾明確告訴他，不要雇用賈德或索維諾出演「魔戒」系列電影。「我記得（溫斯坦兄弟創辦的）米拉麥克斯影業告訴我們，與她們共事是夢魘，我們應不惜任何代價敬而遠之。（說這話的）時間點大概是1998年」，傑克森如此論及賈德與索維諾。「我現在才明白，這很可能是米拉麥克斯的全面抹黑運動。」索維諾週五推文表示，當她讀到這篇訪問時，她「突然哭了出來」。「這就是了，證實哈維．溫斯坦阻撓我的職涯，我曾懷疑過，但並不確定」，她寫道。「彼得．傑克森，謝謝你的坦誠。我只是很難過。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Ashley Judd and Mira Sorvino have responded to director Peter Jackson’s comments that Harvey Weinstein blacklisted them. Jackson said in an interview with New Zealand media outlet Stuff that Harvey and Bob Weinstein specifically told him not to hire Judd or Sorvino for the "Lord of the Rings" movies."I recall Miramax telling us they were a nightmare to work with and we should avoid them at all costs. This was probably in 1998," Jackson said of Judd and Sorvino. "I realize that this was very likely the Miramax smear campaign in full swing."On Friday, Sorvino tweeted that she "burst out crying" when she read the interview."There it is, confirmation that Harvey Weinstein derailed my career, something I suspected but was unsure," she wrote. "Thank you Peter Jackson for being honest. I’m just heartsick."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Alice. Judd and Mela. Sovino, already on the director Peter. Jackson said (previous Hollywood trump producer) Harvey. Weinstein added them to the blacklisted comments and responded. In an interview with New Zealand media Stuff, Jackson said Harvey and Bob. Weinstein explicitly told him not to hire Judd or Sovino to play the "Lord of the Rings" series. “I remember (the Weinstein brothers founded) Miramars Films tells us that working with them is a nightmare. We should stay away from it at any cost. (The time point for saying this is probably 1998),” says Jackson. Judd and Sovino. "I just now understand that this is probably the complete discrediting campaign of Miramax." Sovino said on Friday that when she read this interview, she "suddenly cried." "That's it, confirming that Harvey Weinstein obstructed my career. I had doubts, but I'm not sure," she wrote. "Peter Jackson, thank you for your honesty. &lt;strong&gt;I'm just sad."&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Nutritionist Leonardo."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+不少有趣的飲食趨勢橫掃亞洲。最新一個是日本使用數學方程式的飲食趨勢，在年輕女性間受到歡迎，稱為「灰姑娘體重」。灰姑娘體重（公斤）是藉由計算一個人身高（公尺）的二次方，然後再乘以18。例如，若一名女性身高1.8公尺，她的灰姑娘體重將是：1.8乘以1.8等於3.24；3.24再乘以18等於58.32。灰姑娘體重的目標是身體質量指數（BMI）18，這在BMI等級的正式分類中屬於「體重過輕」。營養師擔心，這種不切實際的灰姑娘飲食，不僅負面地將虛構的身體比例浪漫化，同時也鼓勵極端飲食。營養學家萊安諾．蘭伯特對臨床上的「體重過輕」發出危險警告。她指出：「過輕對妳的健康不利。體重太輕可能造成免疫系統虛弱、骨骼脆弱及感覺疲累。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+There have been a number of interesting diet trends sweeping throughout Asia. The latest one in Japan uses a mathematical formula that’s seeing increased popularity among young women called the ’Cinderella weight’.The Cinderella weight（in kilograms）is calculated by squaring a person’s height（in meters）, then multiplying that number by 18. For example, if a woman was 1.8m tall, her Cinderella weight would be：1.8×1.8=3.24 ; 3.24×18=58.32.The Cinderella weight aims for a body mass index of 18, which is officially classified as ’underweight’ on the BMI scale. Dieticians are worried the unrealistic Cinderella diet is not only negatively romanticizing fictionalized body proportions, but also encouraging extreme dieting.Nutritionist Rhiannon Lambert warned of the dangers of being clinically ’underweight’. She said：’Being underweight isn’t good for your health. Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired.’&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Many interesting dietary trends sweep across Asia. The latest one is Japan's dietary trend using mathematical equations. It is popular among young women and is called "Cinderella Weight." Cinderella's weight (in kilograms) is calculated by calculating the quadratic height of a person's height (meter), and then multiplying by 18. For example, if a woman is 1.8 meters tall, her Cinderella weight will be: 1.8 times 1.8 equals 3.24; 3.24 and then 18 equals 58.32. The goal of Cinderella's weight is a body mass index (BMI) of 18, which is "underweight" in the official classification of BMI levels. Nutritionists worry that this impractical Cinderella diet not only negatively romanticizes the fictional body proportion but also encourages extreme diets. &lt;strong&gt;Nutritionist Leonardo.&lt;/strong&gt; Lambert issued a dangerous warning on clinical "underweight." She pointed out: "It is not good for your health to be too light. Being too light can result in weakened immune system, fragile bones and feeling tired."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"18TB self-deception and self-evasion."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一名男子透露自己的電腦裡收藏18兆位元組的色情影片，只能採取大膽行動全部刪除，幫助自己克服這種成癮症。1兆位元組等於1000吉位元組，該名男子的18TB收藏，相當於5400小時的高畫質影片或6480萬張圖片。以每天觀看8小時計算，他得花上20個月才能將所有影片看過一遍。男子說：「我會一口氣花好幾天一部接一部下載。」然而，他解釋，儘管自己身體強健，但好幾次與女朋友親熱時，卻沒辦法勃起。「絕對是色情影片的關係，我很清楚。」「18TB的毒藥。18TB的自我欺騙及自我逃避。18TB的社交障礙和缺乏自信。18TB與螢幕上收費演員的虛假關係。」許多男性同意，刪掉所有收藏就是克服癮症的一大步。「能把自己偏愛的每個女孩放入文件並加以歸類的感覺，很容易讓人上癮。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A man has revealed that he accumulated 18 terabytes of porn on his computer and took the bold step of deleting it all to help him overcome his addiction.A terabyte is 1,000 gigabytes, so the man’s 18 terabyte collection is equivalent to 5,400 hours of high quality video or 64.8 million images. At a rate of watching eight hours of video per day, it would have taken him 20 months of daily viewing to get through his entire collection just once."I would spend days at a time just downloading video after video," the man said. However, he explained that despite being fit, he lost his erection when having sex with his girlfriend multiple times. "It’s definitely the porn, I know it is.""18 terabytes of poison. 18 terabytes of lying to yourself and eluding yourself. 18 terabytes of social awkwardness and lack of confidence. 18 terabytes of a fake relationships with paid actors on screen."Many men agreed that deleting their collection was a big step in getting over the addiction. "The sensation of [being] able to drag each girl of your preference and categorizing them can be addictive."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A man revealed that his 18-megabyte pornographic videos were stored on his computer and could only be removed with bold actions to help him overcome this addiction disorder. One megabyte is equal to 1000 gigabytes. The 18TB collection of the man is equivalent to 5400 hours of high-definition video or 64.8 million pictures. For eight hours a day, he spent 20 months watching all the films. The man said: "I will spend a few days and one by one to download one at a time." However, he explained that although he was physically strong, he couldn't get an erection when he was affectionate with his girlfriend several times. "Absolutely pornographic relationship, I know very well." "18TB poison. &lt;strong&gt;18TB self-deception and self-evasion.&lt;/strong&gt; 18TB social barriers and lack of self-confidence. 18TB false relationship with screen actors." Many men agree to delete Losing all your collections is a big step toward overcoming your addictions. "The feeling of being able to put every girl she likes into a document and classify it is very addictive."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Clayton and Brittany."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+加拿大一樁外景婚紗拍攝出現意料之外的戲劇性轉折，因為新郎躍入湖中，救了一名溺水的小男孩。克萊頓與布莉塔妮．庫克在安大略省基奇納的一座公園橋樑上為拍攝婚紗照擺姿勢時，這位新郎注意到一名男孩落水遇險。毫不顧慮他的西裝，庫克先生跳入維多利亞公園湖中，將小男孩用力拉到湖岸邊。他們的婚紗攝影師捕捉到這場救援行動。「這些小孩跟了我們幾分鐘，我留意著他們，因為他們站得離湖水很近，」克萊頓說，「接著當布莉塔妮在拍攝個人照時，我意識到只有兩人站在岩石邊緣。我看到這名男孩在水中掙扎著讓頭往上。這時我一躍而下。」在獲救後，該名男孩顯然狀況還好，雖然有點發抖。庫克太太說，她丈夫的快速思考與無私行動，正是她當初與他墜入愛河的部份原因。「對我而言，那就是克萊頓，」她說，「這是他會僅憑直覺就去做的事。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A wedding photoshoot in Canada took an unexpectedly dramatic turn as the bridegroom leapt into a lake to save a little boy from drowning.Clayton and Brittany Cook were posing for wedding photos on a park bridge in Kitchener, Ontario, when the groom noticed a boy in distress in the water.With no thought for his suit, Mr. Cook jumped into Victoria Park lake and pulled the young boy on to the shore. Their wedding photographer captured the rescue."For several minutes these kids were following us, and I was keeping an eye on them because they were standing close to the water," Clayton said. "Then while Brittany was getting her solo shots taken I realised only two were standing on the rock ledge. I saw the boy in the water struggling to keep his head up. That’s when I jumped down."After being rescued, the boy appeared fine, if a little shaken. Mrs. Cook said her husband’s quick thinking and selfless action were just some of the reasons she fell in love with him in the first place. "That’s Clay to me," she said. "It’s something he would just instinctively do."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A surprisingly unexpected dramatic turn in a wedding dress shoot in Canada, as the groom jumped into the lake and saved a drowning boy. &lt;strong&gt;Clayton and Brittany.&lt;/strong&gt; When Cook made a wedding photo shoot on a park bridge in Kitchener, Ontario, the groom noticed that a boy was in danger of falling into water. Without worrying about his suit, Mr. Cook jumped into the lake in Victoria Park and pulled the little boy to the shore of the lake. Their wedding photographer caught this rescue operation. “These children followed us for a few minutes and I noticed them because they stood close to the lake,” Clayton said. “Then when Brittany was taking personal photos, I realized that only two people stood On the edge of the rock, I saw the boy struggling to get his head up in the water. Then I jumped down.” After being rescued, the boy was clearly in good condition, though a little shivering. Mrs. Cook said that her husband’s quick thinking and selfless actions were part of the reason she fell in love with him. "To me, that's Clayton," she said. "This is something he will do with intuition."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Rudkin rethinks."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+10名英國軍隊的穆斯林成員們已完成朝覲。他們拜訪位於（沙烏地阿拉伯）麥加的大清真寺、阿拉法特、穆茲達里法、米納。他們也拜訪位於麥地那的先知清真寺。「我們更了解自己。我先前的經歷全都無法媲美這趟旅程，這是全世界最大的人群集會，可以和幾乎每個國家的代表分享共同的目標與價值，和平共存。」皇家電機機械工兵（REME）上尉蒂姆．魯德金反思。朝覲團訪問麥地那期間，朝聖者們到訪先知清真寺，參觀武侯德戰役的遺址。然後他們跋涉到米納，住在帳篷組成的城市裡，每天朝著惡魔向先知亞伯拉罕顯現的3座石柱投擲石塊，舉行「擲魔儀式」。今年度的朝覲共有近200萬名朝聖者完成朝聖之旅。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Ten Muslim members of the British Armed Forces have completed Hajj. They visited the Holy Mosque in Mecca, Arafat, Muzdalifah, and Mina. In addition they visited the Prophet’s Mosque in Medina."We have learnt a lot about ourselves . This journey has no rival to anything I have done before, with representatives of almost every country it is the largest gathering of people in the world, sharing common goals and values, coexisting peacefully," reflected Captain Tim Rudkin, from the Royal Electrical and Mechanical Engineers （REME）.During the group’s visit to Medina, the pilgrims visited the Prophet’s Mosque and toured the site of the Battle of Uhud. Afterwards they travelled to Mina where they stayed in a tent city and performed the daily stoning of the jamaraat against three pillars where the devil appeared to the Prophet Abraham.This year’s Hajj saw almost two million pilgrims complete their pilgrimage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Ten Muslim members of the British Army have completed the Hajj. They visited the Grand Mosque in Mecca (Saudi Arabia), Arafat, Muzdararifa, and Mina. They also visited the Prophet’s mosque in Medina. “We know ourselves better. My previous experience is not comparable to this journey. It is the world’s largest gathering of people. It can share common goals and values ​​with representatives of almost every country and live in peace.” Royal Electric Machinery Engineer ( REME) On top of Tim. &lt;strong&gt;Rudkin rethinks.&lt;/strong&gt; During the Hajj tour to Medina, pilgrims visited the Prophet's mosque and visited the site of the Battle of Wuhoud. Then they trekked to Mina and lived in a tented city, throwing stones at the three pillars of the demon Abraham that appeared to the demon every day, and held a "demon ritual." A total of nearly 2 million pilgrims completed their pilgrimages this year.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Spaceman Peggy."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+太空人佩吉．懷特森和兩名太空人夥伴，9月2日自國際太空站重返地球，創下太空任務新紀錄。這3名太空人搭乘太空船「聯合號MS-04」降落在中亞的哈薩克。懷特森甫執行完長達288天的太空任務，以總和665天寫下新紀錄，成為首名置身太空最久的美國人。聯合號MS-04太空船在美東時間下午5時58分，自國際太空站的「探索號」實驗艙出發。全體人員歷時3小時又24分鐘返抵地球大氣層，再歷經3小時成功穿越地球大氣層，最後抵達陸地。懷特森接受美國「國家航太總署」的獨家訪問時，分享她在國際太空站的心路歷程。她透露，比破紀錄更重要的是科學家們在太空探索方面取得的進展。她也表示，想要以在旅程中獲得的知識指導年輕太空愛好者，期許他們未來能在這條路上走得更遠。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Following a record breaking space mission, astronaut Peggy Whitson along with her two fellow astronauts returned to Earth from the International Space Station on September 2. The three astronauts returned home on a Soyuz MS-04 spacecraft which landed in Kazakhstan, Central Asia. Whitson was in space for an extended 288-day mission where she set a new record of being the first American to spend the most collective amount of time in outer space with an accumulated 665 days under her belt.The Soyuz MS-04 spacecraft was undocked from the ISS’s Poisk module at 5:58 p.m. EDT. It took the crew three hours and 24 minutes to enter the Earth’s atmosphere and another three hours to battle Earth’s atmosphere and reach the ground. In an exclusive interview with the NASA, Whitson shares her feelings about her stay at the ISS. She revealed that what is more important than records is the progress scientists are making in terms of space exploration. She also shared that she is thinking of mentoring young space enthusiasts with the knowledge she gathered in her journey, with the hope that one day they will do the same and more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+&lt;strong&gt;Spaceman Peggy.&lt;/strong&gt; Whiteson and two astronauts partners returned to Earth from the International Space Station on September 2 to set a new record for space missions. The three astronauts landed in Kazakhstan, Central Asia, with the spacecraft "Joint MS-04." Whiteson completed a 288-day space mission and wrote a new record for a total of 665 days. He became the first American to stay in space for the longest time. The Joint MS-04 spacecraft departed from the "Exploration" experimental cabin of the International Space Station at 5:58 pm Eastern Time. All personnel returned to the Earth's atmosphere within 3 hours and 24 minutes, and they successfully passed through the earth's atmosphere for 3 hours before finally reaching the land. When Whiteson received an exclusive visit from the National Aerospace Administration of the United States, she shared her experience in the International Space Station. She revealed that what is more important than record-breaking is the progress scientists have made in space exploration. She also stated that she wants to guide young space enthusiasts with the knowledge gained in the journey and expects them to go further on this road in the future.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"He will be Adolph."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+阿根廷薩爾塔一名年長男性聲稱，他是聲名狼藉的德國獨裁者阿道夫．希特勒，他過去70年來一直隱姓埋名。在接受極端保守派報紙《愛國者》訪問時，他解釋道，他在1945年抵達這個國家，護照上的姓名為赫曼．古騰堡。他宣稱他的護照是假的，是「蓋世太保」在戰爭末期所製作。他表示， 在以色列特勤機構去年正式放棄對前納粹戰犯的追訴政策後，他決定不再躲藏。他正準備出版自傳，以重建他的公眾形象。他將以阿道夫．希特勒之名著書，並在9月問世。許多人士，包括他結縭55年的妻子安琪拉．馬丁尼茲，相信古騰堡只是罹患失智症。她確信，她的丈夫可能曾經是納粹成員，可能對過去有罪惡感，但他絕非希特勒。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+An elderly man from Salta in Argentina claims that he’s the infamous German dictator Adolf Hitler and that he spent the last 70 years in hiding.In an interview with the ultra-conservative newspaper The Patriot, he explains that he arrived in the country in 1945 with a passport identifying him Herman Guntherberg. He claims that his passport was a fake one produced by the Gestapo near the end of the war.He says he’s decided to come out of hiding after the Israeli secret services officially abandoned their policy of pursuing former Nazi war criminals last year. He’s preparing to publish his autobiography in order to restore his public image. His book will be written under the name Adolf Hitler and should be available in September.Many people, including his wife of 55 years, Angela Martinez, believe that Guntherber is simply suffering from dementia. She’s convinced that her husband may possibly have been a Nazi and he may feel guilty about his past, but he’s definitely not Hitler.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+An elderly male from Salta, Argentina, claimed that he was the infamous German dictator Adolf. Hitler, he has been buried for the past 70 years. In an interview with the ultra-conservative newspaper Patriot, he explained that he arrived in the country in 1945 and that his name on the passport was Hermann. Gutenberg. He declared that his passport was fake and that Gestapo was made at the end of the war. He stated that after Israel's special service agency officially gave up its prosecution policy against former Nazi war criminals last year, he decided not to hide anymore. He is preparing to publish his autobiography to rebuild his public image. &lt;strong&gt;He will be Adolph.&lt;/strong&gt; Hitler's famous book was published in September. Many people, including Angela, who he married 55 years. Martinez, I believe Gutenberg is only suffering from dementia. She is convinced that her husband may have been a Nazi member and may have guilty about the past, but he is by no means Hitler.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"From Milan, Florida."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+來自佛羅里達州的米蘭．波登—莫里斯，穿了一件繪有15名黑人受害者臉孔的禮服參加舞會；這些黑人的死都與警察執法有關，她藉此傳達重要的政治訴求。禮服正中間的人物是17歲的黑人少年馬汀，他2012年在佛州桑福市被前社區巡守員齊默曼射殺身亡。同樣出現在禮服上的還有18歲的布朗，他在2014年於密蘇里州佛格森市被警察威爾森射殺，他的家鄉隨後更爆發抗爭。波登—莫里斯向「美國有線電視新聞網（CNN）」表示：「當一個人在非必要的情況下失去母親、父親或孩子，這件事不該被遺忘，反而該被談述。」禮服設計師托倫斯向CNN表示，隨著這些殺戮事件一再發生，有一天我突然醒悟，應該要在禮服上訴說此類事件。我想透過時裝設計，在衣服上繪製圖片、說一段故事。我想讓人們知道，除了透過海報、傳單之外，我們也可以透過服裝來傳達訊息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Milan Bolden-Morris from Florida wore a dress adorned with the faces of 15 black victims of police-involved deaths at the prom night, making an important political statement.In the center of the dress is Trayvon Martin, the 17-year-old schoolboy who was shot dead by former neighborhood watchman George Zimmerman in Sanford, Florida in 2012.Also featured on the dress is 18-year-old Michael Brown, who was shot and killed by police officer Darren Wilson in 2014 and whose death sparked protests across his hometown of Ferguson, Missouri.Ms. Bolden-Morris told CNN："When someone loses a mother, father or child in unnecessary circumstances, it should not be overlooked but addressed."Terrence Torrence, designer of the dress told the network that with all the killings that were going on, it just hit me one day：I should put that into a dress. I wanted to paint a picture and put a story out there through my fashion and I wanted to show we could spread our message with not just posters and fliers but also garments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+&lt;strong&gt;From Milan, Florida.&lt;/strong&gt; Borden-Morris wears a dress depicting the faces of 15 black victims attending the dance; the deaths of these blacks are related to police enforcement, and she communicates important political demands. In the middle of the dress is a 17-year-old black teenager Martin, who was shot and killed in 2012 by Zimmerman, a former community patrolman in Sanford, Florida. Also appearing in the dress is 18-year-old Brown, who was shot and killed by police Wilson in 2014 in Ferguson, Missouri, and his hometown later broke out. Boden-Morris told CNN: "When a person loses a mother, father or child under unnecessary circumstances, this matter should not be forgotten but should be discussed." The designer Torrance told CNN that as these killings happened again and again, one day I suddenly awakened and should appeal in dress saying such incidents. I want to draw pictures and tell a story in my clothes through fashion design. I want to let people know that apart from using posters and flyers, we can also convey information through clothing.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"But Ramadan."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+沙烏地阿拉伯媒體週日報導，國王沙爾曼．賓．阿卜杜勒阿齊茲命令一名過度熱心的專欄作家停職，在他把國王和真主劃上等號以後。沙國媒體傳統上順從權威，沙爾曼國王2015年以81歲高齡上任以來，就時常受到媒體專欄作家的讚美。但拉馬丹．艾安齊在《半島報》的專欄，把國王沙爾曼形容成「寬忍」，還有「不濫施罰」——兩詞在伊斯蘭教中都和真主有關——似乎過了頭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Saudi Arabia’s King Salman bin Abdulaziz has ordered an over-enthusiastic columnist to be suspended from his job after he equated him with God, Saudi media reported on Sunday.King Salman has frequently been lauded by columnists in local media, in traditional deference to authority, since the 81-year-old assumed office in 2015.But Ramadan al-Anzi’s column in al-Jazirah newspaper describing King Salman as "Haleem", or forbearing, and "Shadeed al-Eqab", strict in punishment - both terms associated in Islam with God - appeared to have gone too far.The newspaper published an apology late on Saturday.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Saudi Arabian media reported on Sunday that King Salman. Bin. Abdelaziz ordered an overzealous columnist to suspend his job after he had put the king and Allah on the equal sign. The Sha State media has traditionally complied with its authority. Since King Salman came to office at the age of 81 in 2015, he has often been praised by media columnists. &lt;strong&gt;But Ramadan.&lt;/strong&gt; Aian Qi’s column in the “Israeli News” described King Salman as “broad forbearance,” and “does not use indiscriminate punishment” — both of which are related to Allah in Islam — and seem excessive.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"It is stupid."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+美國納稅人不必要地耗費2800萬美元（約8.54億台幣）在阿富汗國民軍的制服上，阿富汗重建特別監察小組監察長指出。在一份措辭嚴厲的報告中，索普科說，官員採購「森林」圖樣的制服，儘管該國地景僅2.1％為植被所覆蓋。這項決定「不是根據阿富汗環境相稱性的評估。」他寫道。前阿富汗國防部長2007年選擇該圖樣，他說。在這份17頁的報告中，索普科寫道，部長瓦達克選擇所有權私人所屬的款式，而非美軍已有的較廉價款式。與瓦達克一同在網路上搜尋軍服款式的美國官員，因他「中意他所看到的」而批准這項採購案。「我關切的是，要是國防部長喜歡紫色或粉紅色，又會怎樣呢？」索普科在「今日美國報」的訪問中說。「我們會問都不問地就為軍人採購粉紅色軍服嗎？那是愚蠢至極。我們以時尚的名義，浪費2800萬美元納稅人的錢，只是因為這位國防部長認為那種款式漂亮。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+US taxpayers unnecessarily spent $28m on uniforms for the Afghan National Army, according to the US Special Inspector General for Afghanistan Reconstruction. In a scathing report, John Sopko said that officials bought "forest" pattern uniforms, despite the country’s landscape being only 2.1% wooded. The decision was "not based on an evaluation of its appropriateness for the Afghan environment", he wrote. A former Afghan defence minister chose the pattern in 2007, he says.In the 17-page report, Sopko writes that Minister Abdul Rahim Wardak chose the privately owned pattern over a cheaper pattern that the US military already owned. US officials, who had been searching for patterns online with Wardak, authorised the purchase because he "liked what he saw"."My concern is what if the minister of defence liked purple, or liked pink?" Sopko told USA Today in an interview. "Are we going to buy pink uniforms for soldiers and not ask questions? That’s insane. We wasted $28 million of taxpayers’ money in the name of fashion, because the defence minister thought that that pattern was pretty."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+U.S. taxpayers unnecessarily spent US$28 million (about 854 million U.S. dollars) on the uniforms of the Afghan National Army, the Inspector General of the Afghanistan Reconstruction Special Monitoring Group pointed out. In a rigorous report, Sopoko said that officials purchased the uniforms of the "forest" pattern, although only 2.1% of the country's landscape was covered by vegetation. This decision "is not based on the assessment of the proportionality of the Afghan environment," he wrote. Former Afghan Defense Minister chose the pattern in 2007, he said. In the 17-page report, Sopoko wrote that Minister Vadak chose to own the style of ownership, rather than the cheaper models already owned by the US military. The U.S. official who was searching for military uniforms on the Internet with Vadak approved the purchase because he "satisfied what he saw." "I am concerned that if the Secretary of Defense likes purple or pink, what will happen?" Sokopko said in an interview with the USA Today newspaper. “Can we ask pink uniforms for military personnel without asking? **It is stupid.** We are wasting $28 million of taxpayer money in the name of fashion just because the secretary of defense thinks that style is pretty.”&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Dinard's Cindy (Arkansas, USA)."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一隻鵝跑向並擁抱主人的影片在網際網路上大爆紅—光是在KATV電視台的臉書專頁，該影片點閱率就超過1800萬人次。這隻鵝的主人說，他們拍片的目的是想幫這隻公鵝找個伴。在（美國阿肯色州）丹納德的辛蒂．亞當斯的農場上的動物，並非尋常農場動物，也不是寵物—更確切地說，比較像是家人。所有動物與主人有特殊關係，而且全都是被救援回來的動物。「牠就是開始抱我」，亞當斯說。「牠自己要這麼做的。」亞當斯說，她與這隻鵝並非一見鍾情，但如今兩者已難捨難分了。「牠以前總會把我追趕出車庫，牠不喜歡我」，亞當斯說。「但當牠受傷，翅膀被狗咬爛後，我便開始照顧牠。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Video of a goose running up to hug its owner is taking the internet by storm – on the KATV Facebook page alone, the video has more than 18 million views. The gander’s owner says they made the video to attract the male goose a mate.The animals at Cyndie Adams farm in Dennard aren’t simply barnyard animals, they aren’t pets either – rather the flock is more like family. All the animals have a special bond with their owner, and all the animals are rescues."He just started hugging on me," said Adams. "He just did it on his own."Adams said it wasn’t love at first sight, but now the two are inseparable."He used to chase me out of the garage; he didn’t like me," said Adams. "But he was injured – his wings got chewed up by a dog, so I started doctoring him."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The video of a geese running to and embracing the owner was raging on the Internet — just a Facebook page on KATV, which had a click-through rate of more than 18 million. The owner of the geese said that the purpose of the film was to try to find a companion for the male goose. &lt;strong&gt;Dinard's Cindy (Arkansas, USA).&lt;/strong&gt; The animals on Adams's farm are not unusual farm animals, nor are they pets—more precisely, they are more like family members. All animals have special relationships with their owners and all are rescued animals. "It is just beginning to hold me," Adams said. "It's going to do this on its own," Adams said. She and the geese did not fall in love at first sight, but now the two have struggled to share. "It used to chase me out of the garage. It didn't like me," Adams said. "But when it was hurt and the wings were bitten by dogs, I started taking care of it."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Mbarula's gaze."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一名上推特尋求購買駕照建議的南非女子，週三所獲始料未及，當她的詢問吸引到警政部長暨多產推特用戶菲克勒．姆巴魯拉的目光。「像買甜甜圈的方式買張駕照，觸犯刑法」，姆巴魯拉用了當地甜甜圈（ngathi ligwinya）一字推文回道。「會讓妳、交通部門和駕訓班一併被捕。」姆巴魯拉，打從他擔任運動與休閒部長時期，暱稱為「拉茲馬它茲」，擁有超過75萬名推特追隨者，並把個人供稿視為打擊南非高犯罪率的利器。南非交通法規以非洲標準而言算是嚴格，儘管駕訓教練要求賄款或民眾開車不拿有效證照時有所聞。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A South African woman seeking advice on Twitter about buying a driver’s license got more than she bargained for on Wednesday when her inquiry caught the eye of police minister and prolific tweeter Fikile Mbalula."It’s a criminal offence to buy a driver’s license （like a） ngathi ligwinya," Mbalula tweeted back, using a local word for a doughnut. "It will get you, the traffic department and the driving school arrested."Mbalula, nicknamed "Razzmatazz" from his time as sports and recreation minister, has more than 750,000 Twitter followers and sees his personal feed as a useful tool in the fight against South Africa’s high crime rates.South Africa’s traffic laws and regulations are tight by African standards although reports of driving instructors asking for bribes or people driving without a valid license are common. （Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A South African woman who had been on Twitter to seek a driver’s license proposal was unexpected on Wednesday when her inquiry attracted the politician and prolific Twitter user Flickler. &lt;strong&gt;Mbarula's gaze.&lt;/strong&gt; "I bought a driver's license like a donut, and violated criminal law." Mbarula responded by using the word "ngathi ligwinya". "We will let the transportation department and the driver training class be arrested together." Mr. Barbara, who served as the minister for sports and leisure, was dubbed "Razmatz" and had more than 750,000 followers of Twitter. , and treat personal contributions as a weapon against South Africa's high crime rate. South Africa’s traffic regulations are rigorous in terms of African standards, even though drivers’ coaches demanded bribes or people did not take valid licenses to drive. (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"are all available."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+登機前覺得緊張嗎？旅客現在來到德國斯圖加特機場，可以在登機前進入一間小房間，自行選擇想聆聽的祈禱文，以獲得精神上的慰藉。機場發言人修姆表示，這間祈禱室規劃了各個宗教共300篇祈禱文，並涵蓋65種語言。基督教主禱文、伊斯蘭教宣禮者的呼喚詞、西藏僧侶的吟誦、新幾內亞或馬利薩滿教的祈禱詞等應有盡有。除一神信仰外，多神信仰、泛靈信仰的祈禱文也都能找到。這間祈禱室位於斯圖加特機場的310號登機門旁，將免費開放3個月。藝術家史特爾姆近年設計了許多祈禱室，大多設置在學校和博物館等場所。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Feeling nervous before your flight? Travelers at Stuttgart airport can now receive spiritual solace by entering a booth and listening to a prayer of their choice before boarding the plane.The prayer booth features 300 prayers from various religions in 65 different languages, airport spokesman Johannes Schumm said.The prayers include the Christian Lord’s Prayer, the Islamic muezzin’s call to prayer, Tibetan monk chants, and prayers of Shamans from New Guinea or Mali are also available.In addition to the big monotheistic faiths, polytheistic religions and animist beliefs are also included. The booth is free and will be available for three months at Stuttgart Airport’s boarding area next to Gate 310.The artist Oliver Sturm has designed several prayer booths in recent years that have been installed at schools and museums.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Do you feel nervous before boarding? The passengers are now at the Stuttgart Airport in Germany. They can enter a small room before boarding the plane and choose their own prayers for spiritual comfort. The airport spokesperson Ximu said that this prayer room has planned a total of 300 prayers for various religions and covers 65 languages. The Christian Lord's Prayer, the caller of the Muslim admonitioner, the Tibetan monks' jealousies, the New Guinea or Mali Shaman's prayers, etc. &lt;strong&gt;are all available.&lt;/strong&gt; In addition to monotheistic beliefs, many prayers can be found in the beliefs of many gods and in the spirit of animism. This prayer room is located next to Gate 310 at Stuttgart Airport and will be open for free for 3 months. The artist Strum has designed many prayer rooms in recent years, mostly in schools and museums.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The occultist Heracio."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一名據稱準確預測唐納．川普當選（美國）總統的神秘學者聲稱，知道第三次世界大戰的爆發日期。神秘學者赫拉希歐．維耶加斯自稱是神的信使，相信一場致命的國際大戰將被引發。 維耶加斯指出，這場戰爭將由川普在5月13日啟動。這起國際衝突將會蹂躪世界6個月，但這場戰爭將會終結，將士們很快就會返回家園。 維耶加斯說：「人們需要知道以做好準備的主要訊息是，在2017年5月13日至10月13日間，這場戰爭將會發生，並在大量毀滅和死亡下結束。」他聲稱，敘利亞的化武攻擊是第三次世界大戰的先兆。倘若（敘利亞總統）阿塞德遭轟炸身亡，他的預言很有可能實現，因為之後的情勢將是一團亂。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A mystic who allegedly predicted the presidency of Donald Trump has claimed to know the date World War 3 will break out. Mystic Horacio Villegas, who claims to be a messenger of God, believes a deadly international war will be triggered. According to Mr. Villegas, the war will be started by Trump on May 13. The international conflict will ravage the world for six months but the war is going to end, and the soldiers will soon return to their homes. Mr. Villegas said："The main message that people need to know in order be prepared is that between May 13th and October 13 2017, this war will occur and be over with much devastation and death." He claimed that the chemical attack in Syria was a pre-cursor to World War 3. If Assad is bombed and killed, this could very much fulfil this prophecy because afterwards all hell would break loose.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+One was allegedly accurately predicting Donner. The mystic scholar who was elected President of Trump (USA) claimed that he knows the date of the outbreak of World War III. &lt;strong&gt;The occultist Heracio.&lt;/strong&gt; Viegas claims to be the messenger of God and believes that a fatal international war will be triggered. Viegas pointed out that this war will be started by Trump on May 13. This international conflict will paralyse the world for six months, but this war will end and the taxis will soon return home. Viegas said: "The main message that people need to know in order to prepare is that from May 13 to October 13, 2017, this war will happen and it will end with massive destruction and death." It is claimed that the Syrian CW attack was a precursor to the Third World War. If (Assad Syrian President) Assad was bombed and killed, his predictions are likely to be realized, because the situation will be a mess later.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"They said..."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+倘若你是某歐洲國家的前領導人、某主要人權組織主席，而且還持有外交護照，你在機場過移民關時不太可能會遭遇排隊人龍。但在1月31日，挪威前總理龐德維克所遭遇的事情，不是只有排隊長龍。龐德維克告訴美國有線電視新聞網「與世界接軌」節目，他在華府杜勒斯國際機場遭官員盤問，因為他的外交護照上有伊朗簽證。「當他們發現這個伊朗簽證，我2014年12月時在伊朗，他們說……有個規定指像我這種簽證需要特別注意」，龐德維克說。在這位歐洲國家的前領導人詳述他的旅遊史——他當時在（伊朗首都）德黑蘭的一場反極端主義大會上演講——後，龐德維克說，他「以為與相信，他們（機場官員）會立刻放他走。」結果，龐德維克說，他反而被問話超過1小時。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+If you’re the former leader of a European nation, the president of a major human rights organization and the owner of a diplomatic passport, you’re not likely to encounter a long wait at airport immigration.But on January 31, Kjell Magne Bondevik, the former Prime Minister of Norway, encountered more than just a lengthy queue.Bondevik told CNN’s "Connect the World" he was interrogated by officials at Washington’s Dulles International Airport because he had an Iranian visa in his diplomatic passport."When they found the Iranian visa, where I was in December 2014, they said that there was a ... regulation that with such a visa I had to be flagged up," Bondevik said.After the former European leader detailed his travel history － he was in Tehran speaking at an anti-extremism conference － Bondevik said he "assumed and presumed that they would let me go immediately."But instead, Bondevik said he was questioned for over an hour.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+If you are a former leader of a European country, the chairman of a major human rights organization, and you also hold a diplomatic passport, you are unlikely to encounter queues when you cross the border at the airport. However, on January 31st, what happened to the former Norwegian Prime Minister Pandevik was not only long queues. Pondevik told CNN that he was “in line with the world” and he was questioned by officials at Dulles International Airport in Washington because his diplomatic passport had an Iranian visa. "When they discovered the Iran visa, I was in Iran in December 2014. &lt;strong&gt;They said...&lt;/strong&gt; There is a provision that visas like mys need special attention," Pondervik said. In this European country’s former leader, who detailed his travel history—his speech at an anti-extremist conference in Tehran (the Iranian capital)—Pondev said that he “thought and believed that they (airports Officials will immediately let him go." As a result, Poundwick said that he was questioned for more than an hour.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Volkov, Messing."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+俄羅斯滑雪射擊運動員在冬季兩項世界錦標賽中一場令人難堪的頒獎典禮上，因主辦單位播放舊版俄國國歌，而決定在沒有任何樂器伴奏下清唱自己的國歌。當用來表揚週六晚間4人7.5公里接力賽俄國隊勝利的，顯然是舊版俄國國歌後，典禮中斷。然而，阿列克謝．沃科夫、梅辛．茨維特科夫、安東．巴比科夫，以及安東．舒普林，不等正確版播放，便開始在無伴奏情況下高唱自己的國歌。發生這起事件的一週前，美國網球協會在夏威夷舉行的一場網球錦標賽上，因意外演唱納粹時期的德國國歌，而被迫出面致歉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Russian biathletes decided to sing their national anthem without any instrumental accompaniment after organizers played an outdated version in an embarrassing medal ceremony at the biathlon world championships.The ceremony was interrupted when it became clear that the old version of the anthem was being used to honor Russia’s victory in Saturday night’s 4x7.5-kilometer relay.However, Alexey Volkov, Maxim Tsvetkov, Anton Babikov and Anton Shipulin didn’t wait for the correct version to be played and started singing their national anthem unaccompanied.The incident came just one week after the United States Tennis Association had to apologize after a German national anthem used during the Nazi-era was accidentally played at a tennis tournament in Hawaii.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Russian ski-shooting athletes decided to sing their national anthem without any instrumental accompaniment as the organizer played the old Russian national anthem at an embarrassing ceremony at the biathlon world championship. The ceremony was interrupted when it was apparent that it was the old Russian national anthem that was used to celebrate the victory of the Russian team in the 7.5-kilometer relay race on Saturday night. However, Alexei. &lt;strong&gt;Volkov, Messing&lt;/strong&gt;Tsvetkov, Anton&lt;strong&gt;Babikov, and Anton.&lt;/strong&gt;d Anton. Shu Pulin, without waiting for the correct version to play, began to sing his own national anthem without accompaniment. A week before this incident, the U.S. Tennis Association was forced to apologize in a tennis tournament in Hawaii for accidentally singing the Nazi German anthem.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Tsvetkov, Anton."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+俄羅斯滑雪射擊運動員在冬季兩項世界錦標賽中一場令人難堪的頒獎典禮上，因主辦單位播放舊版俄國國歌，而決定在沒有任何樂器伴奏下清唱自己的國歌。當用來表揚週六晚間4人7.5公里接力賽俄國隊勝利的，顯然是舊版俄國國歌後，典禮中斷。然而，阿列克謝．沃科夫、梅辛．茨維特科夫、安東．巴比科夫，以及安東．舒普林，不等正確版播放，便開始在無伴奏情況下高唱自己的國歌。發生這起事件的一週前，美國網球協會在夏威夷舉行的一場網球錦標賽上，因意外演唱納粹時期的德國國歌，而被迫出面致歉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Russian biathletes decided to sing their national anthem without any instrumental accompaniment after organizers played an outdated version in an embarrassing medal ceremony at the biathlon world championships.The ceremony was interrupted when it became clear that the old version of the anthem was being used to honor Russia’s victory in Saturday night’s 4x7.5-kilometer relay.However, Alexey Volkov, Maxim Tsvetkov, Anton Babikov and Anton Shipulin didn’t wait for the correct version to be played and started singing their national anthem unaccompanied.The incident came just one week after the United States Tennis Association had to apologize after a German national anthem used during the Nazi-era was accidentally played at a tennis tournament in Hawaii.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Russian ski-shooting athletes decided to sing their national anthem without any instrumental accompaniment as the organizer played the old Russian national anthem at an embarrassing ceremony at the biathlon world championship. The ceremony was interrupted when it was apparent that it was the old Russian national anthem that was used to celebrate the victory of the Russian team in the 7.5-kilometer relay race on Saturday night. However, Alexei. &lt;strong&gt;Volkov, Messing&lt;/strong&gt;Tsvetkov, Anton&lt;strong&gt;Babikov, and Anton.&lt;/strong&gt;d Anton. Shu Pulin, without waiting for the correct version to play, began to sing his own national anthem without accompaniment. A week before this incident, the U.S. Tennis Association was forced to apologize in a tennis tournament in Hawaii for accidentally singing the Nazi German anthem.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Babikov, and Anton."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+俄羅斯滑雪射擊運動員在冬季兩項世界錦標賽中一場令人難堪的頒獎典禮上，因主辦單位播放舊版俄國國歌，而決定在沒有任何樂器伴奏下清唱自己的國歌。當用來表揚週六晚間4人7.5公里接力賽俄國隊勝利的，顯然是舊版俄國國歌後，典禮中斷。然而，阿列克謝．沃科夫、梅辛．茨維特科夫、安東．巴比科夫，以及安東．舒普林，不等正確版播放，便開始在無伴奏情況下高唱自己的國歌。發生這起事件的一週前，美國網球協會在夏威夷舉行的一場網球錦標賽上，因意外演唱納粹時期的德國國歌，而被迫出面致歉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Russian biathletes decided to sing their national anthem without any instrumental accompaniment after organizers played an outdated version in an embarrassing medal ceremony at the biathlon world championships.The ceremony was interrupted when it became clear that the old version of the anthem was being used to honor Russia’s victory in Saturday night’s 4x7.5-kilometer relay.However, Alexey Volkov, Maxim Tsvetkov, Anton Babikov and Anton Shipulin didn’t wait for the correct version to be played and started singing their national anthem unaccompanied.The incident came just one week after the United States Tennis Association had to apologize after a German national anthem used during the Nazi-era was accidentally played at a tennis tournament in Hawaii.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Russian ski-shooting athletes decided to sing their national anthem without any instrumental accompaniment as the organizer played the old Russian national anthem at an embarrassing ceremony at the biathlon world championship. The ceremony was interrupted when it was apparent that it was the old Russian national anthem that was used to celebrate the victory of the Russian team in the 7.5-kilometer relay race on Saturday night. However, Alexei. &lt;strong&gt;Volkov, Messing&lt;/strong&gt;Tsvetkov, Anton&lt;strong&gt;Babikov, and Anton.&lt;/strong&gt;d Anton. Shu Pulin, without waiting for the correct version to play, began to sing his own national anthem without accompaniment. A week before this incident, the U.S. Tennis Association was forced to apologize in a tennis tournament in Hawaii for accidentally singing the Nazi German anthem.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Jensen and Franklin."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+根據「有線－衛星公共事務網絡」公佈的總統歷史學家調查，亞伯拉罕．林肯、喬治．華盛頓、狄奧多（泰迪）．羅斯福和富蘭克林．羅斯福，仍被視為美國歷史上最偉大的4位總統。德懷特．艾森豪則是首次進入前5名。 這份調查要求91名總統歷史學家評價美國總統，依據10種總統領導才能進行1到10分的評比，包括公眾說服力、危機管理、經濟管理、道德權威、國際關係等。林肯仍是美國有史以來最棒的總統。 評價最糟糕的總統包括安德魯．詹森和富蘭克林．皮爾斯。在美國迎向內戰之際領導國家的詹姆斯．布坎南則墊底。同樣值得注意的是，喬治．布希突然提高3個名次至33名。 巴拉克．歐巴馬則在43名前最高統帥中排名第12名，位於伍德羅．威爾遜（11名）和詹姆斯．門羅（13名）之間。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Abraham Lincoln, George Washington and Teddy and Franklin Roosevelt are still considered the four best presidents in American history, according to a survey of presidential historians released by C-SPAN. Dwight Eisenhower moved into the top five for the first time. The survey asked 91 presidential historians to rate the presidents on a scale of 1 to 10 on 10 qualities of presidential leadership, including public persuasion, crisis management, economic management, moral authority, international relations, etc. Lincoln remains America’s best president of all time. The worst ranked presidents include Andrew Johnson and Franklin Pierce. James Buchanan, who led the country as it headed into Civil War, came in last. Also notable：George W. Bush bumped up three spots to 33rd. Barack Obama ranked 12th on the list of 43 former commanders in chief, placing between Woodrow Wilson （No. 11） and James Monroe （No. 12）.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+According to a survey of presidential historians published by the Cable-Satellite Public Affairs Network, Abraham. Lincoln, George. Washington, Theodor (Teddy). Roosevelt and Franklin. Roosevelt is still regarded as the greatest four presidents in U.S. history. Dwight. Eisenhower is entering the top 5 for the first time. The survey required 91 presidential historians to evaluate the U.S. president and to make a 1-10 rating based on 10 presidential leadership skills, including public persuasion, crisis management, economic management, moral authority, and international relations. Lincoln is still the best president in the United States ever. The worst-rated president includes Andrew. &lt;strong&gt;Jensen and Franklin.&lt;/strong&gt; Pierce. James, who led the country when the United States reached the civil w&lt;strong&gt;Buchanan is at the bottom.&lt;/strong&gt;tom. It is also worth noting that George. Bush suddenly raised 3 places to 33. Barak. Obama was ranked 12th out of 43 former supreme commanders in Woodrow. Wilson (11) and&lt;strong&gt;Monroe (13).&lt;/strong&gt;oe (13).&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Buchanan is at the bottom."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+根據「有線－衛星公共事務網絡」公佈的總統歷史學家調查，亞伯拉罕．林肯、喬治．華盛頓、狄奧多（泰迪）．羅斯福和富蘭克林．羅斯福，仍被視為美國歷史上最偉大的4位總統。德懷特．艾森豪則是首次進入前5名。 這份調查要求91名總統歷史學家評價美國總統，依據10種總統領導才能進行1到10分的評比，包括公眾說服力、危機管理、經濟管理、道德權威、國際關係等。林肯仍是美國有史以來最棒的總統。 評價最糟糕的總統包括安德魯．詹森和富蘭克林．皮爾斯。在美國迎向內戰之際領導國家的詹姆斯．布坎南則墊底。同樣值得注意的是，喬治．布希突然提高3個名次至33名。 巴拉克．歐巴馬則在43名前最高統帥中排名第12名，位於伍德羅．威爾遜（11名）和詹姆斯．門羅（13名）之間。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Abraham Lincoln, George Washington and Teddy and Franklin Roosevelt are still considered the four best presidents in American history, according to a survey of presidential historians released by C-SPAN. Dwight Eisenhower moved into the top five for the first time. The survey asked 91 presidential historians to rate the presidents on a scale of 1 to 10 on 10 qualities of presidential leadership, including public persuasion, crisis management, economic management, moral authority, international relations, etc. Lincoln remains America’s best president of all time. The worst ranked presidents include Andrew Johnson and Franklin Pierce. James Buchanan, who led the country as it headed into Civil War, came in last. Also notable：George W. Bush bumped up three spots to 33rd. Barack Obama ranked 12th on the list of 43 former commanders in chief, placing between Woodrow Wilson （No. 11） and James Monroe （No. 12）.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+According to a survey of presidential historians published by the Cable-Satellite Public Affairs Network, Abraham. Lincoln, George. Washington, Theodor (Teddy). Roosevelt and Franklin. Roosevelt is still regarded as the greatest four presidents in U.S. history. Dwight. Eisenhower is entering the top 5 for the first time. The survey required 91 presidential historians to evaluate the U.S. president and to make a 1-10 rating based on 10 presidential leadership skills, including public persuasion, crisis management, economic management, moral authority, and international relations. Lincoln is still the best president in the United States ever. The worst-rated president includes Andrew. &lt;strong&gt;Jensen and Franklin.&lt;/strong&gt; Pierce. James, who led the country when the United States reached the civil w&lt;strong&gt;Buchanan is at the bottom.&lt;/strong&gt;tom. It is also worth noting that George. Bush suddenly raised 3 places to 33. Barak. Obama was ranked 12th out of 43 former supreme commanders in Woodrow. Wilson (11) and&lt;strong&gt;Monroe (13).&lt;/strong&gt;oe (13).&lt;/p&gt;
 &lt;hr/&gt;
 &lt;/div&gt;
 &lt;/div&gt;
