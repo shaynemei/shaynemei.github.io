@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Translation Corpora</title><link href="https://shaynemei.github.io/" rel="alternate"></link><link href="https://shaynemei.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://shaynemei.github.io/</id><updated>2018-06-07T18:00:00+08:00</updated><entry><title>Articles 0-10</title><link href="https://shaynemei.github.io/article10.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article10.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Translation Corpora</title><link href="https://shaynemei.github.io/" rel="alternate"></link><link href="https://shaynemei.github.io/feeds/ch.atom.xml" rel="self"></link><id>https://shaynemei.github.io/</id><updated>2018-06-07T18:00:00+08:00</updated><entry><title>Articles 0-10</title><link href="https://shaynemei.github.io/article10.html" rel="alternate"></link><published>2018-06-07T18:00:00+08:00</published><updated>2018-06-07T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-07:article10.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -996,10 +996,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="2c217d59-ffa5-4d92-af9a-53586ce4bb9d"&gt;&lt;/div&gt;
+&lt;div id="7b0c66e0-048a-44c7-a1ae-ce037cddc10c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#2c217d59-ffa5-4d92-af9a-53586ce4bb9d');
+var element = $('#7b0c66e0-048a-44c7-a1ae-ce037cddc10c');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -2166,10 +2166,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="4f200461-e747-489a-888b-67f4bce0e0ab"&gt;&lt;/div&gt;
+&lt;div id="009e402c-dd5c-4269-8bb8-486df00d355e"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#4f200461-e747-489a-888b-67f4bce0e0ab');
+var element = $('#009e402c-dd5c-4269-8bb8-486df00d355e');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -3336,10 +3336,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="7ca8fdee-12bf-45bb-9d36-1d2f93e4674c"&gt;&lt;/div&gt;
+&lt;div id="fd0f213a-8580-40a3-9786-d0ead59703a1"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#7ca8fdee-12bf-45bb-9d36-1d2f93e4674c');
+var element = $('#fd0f213a-8580-40a3-9786-d0ead59703a1');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -4506,10 +4506,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="b6385bc2-df7a-4397-b6f6-efe57db637e7"&gt;&lt;/div&gt;
+&lt;div id="d6ecb5e0-368d-4fa3-92c4-3bcd29ff076d"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#b6385bc2-df7a-4397-b6f6-efe57db637e7');
+var element = $('#d6ecb5e0-368d-4fa3-92c4-3bcd29ff076d');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -5676,10 +5676,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="63d0e890-72e4-453b-88ad-d21ab28592f9"&gt;&lt;/div&gt;
+&lt;div id="7b8c16a0-ccd9-4842-812b-9b9e2708fc9b"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#63d0e890-72e4-453b-88ad-d21ab28592f9');
+var element = $('#7b8c16a0-ccd9-4842-812b-9b9e2708fc9b');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -6846,10 +6846,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="7500147d-ab59-4bec-9d8a-38e530600940"&gt;&lt;/div&gt;
+&lt;div id="22694b5c-ab62-484e-9e2b-a56bd756cdc6"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#7500147d-ab59-4bec-9d8a-38e530600940');
+var element = $('#22694b5c-ab62-484e-9e2b-a56bd756cdc6');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -8016,10 +8016,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="24386b99-fb19-4d73-b31f-ece62a0b819f"&gt;&lt;/div&gt;
+&lt;div id="ee28ba92-a3bf-4b90-991c-cbe1219b4f96"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#24386b99-fb19-4d73-b31f-ece62a0b819f');
+var element = $('#ee28ba92-a3bf-4b90-991c-cbe1219b4f96');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -9186,10 +9186,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="2912a4a3-32f9-4ec2-bbc1-8121a2504e24"&gt;&lt;/div&gt;
+&lt;div id="d3c7da12-0c2a-4a33-97cf-531203812272"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#2912a4a3-32f9-4ec2-bbc1-8121a2504e24');
+var element = $('#d3c7da12-0c2a-4a33-97cf-531203812272');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -10356,10 +10356,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="a8b8066e-22ce-4823-8a93-186a0febb877"&gt;&lt;/div&gt;
+&lt;div id="b32fb283-fc34-42dc-b416-92c4d447f63c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#a8b8066e-22ce-4823-8a93-186a0febb877');
+var element = $('#b32fb283-fc34-42dc-b416-92c4d447f63c');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -11526,10 +11526,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="c33d9211-3d73-44b9-a703-7e351bc3d86d"&gt;&lt;/div&gt;
+&lt;div id="85007f0b-1026-400f-bfb7-24754707ee82"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#c33d9211-3d73-44b9-a703-7e351bc3d86d');
+var element = $('#85007f0b-1026-400f-bfb7-24754707ee82');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }

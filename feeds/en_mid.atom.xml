@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Translation Corpora</title><link href="https://shaynemei.github.io/" rel="alternate"></link><link href="https://shaynemei.github.io/feeds/en_mid.atom.xml" rel="self"></link><id>https://shaynemei.github.io/</id><updated>2018-06-08T18:00:00+08:00</updated><entry><title>Sims 0.5 - 0.6</title><link href="https://shaynemei.github.io/mid30.html" rel="alternate"></link><published>2018-06-08T18:00:00+08:00</published><updated>2018-06-08T18:00:00+08:00</updated><author><name>Shayne</name></author><id>tag:shaynemei.github.io,2018-06-08:mid30.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area &gt; div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area &gt; div.highlight &gt; pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell &gt; div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;"The needs of friendship."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion. "I considered becoming a dog trainer. But I haven't raised a dog in this city yet," McCarthy said. "I also saw advertisements for many personal trainers. So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide. &lt;strong&gt;The needs of friendship.&lt;/strong&gt; The "deaf teacher" started operations with a one-person operation two years ago. However, the demand is high, resulting in McCarthy now has 35 patrons on the watch. People can choose routes and walking partners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The mystery goes up."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+法國總統艾曼紐．馬克宏上週前往華盛頓進行國是訪問期間，藉由和唐納．川普總統在白宮土地上種下一棵樹，慶祝美國與法國間的特殊關係。這棵橡樹苗現在不見了——至少是暫時的。白宮攝影師們注意到，這棵樹在種下後幾天消失了。謎團隨之而起。其實，來自法國貝洛森林——第一次世界大戰一場戰役美國將近兩千士兵葬身之處——的這棵樹，被種下不久後就被挖起來。根據美國與法國官員說法，它被隔離檢疫。問題出在：樹上的寄生蟲可能擴及白宮地產上的其他樹木。馬克宏辦公室一名官員說：「事實上，能夠在總統訪問當天種那棵樹，是川普給法國的特殊禮遇。」（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+French President Emmanuel Macron celebrated the special relationship between the United States and France during his state visit to Washington last week by planting a tree with President Donald Trump on the grounds of the White House.Now the oak sapling is gone - at least temporarily.White House photographers noticed the tree was gone days after it had been planted. Mystery ensued. In fact, the tree, from Belleau Wood in France where almost 2,000 American soldiers died in a World War One battle, had been dug up not long after it was planted. It was put in quarantine, according to U.S. and French officials. The problem：Parasites on the tree could spread to others on the White House property.“It was actually a special favor from Trump to France to be able to plant the tree the day of the president’s visit,” an official from Macron’s office said.（Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+French President Emmanuel. Mark Macro went to Washington last week to conduct a state visit with Donner. President Trump planted a tree on the White House land to celebrate the special relationship between the United States and France. The oak seedling is now missing - at least for the time being. White House photographers noticed that the tree disappeared a few days after it was planted. &lt;strong&gt;The mystery goes up.&lt;/strong&gt; In fact, the tree from France's Belo Forest - a battle in the First World War that killed nearly 2,000 soldiers in the United States - was dug shortly after being planted. According to US and French officials, it was quarantined. The problem lies in the fact that parasites in trees may spread to other trees on the White House estate. An official in Mark Hong’s office said: “Actually, the kind of tree that can be planted on the day of the president’s visit is a special courtesy to Trump by Trump.” (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Instead, the curator is Nanxi."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+古根漢博物館總館長回覆白宮的電子郵件很有禮貌，但立場也很堅定：該館無法應允出借一幅梵谷的畫作，讓川普總統與第一夫人梅蘭妮亞掛在私人起居區的要求。取而代之的是，館長南西．史貝克特寫道，另一件藝術創作倒是可以出借，但該作品與描繪一名戴黑帽的男子，沿著法國阿爾勒的小徑遛狗的1888年梵谷畫作「雪景」，毫無相似之處。館長的替代方案是：1個18K、功能完備的黃金馬桶—一件名為「美國」、被批評者形容為尖銳諷刺美國財富過剩的互動式作品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The emailed response from the Guggenheim’s chief curator to the White House was polite but firm：The museum could not accommodate a request to borrow a painting by Vincent van Gogh for President and Melania Trump’s private living quarters.Instead, wrote the curator, Nancy Spector, another piece was available, one that was nothing like "Landscape With Snow," the 1888 van Gogh rendering of a man in a black hat walking along a path in Arles, France, with his dog.The curator’s alternative： an 18-karat, fully functioning, solid gold toilet — an interactive work titled "America" that critics have described as pointed satire aimed at the excess of wealth in this country.For a year, the Guggenheim had exhibited "America" — the creation of contemporary artist Maurizio Cattelan — in a public restroom on the museum’s fifth floor for visitors to use.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The chief curator of the Guggenheim Museum responded politely to the White House’s e-mail, but his position was also firm: the museum could not obtain a copy of Van Gogh's paintings, allowing President Trump to hang in the private living area with First Lady Melanie. The request. &lt;strong&gt;Instead, the curator is Nanxi.&lt;/strong&gt; Shibike noted that another piece of art can be loaned, but the work is not similar to the depiction of a man wearing a black hat and painting the snow scene of the 1888 Van Gogh walking along the trail in Arles, Fran&lt;strong&gt;The place.&lt;/strong&gt;ace. The curator's alternative is: An 18K fully functional gold toilet - an interactive piece called "The United States" that critics describe as a sharp irony of American wealth.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The place."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+古根漢博物館總館長回覆白宮的電子郵件很有禮貌，但立場也很堅定：該館無法應允出借一幅梵谷的畫作，讓川普總統與第一夫人梅蘭妮亞掛在私人起居區的要求。取而代之的是，館長南西．史貝克特寫道，另一件藝術創作倒是可以出借，但該作品與描繪一名戴黑帽的男子，沿著法國阿爾勒的小徑遛狗的1888年梵谷畫作「雪景」，毫無相似之處。館長的替代方案是：1個18K、功能完備的黃金馬桶—一件名為「美國」、被批評者形容為尖銳諷刺美國財富過剩的互動式作品。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The emailed response from the Guggenheim’s chief curator to the White House was polite but firm：The museum could not accommodate a request to borrow a painting by Vincent van Gogh for President and Melania Trump’s private living quarters.Instead, wrote the curator, Nancy Spector, another piece was available, one that was nothing like "Landscape With Snow," the 1888 van Gogh rendering of a man in a black hat walking along a path in Arles, France, with his dog.The curator’s alternative： an 18-karat, fully functioning, solid gold toilet — an interactive work titled "America" that critics have described as pointed satire aimed at the excess of wealth in this country.For a year, the Guggenheim had exhibited "America" — the creation of contemporary artist Maurizio Cattelan — in a public restroom on the museum’s fifth floor for visitors to use.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The chief curator of the Guggenheim Museum responded politely to the White House’s e-mail, but his position was also firm: the museum could not obtain a copy of Van Gogh's paintings, allowing President Trump to hang in the private living area with First Lady Melanie. The request. &lt;strong&gt;Instead, the curator is Nanxi.&lt;/strong&gt; Shibike noted that another piece of art can be loaned, but the work is not similar to the depiction of a man wearing a black hat and painting the snow scene of the 1888 Van Gogh walking along the trail in Arles, Fran&lt;strong&gt;The place.&lt;/strong&gt;ace. The curator's alternative is: An 18K fully functional gold toilet - an interactive piece called "The United States" that critics describe as a sharp irony of American wealth.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Lebanese chef Allen."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+黎巴嫩裔廚師艾倫．吉姆20年前初到巴黎時，身無分文只能露宿街頭，而且法語一竅不通，找不到人生方向。從擔任一名洗碗工開始打拚事業的吉姆，憑藉備受讚揚的新餐廳，終於首度榮獲法國飲食界聖經「米其林」的一星評價。吉姆從小便著迷於食物，放學後看電視不是看卡通，而是烹飪節目。他在黎巴嫩服役時開始下廚，讓隊裡的上校印象深刻，還邀請他擔任私人廚師。然而，吉姆來到法國後不曾想過自己夠資格下廚。「我白天是建築工，晚上去送披薩和洗碗。有一晚，廚師切傷手進了醫院。雖然沒人問我，但我接手他的工作。當時有14桌客人，我就煮給他們吃，最後他們吃得很盡興。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+When Lebanese chef Alan Geaam first arrived in Paris two decades ago he found himself sleeping on the streets, lost and penniless with hardly a word of French.Geaam, who began his career as a dishwasher, finally received his first Michelin star from the French gastronomic bible for his acclaimed new restaurant.In the childhood Geaam had a fascination with food, watching cookery shows on television rather than cartoons after school. He started cooking while doing his national service in Lebanon, and the colonel of his regiment was so impressed he made him his personal chef.But Geaam never thought he would be able to cut the mustard in France. "I worked during the day as a construction worker and at night delivering pizzas and washing dishes. One night the cook cut his hand and had to go to hospital. No one asked me, but I just took over. There were 14 tables and I just feed the customers and at the end of the night they were delighted."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+&lt;strong&gt;Lebanese chef Allen.&lt;/strong&gt; When Jim arrived in Paris 20 years ago, he couldn't bear to live on the streets, and he couldn't find a way of life without knowing French. Jim, who started his career as a dish washer, finally won the star rating of the Michelin, the Bible of the French catering industry, for his first time in the highly acclaimed new restaurant. Jim is fascinated with food from pissing, watching TV after school is not about cartoons, but cooking shows. He started cooking when he was serving in Lebanon, so that the colonel's colonel was impressed and invited him to serve as a private chef. However, after Jim came to France, he never thought he was qualified enough to cook. “I was a construction worker during the day and I went to pizza and dishes in the evening. One night, the chef cut a hand into the hospital. Although no one asked me, I took over his job. At that time there were 14 guests and I cooked them. Finally, they enjoyed eating very much."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The melody will drive them crazy."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+取道那條行經荷蘭耶爾瑟姆村的公路，它將為你奏上一曲。由策略性鋪設的「減速標線」所製造出的歌曲，是讓橫越那段平坦風景的路程充滿生氣的方式，但這條新奇道路已讓當地人們興味索然，他們說持續嗡嗡作響的旋律要把他們逼瘋了。曲調會在汽車輪胎壓過標線時揚出，這些標線通常配置於主要道路旁，以警告駕駛他們正偏離道路。若以正確速度壓過標線——時速60公里上限——這條路會唱出荷蘭北部擁有不同語言和文化的菲士蘭地區省歌。但音量很大且聲音四傳，當地人說，這條聲音美妙的道路造成了讓他們夜間醒來的無盡雜音。菲士蘭當局已同意本週稍後拆掉這段減速標線。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Take the highway past the Dutch village of Jelsum and the road will play you a tune.Created by strategically laid "rumble strips" as a way of livening up journeys across the flat landscape, the novelty has worn thin for locals who say the constant droning melody is driving them mad.The tune is created when car tyres drive over the strips - which are usually deployed at the side of major roads to warn drivers they are straying off course.If hit at the correct speed - the 60 kph limit - the road will sing out the anthem of the Friesland region - a northern part of the Netherlands that has a distinct language and culture.But it is loud and the sound travels, and locals say the musical road had created a never-ending cacophony that keeps them awake at night.The Friesland authority has agreed to remove the rumble strips later this week. （Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Take the road that passes through the village of Jelsdam in the Netherlands and it will play for you. The songs created by the strategically placed “deceleration markings” are a lively way to get across the stretch of flat scenery. However, this novel road has caused local people to feel uncomfortable. They said that they continued to buzz. &lt;strong&gt;The melody will drive them crazy.&lt;/strong&gt; The tune will be raised as the car's tires pass over the markings, which are usually placed alongside the main road to warn them that they are deviating from the road. If you pass the mark at the correct speed – 60 km/h – this road will sing the provincial song of the Farsland region with different languages ​​and cultures in the north of the Netherlands. However, the volume was loud and the voices spread four times. Locals said that this wonderful road sounded endless noise that caused them to wake up at night. The authorities in the Philippines have agreed to remove this deceleration mark later this week. (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"I had doubts, but I'm not sure," she wrote."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+艾許莉．賈德與蜜拉．索維諾，已就導演彼得．傑克森說（前好萊塢王牌製片）哈維．溫斯坦將她們列入黑名單的評論，做出回應。傑克森在接受紐西蘭媒體Stuff訪問時表示，哈維與鮑伯．溫斯坦曾明確告訴他，不要雇用賈德或索維諾出演「魔戒」系列電影。「我記得（溫斯坦兄弟創辦的）米拉麥克斯影業告訴我們，與她們共事是夢魘，我們應不惜任何代價敬而遠之。（說這話的）時間點大概是1998年」，傑克森如此論及賈德與索維諾。「我現在才明白，這很可能是米拉麥克斯的全面抹黑運動。」索維諾週五推文表示，當她讀到這篇訪問時，她「突然哭了出來」。「這就是了，證實哈維．溫斯坦阻撓我的職涯，我曾懷疑過，但並不確定」，她寫道。「彼得．傑克森，謝謝你的坦誠。我只是很難過。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Ashley Judd and Mira Sorvino have responded to director Peter Jackson’s comments that Harvey Weinstein blacklisted them. Jackson said in an interview with New Zealand media outlet Stuff that Harvey and Bob Weinstein specifically told him not to hire Judd or Sorvino for the "Lord of the Rings" movies."I recall Miramax telling us they were a nightmare to work with and we should avoid them at all costs. This was probably in 1998," Jackson said of Judd and Sorvino. "I realize that this was very likely the Miramax smear campaign in full swing."On Friday, Sorvino tweeted that she "burst out crying" when she read the interview."There it is, confirmation that Harvey Weinstein derailed my career, something I suspected but was unsure," she wrote. "Thank you Peter Jackson for being honest. I’m just heartsick."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Alice. Judd and Mela. Sovino, already on the director Peter. Jackson said (previous Hollywood trump producer) Harvey. Weinstein added them to the blacklisted comments and responded. In an interview with New Zealand media Stuff, Jackson said Harvey and Bob. Weinstein explicitly told him not to hire Judd or Sovino to play the "Lord of the Rings" series. “I remember (the Weinstein brothers founded) Miramars Films tells us that working with them is a nightmare. We should stay away from it at any cost. (The time point for saying this is probably 1998),” says Jackson. Judd and Sovino. "I just now understand that this is probably the complete discrediting campaign of Miramax." Sovino said on Friday that when she read this interview, she "suddenly cried." "That's it, confirming that Harvey Weinstein obstructed my career. &lt;strong&gt;I had doubts, but I'm not sure," she wrote.&lt;/strong&gt; "Peter Jackson, thank you for your honesty. I'm just sad."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"He said: "There is no struggle between them."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+諺語有云「善有善報」—格林威牧師的例子就是明證。2016年他與家人在一家書店和一名遊民偶遇後，給予該男庇護。貝爾發斯特男子梅爾文．伯伊德之前陷入困境，但他說，他遇見格林威牧師一家，並開始與他們一起生活後，他的生命改變。而當伯伊德將他的一枚腎提供給需要器官移植的牧師後，他反過來也改變了一個生命。伯伊德說，街頭生活艱困，他無法信任任何人。在與牧師的兒子會面後，他將他帶進這個家，格林威家幫助伯伊德克服酗酒，重新開始。格林威牧師說：「我相信梅爾文的生命需要一個新的開始，我們想幫他。」此後，伯伊德與這個家度過每個日夜，也成為牧師伉儷的另一個兒子，他們已有4名子女。去年3月，他捐贈一枚腎臟，回報牧師的寬大慷慨。格林威牧師罹患腎衰竭，在手術前已洗腎近1年。這時伯伊德介入。他說：「這中間沒有掙扎。我相信註定要如此。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Here is a saying ’one good turn deserves another’ - and in Pastor John Greenaway’s case, it has proved to be true.He and his family gave shelter to a homeless man in 2016, after a chance meeting in a book shop. Belfast man Melvin Boyd had fallen on hard times, but said once he met Pastor Greenaway’s family and began living with them, his life changed. In turn, Boyd changed a life when he offered the pastor, who needed an organ transplant, one of his kidneys.Boyd said living on the streets was difficult and that he could not trust anyone. After meeting the pastor’s son, who brought him to the family home, the Greenaway family helped Boyd to beat his alcohol addiction and start over.Pastor Greenaway said： "I believed Melvin needed a new start in life, we wanted to help him" Since then, Boyd has stayed at the family home every day and night, and has become another son to the pastor, and his wife, who already have four children.Last March, he repaid the pastor for his generosity by donating one of his kidneys to him. Pastor Greenaway had kidney failure and had been on dialysis for almost a year before the operation. That’s when Mr Boyd stepped in. He said： "There was no agonising about it. I believe it was meant to be."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The proverbial "goodness and good news" of the proverb is evidenced by Pastor Greenwich's example. In 2016, he and his family gave the boy shelter after encountering a bookstore and a visitor. Belfast Men Melvin. Before Boyd was in trouble, he said that he had met Pastor Greenwich and started to live with them after his life changed. And when Boyd offered one of his kidneys to a priest who needed an organ transplant, he in turn changed one life. Boyd said that street life is difficult and he cannot trust anyone. After meeting with the priest's son, he brought him into the home. The Greenwich family helped Boyd overcome the alcoholism and start again. Pastor Greenwich said: "I believe that Melvin's life needs a new beginning. We want to help him." After this, Boyd spent every day and night and became another son of the pastor. They have There are 4 children. In March last year, he donated a kidney to report the generous generosity of the pastor. Pastor Greenwich suffers from kidney failure and has been washing kidneys for nearly a year before surgery. Boyd stepped in at this time. &lt;strong&gt;He said: "There is no struggle between them.&lt;/strong&gt; I believe it is doomed."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The circumpolar satellites (JPSS-1, JPSS-2, JPSS-3, and JPSS-4) of the "Unipolar Orbital Satellite System" are slightly different."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+JPSS-1正式以NOAA-20的身分與大家見面。不過，以JPSS-1為首的一系列衛星仍然稱為JPSS系列。依循往例，美國國家海洋暨大氣總署（NOAA）在策劃、設計與建造繞極衛星時，會分派字母（A、B、C…）區別每顆衛星。而當衛星發射升空抵達運行軌道時，會再分派數字編號。「聯合極軌衛星系統」的繞極衛星（JPSS-1、JPSS-2、JPSS-3、JPSS-4）有些許不同。它們在建造、測試與發射階段就被分派數字，而未使用字母。儘管如此，它們抵達運行軌道時，還是會成為NOAA-20、NOAA-21、NOAA-22、NOAA-23。為什麼要從「JPSS」改名為「NOAA」？根據NOAA文獻，改名可延續命名規則的一致性；除NOAA與美國國家航太總署（NASA）的「索米國家極軌夥伴關係」（Suomi NPP）衛星外，該機構自1978年以來，便遵循這項繞極衛星的命名規則。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+JPSS-1 officially became known as NOAA-20. However, the entire series of satellites, of which JPSS-1 is the first, is still referred to as the JPSS series.Traditionally, when NOAA’s polar-orbiting satellites were planned, designed and built, NOAA assigned each one with a letter (-A, -B, -C …). Then, when the satellite reached orbit after launch, it was given a number. The polar-orbiting satellites of the Joint Polar Satellite System (JPSS-1, -2, -3, and -4) are a bit different. Instead of letters, they are designated by numbers during their construction, testing, and launch phases. However, they still become NOAA-20, -21, -22, and -23 when they attain orbit. Why will their names change from "JPSS" to "NOAA"? According to NOAA documentation, the change is to maintain consistency in naming conventions that NOAA has followed since 1978 for polar-orbiting satellites, except for the NOAA-NASA Suomi National Polar-orbiting Partnership satellite (Suomi NPP).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+JPSS-1 officially met with everyone as NOAA-20. However, a series of satellites headed by JPSS-1 are still called the JPSS series. Following the example, the National Oceanic and Atmospheric Administration (NOAA) of the United States will assign letters (A, B, C...) to distinguish each satellite when planning, designing, and constructing the orbiting satellite. When the satellite launches into orbit and arrives at the orbit, it will be assigned a numerical number. &lt;strong&gt;The circumpolar satellites (JPSS-1, JPSS-2, JPSS-3, and JPSS-4) of the "Unipolar Orbital Satellite System" are slightly different.&lt;/strong&gt; They are assigned numbers during the construction, testing, and launch phases without the use of letters. However, when they reach the orbit, they will still become NOAA-20, NOAA-21, NOAA-22, NOAA-23. Why did you change from "JPSS" to "NOAA"? According to the NOAA literature, the rename can extend the consistency of the nomenclature; except for NOAA and the NASA satellite “Suomi NPP” satellite, the agency has been operating since 1978. Follow this orbiting satellite's naming convention.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The Australian spirit medium Jogina."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+美國總統川普近日為他任期的第一年劃下標記。而澳洲靈媒喬奇娜．沃克聳動地宣稱，今年將會有一場罷免。自詡為靈媒的喬奇娜聲稱，在美國聯邦調查局偵辦俄羅斯干預2016年美國大選之際，川普總統面臨「非常困難的」一年。她週一告訴《今日秀》節目：「我看見一場罷免。」「我看見球和鏈子環繞他的腳踝。我看到比爾．柯林頓總統的影子覆蓋著他。」她接著說道：「今年白宮上空有一朵烏雲…我感覺這是困難重重的一年。他可能躲過柯林頓經歷過的彈劾程序。但這足以拉他下台。」去年，喬奇娜曾成功預測，英國劍橋公爵威廉王子及其夫人凱特．密道頓將產下女嬰。她聲稱知道這對王室夫妻第三個小孩的性別與名字－名為維多利亞的女嬰。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+US President Donald Trump recently marked his first year in office. And Australian psychic Georgina Walker has sensationally claimed there will be an impeachment this year.The self-proclaimed psychic Georgina claimed President Trump faces a ’very rocky’ year ahead amid the FBI’s investigation into Russia’s meddling in the 2016 US election. ’I see an impeachment,’ she told the Today show on Monday.’I saw a ball and chain around his ankle. I saw President Bill Clinton’s shadow over him.’ She continued： ’There is a black cloud over the White House this year ... I feel it’s a rocky, rocky year. He may just escape through the impeachment proceedings as Clinton did. But there’s enough to take him down.’Last year Georgina successfully predicted the Duke and Duchess of Cambridge, Prince William and Kate would have a baby girl. She claimed to know the gender and name of the royal couple’s third child - a baby girl named Victoria.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+President Trump of the United States recently marked the first year of his tenure. &lt;strong&gt;The Australian spirit medium Jogina.&lt;/strong&gt; Walker screamed that there will be a recall this year. Qiao Jingna, a self-proclaimed psychics agent, claimed that President Trump faced a “very difficult” year when the FBI detected Russia’s intervention in the 2016 US presidential election. She told the "Show Today" show on Monday: "I saw a strike." "I saw the ball and chain around his ankle. I saw the shadow of President Bill Clinton covering him." She continued: "This year There was a dark cloud over the White House... I felt it was a difficult year. He might have escaped the impeachment process that Clinton had experienced. But it was enough to pull him out.” Last year, Joachina had successfully predicted that the Duke of Cambridge, the Duke of Cambridge, England And his wife, Kate. Milton will give birth to a baby girl. She claims to know the gender and name of the third child of the royal couple - a baby girl named Victoria.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Arianna, a laboratory visiting scholar."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+史上首次，美國研究人員在地球上見證奇特的「外星冰」形成。2017年7月8日，史丹福大學的研究人員實現此項創舉。冰凍的行星本體相撞時，被研究人員暱稱為「外星冰」的「冰七」，會在太空環境中自然生成。「該類型的水實驗是史上首創，讓我們得以目睹宇宙間其中一種最豐富的分子，從混沌到有序的一項重要轉變，」研究報告主要作者、史丹福大學地球暨能源與環境科學院極端環境實驗室訪問學者阿瑞安納．葛里森表示。研究員藉著「直線型加速器同調光源」的協助，使用最強的「Ｘ射線雷射」產生「冰七」。另一種稱作「Ｘ射線自由電子雷射」的儀器，則被用於發送壓縮的水分子。水分子轉變成冰七的過程僅耗時600萬分之1秒，相當於6奈秒。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+For the first time, strange alien ice has been seen forming on Earth by US researchers. This revelation was made by the researchers at Stanford University on July 8, 2017. The researchers dubbed the alien ice as ice seven, which forms naturally in the environment when planetary ice bodies collide."These experiments with water are the first of their kind, allowing us to witness a fundamental disorder-to-order transition in one of the most abundant molecules in the universe," said study lead author Arianna Gleason, a visiting scientist in the Extreme Environments Laboratory of Stanford’s School of Earth, Energy &amp;amp; Environmental Sciences.Most powerful X-ray lasers were used by the researchers to create ice VII with the help of Linac Coherent Light Source. Another instrument called X-ray Free Electron Laser is used to beam the compressed water. This transformation took place in just six billionths of a second, or nanoseconds during the procedure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+For the first time in history, American researchers witnessed the formation of a strange "exoplanet ice" on the earth. On July 8, 2017, researchers at Stanford University realized the initiative. When the frozen planets collided, the ice VII, which the researchers nicknamed "exoplanet ice," would naturally occur in the space environment. "This type of water experiment is the first in history to allow us to witness one of the most abundant molecules in the universe, an important shift from chaos to order," said the study's lead author, Stanford University’s Academy of Earth and Energy and Environment, and extreme environments. &lt;strong&gt;Arianna, a laboratory visiting scholar.&lt;/strong&gt; Grison said. The researcher uses the "straight accelerator co-modulation light source" to use the strongest "X-ray laser" to produce "Ice 7". Another instrument called "X-ray free electron laser" is used to send compressed water molecules. The process of turning water molecules into ice only takes about one-sixth of a six-millionth of a second, which is equivalent to 6 nanoseconds.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;""This is not true for fathers."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+天主教教宗方濟各要求改變主禱文中一句有關試探的譯文。既有的措辭「不要領我們進入試探」不是好譯文，因為上帝不會領人犯罪，他說。他的建議是改用「不要讓我們陷入試探」，他告訴義大利電視台。主禱文是基督教最知名的祈禱文。教宗說，法國的羅馬天主教會現在使用新語詞「不要讓我們陷入試探」作為替代，類似用語應該通行全球。「不要讓我陷入試探因為是我落入，而不是上帝將我丟入試探，然後看著我如何墮落，」他說。「做父親的不會這樣，他會立刻幫助你站起來。」該譯文出自第四世紀聖經拉丁譯本「拉丁通行本」，該譯本則是翻譯自古希臘語、希伯來語以及亞蘭語。自開始擔任教宗以來，方濟各不迴避爭議，並且正面處理一些議題。他之前表示，羅馬天主教會應該對其對待同性戀者的方式向他們致歉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Pope Francis has called for a translation of a phrase about temptation in the Lord’s Prayer to be changed. The current wording that says "lead us not into temptation" is not a good translation because God does not lead humans to sin, he said. His suggestion is to use "do not let us fall into temptation" instead, he told Italian TV.The Lord’s Prayer is the best-known prayer in Christianity. The pontiff said France’s Roman Catholic Church was now using the new wording "do not let us fall into temptation" as an alternative, and something similar should be used worldwide."Do not let me fall into temptation because it is I who fall, it is not God who throws me into temptation and then sees how I fell," he said. "A father does not do that, a father helps you to get up immediately."It is a translation from the Latin Vulgate, a 4th-Century Latin translation of the Bible, which itself was translated from ancient Greek, Hebrew and Aramaic.Since the beginning of his papacy, Pope Francis has not shied away from controversy and has tackled some issues head-on. He has previously said the Roman Catholic Church should apologise to gay people for the way it has treated them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Catholic pope Francis asked for a translation of the temptation in the Lord's Prayer. The existing wording “Do not lead us into temptation” is not a good translation because God does not lead people to sin, he said. His suggestion is to switch to "Do not let us fall into temptation," he told Italian television. The Lord's Prayer is the most famous prayer in Christianity. The Pope said that the French Roman Catholic Church now uses the new phrase “Don't let us fall into temptation” as an alternative, and similar phrases should be used globally. "Don't let me fall into temptation because I fell in, not God throwing me into temptation, and then watching how I fall," he said. &lt;strong&gt;"This is not true for fathers.&lt;/strong&gt; He will immediately help you to stand up." This translation comes from the Latin translation of the fourth century Bible, the "Latin Passage," which was translated from Ancient Greek, Hebrew, and Aramaic. Since his inception as a pope, Francis has not evaded disputes and has dealt with issues on the front. He said earlier that the Roman Catholic Church should apologize to them for the way they treat homosexuals.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"The boutique group, "Moëté."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+位於巴黎的羅浮宮博物館號召大眾幫忙把法國文藝復興裝飾藝術作品最偉大的其中一件帶回法國。這本祈禱書《時禱書》—以黃金裝訂且綴有翡翠、紅寶石及綠松石的手稿—過去隸屬於法國國王法蘭索瓦一世，他在16世紀把這件珍寶當禮物送給他的10歲外甥女。被專家視為大師之作，這本書目前為英國一位私人收藏家所有。羅浮宮說，他需要1000萬歐元買進該作品。精品集團「酩悅．軒尼詩－路易．威登集團」已承諾出一半錢。這間博物館希望透過群眾募資活動籌到剩餘款項。羅浮宮博物館館長讓－呂克．馬丁內茲說，《時禱書》會變成羅浮宮標誌性作品之一，與《蒙娜麗莎》齊名。（美聯社）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The Louvre museum in Paris is calling on the public to help bring back one of the French Renaissance’s greatest decorative works of art.The Book of Hours prayer book - a manuscript bound in gold and encrusted with emerald, ruby and turquoise gemstones - belonged to France’s King Francis I, who gifted the treasure to his 10-year-old niece during the 16th century.Deemed by experts to be a masterpiece, the book now belongs to a private collector in Britain.The Louvre says it needs 10 million euros to acquire the piece. Luxury group LVMH has pledged half of the money. The museum hopes to raise the rest through a crowdfunding campaign.Louvre President Jean-Luc Martinez says the Book of Hours would become one of the Louvre’s iconic pieces alongside the Mona Lisa. （AP）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The Louvre Museum in Paris calls on the public to help bring France, one of the greatest Renaissance decorative works of art, back to France. The prayer book “The Hours of Prayer”—a manuscript bound with gold and embellished with emeralds, rubies, and turquoises—was once affiliated with the French king, François I, who gave this treasure as a gift in the 16th century. 10 years old prostitutes. Being considered a masterpiece by experts, this book is currently owned by a private British collector. The Louvre said that he needs 10 million euros to buy the work. &lt;strong&gt;The boutique group, "Moëté.&lt;/strong&gt; Hennessy-Louis Vuitton Group," has promised half the money. The museum hopes to raise the remaining funds through crowdfunding activiti&lt;strong&gt;Louvre Museum curator Jean-Luc.&lt;/strong&gt;Luc. Martinez said that "The Prayer of the Hours" will become one of the iconic works of the Louvre, which is in the same name as "Mona Lisa." (Associated Press)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Louvre Museum curator Jean-Luc."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+位於巴黎的羅浮宮博物館號召大眾幫忙把法國文藝復興裝飾藝術作品最偉大的其中一件帶回法國。這本祈禱書《時禱書》—以黃金裝訂且綴有翡翠、紅寶石及綠松石的手稿—過去隸屬於法國國王法蘭索瓦一世，他在16世紀把這件珍寶當禮物送給他的10歲外甥女。被專家視為大師之作，這本書目前為英國一位私人收藏家所有。羅浮宮說，他需要1000萬歐元買進該作品。精品集團「酩悅．軒尼詩－路易．威登集團」已承諾出一半錢。這間博物館希望透過群眾募資活動籌到剩餘款項。羅浮宮博物館館長讓－呂克．馬丁內茲說，《時禱書》會變成羅浮宮標誌性作品之一，與《蒙娜麗莎》齊名。（美聯社）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The Louvre museum in Paris is calling on the public to help bring back one of the French Renaissance’s greatest decorative works of art.The Book of Hours prayer book - a manuscript bound in gold and encrusted with emerald, ruby and turquoise gemstones - belonged to France’s King Francis I, who gifted the treasure to his 10-year-old niece during the 16th century.Deemed by experts to be a masterpiece, the book now belongs to a private collector in Britain.The Louvre says it needs 10 million euros to acquire the piece. Luxury group LVMH has pledged half of the money. The museum hopes to raise the rest through a crowdfunding campaign.Louvre President Jean-Luc Martinez says the Book of Hours would become one of the Louvre’s iconic pieces alongside the Mona Lisa. （AP）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The Louvre Museum in Paris calls on the public to help bring France, one of the greatest Renaissance decorative works of art, back to France. The prayer book “The Hours of Prayer”—a manuscript bound with gold and embellished with emeralds, rubies, and turquoises—was once affiliated with the French king, François I, who gave this treasure as a gift in the 16th century. 10 years old prostitutes. Being considered a masterpiece by experts, this book is currently owned by a private British collector. The Louvre said that he needs 10 million euros to buy the work. &lt;strong&gt;The boutique group, "Moëté.&lt;/strong&gt; Hennessy-Louis Vuitton Group," has promised half the money. The museum hopes to raise the remaining funds through crowdfunding activiti&lt;strong&gt;Louvre Museum curator Jean-Luc.&lt;/strong&gt;Luc. Martinez said that "The Prayer of the Hours" will become one of the iconic works of the Louvre, which is in the same name as "Mona Lisa." (Associated Press)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Some officials are quite supportive of me."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+英國西約克郡Currys PC World商場的20歲男店員史考特．拉普蘭奇表示，他被要求上班時必須卸妝，女性同事卻可以「化比他還濃的妝」，認定這種要求涉嫌歧視。滿肚子氣的拉普蘭奇在「臉書」分享他的不屑：「我已經在這家店工作8或9個月，從來沒因為化妝受到訓斥。事實上完全相反，有些幹部相當支持我，還稱讚我的妝容。」「然而，最近我們有了新規定。這週前幾天，我容光煥發地去上班，卻被告知必須卸妝，我整個嚇傻…在我拒絕後，又被要求不要小題大作。有沒有搞錯啊？我覺得這根本就是歧視。」他又說：「現在都2017年了，整個夏天我們都在歌頌『彩虹驕傲』，而且我根本超正，接受吧！不管出於什麼理由，公然歧視就是不對。」商場發言人澄清：「這是地方分店的一樁誤會，內部正在處理中。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+20-year-old Scott Laplanche, a male shop worker at Currys PC World, West Yorkshire, says that he was asked to remove his make-up at work, and believes the request was discriminatory given that his female colleagues "wear more make-up than he does.""I’ve worked in the shop for 8 or 9 months and have never been reprimanded on my makeup before. Actually quite the opposite, some managers have supported me and complimented my makeup." Maddened Laplanche shared his disdain on Facebook."However recently we’ve had to go under new management. Earlier on in the week I came to work as my fabulous self and was told to take off my makeup. I was quite shocked… After I refused, I’m getting told to tone it down. Excuse me? I felt this was discriminatory.""This is 2017, a time of year where we celebrate ’Pride’ throughout summer and I look hella hot so deal with it! It’s wrong to blatantly discriminate for whatever reason that may be." he added.A spokesman of the mall clarified： "This was a local store level misunderstanding that is being dealt with internally."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Sir Scott, a 20-year-old male shopkeeper at Currys PC World Mall in West Yorkshire, UK. Laplanch said that he was asked to remove makeup at work, but female colleagues could "make makeup stronger than him" and that the request was suspected of discrimination. The full-hearted Laplanch shares his disdain on Facebook: "I have been working in this store for 8 or 9 months and I have never been reprimanded for makeup. In fact, the opposite is true. &lt;strong&gt;Some officials are quite supportive of me.&lt;/strong&gt; I praised my makeup." "However, recently we have new regulations. I had to go to work radiantly a few days ago this week and was told that I had to remove makeup. I was scared... I refused to be small after I refused. There is nothing wrong with this question. I think this is discrimination at all.” He added: “Now it's all 2017. We’re praising Rainbow Pride throughout the summer, and I’m super-positive and accept it! For whatever reason, it is not right to openly discriminate,” a spokesperson for the mall clarified. “This is a misunderstanding at the local branch. It is being processed internally.”&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Fallon's Tonight Show."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+週四出爐的2018年版創紀錄聖典將榮耀歸給4名紐約市民，包括製造全球最寬的假髮、在蛋糕上點亮最多根蠟燭、最龐大的奶油雕塑，以及最昂貴的三明治。62歲的蘭迪．卡菲古那，是這頂7呎4吋寬、又大又重的假髮的主導者。女星茱兒芭莉摩1月27日配戴這頂假髮演出吉米．法隆的《今夜秀》。「吉米想要打破紀錄，他為此到訪並挑了一樣他所能找到最怪異的物品」，在（曼哈頓）中城經營道具店的卡菲古那表示。最昂貴的烤起司口味三明治每塊要價214美元，能在林諾克斯山的「奇緣3」餐廳品嚐到。它由23克拉可食用金箔、一款罕見的義大利卡丘卡巴羅起司組成，並厚厚地塗上白松露奶油。最龐大的奶油雕塑刻出巴黎天際線，重量近2370磅，由曼哈頓的美國拉克塔利斯集團製作。皇后區居民阿司鉈．弗曼也坐擁一項金氏世界紀錄之最，在一塊52呎乘17呎的蛋糕上點亮7萬2585根蠟燭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The 2018 edition of the record-beater bible coming out Thursday will pay tribute to four Gothamites for creating the world’s widest wig; the most lit candles on a cake; the largest butter sculpture, and most expensive sandwich.Randy Carfagno, 62, was the mastermind behind the massive 7-foot-4-inch wide wig worn by actress Drew Barrymore on the set of Jimmy Fallon’s “The Tonight Show” on Jan. 27. “Jimmy wanted to beat a record, so he went through and picked one of the weirdest things he could find,” said Carfagno, who runs a prop shop in Midtown.The most expensive sandwich — a $214 grilled cheese — can be savored at Lenox Hill’s Serendity 3. Its made with 23-carat edible gold flakes, a rare Italian caciocavallo cheese and slathered with white truffle butter.The largest butter sculpture of the Paris skyline weighed in at 2,370 pounds, and was made by Manhattan’s Lactalis American Group. Queens resident Ashrita Furman, who also holds the most Guinness World Records, lit 72,585 candles on a cake spanning 52-by-17 feet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+The 2018 edition of the Holy Scriptures released on Thursday gave glory to four New Yorkers, including the world's widest wig, the most candles on the cake, the largest cream sculpture, and the most expensive sandwiches. Randy, 62 years old. Kafeiguna is the leader of this 7-4 inch wide, big and heavy wig. The actress Nancy Barrymore wears this wig to perform Jimmy on January 27. &lt;strong&gt;Fallon's Tonight Show.&lt;/strong&gt; "Jimmy wanted to break the record. He visited and picked the most weird things he could find," said Garfielda, who runs a prop shop in Midtown Manhattan. The most expensive roasted cheese taste sandwiches cost $214 each and can be tasted at the "Rocky 3" restaurant in Lynokes Hill. It consists of 23 carats of edible gold foil, a rare Italian kaccicarrot, and thickly coated with white truffle cream. The largest cream sculpture engraves the Paris skyline and weighs nearly 2,370 pounds. It was produced by Manhattan’s Laktaris Group. Queens District residents Assi. Furman also sits on top of a golden world record, lighting up 72,585 candles on a 52-inch by 17-inch cake.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Michao, the wine leader."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+配有高科技感測器的小龍蝦，被捷克一家釀酒廠徵召來維持他們所追求之供水系統潔淨。位於南波希米亞州的普羅蒂溫釀酒廠，把這些快速因應水生環境變化的生物放進大型魚缸裡，魚缸抽的水和酒廠用的水來自相同天然泉源。這些動物裝有監測牠們心跳與動作的遠紅外線生物感測器。數據由電腦分析，該動物體內或行為的任何變化，象徵了缸中水質純淨度的變化。釀酒領班米恰．沃爾德日赫告訴路透：「當3隻以上小龍蝦移動或脈動改變，我們就知道水質參數有異。我們可以迅速反應，因為我們3分鐘內就知道結果。」科學家運用諸水域天然原生小龍蝦的數量，做為研究水污染的途徑，有效地把這種動物轉化為生物感測器。（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Crayfish equipped with high-tech sensors have been drafted in by a Czech brewery in its quest to keep their water supply pure.The Protivin brewery in South Bohemia has placed the creatures, which react quickly to changes in their aquatic environment, in fish tanks through which is pumped water from the same natural source that the brewery uses.The animals are fitted with infrared bio-sensors which monitor their heartbeat and movement. Data is analyzed by a computer, and any changes in the animals’ body or behavior flags a change in the purity levels of the water in its tank."When three or more crayfish are moving or change their pulse activity, we know that the water parameters have changed. We can react quickly because we have the result within three minutes," head brewer Michal Voldrich told Reuters.Scientists use naturally occurring crayfish populations in bodies of water as a method of studying water pollution, effectively turning the animals into bio-sensors.（Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Crayfish equipped with high-tech sensors were recruited by a Czech brewery to maintain their clean water system. The Protivvian brewery in South Bohemian Region places these fast-changing organisms in large aquatic tanks. The water from the aquarium and the wine used in the winery come from the same natural source. These animals are equipped with far-infrared biosensors that monitor their heartbeat and movement. The data was analyzed by a computer. Any changes in the animal's body or behavior represented a change in the purity of the water in the tank. &lt;strong&gt;Michao, the wine leader.&lt;/strong&gt; Waldhicher told Reuters: "When more than 3 crayfish move or pulse changes, we know that the water quality parameters are different. We can respond quickly because we know the results in 3 minutes." Scientists use natural waters of various waters The number of lobsters, as a means of studying water pollution, effectively converted this animal into a biosensor. (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"And suppress them."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+首爾檢方週四表示，他們已針對保守派的李明博前政府時期之國家情報院涉嫌編造一份非親政府的藝文人士黑名單，並給予或企圖給予各種不平等待遇，展開調查。首爾中央區地檢署指出，其已接到國情院一個內部改革專案小組請求調查涉及本案的兩位前該院最高官員，他們涉嫌違反該院必須保持政治中立與禁止濫權的法律。該國情院專案小組發現，其前院長元世勳和另一名高階官員列出一份共約82位演員、電影導演、專欄作家及歌手的觀察名單，由於這些人士對李明博政府持批判立場而打壓他們。這兩名前國情院官員涉嫌教唆部屬施壓政府機構對於與那些藝文人士簽約的娛樂機構進行查稅。這兩人也對公共廣播機構運用權勢，以便將這些人士排除在南韓主流媒體之外。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Seoul prosecutors said Thursday they have launched an investigation into allegations that the National Intelligence Service under the former conservative Lee Myung-bak administration compiled a blacklist of artists and cultural figures unfriendly to the government and gave or attempted to give them various disadvantages.The Seoul Central District Prosecutors’ Office said it has been asked by an NIS internal reform task force to look into suspicions that two top ex-NIS officials are involved in the scheme, in violation of the agency’s laws stipulating political neutrality and prohibiting abuse of power.The NIS task force has found that its former chief Won Sei-hoon and another ranking official created a watch list of some 82 actors, film directors, columnists and singers to persecute them for their critical stance toward the Lee administration.The two former NIS officials allegedly had their subordinates exert pressure on government agencies to conduct tax probes on entertainment agencies that had contracts with those artists. They also peddled influence on public broadcasters to exclude them from the mainstream media.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Seoul prosecutors said on Thursday that they had filed a blacklist of non-pro-government arts writers against the conservative National Intelligence Service during the former government of Lee Myung-bak, and gave or attempted to give unequal treatment and investigate. The Seoul Central District Prosecutor's Office pointed out that it had received an internal reform project team from the National Institute of Circumstances requesting the investigation of the top two former Supreme Court officials involved in the case. They allegedly violated the law that the hospital must maintain political neutrality and prohibit abuse of power. The country team’s ad hoc group found that its former dean Yuan Shixun and another high-ranking official listed a list of about 82 actors, film directors, columnists, and singers, who were critical of Lee’s government. &lt;strong&gt;And suppress them.&lt;/strong&gt; The two former officials of the State Department of the People's Republic of China have alleged that the Afghan ministry pressures government agencies to conduct tax inspections on entertainment institutions contracted by those artists. The two men also used power in public broadcasters in order to exclude these individuals from mainstream media in South Korea.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Its radius is 8.4% of the Sun and its mass is 8.1% of the Sun."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+天文學家們已辨識出迄今在宇宙中發現的最小恆星，說它可幫助搜尋可能具有讓生命存在的潛力、類似地球的行星。這顆恆星位於600光年外，只比土星大一點。土星的半徑約是地球的9.5倍，而恆星通常遠大於行星。這顆命名為「EBLM J0555-57Ab」的新辨識恆星，引力比地球強約300倍。它的半徑是太陽的8.4%，質量則為太陽的8.1%。這顆新辨識的恆星，似乎是恆星可能形成的最小尺寸。恆星需要一定程度的質量，核內才有空間發生氫聚變。若這顆恆星再小一點，似乎就不具有足以維持核融合的質量。研究報告的主要作者、劍橋大學學者亞歷山大．勃第雀爾說，它會因而變成一顆棕矮星，（此類）天體比巨行星大，但比最小的恆星還要小，會放射紅外輻射。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Astronomers have identified the smallest star ever discovered in the Universe and said that it could help in the search for Earth-like planets that may have the potential for life.The star is located 600 light years away and is just larger than Saturn. The radius of Saturn is around 9.5 times that of Earth, but stars are generally much larger than planets.Named EBLM J0555-57Ab, the newly-identified star has a gravitational pull around 300 times stronger than that on Earth. Its radius is 8.4 percent and mass 8.1 percent the size of that of the Sun.It is likely that the newly-identified star is as small as a star can possibly become. Stars require a certain level of mass to enable hydrogen fusion to take place at their cores. Were the star in question to be any smaller, it would not likely have the requisite mass to sustain the nuclear fusion. It would have instead become a brown dwarf, celestial objects that are bigger than giant planets but smaller than the smallest stars and emit infrared radiation, said Alexander Boetticher of the University of Cambridge, the lead author of the study.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Astronomers have identified the smallest star ever discovered in the Universe, saying that it can help search for planets that may have the potential to make life exist, Earth-like planets. This star is located 600 light years away, only a little larger than Saturn. Saturn's radius is about 9.5 times that of Earth, and stars are usually much larger than planets. This newly identified star named "EBLM J0555-57Ab" is about 300 times more powerful than Earth. &lt;strong&gt;Its radius is 8.4% of the Sun and its mass is 8.1% of the Sun.&lt;/strong&gt; This newly recognized star appears to be the smallest possible size for a star. Stars need a certain amount of quality and there is room for hydrogen fusion in the nucleus. If the star is smaller, it seems that it does not have enough quality to maintain nuclear fusion. The main author of the study, Cambridge University scholar Alexander. Bodnil said that it will become a brown dwarf, and the celestial body is bigger than the giant planet, but smaller than the smallest star, it will emit infrared radiation.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Snacks keeper Nicholas."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+布魯塞爾一家新創公司，藉著推出脆口的蟋蟀當做肉類以外的蛋白質另類選擇，希望在比利時掀起一波料理革命。對生態友好的「小食」說，蟋蟀可以用各種不同口味乾吃，例如蒜頭或番茄，或是化為粉狀，相較於一些畜牧業，都是對環境更友善。「小食」蟋蟀飼養員尼可拉斯．維安納說：「拿牛當例子，要取得等量的蛋白質，蟋蟀所需食物少了25倍，用水少了300倍，而牠們製造的溫室氣體少了60倍。」當吃蟲在一些國家司空見慣，例如中國、迦納、墨西哥和泰國，布魯塞爾居民對於把蟋蟀放進菜單，則顯得躊躇猶豫。漫步在布魯塞爾市中心，埃弗奇米亞．樂勒卡斯拒絕一份送上門的蟋蟀零食，她說：「不，我不要吃那個。」「不、不，那看來好可怕，不、不……不。」（路透）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A Brussels start-up is hoping to stir a culinary revolution in Belgium by pushing crunchy crickets as a protein alternative to meat.Eco-friendly ’Little Food’ said its crickets, which can be eaten dried, in different flavors such as garlic or tomato, or turned into flour, were also friendlier on the environment."For the same amount of protein as a cow for instance, they （crickets） need 25 times less food, they need 300 times less water, and they produce 60 times less greenhouse gases," Little Food cricket breeder Nikolaas Viaene said.While eating insects is common practice in a number of countries, such as China, Ghana, Mexico and Thailand, Brussels residents seemed unsure about putting crickets on the menu.Strolling in downtown Brussels, Efthimia Lelecas declined the offer of a cricket snack： "No, I’m not eating that," she said. "No, no, that looks awful, no, no...no."（Reuters）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A start-up company in Brussels hopes to set off a wave of cuisine revolution in Belgium by launching the crispy oyster meat as an alternative to meat. For eco-friendly “snacks”, they can be eaten in a variety of different flavors, such as garlic or tomato, or reduced to powder, which is more environmentally friendly than some animal husbandry. &lt;strong&gt;Snacks keeper Nicholas.&lt;/strong&gt; Wei Anna said: “If you take cattle as an example, to obtain equal amounts of protein, you will need 25 times less food and 300 times less water. They produce 60 times less greenhouse gases.” When eating worms in some countries Commonplace, such as China, Ghana, Mexico, and Thailand, Brussels residents are hesitant to put crickets into the menu. Stroll in downtown Brussels, Evergly. Le Lekas ​​refused a snack that was delivered to the door. She said, "No, I don't want to eat that." "No, no, it looks terrible, no, no... no." (Reuters)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Cynthia” from Scotland to this forestry community."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+一個加拿大小鎮希望拜一位屋主的巨大杜鵑花在網路爆紅之賜，成為觀光勝地。這株位於卑詩省雷狄史密斯鎮、7.6公尺×9.1公尺大小的花叢正值盛開期。這棵115年的植物奇觀—以「辛西亞夫人」之名廣為人知—在未來幾週將綻放4000多朵花。杜鵑花常被搞混為喬木，但其實是灌木。73歲的當地文史學家詹森說服該鎮商會，將此「自然奇景」推廣為觀光景點。「它的大小如小屋，且是鮮艷的粉紅色彩，」詹森說。不開花時，他說它「就是一株美好、碩大的綠灌木」。他表示，看到這株杜鵑花吸引網路留言時，他領悟到「我們應善加利用它」。這座有8100名居民的城鎮對該巨大灌木已習以為常，該樹約自1904年以來便存在於雷狄史密斯。該屋的第一批屋主據說搭乘大帆船，將「辛西亞女士」從蘇格蘭帶到這個林業社區。由於是辛西亞混種杜鵑，因此雷狄史密斯的杜鵑花以此為名。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A small Canadian town hopes to become a tourist attraction thanks to the internet fame of a homeowner’s giant rhododendron. The 7.6m by 9.1m bush in Ladysmith, British Columbia, is now in peak bloom. The 115-year-old botanical wonder - known as Lady Cynthia - will carry about 4,000 spring blossoms over the next couple of weeks. The rhododendron is often confused for a tree but is actually a shrub.The local historian Rob Johnson, 73, has convinced the town’s Chamber of Commerce to promote "the marvel of nature" as an attraction. "It’s the size of a small house and is a vibrant pink colour," said Johnson. When it is not in bloom, he says it is "just a nice, big, green shrub". He said he realised "we should capitalise on this" when he saw the rhododendron attracting comment online.Local residents in the town of 8,100 have grown accustomed to the huge shrub, which has been in Ladysmith since around 1904. The first owners of the property are said to have brought Lady Cynthia to the forestry community on a sailing ship from Scotland. Ladysmith’s rhododendron is so named because it is a Cynthia hybrid of the plant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A small Canadian town hopes to worship the huge azaleas of a homeowner and become a tourist attraction. This 7.6-meter by 9.1-meter-sized flower cluster is in full bloom in the town of Ladysmith, BC. This 115-year-old plant spectacle, widely known in the name of “Mrs. Cynthia”, will have more than 4,000 flowers in bloom in the coming weeks. Azaleas are often confused with trees, but they are shrubs. The 73-year-old local historian Jensen persuaded the town’s chamber of commerce to promote this “natural wonder” as a tourist attraction. "It's the size of a hut, and it's a bright pink color," says Jensen. When he did not bloom, he said it "is a beautiful, large green shrub." He said that when he saw the azalea attracted online messages, he realized that "we should make good use of it." This town of 8,100 inhabitants has become accustomed to the huge shrub that has existed since about 1904 in Lady Reddy Smith. The first homeowners in the estate reportedly took a galleon and brought “Ms. &lt;strong&gt;Cynthia” from Scotland to this forestry community.&lt;/strong&gt; Due to the mixed cuckoo in Cynthia, Radish Smith’s azaleas used this name.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Buffett is a well-known fan of Cherry Coke, and his Berkshire."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+在中國，可口可樂正在它的罐上主打一款不一樣的名人：華倫．巴菲特（譯註：可口可樂公司翻譯為沃倫．巴菲特）。這家亞特蘭大的公司說，為了在中國發表櫻桃可樂，它決定拿這位億萬富豪投資人畫像當罐子主角。巴菲特是廣為人知的櫻桃可樂迷，而他的伯克夏．海瑟威公司是可口可樂最大單一股東。「中國市場研究集團」創辦人雷小山說，企業領導者在中國往往擁有「規模超乎尋常」的擁護者，部分甚至比運動明星還多。雷小山說，巴菲特在中國也被視為「一個不貪、務實」的人。可口可樂3月10日開始在中國販售櫻桃可樂。特別版巴菲特罐將在限定期間上架。（美聯社）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Coca-Cola is featuring a different type of celebrity on its cans in China：Warren Buffett.The Atlanta company says it decided to feature a drawing of the billionaire investor on cans for the launch of Cherry Coke in the country. Buffett is a known fan of Cherry Coke, and his Berkshire Hathaway is Coke’s largest single shareholder.Shaun Rein, founder of the China Market Research Group, said business leaders in China tend to have an "outsized" following, in some case more than sports stars. Buffett is also seen as "a non-corrupt, down-to-earth" person in the country, Rein said.Coke began selling Cherry Coke in China on March 10. The special edition Buffett cans will remain on shelves for a limited time. （AP）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+In China, Coca-Cola is playing a different celebrity on its tank: Warren. Buffett (translation: Coca-Cola company translated Warren Buffett). The Atlanta company said that in order to publish Coke in China, it decided to use the portrait of a billionaire investor as a protagonist. &lt;strong&gt;Buffett is a well-known fan of Cherry Coke, and his Berkshire.&lt;/strong&gt; Hathaway is the largest single shareholder of Coca-Cola. Lei Xiaoshan, founder of "China Market Research Group," said that business leaders often have "extraordinary" supporters in China, some even more than sports stars. Lei Xiaoshan said that Buffett is also regarded in China as “one who is not greedy and pragmatic”. Coca-Cola began selling cherry cola in China on March 10. The special edition Buffett cans will be racked up for a limited period. (Associated Press)&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"There are all over the country."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+在週三晚間本季首場主場比賽開打前，（美國俄亥俄州）肯特州立大學籃球隊以自己的方式重新定義賽前唱國歌儀式：每名球員走入觀眾席邀請一名跟自己不同種族的球迷到球場上與之並肩而立。「我們的球員得鼓起勇氣，才能做這樣的表態，我深信這展現出我們校園社區的團結，」教練羅伯‧山德拉夫告訴美聯社。「有很多人在抗議國歌、大選或宗教，全國各地都有，而我們的球員也想表態。對我而言，這是很正面的表態，希望能獲得所有人的認同。」根據校方發言人尤金‧坎奈爾，此舉非常奏效，因為觀眾完全沒料到。「這很酷，因為我不覺得觀眾席上有人知道將發生什麼事。沒有球迷事先知道。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Before its first home game of the season tipped off on Wednesday night, the Kent State men’s basketball put its own spin on the national anthem: Each player went up into the crowd and invited a fan of a different race down to the court to stand with them."It takes courage for our players to make a statement like this, and I believe it is a representation of the unity in our campus community," Coach Rob Senderoff told the Associated Press. "There’s a lot of people protesting the national anthem, or protesting the election, or religion. You see all of that nationally, and our guys wanted to make a statement. To me, it was a tremendously positive statement. Hopefully everybody can recognize that."According to school spokesman Eugene Canal, the gesture was so effective because no one in the crowd expected it."It was cool because I don’t think anyone in the crowd knew what was going on. None of the fans knew about it beforehand."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Before the start of the first home game of the season on Wednesday night, the Kent State University basketball team redefines the pre-competition singing national anthem in their own way: Each player enters the auditorium and invites a different race from himself. Fans stand side by side with the court. "Our players must have the courage to make such a statement. I am convinced that this shows the unity of our campus community," coach Robert Hillradoff told the Associated Press. "A lot of people are protesting the national anthem, the general election or religion. &lt;strong&gt;There are all over the country.&lt;/strong&gt; Our players also want to make a statement. To me, this is a very positive statement and I hope to get everyone's approval." According to the school spokesman Eugene Cannell, this move was very effective because the audience did not expect it. "It's cool because I don't think anyone in the audience knows what will happen. No fans know in advance."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Collecting frankincense is extremely risky."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+在可追溯至聖經時代的傳統，「非洲之角」索馬利蘭崎嶇的馬多山脈間，男人黎明起身，攀爬岩塊，尋找野生乳香樹的珍貴露頭。經乾燥並點燃，乳香樹汁液產生的芬芳香氣，全世界教堂、清真寺都因此薰香。乳香，與黃金、沒藥，是三位王者給耶穌誕生之福音所帶來的禮物。然而，現在地球最後一片完整野生乳香樹林，正因近年全球追求精油導致的價格飆升而瀕危。過度採收讓乳香樹的死亡速度更甚於再生，古老的樹脂貿易因此陷入危境。採集乳香極具風險。乳香樹能在懸崖邊緣長到很高，淺淺的根部緊抓著有毒蛇蜿蜒爬行在上的裸岩。採集者經常失足，沿峽谷山壁滾跌下去。收集到樹脂後，婦女依樹脂塊的顏色、尺寸排序。各類樹脂運至葉門、沙烏地阿拉伯，最終到歐洲與美洲。在製香之外，乳香膠可提煉製作香水的用油、護膚乳液、藥品及口香糖。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+In a tradition dating to Biblical times, men rise at dawn in the rugged Cal Madow mountains of Somaliland in the Horn of Africa to scale rocky outcrops in search of the prized sap of wild frankincense trees.When dried and burned, the sap produces a fragrant smoke which perfumes churches and mosques around the world. Frankincense, along with gold and myrrh, was brought by the Three Kings as gifts in the Gospel account of the birth of Jesus.But now these last intact wild frankincense forests on Earth are under threat as prices have shot up in recent years with the global appetite for essential oils. Overharvesting has led to the trees dying off faster than they can replenish, putting the ancient resin trade at risk.Harvesting frankincense is risky. The trees can grow high on cliff edges, shallow roots gripping bare rock slithering with venomous snakes. Harvesters often slip and tumble down canyon walls.Once the resin is collected, women sort the chunks by color and size. The various classes of resin are shipped to Yemen, Saudi Arabia and eventually Europe and America. Besides its use as incense, frankincense gum is distilled into oil for use in perfumes, skin lotions, medicine and chewing gum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+In the tradition dating back to the biblical age, the “horn of Africa” in the rugged Madonna mountains of Somalialand, the men got up at dawn and climbed the rock to find the precious outcrop of the wild mastic trees. After drying and igniting, the fragrant odor produced by the frankincense tree sap, the churches and mosques all over the world are scented. The frankincense, with gold and myrrh, is the gift of the three kings to the gospel of the birth of Jesus. However, the last complete wild frankincense grove in the earth is currently endangered by the soaring price of global essential oils in recent years. Over-harvesting causes the death rate of Frankincense trees to grow even faster than regeneration, and the ancient resin trade is in danger. &lt;strong&gt;Collecting frankincense is extremely risky.&lt;/strong&gt; The frankincense tree grows very high on the edge of the cliff, and the shallow roots cling to the bare rock that the viper snake crawls on. Collectors often slipped and fell down the canyon wall. After the resin was collected, the women were sorted by the color and size of the resin block. All types of resins were shipped to Yemen, Saudi Arabia and eventually to Europe and the Americas. In addition to making incense, mastic gum can be used to make oils, skin care lotions, medicines and chewing gums for perfumes.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;""The more creative they (the triplets) have become, the more creative I will be."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+來自美國俄亥俄州的1名老爸在「創意育兒101」課程中得優等。傑克．懷特想出簡單解決之道，阻止他2歲大的三胞胎小孩在汽車後座爭吵。他（在汽車後座）放了2片充當隔板的發泡板。懷特說，他只花了5分鐘裝設隔板。完工後，懷特就帶著三胞胎開車上路，在途中經過一家餐廳的得來速通道。「隨著他們（三胞胎）變得愈聰明，我就（得）愈有創意。總有一天他們會比我還聰明。我希望那天不要太快來到，」懷特說。上週，這張跟他的三胞胎與汽車後座隔板的自拍照，被全球各地的部落格與報紙分享。懷特在他的臉書專頁上記錄三胞胎史黛拉、裘德與塞維爾的冒險活動，並在專頁上提供他對狂野的育兒世界的建言。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A father from Ohio gets an A in Creative Parenting 101.Jake White came up with a simple solution to keep his 2-year-old triplets from fighting in the backseat.He placed a couple of pieces of foam core to act as dividers.White says the foam core dividers only took him about five minutes to install. After completing the installation, White took his triplets on a drive, passing through a restaurant drive-through on the way. "As they get smarter, I get more creative. One day they will outsmart me. I hope that day is not soon," White says.In the last week, this selfie with his triplets and backseat dividers has been shared by blogs and newspapers around the world.White documents the adventures of triplets Stella, Jude, and Xavier on his Facebook page where he offers his take on the wild world of parenting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A dad from Ohio, United States, was excellent in the "Creative Parenting 101" course. Jack. White came up with a simple solution to stop his 2-year-old triplet child from arguing in the back of the car. He (in the rear seat of the car) puts two foam panels that act as spacers. White said that he only spent 5 minutes installing partitions. After completion, White drove on the road with the triplets and passed the fast lane of a restaurant on the way. &lt;strong&gt;"The more creative they (the triplets) have become, the more creative I will be.&lt;/strong&gt; Someday they will be smarter than I. I hope not to come too soon that day," said White. Last week, this selfie with his triplet and the rear seat of the car was shared with blogs around the world and with newspapers. White records the adventures of the triplets Stella, Jude, and Sewell on his Facebook page, and offers his advice on the wild childcare world on a special page.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;""Face Book" is not worth your while."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+據一項報告，每3人中有1人沉迷於手機，夜晚總會不斷查看。如果你是18至24歲的族群，比例更上升為2人中就有1人。此舉看似無害，實則非常有殺傷力。睡眠專家已再三警告，晚上盯著手機會傷及健康。這和手機螢幕放射的藍光有莫大關係。藍光會讓我們的身體誤以為現在是白天；換句話說，即便我們再度入睡，睡眠品質也會大幅降低。這項研究指出，「智慧型手機讓人們可以追蹤現在發生什麼事、人們說了什麼話，以及大家上傳什麼東西。這些事你可以在白天進行，但智慧型手機促使人們在夜晚也這麼做。」因此，除非攸關生死、茲事體大，否則還是把眼睛好好閉上。「臉書」不值得你一直瀏覽。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+According to a report, one in three is so addicted to their phones that they check them constantly during the night. And if you’re in the 18-24 categories, this number goes up to one in two.It may seem harmless - but it’s incredibly damaging. Sleep experts have warned us over and over how looking at our phones at night can compromise our health. It’s all to do with the blue light our phone’s screen gives off.This light tells our body it’s daytime, which means when we do eventually fall back to sleep, that quality of sleep is not as good as it should be. The research said："What smartphones enable people to do is to keep tags of what’s happening, what people are saying, what people are posting. You can do that throughout the day and what smartphones are encouraging people to do is to do that at night."So unless it’s a matter of life or death, make sure you get some good shut eye. Facebook’s not worth so much of your attention.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+According to one report, one in three people is obsessed with mobile phones, and the night is always on the lookout. If you are a group of 18 to 24 years old, the proportion has even risen to 1 in 2 people. This may seem harmless, but in fact it is very lethal. Sleep experts have repeatedly warned that staring at the phone at night would hurt health. This has a lot to do with the blue light emitted by mobile phone screens. Blu-ray will make our body mistakenly believe that it is daytime; in other words, even if we fall asleep again, the quality of sleep will be greatly reduced. The study pointed out that "Smart phones allow people to track what is happening now, what people say, and what they upload. These things can happen during the day, but smart phones motivate people to do so at night. Therefore, unless you are dead or alive, you must keep your eyes closed. &lt;strong&gt;"Face Book" is not worth your while.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;""She just pulled him out."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+北愛爾蘭唐郡班戈鎮的一個家庭說，他們的寵物狗在5歲兒子被困於一台滾筒式烘乾機後，救了他一命。萊利．賈吉─達菲的手臂、背部與頭部受到燙傷，當時烘乾機在這名唐氏症男孩困在裡面時，開始自動運轉。亞倫．達菲說，意外發生之際，其妻正在用吸塵器吸地。他說，在他們的狗狗──科卡貴賓犬「泰迪」開始吠叫時她僅知道有什麼事不對勁。「要不是我們的狗抓狂，跳上跳下狂吠，我太太也不會知道出事了，並下樓查看，」達菲先生說。「她就是把他拉出來，是否頭先出來，腳或腿先出來都不重要，反正他就是出來了。我們將他弄出來並沖水冷卻，泰迪今晚將獲得菲力牛排，這個我可以保證，牠是非常聰明的狗。」萊利被緊急送往敦唐納德的阿爾斯特醫院，目前正接受治療。達菲先生說，救護車司機告訴他，只要被困在這種滾筒式烘乾機內5分鐘，即便機器沒有運轉，通常就會悶死。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+A Bangor, County Down, family has said their pet dog saved the life of their five-year-old son, after he became trapped in a tumble dryer.Riley Gedge-Duffy suffered burns to his arms, back and head when the machine automatically started with the boy, who has Down’s syndrome, stuck inside.Aaron Duffy said his wife was vacuuming when the incident happened. He said she only knew something was wrong when their dog, Teddy - a cockapoo - began to bark."Only for our dog going nuts and notifying my wife by running up and down barking, my wife knew that there was something up and went down," Mr Duffy said."She just pulled him out, it didn’t matter if it was head first, feet first, legs whatever, he was coming out. So we got him out and cooled him down. Teddy’s going to get fillet steak tonight, I can guarantee that, she’s a very smart dog."Riley was rushed to the Ulster Hospital, Dundonald, and is currently receiving treatment.Mr Duffy said that the ambulance driver told him that suffocation would normally take only about five minutes inside such a tumble dryer, even if the machine had not started.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+A family in Bangor, Tang County, Northern Ireland, said that their pet dog saved his life after his 5-year-old son was trapped in a tumble dryer. Riley. Jaji Duffy’s arm, back and head were burned when the dryer started to run automatically when the Down's boy was trapped inside. Aaron. Duffy said that when the accident happened, his wife was using a vacuum cleaner to suck the ground. He said that when their dog, the coca poodle "Teddy," began barking, she only knew what was wrong. "If our dog didn't go crazy or leap and jump, my wife wouldn't know what went wrong, and went downstairs to check," Mr. Duffy said. &lt;strong&gt;"She just pulled him out.&lt;/strong&gt; It doesn't matter if the head comes out first, and the foot or leg comes out first. He comes out anyway. We get him out and flush it with water. Teddy will get the filet steak tonight. It can be guaranteed that it is a very smart dog.” Riley was rushed to the Ulster Hospital in Dundonald and is currently undergoing treatment. Mr. Duffy said that the ambulance driver told him that as long as he was trapped in the tumble dryer for 5 minutes, he would often die of suffocation even if the machine did not operate.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Perkins and Jia Xu."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+（美國俄亥俄州）丹維爾一名已故警員的女兒們週末參加返校舞會時，有特殊的護花使者——其他員警出面遞補他的位子。女孩們的世界在今年1月改變，她們的父親、警員湯瑪斯．寇特卓殉職。以好爸爸聞名的寇特卓，在丹維爾警察局後方遭射殺身亡。寇特妮、布魯克琳與艾莉西亞．寇特卓，為利金谷返校舞會盛裝打扮。3名女孩都有男伴與特別護花使者，即她們父親的警局弟兄同僚，出面確保女孩們有一個難忘的夜晚。丹維爾警員馬克．伯金斯與賈許．艾柏薛爾，代替他們的已故同袍盡父職。「我要你們永遠知道，我們會一直挺你」，伯金斯說。「對我們而言，代替你送女兒去參加舞會是無上光榮」。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+The daughters of a fallen Danville police officer got a special escort to their homecoming dance over the weekend, as other officers made sure to step in to take his place.Their world changed in January when their dad, Officer Thomas Cottrell, died in the line of duty. Known as a devoted father, Cottrell was shot and killed behind the Danville police station.Courtney, Brooklyn and Alycia Cottrell were dressed to the nines for the Licking Valley homecoming dance. All three have dates and special escorts, as their dad’s brothers in blue stepped up on what is sure to be a memorable evening for the girls.Danville Officers Mark Perkins and Josh Abshire stood in for their fallen comrade. "We want you to forever know we are here with you always," said Perkins. "It’s an absolute honor for us to get to take your girls to the dance."&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+(Ohio, USA) When the daughters of a deceased police officer in Danville took part in the back-to-school dance at the weekend, there were special guardians of the flowers—the other officers sent out their seats. The world of girls changed in January this year, their father and policeman Thomas.寇 殉 殉 殉 。. Mr. Tetra, famous for his father, was shot and killed behind the Danville Police Department. Mattie, Brooklyn and Alicia.寇Te Zhuo, dressed up for the Lee Gum Valley back to school ball. The three girls had male companions and special nurses, namely brothers and sisters of their father’s police station, to ensure that the girls had an unforgettable evening. Danville Police Constable Mark. &lt;strong&gt;Perkins and Jia Xu.&lt;/strong&gt; Abbeyer, to replace their deceased robes to their fatherhood. "I want you to always know that we will always stand by you," said Perkins. "For us, it is supremely glorious to send your daughter to the ball instead of you."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"Messi's retirement, and "Bradxit," mean that Angelina Jolie and Brad Pitt's marriage ended."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+「英國脫歐」已被柯林斯字典命名為年度單字。這個字彙的首次使用紀錄出現在2013年，但在今年的使用量增加了3400%。柯林斯語言內容總管海倫．紐斯泰德表示：「英國脫歐按理說是過去40年來，政治界對英語字典的最重要貢獻，因為水門案醜聞給予評論家和喜劇演員『門』的字根，以令任何事件或醜聞更引人注目。」 「英國脫歐」也被改寫以形容事件的結束，例如「Mexit」意指足球員利昂內爾．梅西的退休，以及「Bradxit」意指安潔莉娜裘莉和布萊德彼特的婚姻告終。 柯林斯年度字彙的其他競爭者還包括「川普主義」。「川普並非第一個政治人物的名字被語言選用：前例有柴契爾主義和雷根經濟學。」紐斯泰德指出：「不過，川普主義身為單字的壽命長度，可能得仰賴他在即將到來的選舉中獲勝。」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+’Brexit’ has been named the word of the year by Collins Dictionary. The first recorded usage of the word arrived in 2013 , but this year saw a 3,400% rise."Brexit is arguably politics’ most important contribution to the English language in over 40 years since the Watergate scandal gave commentators and comedians the suffix ’-gate’ to make any incident or scandal more compelling." Helen Newstead, head of language content at Collins said. ’Brexit’ has also been adapted to describe events coming to an end, such as ’Mexit’ for footballer Lionel Messi’s retirement and “Bradxit” for the end of Angelina Jolie and Brad Pitt’s marriage Other contenders for Collins’s word of the year included Trumpism. “Trump is not the first politician to have had his name co-opted by language：‘Thatcherism’ and ‘Reaganomics’, for example,” said Newstead. “However, the longevity of Trumpism as a word may depend on his success in the forthcoming election.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+"Britain's Brexit" has been named as the annual word by the Collins Dictionary. The first use record of this vocabulary appeared in 2013, but this year's usage increased by 3400%. Collins language content chief Helen. Newstead said: "Britain's Brexit is arguably the most important contribution of the political world to the English dictionary in the past 40 years because the Watergate scandal has given critics and comedians the "door" roots to make any incident or scandal. More eye-catching." "Britain's Brexit" has also been rewritten to describe the end of the incident. For example, "Mexit" means footballer Lionel. &lt;strong&gt;Messi's retirement, and "Bradxit," mean that Angelina Jolie and Brad Pitt's marriage ended.&lt;/strong&gt; Other competitors in Collins' annual vocabulary include "Tumpism." "Chump is not the first politician's name to be chosen by language: the former was Chaucerism and Legernian economics." Newstead said: "However, the length of life of Trump as a single word may depend on He won the upcoming election."&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;strong&gt;"For Muslims, the Hajj is the re-emergence of the Prophet Muhammad's "last pilgrimage" in 632 AD."&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt;&lt;br/&gt;
+麥加朝覲是全球無數穆斯林的年度大事。在2016年，全世界最大規模集會之一的朝覲，將從9月10日開始。朝覲的日期由位於沙烏地阿拉伯的朝覲當局在9月1日依據月相決定。每年朝覲活動的第三天，穆斯林慶祝宰牲節，這是伊斯蘭世界最神聖的節慶。在伊斯蘭曆法中，朝覲是從都爾黑哲月（朝聖月，即12月）的第八天開始，至第十三天止。不過，朝覲的宗教儀式可在5天內完成。對穆斯林來說，朝覲是先知穆罕默德在西元632年「最後朝聖」行動的重現，是伊斯蘭信仰核心，象徵罪惡的洗淨以及進一步靠向真主。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;br/&gt;
+Hajj is an annual piligrimage to Mecca for millions of Muslims from all over the world.In 2016, Hajj, one of the world’s largest gatherings, is to begin on September 10.The dates of the pilgrimage was confirmed by Hajj authorities in Saudi Arabia on September 1 based on the sighting of the moon.On the third day of Hajj each year, Muslims celebrate the Eid al-Adha, Islam’s holiest festival.In the Islamic calendar, Hajj begins on the eighth day of the Dhu al-Hijjah lunar month, and ends on the 13th day of Dhu al-Hijjah. The religious rituals of the Hajj pilgrimage, however, can be completed in five days.For Muslims, the Hajj re-enacts the actions of the Prophet Muhammad in his "farewell pilgrimage" in AD 632, and is a central pillar of the Islamic faith meant to cleanse the faithful of sin and bring them closer to God.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Machine:&lt;/strong&gt;&lt;br/&gt;
+Mecca is the annual event of countless Muslims around the world. In 2016, the Hajj, one of the largest gatherings in the world, will begin on September 10. The date of Hajj is determined by the Hajj authorities in Saudi Arabia on September 1 according to the phases of the moon. On the third day of the annual Hajj activities, Muslims celebrate Eid al-Adha, the most sacred festival in the Islamic world. In the Islamic calendar, the Hajj started from the eighth day of the Durkhor month (the pilgrimage month, December) and ended on the thirteenth day. However, the religious ceremony of Hajj can be completed within 5 days. &lt;strong&gt;For Muslims, the Hajj is the re-emergence of the Prophet Muhammad's "last pilgrimage" in 632 AD.&lt;/strong&gt; It is the core of Islamic faith, symbolizing the cleansing of evil and further leaning toward God.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</summary></entry></feed>
