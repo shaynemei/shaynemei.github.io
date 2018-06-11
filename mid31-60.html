@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sims Mid 31-60 — Translation Corpora</title>
+	<meta name="description" content="Title: Sims Mid 31-60; Date: 2018-06-09; Author: Shayne">
+	<meta name="author" content="Shayne">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="https://shaynemei.github.io/theme/html5.js"></script>
+		<![endif]-->
+	<link href="https://shaynemei.github.io/theme/css/ipython.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
+	<link href="https://shaynemei.github.io/theme/css/local.css" rel="stylesheet">
+	<link href="https://shaynemei.github.io/theme/css/pygments.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<h1><a href="https://shaynemei.github.io/">Translation Corpora</a>
+			<br><small>All original articles scraped from Liberty Times Net for non-profit research only.</small></h1>	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+<div class="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="text-center article-header">
+		<h1 itemprop="name headline" class="article-title">Sims Mid 31-60</h1>
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<h4 itemprop="name">Shayne</h4>
+		</span>
+		<time datetime="2018-06-09T10:00:00+08:00" itemprop="datePublished">Sat 09 June 2018</time>
+	</div>
+	<div>
+		Category:
+		<span itemprop="articleSection">
+			<a href="https://shaynemei.github.io/category/en_mid.html" rel="category">EN_mid</a>
+		</span>
+	</div>
+	<div itemprop="articleBody" class="article-body"><style type="text/css">/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell > div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area > div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area > div.highlight > pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the <head> if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell > div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+</style>
+<style type="text/css">.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
+<style type="text/css">
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are 4876 lines in this range of similarity score (0.6-0.8).<br/>
+Here are 30 examples.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>"Tourism is the largest industry in Windsor so far."</strong></p>
+<p><strong>Text:</strong><br/>
+（英國）哈利王子和梅根．馬克爾5月19日即將完婚。這對小倆口將在溫莎古堡的聖喬治禮拜堂結婚，那是一處皇家宅邸，位於距離倫敦市中心西方約22英里的一座小鎮內。聖喬治禮拜堂的鐘聲即將為這樁幸福大事敲響，但收銀台的鈴聲早已響起。觀光業是溫莎鎮迄今規模最大的產業。感謝王室家族，每年都有700萬名遊客結伴到訪這座小鎮，婚禮當天則預計再增加10萬訪客，帶動當地經濟。當地議會的副主席菲利普．比克內爾預期，會有許多出手闊綽的美國觀光客到訪。「美國人非常熱衷這場婚禮，因為終於有美國人即將成為王室一員。」比克內爾表示。坐落於溫莎古堡山腳下的「國王與王后禮物店」裡，哈利與梅根的紀念商品持續暢銷。觀光客搶購印上這對幸福小倆口的冰箱磁鐵、T恤、茶巾和杯具，為此掏出18美元或更多的錢。這場王室婚禮引領鋪天蓋地的皇家圖飾風潮，包括一些稀奇古怪的產品，例如哈利與梅根早餐穀片，顯然旨在輕鬆賺取近利。</p>
+<p><strong>Bio:</strong><br/>
+On May 19, Prince Harry and Meghan Markle will marry. The couple will wed in St. George’s Chapel in Windsor Castle — a royal residence in the small town of Windsor some 22 miles west of central London.The bells of St. George’s will chime to mark the happy event, but the cash tills are already ringing. Tourism is by far Windsor’s biggest industry. Thanks to the royals, 7 million visitors flock to the town every year, and an extra 100,000 are expected on the wedding day, boosting the local economy.The deputy leader of the local council, Phillip Bicknell, anticipates that many free-spending Americans will be among the tourists.“The Americans are very keen on the wedding because they’re going to get in to the royal family at last.” Bicknell said. In the King and Queen Gift Shop at the foot of Windsor’s Castle Hill, Harry and Meghan memorabilia have been flying off the shelves. Tourists have been snapping up fridge magnets, T-shirts, tea towels and mugs bearing images of the happy couple and costing $18 or more. The royal wedding has triggered an avalanche of royal tat, including some bizarre products like the Harry and Meghan breakfast cereal, and the aim is obvious：to make a quick buck.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(UK) Prince Harry and Megan.</strong> Marker is about to marry on May 19. The couple will marry at St. George's Chapel in Windsor Castle, a royal mansion located in a small town about 22 miles west of central Lond<strong>The bells of St. George's Chapel will soon ring for this great event, but the bells at the checkout have already begun to ring</strong>Tourism is the largest industry in Windsor so far.<strong> so far. Thanks to the royal family, 7 million visitors visit the town each year. On the day of the wedding, it is expected to add another 100,000 visitors to drive the local economy. Philip, vice chairman of the local </strong>Bickern expects that there will be a lot of generous American tourists visiting.<strong>ts visiting. "Americans are very keen on this wedding because eventually the Americans are about to become members of the royal family,"</strong>Located at the "Kings and Queens Gift Shop" at the foot of Windsor Fort, the commemorative goods of Harry and Megan continued to sell well.<strong>ed to sell well. Tourists snapped up refrigerator magnets, T-shirts, tea towels, and cups printed with this pair of happy couples, for which the</strong>This royal wedding led the overwhelming trend of royal decoration, including some quirky products such as Harry and Megan Breakfast Valley, apparently designed to easily earn instant interest.**rn instant interest.</p>
+<hr/>
+<p><strong>"Bickern expects that there will be a lot of generous American tourists visiting."</strong></p>
+<p><strong>Text:</strong><br/>
+（英國）哈利王子和梅根．馬克爾5月19日即將完婚。這對小倆口將在溫莎古堡的聖喬治禮拜堂結婚，那是一處皇家宅邸，位於距離倫敦市中心西方約22英里的一座小鎮內。聖喬治禮拜堂的鐘聲即將為這樁幸福大事敲響，但收銀台的鈴聲早已響起。觀光業是溫莎鎮迄今規模最大的產業。感謝王室家族，每年都有700萬名遊客結伴到訪這座小鎮，婚禮當天則預計再增加10萬訪客，帶動當地經濟。當地議會的副主席菲利普．比克內爾預期，會有許多出手闊綽的美國觀光客到訪。「美國人非常熱衷這場婚禮，因為終於有美國人即將成為王室一員。」比克內爾表示。坐落於溫莎古堡山腳下的「國王與王后禮物店」裡，哈利與梅根的紀念商品持續暢銷。觀光客搶購印上這對幸福小倆口的冰箱磁鐵、T恤、茶巾和杯具，為此掏出18美元或更多的錢。這場王室婚禮引領鋪天蓋地的皇家圖飾風潮，包括一些稀奇古怪的產品，例如哈利與梅根早餐穀片，顯然旨在輕鬆賺取近利。</p>
+<p><strong>Bio:</strong><br/>
+On May 19, Prince Harry and Meghan Markle will marry. The couple will wed in St. George’s Chapel in Windsor Castle — a royal residence in the small town of Windsor some 22 miles west of central London.The bells of St. George’s will chime to mark the happy event, but the cash tills are already ringing. Tourism is by far Windsor’s biggest industry. Thanks to the royals, 7 million visitors flock to the town every year, and an extra 100,000 are expected on the wedding day, boosting the local economy.The deputy leader of the local council, Phillip Bicknell, anticipates that many free-spending Americans will be among the tourists.“The Americans are very keen on the wedding because they’re going to get in to the royal family at last.” Bicknell said. In the King and Queen Gift Shop at the foot of Windsor’s Castle Hill, Harry and Meghan memorabilia have been flying off the shelves. Tourists have been snapping up fridge magnets, T-shirts, tea towels and mugs bearing images of the happy couple and costing $18 or more. The royal wedding has triggered an avalanche of royal tat, including some bizarre products like the Harry and Meghan breakfast cereal, and the aim is obvious：to make a quick buck.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(UK) Prince Harry and Megan.</strong> Marker is about to marry on May 19. The couple will marry at St. George's Chapel in Windsor Castle, a royal mansion located in a small town about 22 miles west of central Lond<strong>The bells of St. George's Chapel will soon ring for this great event, but the bells at the checkout have already begun to ring</strong>Tourism is the largest industry in Windsor so far.<strong> so far. Thanks to the royal family, 7 million visitors visit the town each year. On the day of the wedding, it is expected to add another 100,000 visitors to drive the local economy. Philip, vice chairman of the local </strong>Bickern expects that there will be a lot of generous American tourists visiting.<strong>ts visiting. "Americans are very keen on this wedding because eventually the Americans are about to become members of the royal family,"</strong>Located at the "Kings and Queens Gift Shop" at the foot of Windsor Fort, the commemorative goods of Harry and Megan continued to sell well.<strong>ed to sell well. Tourists snapped up refrigerator magnets, T-shirts, tea towels, and cups printed with this pair of happy couples, for which the</strong>This royal wedding led the overwhelming trend of royal decoration, including some quirky products such as Harry and Megan Breakfast Valley, apparently designed to easily earn instant interest.**rn instant interest.</p>
+<hr/>
+<p><strong>"Located at the "Kings and Queens Gift Shop" at the foot of Windsor Fort, the commemorative goods of Harry and Megan continued to sell well."</strong></p>
+<p><strong>Text:</strong><br/>
+（英國）哈利王子和梅根．馬克爾5月19日即將完婚。這對小倆口將在溫莎古堡的聖喬治禮拜堂結婚，那是一處皇家宅邸，位於距離倫敦市中心西方約22英里的一座小鎮內。聖喬治禮拜堂的鐘聲即將為這樁幸福大事敲響，但收銀台的鈴聲早已響起。觀光業是溫莎鎮迄今規模最大的產業。感謝王室家族，每年都有700萬名遊客結伴到訪這座小鎮，婚禮當天則預計再增加10萬訪客，帶動當地經濟。當地議會的副主席菲利普．比克內爾預期，會有許多出手闊綽的美國觀光客到訪。「美國人非常熱衷這場婚禮，因為終於有美國人即將成為王室一員。」比克內爾表示。坐落於溫莎古堡山腳下的「國王與王后禮物店」裡，哈利與梅根的紀念商品持續暢銷。觀光客搶購印上這對幸福小倆口的冰箱磁鐵、T恤、茶巾和杯具，為此掏出18美元或更多的錢。這場王室婚禮引領鋪天蓋地的皇家圖飾風潮，包括一些稀奇古怪的產品，例如哈利與梅根早餐穀片，顯然旨在輕鬆賺取近利。</p>
+<p><strong>Bio:</strong><br/>
+On May 19, Prince Harry and Meghan Markle will marry. The couple will wed in St. George’s Chapel in Windsor Castle — a royal residence in the small town of Windsor some 22 miles west of central London.The bells of St. George’s will chime to mark the happy event, but the cash tills are already ringing. Tourism is by far Windsor’s biggest industry. Thanks to the royals, 7 million visitors flock to the town every year, and an extra 100,000 are expected on the wedding day, boosting the local economy.The deputy leader of the local council, Phillip Bicknell, anticipates that many free-spending Americans will be among the tourists.“The Americans are very keen on the wedding because they’re going to get in to the royal family at last.” Bicknell said. In the King and Queen Gift Shop at the foot of Windsor’s Castle Hill, Harry and Meghan memorabilia have been flying off the shelves. Tourists have been snapping up fridge magnets, T-shirts, tea towels and mugs bearing images of the happy couple and costing $18 or more. The royal wedding has triggered an avalanche of royal tat, including some bizarre products like the Harry and Meghan breakfast cereal, and the aim is obvious：to make a quick buck.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(UK) Prince Harry and Megan.</strong> Marker is about to marry on May 19. The couple will marry at St. George's Chapel in Windsor Castle, a royal mansion located in a small town about 22 miles west of central Lond<strong>The bells of St. George's Chapel will soon ring for this great event, but the bells at the checkout have already begun to ring</strong>Tourism is the largest industry in Windsor so far.<strong> so far. Thanks to the royal family, 7 million visitors visit the town each year. On the day of the wedding, it is expected to add another 100,000 visitors to drive the local economy. Philip, vice chairman of the local </strong>Bickern expects that there will be a lot of generous American tourists visiting.<strong>ts visiting. "Americans are very keen on this wedding because eventually the Americans are about to become members of the royal family,"</strong>Located at the "Kings and Queens Gift Shop" at the foot of Windsor Fort, the commemorative goods of Harry and Megan continued to sell well.<strong>ed to sell well. Tourists snapped up refrigerator magnets, T-shirts, tea towels, and cups printed with this pair of happy couples, for which the</strong>This royal wedding led the overwhelming trend of royal decoration, including some quirky products such as Harry and Megan Breakfast Valley, apparently designed to easily earn instant interest.**rn instant interest.</p>
+<hr/>
+<p><strong>"This royal wedding led the overwhelming trend of royal decoration, including some quirky products such as Harry and Megan Breakfast Valley, apparently designed to easily earn instant interest."</strong></p>
+<p><strong>Text:</strong><br/>
+（英國）哈利王子和梅根．馬克爾5月19日即將完婚。這對小倆口將在溫莎古堡的聖喬治禮拜堂結婚，那是一處皇家宅邸，位於距離倫敦市中心西方約22英里的一座小鎮內。聖喬治禮拜堂的鐘聲即將為這樁幸福大事敲響，但收銀台的鈴聲早已響起。觀光業是溫莎鎮迄今規模最大的產業。感謝王室家族，每年都有700萬名遊客結伴到訪這座小鎮，婚禮當天則預計再增加10萬訪客，帶動當地經濟。當地議會的副主席菲利普．比克內爾預期，會有許多出手闊綽的美國觀光客到訪。「美國人非常熱衷這場婚禮，因為終於有美國人即將成為王室一員。」比克內爾表示。坐落於溫莎古堡山腳下的「國王與王后禮物店」裡，哈利與梅根的紀念商品持續暢銷。觀光客搶購印上這對幸福小倆口的冰箱磁鐵、T恤、茶巾和杯具，為此掏出18美元或更多的錢。這場王室婚禮引領鋪天蓋地的皇家圖飾風潮，包括一些稀奇古怪的產品，例如哈利與梅根早餐穀片，顯然旨在輕鬆賺取近利。</p>
+<p><strong>Bio:</strong><br/>
+On May 19, Prince Harry and Meghan Markle will marry. The couple will wed in St. George’s Chapel in Windsor Castle — a royal residence in the small town of Windsor some 22 miles west of central London.The bells of St. George’s will chime to mark the happy event, but the cash tills are already ringing. Tourism is by far Windsor’s biggest industry. Thanks to the royals, 7 million visitors flock to the town every year, and an extra 100,000 are expected on the wedding day, boosting the local economy.The deputy leader of the local council, Phillip Bicknell, anticipates that many free-spending Americans will be among the tourists.“The Americans are very keen on the wedding because they’re going to get in to the royal family at last.” Bicknell said. In the King and Queen Gift Shop at the foot of Windsor’s Castle Hill, Harry and Meghan memorabilia have been flying off the shelves. Tourists have been snapping up fridge magnets, T-shirts, tea towels and mugs bearing images of the happy couple and costing $18 or more. The royal wedding has triggered an avalanche of royal tat, including some bizarre products like the Harry and Meghan breakfast cereal, and the aim is obvious：to make a quick buck.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(UK) Prince Harry and Megan.</strong> Marker is about to marry on May 19. The couple will marry at St. George's Chapel in Windsor Castle, a royal mansion located in a small town about 22 miles west of central Lond<strong>The bells of St. George's Chapel will soon ring for this great event, but the bells at the checkout have already begun to ring</strong>Tourism is the largest industry in Windsor so far.<strong> so far. Thanks to the royal family, 7 million visitors visit the town each year. On the day of the wedding, it is expected to add another 100,000 visitors to drive the local economy. Philip, vice chairman of the local </strong>Bickern expects that there will be a lot of generous American tourists visiting.<strong>ts visiting. "Americans are very keen on this wedding because eventually the Americans are about to become members of the royal family,"</strong>Located at the "Kings and Queens Gift Shop" at the foot of Windsor Fort, the commemorative goods of Harry and Megan continued to sell well.<strong>ed to sell well. Tourists snapped up refrigerator magnets, T-shirts, tea towels, and cups printed with this pair of happy couples, for which the</strong>This royal wedding led the overwhelming trend of royal decoration, including some quirky products such as Harry and Megan Breakfast Valley, apparently designed to easily earn instant interest.**rn instant interest.</p>
+<hr/>
+<p><strong>"Kristin, who claims to be a fear spider."</strong></p>
+<p><strong>Text:</strong><br/>
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+<strong>Kristin, who claims to be a fear spider.</strong> Barnaby, at a burger shop in North Carolina, found a way to overcome fear. "I'm going to eat my fears," the 27-year-old said at the Buffalo Hamburg Wine<strong>She was there and had a well-developed wolf that was crispy in the oven</strong>Spider burger.<strong> burger. In restaurant </strong>Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia<strong>This is not everybody can enjoy this Tarantula Burger.</strong>arantula Burger. Groth only gets 15 organically cultivated organisms each year, so the diners have to have good luck and boldness to taste. He said, "When you come in, you sign the lottery." "If we get your name, you come and get one to eat." The fortunate winners have 48 hours to collect their prizes, and Gros said, not yet People have leg kicks. (Reuters)</p>
+<hr/>
+<p><strong>"She was there and had a well-developed wolf that was crispy in the oven."</strong></p>
+<p><strong>Text:</strong><br/>
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+<strong>Kristin, who claims to be a fear spider.</strong> Barnaby, at a burger shop in North Carolina, found a way to overcome fear. "I'm going to eat my fears," the 27-year-old said at the Buffalo Hamburg Wine<strong>She was there and had a well-developed wolf that was crispy in the oven</strong>Spider burger.<strong> burger. In restaurant </strong>Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia<strong>This is not everybody can enjoy this Tarantula Burger.</strong>arantula Burger. Groth only gets 15 organically cultivated organisms each year, so the diners have to have good luck and boldness to taste. He said, "When you come in, you sign the lottery." "If we get your name, you come and get one to eat." The fortunate winners have 48 hours to collect their prizes, and Gros said, not yet People have leg kicks. (Reuters)</p>
+<hr/>
+<p><strong>"Spider burger."</strong></p>
+<p><strong>Text:</strong><br/>
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+<strong>Kristin, who claims to be a fear spider.</strong> Barnaby, at a burger shop in North Carolina, found a way to overcome fear. "I'm going to eat my fears," the 27-year-old said at the Buffalo Hamburg Wine<strong>She was there and had a well-developed wolf that was crispy in the oven</strong>Spider burger.<strong> burger. In restaurant </strong>Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia<strong>This is not everybody can enjoy this Tarantula Burger.</strong>arantula Burger. Groth only gets 15 organically cultivated organisms each year, so the diners have to have good luck and boldness to taste. He said, "When you come in, you sign the lottery." "If we get your name, you come and get one to eat." The fortunate winners have 48 hours to collect their prizes, and Gros said, not yet People have leg kicks. (Reuters)</p>
+<hr/>
+<p><strong>"Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia."</strong></p>
+<p><strong>Text:</strong><br/>
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+<strong>Kristin, who claims to be a fear spider.</strong> Barnaby, at a burger shop in North Carolina, found a way to overcome fear. "I'm going to eat my fears," the 27-year-old said at the Buffalo Hamburg Wine<strong>She was there and had a well-developed wolf that was crispy in the oven</strong>Spider burger.<strong> burger. In restaurant </strong>Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia<strong>This is not everybody can enjoy this Tarantula Burger.</strong>arantula Burger. Groth only gets 15 organically cultivated organisms each year, so the diners have to have good luck and boldness to taste. He said, "When you come in, you sign the lottery." "If we get your name, you come and get one to eat." The fortunate winners have 48 hours to collect their prizes, and Gros said, not yet People have leg kicks. (Reuters)</p>
+<hr/>
+<p><strong>"This is not everybody can enjoy this Tarantula Burger."</strong></p>
+<p><strong>Text:</strong><br/>
+自稱恐懼蜘蛛的克莉絲汀．巴納比，在北卡羅萊納州一家漢堡店找到了一種克服畏懼的方法。「我要把我的恐懼吃掉」，這個27歲的人於「水牛城漢堡釀酒廠」如是說，她在那裡嗑了一客上方蓋有一隻發育完全、被烤爐烘得脆脆的狼蛛的漢堡。在餐廳老闆賽斯．葛羅斯閱讀得知牠們被混鹽和糖去煮以及如何變成柬埔寨街頭主食後，狼蛛登場。這個狼蛛漢堡不是每個人都能享有。葛羅斯每年只拿到15隻養殖而來、有機培育的這種生物，所以用餐者得有好運與大膽，才能一嚐滋味。他說，「你進來，你簽樂透」，「如果我們抽到你的名字，你來拿一個去吃。」幸運得主們有長達48小時領取他們的獎品，而葛羅斯說，還沒有人抽腿過。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Kristin Barnaby, a self-described arachnophobe, found a way to overcome what she dreads at a North Carolina burger joint.“I am going to eat my fear,” the 27-year-old said at the Bull City Burger and Brewery, where she tucked into a hamburger topped with a crunchy full-grown, oven-roasted tarantula.Tarantulas made their debut after restaurant owner Seth Gross read about how they have become a street food staple in Cambodia, where they are mixed with salt and sugar and cooked.The tarantula burger is not for everyone. Gross gets only 15 of the farmed, organically raised creatures each year, so diners need to be lucky, as well as daring, to get a taste.“You come in, you fill in a lottery ticket,” he said. “If we draw your name, you come and get to eat one.”The lucky winners have up to 48 hours to claim their prize and Gross said none have yet backed out.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+<strong>Kristin, who claims to be a fear spider.</strong> Barnaby, at a burger shop in North Carolina, found a way to overcome fear. "I'm going to eat my fears," the 27-year-old said at the Buffalo Hamburg Wine<strong>She was there and had a well-developed wolf that was crispy in the oven</strong>Spider burger.<strong> burger. In restaurant </strong>Gloss read the tarantula after learning that they were mixed with salt and sugar to cook and how they became staple foods in Cambodia<strong>This is not everybody can enjoy this Tarantula Burger.</strong>arantula Burger. Groth only gets 15 organically cultivated organisms each year, so the diners have to have good luck and boldness to taste. He said, "When you come in, you sign the lottery." "If we get your name, you come and get one to eat." The fortunate winners have 48 hours to collect their prizes, and Gros said, not yet People have leg kicks. (Reuters)</p>
+<hr/>
+<p><strong>"Rouon ordered him to support him."</strong></p>
+<p><strong>Text:</strong><br/>
+一名希望取代美國民主黨籍聯邦參議員克萊兒．麥卡斯基的密蘇里州共和黨人說，他希望每晚6點回到家時能吃到未婚妻親手做的飯菜，並打算讓未來的女兒比照辦理。柯特蘭．賽克斯週二在臉書上重新貼出他去年寫的這篇評論，澄清他對女權的看法。「有鑑於近日針對我對女權看法的質疑，在此附上我的完整聲明。」他在經過認證的「柯特蘭．賽克斯進軍參議院」臉書專頁上的貼文中如是說。針對他是否支持女權？賽克斯說，他的未婚妻，香奈兒．瑞昂下令他要支持，「所以我最好（照辦）。」「但香奈兒知道，我的順從是她要付出一個她也樂意支付的小代價：我每晚6點回家時，要有自家煮、而且是她煮的晚餐，也是有朝一日我希望我女兒成為傳統家庭主婦後學會煮的晚餐。」他在貼文中說。</p>
+<p><strong>Bio:</strong><br/>
+A Republican in Missouri who hopes to replace Democratic Sen. Claire McCaskill in the U.S. Senate said he expects to come home to a home-cooked meal from his fiancée at 6 p.m. every night, and plans for his future daughters to do the same.Courtland Sykes on Tuesday took to Facebook to repost comments he wrote last year, to clear up his views on women’s rights. "In light of recent questions regarding my views on Women’s Rights, attached is my full statement," he posted on his verified "Courtland Sykes for Senate" Facebook page. On whether he favors women’s rights, Sykes said his fiancée, Chanel Rion, has given him orders to favor them, "so I’d better.""But Chanel knows that my obedience comes with a small price that she loves to pay anyway：I want to come home to a home-cooked dinner at six every night, one that she fixes and one that I expect one day to have daughters learn to fix after they become traditional homemakers and family wives," he said in the post.</p>
+<p><strong>Machine:</strong><br/>
+One hopes to replace the US Senator Claire, a Democrat. McCarthy's Missouri Republican said that he hopes to get his fiancée's own food when he returns home at 6 pm and plans to let future daughters do the same. Kirtland. Sykes reprinted his review of this comment last year on Facebook on Tuesday to clarify his views on feminism. "In view of the recent questioning of my views on women's rights, I hereby attach my full statement," he said in a posted post on the Facebook page of the certified "Cottland Sykes into the Senate." Does he support feminism? Sykes said his fiancee, Chanel. <strong>Rouon ordered him to support him.</strong> "So I'm the best." "But Chanel knows that my obedience is that she has to pay a small price she is also willing to pay: I have to go home every night when I come home at 6 o'clock. Cooking, and dinner she cooks, is another day when I hope my daughter will become a traditional housewife and learn how to cook dinner,” he said in a post.</p>
+<hr/>
+<p><strong>"The “Six People”, an American sitcom loved by the Chinese millennial generation, gave way to hundreds of people."</strong></p>
+<p><strong>Text:</strong><br/>
+沒人告訴他們，生活會變成這個樣子。中國頂尖入口網站「搜狐」4月間僅以「版權問題」為由，突然下架角色討喜、可當作英語會話學習資源，受到中國千禧世代喜愛的美國情境喜劇《六人行》，讓數百萬名粉絲為之心碎。此舉在「微博」等中國社群媒體引爆憤慨，「老友記（中國譯名）下架」的標籤累積達數百萬則。許多人要求搜狐重新取得《六人行》版權，也有人提供可下載盜版影集的網站。數百萬名中國年輕人對該劇主題曲的慨歎感同身受─「你的工作根本是笑話，你口袋裡沒半毛錢，你的感情生活胎死腹中。」他們也抓住這個可以增進美式英語能力的機會。「裡頭有很多英語會話，都是你無法在書本上學到的內容。」在中國，有些英文教學課程甚至指定這個節目為教材。</p>
+<p><strong>Bio:</strong><br/>
+No one told them it was gonna be this way.Millions of Chinese "Friends" fans are heartbroken after top portal Sohu, citing only "copyright issues" in April, abruptly pulled the US sitcom, beloved by millennials in China for its endearing characters and as an English conversation resource.The move has touched off anguish on Chinese social media sites such as Weibo, where a "Friends offline" hashtag has generated millions of posts. Many have called for Sohu to re-up on its "Friends" rights, with others indicating where to download pirated episodes.Millions of Chinese youngsters identify with the theme song’s lament － "your job’s a joke, you’re broke, your love life’s DOA." And they grab the chance to burnish their American-style English. "There are so much conversational English in it; things that you can’t learn from books."Some English training courses in China even assign the show as teaching material.</p>
+<p><strong>Machine:</strong><br/>
+No one tells them that life will become like this. China’s top portal, “Sohu”, in April only used the “copyright issue” as grounds. It suddenly broke down the role of confessions and could be used as an English conversation learning resource. <strong>The “Six People”, an American sitcom loved by the Chinese millennial generation, gave way to hundreds of people</strong>Millions of fans broke their hearts.<strong>rts. The move sparked indignation in Chinese social media such as Weibo, and the cumulative number of labels on “Friends (China translation)” has accumulated to millions. Many people asked Sohu to re-acquire the copyright of "Six Persons", and there are also websites that can download pirated albums. Millions of Chinese young people feel that they are sympathetic to the play's theme song. "Your job is basically </strong>You have no money in your pocket.<strong> pocket. Your emotional life is dead." They also seize this to promote Amer</strong>English ability opportunities.**portunities. "There are a lot of English conversations in there that are all you can't learn from books." In China, some English language teaching programs even specify this program as a textbook.</p>
+<hr/>
+<p><strong>"Millions of fans broke their hearts."</strong></p>
+<p><strong>Text:</strong><br/>
+沒人告訴他們，生活會變成這個樣子。中國頂尖入口網站「搜狐」4月間僅以「版權問題」為由，突然下架角色討喜、可當作英語會話學習資源，受到中國千禧世代喜愛的美國情境喜劇《六人行》，讓數百萬名粉絲為之心碎。此舉在「微博」等中國社群媒體引爆憤慨，「老友記（中國譯名）下架」的標籤累積達數百萬則。許多人要求搜狐重新取得《六人行》版權，也有人提供可下載盜版影集的網站。數百萬名中國年輕人對該劇主題曲的慨歎感同身受─「你的工作根本是笑話，你口袋裡沒半毛錢，你的感情生活胎死腹中。」他們也抓住這個可以增進美式英語能力的機會。「裡頭有很多英語會話，都是你無法在書本上學到的內容。」在中國，有些英文教學課程甚至指定這個節目為教材。</p>
+<p><strong>Bio:</strong><br/>
+No one told them it was gonna be this way.Millions of Chinese "Friends" fans are heartbroken after top portal Sohu, citing only "copyright issues" in April, abruptly pulled the US sitcom, beloved by millennials in China for its endearing characters and as an English conversation resource.The move has touched off anguish on Chinese social media sites such as Weibo, where a "Friends offline" hashtag has generated millions of posts. Many have called for Sohu to re-up on its "Friends" rights, with others indicating where to download pirated episodes.Millions of Chinese youngsters identify with the theme song’s lament － "your job’s a joke, you’re broke, your love life’s DOA." And they grab the chance to burnish their American-style English. "There are so much conversational English in it; things that you can’t learn from books."Some English training courses in China even assign the show as teaching material.</p>
+<p><strong>Machine:</strong><br/>
+No one tells them that life will become like this. China’s top portal, “Sohu”, in April only used the “copyright issue” as grounds. It suddenly broke down the role of confessions and could be used as an English conversation learning resource. <strong>The “Six People”, an American sitcom loved by the Chinese millennial generation, gave way to hundreds of people</strong>Millions of fans broke their hearts.<strong>rts. The move sparked indignation in Chinese social media such as Weibo, and the cumulative number of labels on “Friends (China translation)” has accumulated to millions. Many people asked Sohu to re-acquire the copyright of "Six Persons", and there are also websites that can download pirated albums. Millions of Chinese young people feel that they are sympathetic to the play's theme song. "Your job is basically </strong>You have no money in your pocket.<strong> pocket. Your emotional life is dead." They also seize this to promote Amer</strong>English ability opportunities.**portunities. "There are a lot of English conversations in there that are all you can't learn from books." In China, some English language teaching programs even specify this program as a textbook.</p>
+<hr/>
+<p><strong>"You have no money in your pocket."</strong></p>
+<p><strong>Text:</strong><br/>
+沒人告訴他們，生活會變成這個樣子。中國頂尖入口網站「搜狐」4月間僅以「版權問題」為由，突然下架角色討喜、可當作英語會話學習資源，受到中國千禧世代喜愛的美國情境喜劇《六人行》，讓數百萬名粉絲為之心碎。此舉在「微博」等中國社群媒體引爆憤慨，「老友記（中國譯名）下架」的標籤累積達數百萬則。許多人要求搜狐重新取得《六人行》版權，也有人提供可下載盜版影集的網站。數百萬名中國年輕人對該劇主題曲的慨歎感同身受─「你的工作根本是笑話，你口袋裡沒半毛錢，你的感情生活胎死腹中。」他們也抓住這個可以增進美式英語能力的機會。「裡頭有很多英語會話，都是你無法在書本上學到的內容。」在中國，有些英文教學課程甚至指定這個節目為教材。</p>
+<p><strong>Bio:</strong><br/>
+No one told them it was gonna be this way.Millions of Chinese "Friends" fans are heartbroken after top portal Sohu, citing only "copyright issues" in April, abruptly pulled the US sitcom, beloved by millennials in China for its endearing characters and as an English conversation resource.The move has touched off anguish on Chinese social media sites such as Weibo, where a "Friends offline" hashtag has generated millions of posts. Many have called for Sohu to re-up on its "Friends" rights, with others indicating where to download pirated episodes.Millions of Chinese youngsters identify with the theme song’s lament － "your job’s a joke, you’re broke, your love life’s DOA." And they grab the chance to burnish their American-style English. "There are so much conversational English in it; things that you can’t learn from books."Some English training courses in China even assign the show as teaching material.</p>
+<p><strong>Machine:</strong><br/>
+No one tells them that life will become like this. China’s top portal, “Sohu”, in April only used the “copyright issue” as grounds. It suddenly broke down the role of confessions and could be used as an English conversation learning resource. <strong>The “Six People”, an American sitcom loved by the Chinese millennial generation, gave way to hundreds of people</strong>Millions of fans broke their hearts.<strong>rts. The move sparked indignation in Chinese social media such as Weibo, and the cumulative number of labels on “Friends (China translation)” has accumulated to millions. Many people asked Sohu to re-acquire the copyright of "Six Persons", and there are also websites that can download pirated albums. Millions of Chinese young people feel that they are sympathetic to the play's theme song. "Your job is basically </strong>You have no money in your pocket.<strong> pocket. Your emotional life is dead." They also seize this to promote Amer</strong>English ability opportunities.**portunities. "There are a lot of English conversations in there that are all you can't learn from books." In China, some English language teaching programs even specify this program as a textbook.</p>
+<hr/>
+<p><strong>"English ability opportunities."</strong></p>
+<p><strong>Text:</strong><br/>
+沒人告訴他們，生活會變成這個樣子。中國頂尖入口網站「搜狐」4月間僅以「版權問題」為由，突然下架角色討喜、可當作英語會話學習資源，受到中國千禧世代喜愛的美國情境喜劇《六人行》，讓數百萬名粉絲為之心碎。此舉在「微博」等中國社群媒體引爆憤慨，「老友記（中國譯名）下架」的標籤累積達數百萬則。許多人要求搜狐重新取得《六人行》版權，也有人提供可下載盜版影集的網站。數百萬名中國年輕人對該劇主題曲的慨歎感同身受─「你的工作根本是笑話，你口袋裡沒半毛錢，你的感情生活胎死腹中。」他們也抓住這個可以增進美式英語能力的機會。「裡頭有很多英語會話，都是你無法在書本上學到的內容。」在中國，有些英文教學課程甚至指定這個節目為教材。</p>
+<p><strong>Bio:</strong><br/>
+No one told them it was gonna be this way.Millions of Chinese "Friends" fans are heartbroken after top portal Sohu, citing only "copyright issues" in April, abruptly pulled the US sitcom, beloved by millennials in China for its endearing characters and as an English conversation resource.The move has touched off anguish on Chinese social media sites such as Weibo, where a "Friends offline" hashtag has generated millions of posts. Many have called for Sohu to re-up on its "Friends" rights, with others indicating where to download pirated episodes.Millions of Chinese youngsters identify with the theme song’s lament － "your job’s a joke, you’re broke, your love life’s DOA." And they grab the chance to burnish their American-style English. "There are so much conversational English in it; things that you can’t learn from books."Some English training courses in China even assign the show as teaching material.</p>
+<p><strong>Machine:</strong><br/>
+No one tells them that life will become like this. China’s top portal, “Sohu”, in April only used the “copyright issue” as grounds. It suddenly broke down the role of confessions and could be used as an English conversation learning resource. <strong>The “Six People”, an American sitcom loved by the Chinese millennial generation, gave way to hundreds of people</strong>Millions of fans broke their hearts.<strong>rts. The move sparked indignation in Chinese social media such as Weibo, and the cumulative number of labels on “Friends (China translation)” has accumulated to millions. Many people asked Sohu to re-acquire the copyright of "Six Persons", and there are also websites that can download pirated albums. Millions of Chinese young people feel that they are sympathetic to the play's theme song. "Your job is basically </strong>You have no money in your pocket.<strong> pocket. Your emotional life is dead." They also seize this to promote Amer</strong>English ability opportunities.**portunities. "There are a lot of English conversations in there that are all you can't learn from books." In China, some English language teaching programs even specify this program as a textbook.</p>
+<hr/>
+<p><strong>"This means that a considerable number of orangutans are being slaughtered, says Voit, chief researcher and Germany's Max Planck Institute for Evolutionary Anthropology."</strong></p>
+<p><strong>Text:</strong><br/>
+自1999年以來，超過10萬隻極度瀕危的紅毛猩猩在婆羅洲遭殺害，研究顯示。在該島進行16年調查的科學家形容，這個數字「令人難以接受」。因伐木、（種植）油棕、採礦以及造紙業而驅動的森林砍伐，仍是主要的罪魁禍首。然而，這份刊登在「當代生物學」期刊的研究也披露，該動物仍從森林覆蓋的地區「逐漸消失」。這意味著為數可觀的紅毛猩猩就是遭屠殺，首席研究員、德國「馬克斯．普朗克進化人類學研究所」的沃伊特說。她指出，紅毛猩猩被獵人鎖定並格殺，以報復其危害作物。英國利物浦約翰摩爾斯大學教授威齊指出：「當這些動物在種植園邊緣與人類發生衝突時，人們將殺掉牠們。就在上週，我們獲報有隻紅毛猩猩遭射殺，身上有130顆彈丸。」單是砍伐森林，便可能在未來35年進一步毀滅4萬5000隻紅毛猩猩。</p>
+<p><strong>Bio:</strong><br/>
+More than 100,000 Critically Endangered orangutans have been killed in Borneo since 1999, research has revealed. Scientists who carried out a 16-year survey on the island described the figure as "mind-boggling". Deforestation, driven by logging, oil palm, mining and paper mills, continues to be the main culprit. But the research, published in the journal Current Biology, also revealed that animals were "disappearing" from areas that remained forested.This implied large numbers of orangutans were simply being slaughtered, said lead researcher Maria Voigt of the Max Planck Institute for Evolutionary Anthropology in Germany. She said the animals are being targeted by hunters and are being killed in retaliation for crop-raiding.Prof Serge Wich from Liverpool John Moores University, UK said： "When these animals come into conflict with people on the edge of a plantation, people will kill them. Just last week, we had a report of an orangutan that had 130 pellets in its body, after being shot."Deforestation alone could wipe out a further 45,000 orangutans over the next 35 years.</p>
+<p><strong>Machine:</strong><br/>
+More than 100,000 extremely endangered orangutans have been killed in Borneo since 1999, studies show. Scientists who surveyed the island for 16 years described the figure as "unacceptable." Deforestation, driven by logging, (planting) oil palm, mining and papermaking, remains the main culprit. However, the study published in the journal "Contemporary Biology" also revealed that the animal still "fades away" from the forest-covered areas. <strong>This means that a considerable number of orangutans are being slaughtered, says Voit, chief researcher and Germany's Max Planck Institute for Evolutionary Anthropology.</strong> She pointed out that the orangutans were locked and killed by hunters in retaliation for their dangerous crops. Professor Wesley of Liverpool John Moores University in the United Kingdom pointed out: "When these animals collide with humans on the edge of the plantation, people will kill them. Just last week, we were reported to have shot and killed only orangutans. "Single projectiles." The deforestation alone may destroy 45,000 orangutans further in the next 35 years.</p>
+<hr/>
+<p><strong>"Principal researcher Lee."</strong></p>
+<p><strong>Text:</strong><br/>
+當您下次感到壓力時，不妨抓起一、兩塊巧克力─一項新研究指出，吃巧克力確實可以幫助您降低壓力水平。南加州羅馬林達大學研究人員表示，攝取黑巧克力對您的大腦健康有正面功效。他們發現，食用高可可含量的黑巧克力─通常是可可含量70％以上的巧克力，可減輕壓力水平及發炎。他們也發現，食用黑巧克力可改善您的情緒、記憶與免疫能力─證實巧克力是地球上最偉大的發明。可可含有黃酮類化合物，是有力的抗氧化劑及抗炎劑，對大腦及心血管健康有益。首席研究員李．伯克指出，可可的濃度愈高，對認知、記憶、情緒與免疫愈有正面影響，但只有黑巧克力有這些益處。</p>
+<p><strong>Bio:</strong><br/>
+The next time you feel stressed, grab a bar or two of chocolate - as new research suggests eating chocolate can actually help lower your stress levels.According to researchers at Loma Linda University in Southern California, consuming dark chocolate can have a positive effect on your brain health. They found that eating dark chocolate with a high percentage of cacao, typically chocolate over 70 per cent, reduces stress levels and inflammation.They also found eating dark chocolate improves your mood, memory and immunity - confirming chocolate is the greatest invention on the planet. Cacao contains flavonoids, which are potent antioxidants and anti-inflammatory agents that can help both brain and cardiovascular health.Lead researcher Lee Berk said the higher the concentration of cacao, the more positive the impact on cognition, memory, mood and immunity but it is only dark chocolate that has the benefits.</p>
+<p><strong>Machine:</strong><br/>
+When you feel stressed the next time, you may wish to grab one or two pieces of chocolate - a new study shows that eating chocolate does help you reduce stress levels. Researchers at Linda University in Southern California stated that ingesting dark chocolate has positive effects on your brain's health. They found that eating high cocoa content of dark chocolate - usually chocolate with a cocoa content of more than 70% - can reduce stress levels and inflammation. They also found that eating dark chocolate can improve your mood, memory and immunity - confirming that chocolate is the greatest invention on Earth. Cocoa contains flavonoids, a powerful antioxidant and anti-inflammatory agent that is good for brain and cardiovascular health. <strong>Principal researcher Lee.</strong> Burke pointed out that the higher the concentration of cocoa, the more positive impact on cognition, memory, emotion and immunity, but only dark chocolate has these benefits.</p>
+<hr/>
+<p><strong>"He claimed that after 1 minute of eating chili, he felt a splitting headache, and this situation lasted for 2 days before seeking treatment."</strong></p>
+<p><strong>Text:</strong><br/>
+辣椒不只能讓嘴巴發疼，也可能造成頭痛。一名男子在食用被稱為全球最辣的辣椒後，頭痛欲裂到不得不去掛急診，而被記載於個案研究史冊。他的案例是迄今首例與吃辣椒有關的可逆性腦血管收縮症候群，即一種暫時性的腦動脈收縮，研究人員4月9日刊登在《英國醫學期刊病例報告》的研究指出。此類動脈收縮會導致劇烈疼痛，也被稱為「霹靂頭疼」，通常與妊娠併發症或使用違禁藥物有關。該名男子在吃辣椒比賽上食用被金氏世界紀錄評選為地表上最辣辣椒的「卡羅萊納死神」辣椒。卡羅萊納死神比「墨西哥辣椒」辣上逾200倍。他宣稱吃完辣椒1分鐘後便感到頭痛欲裂，而且在尋求治療之前，這種情況持續2天之久。初步檢查並未發現異狀。但該名男子的腦部血管電腦斷層掃描顯示，多處動脈出現收縮情況。研究人員5週後再次檢查其腦內影像時，則發現動脈已恢復原本大小。</p>
+<p><strong>Bio:</strong><br/>
+Hot peppers aren’t just a pain in the mouth — they may be a pain in the head, too. After eating the hottest known pepper in the world, a man suffered from splitting headaches that drove him to the hospital emergency room, and into case-study history.His is the first known instance of reversible cerebral vasoconstriction syndrome — a temporary narrowing of arteries in the brain — to be tied to eating a hot pepper, researchers report April 9 in British Medical Journal Case Reports. Such narrowed arteries can lead to severe pain called “thunderclap headaches” and are often associated with pregnancy complications or illicit drug use.During a hot-pepper-eating contest, the man ate a chili dubbed the Carolina Reaper, named by Guinness World Records as the hottest pepper in the world. The Carolina Reaper is over 200 times as spicy as a jalapeno. About a minute later, he reported experiencing splitting headaches that came and went over two days before he sought treatment.Initial tests failed to find anything out of the ordinary. But a CT scan of blood vessels in the man’s brain showed severely narrowed arteries. When the researchers imaged his brain five weeks later, the arteries had returned to their normal size.</p>
+<p><strong>Machine:</strong><br/>
+Chili peppers can not only make your mouth hurt, it can also cause headaches. After eating the pepper, the world’s hottest pepper, a man had to suffer a splitting headache and had to go to the emergency department. It was recorded in the history of case studies. His case is the first case of reversible cerebral vasoconstrictive syndrome associated with eating chili peppers, a temporary cerebral artery contraction, according to a study published in the British Medical Journal Case Report on April 9th. Such arterial contractions can cause severe pain, also known as "headache", and are often associated with pregnancy complications or the use of illicit drugs. The man ate the "Karolina Rain" pepper, which was selected by the Kim's world record as the most hot chili pepper on the surface, in a chili contest. Carolina is more than 200 times more dead than Mexico Pepper. <strong>He claimed that after 1 minute of eating chili, he felt a splitting headache, and this situation lasted for 2 days before seeking treatment.</strong> No abnormalities were found on the initial inspecti<strong>However, the man's CT scan of the brain's blood vessels showed that multiple arteries contracted.</strong>ted. When the researchers examined their brain images again after 5 weeks, they found that the arteries had returned to their original size.</p>
+<hr/>
+<p><strong>"However, the man's CT scan of the brain's blood vessels showed that multiple arteries contracted."</strong></p>
+<p><strong>Text:</strong><br/>
+辣椒不只能讓嘴巴發疼，也可能造成頭痛。一名男子在食用被稱為全球最辣的辣椒後，頭痛欲裂到不得不去掛急診，而被記載於個案研究史冊。他的案例是迄今首例與吃辣椒有關的可逆性腦血管收縮症候群，即一種暫時性的腦動脈收縮，研究人員4月9日刊登在《英國醫學期刊病例報告》的研究指出。此類動脈收縮會導致劇烈疼痛，也被稱為「霹靂頭疼」，通常與妊娠併發症或使用違禁藥物有關。該名男子在吃辣椒比賽上食用被金氏世界紀錄評選為地表上最辣辣椒的「卡羅萊納死神」辣椒。卡羅萊納死神比「墨西哥辣椒」辣上逾200倍。他宣稱吃完辣椒1分鐘後便感到頭痛欲裂，而且在尋求治療之前，這種情況持續2天之久。初步檢查並未發現異狀。但該名男子的腦部血管電腦斷層掃描顯示，多處動脈出現收縮情況。研究人員5週後再次檢查其腦內影像時，則發現動脈已恢復原本大小。</p>
+<p><strong>Bio:</strong><br/>
+Hot peppers aren’t just a pain in the mouth — they may be a pain in the head, too. After eating the hottest known pepper in the world, a man suffered from splitting headaches that drove him to the hospital emergency room, and into case-study history.His is the first known instance of reversible cerebral vasoconstriction syndrome — a temporary narrowing of arteries in the brain — to be tied to eating a hot pepper, researchers report April 9 in British Medical Journal Case Reports. Such narrowed arteries can lead to severe pain called “thunderclap headaches” and are often associated with pregnancy complications or illicit drug use.During a hot-pepper-eating contest, the man ate a chili dubbed the Carolina Reaper, named by Guinness World Records as the hottest pepper in the world. The Carolina Reaper is over 200 times as spicy as a jalapeno. About a minute later, he reported experiencing splitting headaches that came and went over two days before he sought treatment.Initial tests failed to find anything out of the ordinary. But a CT scan of blood vessels in the man’s brain showed severely narrowed arteries. When the researchers imaged his brain five weeks later, the arteries had returned to their normal size.</p>
+<p><strong>Machine:</strong><br/>
+Chili peppers can not only make your mouth hurt, it can also cause headaches. After eating the pepper, the world’s hottest pepper, a man had to suffer a splitting headache and had to go to the emergency department. It was recorded in the history of case studies. His case is the first case of reversible cerebral vasoconstrictive syndrome associated with eating chili peppers, a temporary cerebral artery contraction, according to a study published in the British Medical Journal Case Report on April 9th. Such arterial contractions can cause severe pain, also known as "headache", and are often associated with pregnancy complications or the use of illicit drugs. The man ate the "Karolina Rain" pepper, which was selected by the Kim's world record as the most hot chili pepper on the surface, in a chili contest. Carolina is more than 200 times more dead than Mexico Pepper. <strong>He claimed that after 1 minute of eating chili, he felt a splitting headache, and this situation lasted for 2 days before seeking treatment.</strong> No abnormalities were found on the initial inspecti<strong>However, the man's CT scan of the brain's blood vessels showed that multiple arteries contracted.</strong>ted. When the researchers examined their brain images again after 5 weeks, they found that the arteries had returned to their original size.</p>
+<hr/>
+<p><strong>"This latest poll figure clearly reflects the people's support for the results of the "World Finance Council"."</strong></p>
+<p><strong>Text:</strong><br/>
+週四公布的一份民調顯示，在南韓總統文在寅與北韓領導人金正恩的歷史性峰會後，文在寅的支持率本週衝上11個月來高點。在南韓民調機構「Realmeter」所做的一項調查中，78.3％的受訪者表示，支持文在寅的施政。此一最新民調數字明顯反映出民眾支持「文金會」的成果。在Realmeter所做的另一項調查中，501位受訪者中，71.4％回答，相信北韓這次真的會以完全、可查證和不可逆的方式無核化。南韓執政黨「共同民主黨」的支持率也顯著增加，較上週提高2.7個百分點至54.9％。另一方面，最大在野黨「自由韓國黨」支持率下滑3.2％至17.9％。</p>
+<p><strong>Bio:</strong><br/>
+President Moon Jae-in’s approval rating has shot up to an 11-month high this week, a poll showed Thursday, following his historic summit with North Korean leader Kim Jong-un.In a survey conducted by Realmeter, 78.3 percent of respondents said they approved of the way the president managed state affairs. The latest figure apparently reflects the people’s approval of the outcome of the inter-Korean summit.In a separate survey conducted by Realmeter, 71.4 percent of 501 respondents said they believe the North will actually denuclearize this time around in a complete, verifiable and irreversible way. The approval rating of the ruling Democratic Party also enjoyed a sharp increase, advancing 2.7 percentage points to 54.9 percent from a week earlier. The main opposition Liberty Korea Party’s rating, on the other hand, slipped 3.2 percentage points to 17.9 percent.</p>
+<p><strong>Machine:</strong><br/>
+A poll released on Thursday showed that after the historic summit between South Korea’s President Wen Yat-sen and North Korean leader Kim Jong-un, Wen’s support rate shot up to an 11-month high this week. In a survey conducted by “Realmeter”, a polling agency in South Korea, 78.3% of respondents stated that they supported Wen’s administration. <strong>This latest poll figure clearly reflects the people's support for the results of the "World Finance Council".</strong> In another survey conducted by Realmeter, 71.4% of the 501 respondents answered that it is believed that North Korea will be denuclearized in a completely, verifiable, and irreversible manner this time. The South Korean ruling party’s “Common Democrat” has also seen a significant increase in the support rate, which has increased by 2.7 percentage points from the previous week to 54.9%. On the other hand, the support rating of the largest opposition party, the “free Korean party”, fell 3.2% to 17.9%.</p>
+<hr/>
+<p><strong>"After being wrapped with lettuce, onions and tomatoes, they proved to be successful in the Netherlands and Belgium."</strong></p>
+<p><strong>Text:</strong><br/>
+德國西部亞琛市的超級市場消費者踏出了他們的舒適圈，品嚐水牛蠕蟲製成的昆蟲漢堡。因蛋白質含量高而極度營養的這些蠕蟲，是水牛甲蟲的幼蟲，於荷蘭繁殖培育。用萵苣、洋蔥和蕃茄包捲上菜，在荷蘭和比利時證明成功後，它們被供應給亞琛一家超市的顧客。試過其中一個漢堡的路人曼弗雷德．勒德爾說，他相信它們是替代肉類的好選擇，並補充指出：「我最初持保留態度，但我吃了第二份，因為它吃起來好棒。」製作這些漢堡的新創公司「蟲蟲基金會」的成立者之一巴利斯．歐澤爾說，他花了4年時間和公司共同創辦人馬克斯．克拉瑪構思出這個概念。歐澤爾說，「相當簡單。你必須創造一個有美感的產品，好看但不要露出任何昆蟲」，並補充指出，人們受到這些漢堡味道的吸引。（路透）</p>
+<p><strong>Bio:</strong><br/>
+Supermarket shoppers in the western German city of Aachen have stepped out of their comfort zone to sample insect burgers made of buffalo worms.The worms, highly nutritious due to their high protein content, are the larvae of buffalo beetles and are bred in the Netherlands.Served in rolls with lettuce, onions and tomatoes, they are being offered to customers at a supermarket in Aachen after proving successful in the Netherlands and Belgium.One passerby who tried one of the burgers, Manfred Roedder, said he believed they were a good alternative to meat, adding: "I had reservations at first but I got a second serving because it tasted so good."Baris Oezel, one of the founders of the start-up called Bugfoundation that makes the burgers, said he spent four years working on the concept along with company co-founder Max Kraemer."It’s quite simple. You have to create an aesthetic product that looks good and doesn’t show any insects," Oezel said, adding that people were attracted by the smell of the burgers. (Reuters)</p>
+<p><strong>Machine:</strong><br/>
+Supermarket consumers in Aachen, western Germany, have stepped out of their comfort zone and ate an insect burger made from buffalo worms. These worms, which are extremely nutritious due to their high protein content, are larvae of buffalo beetles and breed in the Netherlands. <strong>After being wrapped with lettuce, onions and tomatoes, they proved to be successful in the Netherlands and Belgium.</strong> They were then served to customers in a supermarket in Aachen. One of the tried passersby Manfred of Hamburg. Lederer said he believes they are a good alternative to meat and added: "I initially held my reservation, but I ate the second one because it tasted great." Balis, one of the founders of the Pest Foundation. Ouzel said that he spent four years with the company co-founder Max. Karamay conceived this concept. Ouzel said, "It's quite simple. You have to create an aesthetic product that looks good but you don't expose any insects," and added that people are attracted by the taste of these burgers. (Reuters)</p>
+<hr/>
+<p><strong>"What's scary is not just the stench of garbage, flies and fleas."</strong></p>
+<p><strong>Text:</strong><br/>
+令人無法忍受的生廚餘惡臭、竄爬上牆的蟑螂，以及堆得到處都是的垃圾，令人難以想像有人能將此處稱之為家。歡迎來到典型的「垃圾屋」，這是專為看似放棄基本衛生準則、什麼東西都不丟掉的居住者的住處所打造的詞彙。「垃圾屋」問題令日本各地方政府愈來愈頭大，得清理這些住處好讓居住者能回歸正常生活。失智與憂鬱可能是（導致）居家囤積垃圾的因素，但也還有其他原因。大阪府1名80多歲獨居老嫗的兒子難得造訪母親的家，結果發現家裡一團亂而嚇了一大跳。令人驚嚇的不只是垃圾的惡臭或蒼蠅與蟑螂。堆積在餐廳的垃圾足足有30公分高，從一盒蛋到髒床單與食譜什麼都有。</p>
+<p><strong>Bio:</strong><br/>
+An overpowering stench of raw garbage, cockroaches scuttling up the walls and junk piled high in every nook and cranny：It’s hard to believe that anyone would call it home.Welcome to a typical "trash house," a term coined for dwellings whose residents seem to have given up on basic norms of hygiene by throwing nothing away.It is a growing problem for local authorities across Japan faced with clearing out these homes so the occupants can put their lives back together.Dementia and depression can be factors behind hoarding, but there are also other causes.The son of a woman in her 80s living alone in Osaka Prefecture got the shock of his life on a rare visit home to find an awful mess inside.It wasn’t just the smell of garbage, or the flies and the cockroaches. The dining room was piled 30 centimeters high with everything from a carton of eggs to dirty bed linen and a cookbook.</p>
+<p><strong>Machine:</strong><br/>
+The unbearable stench of raw food, the noise of climbing up the wall, and the rubbish that is piled everywhere make it hard to imagine anyone calling it home. Welcome to a typical “junk room”, a term for people who live in occupants who appear to be giving up basic hygiene rules and not losing anything. The problem of “rubbish huts” has made Japanese local governments more and more big and they have to clean up these dwellings so that occupants can return to normal life. Dementia and depression may be factors that cause home-based accumulation of rubbish, but there are other reasons. In Osaka, an 80-year-old son who lived alone and had a rare visit to his mother’s home, she found that her family was in a mess and frightened. <strong>What's scary is not just the stench of garbage, flies and fleas</strong>The garbage piled up in the restaurant is 30cm high, ranging from a box of eggs to dirty sheets and recipes.**pes.</p>
+<hr/>
+<p><strong>"The garbage piled up in the restaurant is 30cm high, ranging from a box of eggs to dirty sheets and recipes."</strong></p>
+<p><strong>Text:</strong><br/>
+令人無法忍受的生廚餘惡臭、竄爬上牆的蟑螂，以及堆得到處都是的垃圾，令人難以想像有人能將此處稱之為家。歡迎來到典型的「垃圾屋」，這是專為看似放棄基本衛生準則、什麼東西都不丟掉的居住者的住處所打造的詞彙。「垃圾屋」問題令日本各地方政府愈來愈頭大，得清理這些住處好讓居住者能回歸正常生活。失智與憂鬱可能是（導致）居家囤積垃圾的因素，但也還有其他原因。大阪府1名80多歲獨居老嫗的兒子難得造訪母親的家，結果發現家裡一團亂而嚇了一大跳。令人驚嚇的不只是垃圾的惡臭或蒼蠅與蟑螂。堆積在餐廳的垃圾足足有30公分高，從一盒蛋到髒床單與食譜什麼都有。</p>
+<p><strong>Bio:</strong><br/>
+An overpowering stench of raw garbage, cockroaches scuttling up the walls and junk piled high in every nook and cranny：It’s hard to believe that anyone would call it home.Welcome to a typical "trash house," a term coined for dwellings whose residents seem to have given up on basic norms of hygiene by throwing nothing away.It is a growing problem for local authorities across Japan faced with clearing out these homes so the occupants can put their lives back together.Dementia and depression can be factors behind hoarding, but there are also other causes.The son of a woman in her 80s living alone in Osaka Prefecture got the shock of his life on a rare visit home to find an awful mess inside.It wasn’t just the smell of garbage, or the flies and the cockroaches. The dining room was piled 30 centimeters high with everything from a carton of eggs to dirty bed linen and a cookbook.</p>
+<p><strong>Machine:</strong><br/>
+The unbearable stench of raw food, the noise of climbing up the wall, and the rubbish that is piled everywhere make it hard to imagine anyone calling it home. Welcome to a typical “junk room”, a term for people who live in occupants who appear to be giving up basic hygiene rules and not losing anything. The problem of “rubbish huts” has made Japanese local governments more and more big and they have to clean up these dwellings so that occupants can return to normal life. Dementia and depression may be factors that cause home-based accumulation of rubbish, but there are other reasons. In Osaka, an 80-year-old son who lived alone and had a rare visit to his mother’s home, she found that her family was in a mess and frightened. <strong>What's scary is not just the stench of garbage, flies and fleas</strong>The garbage piled up in the restaurant is 30cm high, ranging from a box of eggs to dirty sheets and recipes.**pes.</p>
+<hr/>
+<p><strong>"However, after Jim came to France, he never thought he was qualified enough to cook."</strong></p>
+<p><strong>Text:</strong><br/>
+黎巴嫩裔廚師艾倫．吉姆20年前初到巴黎時，身無分文只能露宿街頭，而且法語一竅不通，找不到人生方向。從擔任一名洗碗工開始打拚事業的吉姆，憑藉備受讚揚的新餐廳，終於首度榮獲法國飲食界聖經「米其林」的一星評價。吉姆從小便著迷於食物，放學後看電視不是看卡通，而是烹飪節目。他在黎巴嫩服役時開始下廚，讓隊裡的上校印象深刻，還邀請他擔任私人廚師。然而，吉姆來到法國後不曾想過自己夠資格下廚。「我白天是建築工，晚上去送披薩和洗碗。有一晚，廚師切傷手進了醫院。雖然沒人問我，但我接手他的工作。當時有14桌客人，我就煮給他們吃，最後他們吃得很盡興。」</p>
+<p><strong>Bio:</strong><br/>
+When Lebanese chef Alan Geaam first arrived in Paris two decades ago he found himself sleeping on the streets, lost and penniless with hardly a word of French.Geaam, who began his career as a dishwasher, finally received his first Michelin star from the French gastronomic bible for his acclaimed new restaurant.In the childhood Geaam had a fascination with food, watching cookery shows on television rather than cartoons after school. He started cooking while doing his national service in Lebanon, and the colonel of his regiment was so impressed he made him his personal chef.But Geaam never thought he would be able to cut the mustard in France. "I worked during the day as a construction worker and at night delivering pizzas and washing dishes. One night the cook cut his hand and had to go to hospital. No one asked me, but I just took over. There were 14 tables and I just feed the customers and at the end of the night they were delighted."</p>
+<p><strong>Machine:</strong><br/>
+Lebanese chef Allen. When Jim arrived in Paris 20 years ago, he couldn't bear to live on the streets, and he couldn't find a way of life without knowing French. Jim, who started his career as a dish washer, finally won the star rating of the Michelin, the Bible of the French catering industry, for his first time in the highly acclaimed new restaurant. Jim is fascinated with food from pissing, watching TV after school is not about cartoons, but cooking shows. He started cooking when he was serving in Lebanon, so that the colonel's colonel was impressed and invited him to serve as a private chef. <strong>However, after Jim came to France, he never thought he was qualified enough to cook</strong>“I was a construction worker during the day and I went to pizza and dishes in the evening.**ing. One night, the chef cut a hand into the hospital. Although no one asked me, I took over his job. At that time there were 14 guests and I cooked them. Finally, they enjoyed eating very much."</p>
+<hr/>
+<p><strong>"“I was a construction worker during the day and I went to pizza and dishes in the evening."</strong></p>
+<p><strong>Text:</strong><br/>
+黎巴嫩裔廚師艾倫．吉姆20年前初到巴黎時，身無分文只能露宿街頭，而且法語一竅不通，找不到人生方向。從擔任一名洗碗工開始打拚事業的吉姆，憑藉備受讚揚的新餐廳，終於首度榮獲法國飲食界聖經「米其林」的一星評價。吉姆從小便著迷於食物，放學後看電視不是看卡通，而是烹飪節目。他在黎巴嫩服役時開始下廚，讓隊裡的上校印象深刻，還邀請他擔任私人廚師。然而，吉姆來到法國後不曾想過自己夠資格下廚。「我白天是建築工，晚上去送披薩和洗碗。有一晚，廚師切傷手進了醫院。雖然沒人問我，但我接手他的工作。當時有14桌客人，我就煮給他們吃，最後他們吃得很盡興。」</p>
+<p><strong>Bio:</strong><br/>
+When Lebanese chef Alan Geaam first arrived in Paris two decades ago he found himself sleeping on the streets, lost and penniless with hardly a word of French.Geaam, who began his career as a dishwasher, finally received his first Michelin star from the French gastronomic bible for his acclaimed new restaurant.In the childhood Geaam had a fascination with food, watching cookery shows on television rather than cartoons after school. He started cooking while doing his national service in Lebanon, and the colonel of his regiment was so impressed he made him his personal chef.But Geaam never thought he would be able to cut the mustard in France. "I worked during the day as a construction worker and at night delivering pizzas and washing dishes. One night the cook cut his hand and had to go to hospital. No one asked me, but I just took over. There were 14 tables and I just feed the customers and at the end of the night they were delighted."</p>
+<p><strong>Machine:</strong><br/>
+Lebanese chef Allen. When Jim arrived in Paris 20 years ago, he couldn't bear to live on the streets, and he couldn't find a way of life without knowing French. Jim, who started his career as a dish washer, finally won the star rating of the Michelin, the Bible of the French catering industry, for his first time in the highly acclaimed new restaurant. Jim is fascinated with food from pissing, watching TV after school is not about cartoons, but cooking shows. He started cooking when he was serving in Lebanon, so that the colonel's colonel was impressed and invited him to serve as a private chef. <strong>However, after Jim came to France, he never thought he was qualified enough to cook</strong>“I was a construction worker during the day and I went to pizza and dishes in the evening.**ing. One night, the chef cut a hand into the hospital. Although no one asked me, I took over his job. At that time there were 14 guests and I cooked them. Finally, they enjoyed eating very much."</p>
+<hr/>
+<p><strong>"Participants must use the stones and pebbles from the town’s eye-hole beaches to create the most complex and challenging gravitational art sculptures."</strong></p>
+<p><strong>Text:</strong><br/>
+雕塑藝術家週日齊聚蘇格蘭，為堆石頭冠軍頭銜一較高下。逾30名來自美國、西班牙、義大利及英國各地的參賽者，為了第二屆歐洲堆石錦標賽，聚集在愛丁堡附近的鄧巴。參賽者必須以取自該鎮眼洞海灘的石塊與小卵石，創造出最複雜與挑戰地心引力的藝術雕塑。「這是現存最古老的藝術形式。」這個剛起步的競賽創辦人佩吉說。然而，堆石頭激怒一些生態保育人士，他們指控狂熱份子搬動新石器時代遺址的石塊，「抹除歷史」。佩吉堅稱，專業的藝術家會小心維護自然與歷史環境。來自西班牙的杜蘭以他的石頭拱門，連續第二年獲頒歐洲冠軍；現年46歲、來自英國城市雪菲爾的布朗特，則以他複雜精細的雲霄飛車雕塑贏得亞軍。「約在7年前我對堆石產生興趣，」 布朗特說。「大家以為這是一種魔術，但我看到背後的科學。」</p>
+<p><strong>Bio:</strong><br/>
+Sculpture artists gathered in Scotland on Sunday to compete for the title of champion stone stacker. More than 30 participants from America, Spain, Italy and from around Britain converged on Dunbar, near Edinburgh, for the second European Stone Stacking Championships. Competitors must create the most complex and gravity-defying artistic sculptures from rocks and pebbles gathered on the town’s Eye Cave Beach. "（It’s） the most ancient art form that there is," James Craig Page, the fledgling contest’s founder, said. Stone stacking however has angered some conservationists who accuse enthusiasts of "rubbing out history" by removing rocks from ancient neolithic monuments. Page insists the professional artists take care to preserve the natural and historic environment. Pedro Duran, from Spain, was named European champion for the second year running for his stone archway, while James Brunt, 46, from the English city Sheffield, won runner-up for his intricate sculpture of a rollercoaster. "I got into stone stacking about seven years ago," said Brunt. "Everyone thought it was a kind of magic, and I saw the science behind it."</p>
+<p><strong>Machine:</strong><br/>
+Sculpture artists gathered in Scotland on Sunday to compete for the championship of stone stacks. More than 30 contestants from across the United States, Spain, Italy and the United Kingdom gathered in Dunbar near Edinburgh for the 2nd European Reactors. <strong>Participants must use the stones and pebbles from the town’s eye-hole beaches to create the most complex and challenging gravitational art sculptures.</strong> "This is the oldest existing art form," said Peggy, founder of the start-up contest. However, the heap of stones angered some conservationis<strong>They accused the zealots of moving stones from the Neolithic site and "erased history." Peggy insists that professional artists will carefully preserve the natural and historical environment.</strong>ent. Duran from Spain with his stone arches, won the European Championship for the second year in a row; Brent, 46, from the British city of Schiffer, won the runner-up with his complex and elaborate roller coaster sculpture. "I was interested in rockfill about 7 years ago," Blount said. "People think this is a magic, but I see the science behind it."</p>
+<hr/>
+<p><strong>"They accused the zealots of moving stones from the Neolithic site and "erased history." Peggy insists that professional artists will carefully preserve the natural and historical environment."</strong></p>
+<p><strong>Text:</strong><br/>
+雕塑藝術家週日齊聚蘇格蘭，為堆石頭冠軍頭銜一較高下。逾30名來自美國、西班牙、義大利及英國各地的參賽者，為了第二屆歐洲堆石錦標賽，聚集在愛丁堡附近的鄧巴。參賽者必須以取自該鎮眼洞海灘的石塊與小卵石，創造出最複雜與挑戰地心引力的藝術雕塑。「這是現存最古老的藝術形式。」這個剛起步的競賽創辦人佩吉說。然而，堆石頭激怒一些生態保育人士，他們指控狂熱份子搬動新石器時代遺址的石塊，「抹除歷史」。佩吉堅稱，專業的藝術家會小心維護自然與歷史環境。來自西班牙的杜蘭以他的石頭拱門，連續第二年獲頒歐洲冠軍；現年46歲、來自英國城市雪菲爾的布朗特，則以他複雜精細的雲霄飛車雕塑贏得亞軍。「約在7年前我對堆石產生興趣，」 布朗特說。「大家以為這是一種魔術，但我看到背後的科學。」</p>
+<p><strong>Bio:</strong><br/>
+Sculpture artists gathered in Scotland on Sunday to compete for the title of champion stone stacker. More than 30 participants from America, Spain, Italy and from around Britain converged on Dunbar, near Edinburgh, for the second European Stone Stacking Championships. Competitors must create the most complex and gravity-defying artistic sculptures from rocks and pebbles gathered on the town’s Eye Cave Beach. "（It’s） the most ancient art form that there is," James Craig Page, the fledgling contest’s founder, said. Stone stacking however has angered some conservationists who accuse enthusiasts of "rubbing out history" by removing rocks from ancient neolithic monuments. Page insists the professional artists take care to preserve the natural and historic environment. Pedro Duran, from Spain, was named European champion for the second year running for his stone archway, while James Brunt, 46, from the English city Sheffield, won runner-up for his intricate sculpture of a rollercoaster. "I got into stone stacking about seven years ago," said Brunt. "Everyone thought it was a kind of magic, and I saw the science behind it."</p>
+<p><strong>Machine:</strong><br/>
+Sculpture artists gathered in Scotland on Sunday to compete for the championship of stone stacks. More than 30 contestants from across the United States, Spain, Italy and the United Kingdom gathered in Dunbar near Edinburgh for the 2nd European Reactors. <strong>Participants must use the stones and pebbles from the town’s eye-hole beaches to create the most complex and challenging gravitational art sculptures.</strong> "This is the oldest existing art form," said Peggy, founder of the start-up contest. However, the heap of stones angered some conservationis<strong>They accused the zealots of moving stones from the Neolithic site and "erased history." Peggy insists that professional artists will carefully preserve the natural and historical environment.</strong>ent. Duran from Spain with his stone arches, won the European Championship for the second year in a row; Brent, 46, from the British city of Schiffer, won the runner-up with his complex and elaborate roller coaster sculpture. "I was interested in rockfill about 7 years ago," Blount said. "People think this is a magic, but I see the science behind it."</p>
+<hr/>
+<p><strong>"During the study, more than 10,000 of these volunteers passed away."</strong></p>
+<p><strong>Text:</strong><br/>
+夜貓子更能在派對上玩開，然其對熬夜的偏好，可能招致若干嚴重的壞處，一項本週發表於《國際時間生物學》期刊的新研究指出。研究人員檢視一項持續進行中的大型英國居民人口研究「英國人體生物資料庫」的數據。自2006年至2010年，約有50萬人報名參與這項研究，啟動他們的健康情況追蹤。在該次研究中，研究人員聚焦於年齡介於38歲至73歲、曾自述為晨型人或夜型人的逾40萬名志願者，平均追蹤他們6.5年。研究期間，這些志願者中有超過1萬人逝世。而相較於明確形容自己為晨型人的志願者，夜貓子的死亡機率高出約10％。不僅如此，夜貓子也普遍地更不健康。這項研究的作者指出，該研究首次顯示夜貓子更常有胃腸和神經問題。</p>
+<p><strong>Bio:</strong><br/>
+Night owls may be more fun at parties, but a preference for staying out late may come with some serious drawbacks, suggests a new study published this week in Chronobiology International.Researchers looked data from a large, ongoing population study of UK residents, known as the UK Biobank Study. Around a half a million participants enrolled in the study from 2006 to 2010 and have had their health tracked ever since. In the current study, the researchers specifically looked at over 400,000 volunteers between the ages of 38 to 73 who answered a question about whether they were a morning or evening type, then followed them for an average 6.5 years.Over 10,000 of those people died during the study period. And compared to people who described themselves as definite morning people, night owls were about 10 percent more likely to have died. More than that, night owls were also just generally unhealthier.According to the authors, it’s the first to suggest that gastrointestinal and neurological problems are more common among owls.</p>
+<p><strong>Machine:</strong><br/>
+Night owls can play better at parties, but their preference for staying up late may lead to several serious downsides, a new study published this week in the International Time Biology Journal points out. The researchers examined data from a continuously ongoing large UK resident population study "British Human Biological Database". From 2006 to 2010, about 500,000 people signed up to participate in the study and start tracking their health status. In this study, the researchers focused on more than 400,000 volunteers between the ages of 38 and 73 who had described themselves as morning-type or night-type people and tracked them on average for 6.5 years. <strong>During the study, more than 10,000 of these volunteers passed away.</strong> Compared with volunteers who have clearly described themselves as morning-wearers, the night owl’s death rate is about 10% higher. Not only that, night owls are also generally more unhealthy. The authors of the study pointed out that the study showed for the first time that night owls have more gastrointestinal and neurological problems.</p>
+<hr/>
+<p><strong>"Zhu Yue, an aeroplane fan who worked as a welder and auto mechanic, spent a few months studying aircraft modelling and engineering drawing before he and his friends started making manual versions a year ago."</strong></p>
+<p><strong>Text:</strong><br/>
+中國東北一位一直想要擁有一架飛機的男子，正進行退而求其次的方案：打造一架空中巴士A320噴射機的原尺寸仿製品。朱躍，一名擔任焊工和汽車技工的飛機迷，在他1年前和朋友們開始打造手工版本前，花了數個月研究飛機模型與工程製圖。40歲的朱躍住在遼寧省開原市，他說計畫把這架仿製品變身為一間飛機主題餐廳。他說：「我想確保這架飛機製造精美，並且是中國最棒的A320模型。」他補充，這件仿製品——37.8公尺長，翼展36公尺，以及12公尺高——將主打可旋轉的模型渦輪引擎以及模擬駕駛艙。朱躍至今已在他的計畫投入超過100萬人民幣積蓄及40公噸的鋼材，希望在年底前以總造價200萬人民幣完成它。（路透）</p>
+<p><strong>Bio:</strong><br/>
+A man in northeastern China who always wanted to own an aircraft is doing the next best thing：building a full-scale replica of an Airbus A320 jet.Zhu Yue, an aviation buff who worked as a welder and an auto mechanic, spent months studying plane models and technical drawings before he started building a homemade version a year ago with his friends.Zhu, 40, who lives in the city of Kaiyuan in Liaoning province, said he planned to turn the replica into an aviation-themed restaurant."I want to make sure the plane is created with finesse and be the best A320 model in China," he said.The replica - 37.8 meters long with a wingspan of 36 meters and height of 12 meters - will feature model engine turbines that can rotate and a simulation cockpit, he added.Zhu, who has so far spent more than 1 million yuan of his savings and used 40 tonnes of steel on his project, hopes to complete it by the end of year at a total cost of 2 million yuan. （Reuters）</p>
+<p><strong>Machine:</strong><br/>
+A man in northeastern China who has always wanted to own an aircraft is carrying out the next best solution: creating an original replica of an Airbus A320 jet. <strong>Zhu Yue, an aeroplane fan who worked as a welder and auto mechanic, spent a few months studying aircraft modelling and engineering drawing before he and his friends started making manual versions a year ago.</strong> Zhu Yue, 40, who lives in Kaiyuan, Liaoning Province, said that he plans to transform this imitation into an aircraft theme restaurant. He said: "I want to make sure that this aircraft is beautifully crafted and is the best A320 model in China." He added that this replica - 37.8 meters long, with a wingspan of 36 meters and a height of 12 meters - It will feature a rotating model turbine engine as well as a simulated cockpit. Zhu Yue has invested more than RMB 1 million in savings and 40 tons of steel in his plan so far and hopes to complete it by the end of the year at a total cost of RMB 2 million. (Reuters)</p>
+<hr/>
+<p><strong>"The northeast Shinkansen train arrived at the station at a higher than normal speed, forcing the car to start an emergency car."</strong></p>
+<p><strong>Text:</strong><br/>
+一名（日本）高速新幹線子彈列車的駕駛員坦承，他在4月1日駛進JR仙台站時睡著，衝過停車點。這列東北新幹線列車以高於正常的速度抵達該站，迫使車掌啟動緊急煞車。根據負責營運的JR東日本鐵路公司仙台支社4月13日的說法，該列車最後在超出指定停車點20公尺處停下，還被迫倒車。起初，該名40幾歲的駕駛員表示，他弄錯了停車點。但在4月13日，他坦承當時在打瞌睡。該列車搭載約500名旅客，所幸無人因此受傷。仙台支社表示，這班「山彥」59號列車從東京出發，目的地是盛岡。此事發生在晚間約10時20分。</p>
+<p><strong>Bio:</strong><br/>
+The driver of a high-speed Shinkansen bullet train admitted to being asleep at the wheel when he pulled into JR Sendai Station on April 1 and overshot the stopping point.The Tohoku Shinkansen Line train arrived at the station at faster than normal speed, forcing the conductor to apply the emergency brakes.The train came to a halt 20 meters beyond its designated stop, and had to reverse, according to the Sendai branch office of operator East Japan Railway Co. （JR East） on April 13.Initially, the driver in his 40s said that he mistook the stopping point. But on April 13, he admitted that he had been nodding off at the time.The train carried 500 or so passengers, none of whom was injured.According to the branch office, the Shinkansen, Yamabiko No. 59, departed from Tokyo and was bound for Morioka. The incident occurred around 10：20 p.m.</p>
+<p><strong>Machine:</strong><br/>
+One (Japan) high-speed Shinkansen bullet train driver admitted that he fell asleep on April 1 at JR Sendai Station and rushed through the parking spot. <strong>The northeast Shinkansen train arrived at the station at a higher than normal speed, forcing the car to start an emergency car.</strong> According to the April 13th statement of the JR East Japan Railway Company’s Sendai branch, which was responsible for the operation, the train stopped at 20 meters beyond the designated parking spot and was forced to rever<strong>At first, the 40-year-old driver stated that he had mistaken the parking spot.</strong>pot. However, on April 13, he admitted that he was sleeping. The train carried about 500 passengers, fortunately no one was i<strong>Sendai Branch stated that this train "Yanhiko" No.</strong>iko" No. 59 departs from Tokyo and its destination is Morioka. This happened at about 10:20 in the evening.</p>
+<hr/>
+<p><strong>"At first, the 40-year-old driver stated that he had mistaken the parking spot."</strong></p>
+<p><strong>Text:</strong><br/>
+一名（日本）高速新幹線子彈列車的駕駛員坦承，他在4月1日駛進JR仙台站時睡著，衝過停車點。這列東北新幹線列車以高於正常的速度抵達該站，迫使車掌啟動緊急煞車。根據負責營運的JR東日本鐵路公司仙台支社4月13日的說法，該列車最後在超出指定停車點20公尺處停下，還被迫倒車。起初，該名40幾歲的駕駛員表示，他弄錯了停車點。但在4月13日，他坦承當時在打瞌睡。該列車搭載約500名旅客，所幸無人因此受傷。仙台支社表示，這班「山彥」59號列車從東京出發，目的地是盛岡。此事發生在晚間約10時20分。</p>
+<p><strong>Bio:</strong><br/>
+The driver of a high-speed Shinkansen bullet train admitted to being asleep at the wheel when he pulled into JR Sendai Station on April 1 and overshot the stopping point.The Tohoku Shinkansen Line train arrived at the station at faster than normal speed, forcing the conductor to apply the emergency brakes.The train came to a halt 20 meters beyond its designated stop, and had to reverse, according to the Sendai branch office of operator East Japan Railway Co. （JR East） on April 13.Initially, the driver in his 40s said that he mistook the stopping point. But on April 13, he admitted that he had been nodding off at the time.The train carried 500 or so passengers, none of whom was injured.According to the branch office, the Shinkansen, Yamabiko No. 59, departed from Tokyo and was bound for Morioka. The incident occurred around 10：20 p.m.</p>
+<p><strong>Machine:</strong><br/>
+One (Japan) high-speed Shinkansen bullet train driver admitted that he fell asleep on April 1 at JR Sendai Station and rushed through the parking spot. <strong>The northeast Shinkansen train arrived at the station at a higher than normal speed, forcing the car to start an emergency car.</strong> According to the April 13th statement of the JR East Japan Railway Company’s Sendai branch, which was responsible for the operation, the train stopped at 20 meters beyond the designated parking spot and was forced to rever<strong>At first, the 40-year-old driver stated that he had mistaken the parking spot.</strong>pot. However, on April 13, he admitted that he was sleeping. The train carried about 500 passengers, fortunately no one was i<strong>Sendai Branch stated that this train "Yanhiko" No.</strong>iko" No. 59 departs from Tokyo and its destination is Morioka. This happened at about 10:20 in the evening.</p>
+<hr/>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+</div>
+	<hr>
+	<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'translation-corpora'; 
+    var disqus_title = 'Sims Mid 31-60';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+		</div>
+	</div> 	<!-- <hr> -->
+</div> <!-- /container -->
+<footer class="aw-footer bg-danger">
+	<div class="container"> <!-- footer -->
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-3">
+						<h4>Navigation</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://shaynemei.github.io">Translation Corpora</a></li>
+							<li><a href="https://shaynemei.github.io/feeds/all.atom.xml" type="application/atom+xml"><i class="fa fa-rss "></i> atom</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Author</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://facebook.com/shaynemei">Facebook</a></li>
+							<li><a href="www.linkedin.com/in/shaynemei">LinkedIn</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Categories</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://shaynemei.github.io/category/ch.html">CH (10)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_high.html">EN_high (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_low.html">EN_low (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_mid.html">EN_mid (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_top.html">EN_top (2)</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Links</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://www.nltk.org">NLTK</a></li>
+							<li><a href="http://getpelican.com/">Pelican</a></li>
+							<li><a href="http://python.org/">Python.org</a></li>
+							<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center center-block aw-bottom">
+			<p>&copy; Shayne 2016</p>
+			<p>Powered by Pelican</p>
+		</div>
+	</div>
+</div>
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$("div.collapseheader").click(function () {
+		$header = $(this).children("span").first();
+		$codearea = $(this).children(".input_area");
+		$codearea.slideToggle(500, function () {
+			$header.text(function () {
+				return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+			});
+		});
+	});
+});
+</script>
+</body>
+</html>

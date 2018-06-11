@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sims Top 0-30 — Translation Corpora</title>
+	<meta name="description" content="Title: Sims Top 0-30; Date: 2018-06-11; Author: Shayne">
+	<meta name="author" content="Shayne">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="https://shaynemei.github.io/theme/html5.js"></script>
+		<![endif]-->
+	<link href="https://shaynemei.github.io/theme/css/ipython.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/simplex/bootstrap.min.css" rel="stylesheet">
+	<link href="https://shaynemei.github.io/theme/css/local.css" rel="stylesheet">
+	<link href="https://shaynemei.github.io/theme/css/pygments.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<h1><a href="https://shaynemei.github.io/">Translation Corpora</a>
+			<br><small>All original articles scraped from Liberty Times Net for non-profit research only.</small></h1>	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+<div class="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="text-center article-header">
+		<h1 itemprop="name headline" class="article-title">Sims Top 0-30</h1>
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<h4 itemprop="name">Shayne</h4>
+		</span>
+		<time datetime="2018-06-11T10:00:00+08:00" itemprop="datePublished">Mon 11 June 2018</time>
+	</div>
+	<div>
+		Category:
+		<span itemprop="articleSection">
+			<a href="https://shaynemei.github.io/category/en_top.html" rel="category">EN_top</a>
+		</span>
+	</div>
+	<div itemprop="articleBody" class="article-body"><style type="text/css">/*!
+*
+* IPython notebook
+*
+*/
+/* CSS font colors for translated ANSI colors. */
+.ansibold {
+  font-weight: bold;
+}
+/* use dark versions for foreground, to improve visibility */
+.ansiblack {
+  color: black;
+}
+.ansired {
+  color: darkred;
+}
+.ansigreen {
+  color: darkgreen;
+}
+.ansiyellow {
+  color: #c4a000;
+}
+.ansiblue {
+  color: darkblue;
+}
+.ansipurple {
+  color: darkviolet;
+}
+.ansicyan {
+  color: steelblue;
+}
+.ansigray {
+  color: gray;
+}
+/* and light for background, for the same reason */
+.ansibgblack {
+  background-color: black;
+}
+.ansibgred {
+  background-color: red;
+}
+.ansibggreen {
+  background-color: green;
+}
+.ansibgyellow {
+  background-color: yellow;
+}
+.ansibgblue {
+  background-color: blue;
+}
+.ansibgpurple {
+  background-color: magenta;
+}
+.ansibgcyan {
+  background-color: cyan;
+}
+.ansibggray {
+  background-color: gray;
+}
+div.cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px;
+  /* This acts as a spacer between cells, that is outside the border */
+  margin: 0px;
+  outline: none;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+}
+div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
+  border-left-color: #E3F2FD;
+  border-left-width: 1px;
+  padding-left: 5px;
+  border-right-color: #E3F2FD;
+  border-right-width: 1px;
+  background: #E3F2FD;
+}
+@media print {
+  div.cell.jupyter-soft-selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected {
+  border-color: #ababab;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  div.cell.selected {
+    border-color: transparent;
+  }
+}
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
+.edit_mode div.cell.selected {
+  border-color: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+@media print {
+  .edit_mode div.cell.selected {
+    border-color: transparent;
+  }
+}
+.prompt {
+  /* This needs to be wide enough for 3 digit prompt numbers: In[100]: */
+  min-width: 14ex;
+  /* This padding is tuned to match the padding on the CodeMirror editor. */
+  padding: 0.4em;
+  margin: 0px;
+  font-family: monospace;
+  text-align: right;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+  /* Don't highlight prompt number selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Use default cursor */
+  cursor: default;
+}
+@media (max-width: 540px) {
+  .prompt {
+    text-align: left;
+  }
+}
+div.inner_cell {
+  min-width: 0;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+}
+/* This is needed so that empty prompt areas can collapse to zero height when there
+   is no content in the output_subarea and the prompt. The main purpose of this is
+   to make sure that empty JavaScript output_subareas have no height. */
+div.prompt:empty {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.unrecognized_cell {
+  padding: 5px 5px 5px 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.unrecognized_cell .inner_cell {
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid #cfcfcf;
+  background: #eaeaea;
+}
+div.unrecognized_cell .inner_cell a {
+  color: inherit;
+  text-decoration: none;
+}
+div.unrecognized_cell .inner_cell a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@media (max-width: 540px) {
+  div.unrecognized_cell > div.prompt {
+    display: none;
+  }
+}
+div.code_cell {
+  /* avoid page breaking on code cells when printing */
+}
+@media print {
+  div.code_cell {
+    page-break-inside: avoid;
+  }
+}
+/* any special styling for code cells that are currently running goes here */
+div.input {
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.input {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+/* input_area and input_prompt must match in top border and margin for alignment */
+div.input_prompt {
+  color: #303F9F;
+  border-top: 1px solid transparent;
+}
+div.input_area > div.highlight {
+  margin: 0.4em;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+div.input_area > div.highlight > pre {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+/* The following gets added to the <head> if it is detected that the user has a
+ * monospace font with inconsistent normal/bold/italic height.  See
+ * notebookmain.js.  Such fonts will have keywords vertically offset with
+ * respect to the rest of the text.  The user should select a better font.
+ * See: https://github.com/ipython/ipython/issues/1503
+ *
+ * .CodeMirror span {
+ *      vertical-align: bottom;
+ * }
+ */
+.CodeMirror {
+  line-height: 1.21429em;
+  /* Changed from 1em to our global default */
+  font-size: 14px;
+  height: auto;
+  /* Changed to auto to autogrow */
+  background: none;
+  /* Changed from white to allow our bg to show through */
+}
+.CodeMirror-scroll {
+  /*  The CodeMirror docs are a bit fuzzy on if overflow-y should be hidden or visible.*/
+  /*  We have found that if it is visible, vertical scrollbars appear with font size changes.*/
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.CodeMirror-lines {
+  /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
+  /* we have set a different line-height and want this to scale with that. */
+  padding: 0.4em;
+}
+.CodeMirror-linenumber {
+  padding: 0 8px 0 4px;
+}
+.CodeMirror-gutters {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.CodeMirror pre {
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Adapted from GitHub theme
+
+*/
+.highlight-base {
+  color: #000;
+}
+.highlight-variable {
+  color: #000;
+}
+.highlight-variable-2 {
+  color: #1a1a1a;
+}
+.highlight-variable-3 {
+  color: #333333;
+}
+.highlight-string {
+  color: #BA2121;
+}
+.highlight-comment {
+  color: #408080;
+  font-style: italic;
+}
+.highlight-number {
+  color: #080;
+}
+.highlight-atom {
+  color: #88F;
+}
+.highlight-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.highlight-builtin {
+  color: #008000;
+}
+.highlight-error {
+  color: #f00;
+}
+.highlight-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.highlight-meta {
+  color: #AA22FF;
+}
+/* previously not defined, copying from default codemirror */
+.highlight-def {
+  color: #00f;
+}
+.highlight-string-2 {
+  color: #f50;
+}
+.highlight-qualifier {
+  color: #555;
+}
+.highlight-bracket {
+  color: #997;
+}
+.highlight-tag {
+  color: #170;
+}
+.highlight-attribute {
+  color: #00c;
+}
+.highlight-header {
+  color: blue;
+}
+.highlight-quote {
+  color: #090;
+}
+.highlight-link {
+  color: #00c;
+}
+/* apply the same style to codemirror */
+.cm-s-ipython span.cm-keyword {
+  color: #008000;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #88F;
+}
+.cm-s-ipython span.cm-number {
+  color: #080;
+}
+.cm-s-ipython span.cm-def {
+  color: #00f;
+}
+.cm-s-ipython span.cm-variable {
+  color: #000;
+}
+.cm-s-ipython span.cm-operator {
+  color: #AA22FF;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #1a1a1a;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #333333;
+}
+.cm-s-ipython span.cm-comment {
+  color: #408080;
+  font-style: italic;
+}
+.cm-s-ipython span.cm-string {
+  color: #BA2121;
+}
+.cm-s-ipython span.cm-string-2 {
+  color: #f50;
+}
+.cm-s-ipython span.cm-meta {
+  color: #AA22FF;
+}
+.cm-s-ipython span.cm-qualifier {
+  color: #555;
+}
+.cm-s-ipython span.cm-builtin {
+  color: #008000;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #997;
+}
+.cm-s-ipython span.cm-tag {
+  color: #170;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #00c;
+}
+.cm-s-ipython span.cm-header {
+  color: blue;
+}
+.cm-s-ipython span.cm-quote {
+  color: #090;
+}
+.cm-s-ipython span.cm-link {
+  color: #00c;
+}
+.cm-s-ipython span.cm-error {
+  color: #f00;
+}
+.cm-s-ipython span.cm-tab {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+div.output_wrapper {
+  /* this position must be relative to enable descendents to be absolute within it */
+  position: relative;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+}
+/* class for the output area when it should be height-limited */
+div.output_scroll {
+  /* ideally, this would be max-height, but FF barfs all over that */
+  height: 24em;
+  /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
+  width: 100%;
+  overflow: auto;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+  display: block;
+}
+/* output div while it is collapsed */
+div.output_collapsed {
+  margin: 0px;
+  padding: 0px;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.out_prompt_overlay {
+  height: 100%;
+  padding: 0px 0.4em;
+  position: absolute;
+  border-radius: 2px;
+}
+div.out_prompt_overlay:hover {
+  /* use inner shadow to get border that is computed the same on WebKit/FF */
+  -webkit-box-shadow: inset 0 0 1px #000;
+  box-shadow: inset 0 0 1px #000;
+  background: rgba(240, 240, 240, 0.5);
+}
+div.output_prompt {
+  color: #D84315;
+}
+/* This class is the outer container of all output sections. */
+div.output_area {
+  padding: 0px;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+div.output_area .MathJax_Display {
+  text-align: left !important;
+}
+div.output_area 
+div.output_area 
+div.output_area img,
+div.output_area svg {
+  max-width: 100%;
+  height: auto;
+}
+div.output_area img.unconfined,
+div.output_area svg.unconfined {
+  max-width: none;
+}
+/* This is needed to protect the pre formating from global settings such
+   as that of bootstrap */
+.output {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: vertical;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.output_area {
+    /* Old browsers */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: stretch;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: vertical;
+    box-align: stretch;
+    /* Modern browsers */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+div.output_area pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: black;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* This class is for the output subarea inside the output_area and after
+   the prompt div. */
+div.output_subarea {
+  overflow-x: auto;
+  padding: 0.4em;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1;
+  max-width: calc(100% - 14ex);
+}
+div.output_scroll div.output_subarea {
+  overflow-x: visible;
+}
+/* The rest of the output_* classes are for special styling of the different
+   output types */
+/* all text output has this class: */
+div.output_text {
+  text-align: left;
+  color: #000;
+  /* This has to match that of the the CodeMirror class line-height below */
+  line-height: 1.21429em;
+}
+/* stdout/stderr are 'text' as well as 'stream', but execute_result/error are *not* streams */
+div.output_stderr {
+  background: #fdd;
+  /* very light red background for stderr */
+}
+div.output_latex {
+  text-align: left;
+}
+/* Empty output_javascript divs should have no height */
+div.output_javascript:empty {
+  padding: 0;
+}
+.js-error {
+  color: darkred;
+}
+/* raw_input styles */
+div.raw_input_container {
+  line-height: 1.21429em;
+  padding-top: 5px;
+}
+pre.raw_input_prompt {
+  /* nothing needed here. */
+}
+input.raw_input {
+  font-family: monospace;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* make sure input baseline aligns with prompt */
+  vertical-align: baseline;
+  /* padding + margin = 0.5em between prompt and cursor */
+  padding: 0em 0.25em;
+  margin: 0em 0.25em;
+}
+input.raw_input:focus {
+  box-shadow: none;
+}
+p.p-space {
+  margin-bottom: 10px;
+}
+div.output_unrecognized {
+  padding: 5px;
+  font-weight: bold;
+  color: red;
+}
+div.output_unrecognized a {
+  color: inherit;
+  text-decoration: none;
+}
+div.output_unrecognized a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.rendered_html {
+  color: #000;
+  /* any extras will just be numbers: */
+}
+
+
+
+.rendered_html :link {
+  text-decoration: underline;
+}
+.rendered_html :visited {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.rendered_html h1:first-child {
+  margin-top: 0.538em;
+}
+.rendered_html h2:first-child {
+  margin-top: 0.636em;
+}
+.rendered_html h3:first-child {
+  margin-top: 0.777em;
+}
+.rendered_html h4:first-child {
+  margin-top: 1em;
+}
+.rendered_html h5:first-child {
+  margin-top: 1em;
+}
+.rendered_html h6:first-child {
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+.rendered_html * + ul {
+  margin-top: 1em;
+}
+.rendered_html * + ol {
+  margin-top: 1em;
+}
+
+
+.rendered_html pre,
+
+
+
+.rendered_html tr,
+.rendered_html th,
+
+.rendered_html td,
+
+
+.rendered_html * + table {
+  margin-top: 1em;
+}
+
+.rendered_html * + p {
+  margin-top: 1em;
+}
+
+.rendered_html * + img {
+  margin-top: 1em;
+}
+.rendered_html img,
+
+.rendered_html img.unconfined,
+
+div.text_cell {
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+@media (max-width: 540px) {
+  div.text_cell > div.prompt {
+    display: none;
+  }
+}
+div.text_cell_render {
+  /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
+  outline: none;
+  resize: none;
+  width: inherit;
+  border-style: none;
+  padding: 0.5em 0.5em 0.5em 0.4em;
+  color: #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a.anchor-link:link {
+  text-decoration: none;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  visibility: visible;
+}
+.text_cell.rendered .input_area {
+  display: none;
+}
+.text_cell.rendered 
+.text_cell.unrendered .text_cell_render {
+  display: none;
+}
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cm-header-1 {
+  font-size: 185.7%;
+}
+.cm-header-2 {
+  font-size: 157.1%;
+}
+.cm-header-3 {
+  font-size: 128.6%;
+}
+.cm-header-4 {
+  font-size: 110%;
+}
+.cm-header-5 {
+  font-size: 100%;
+  font-style: italic;
+}
+.cm-header-6 {
+  font-size: 100%;
+  font-style: italic;
+}
+</style>
+<style type="text/css">.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
+<style type="text/css">
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are 9221 lines in this range of similarity score (0.95-1.0).<br/>
+Here are 30 examples.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>"A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades."</strong></p>
+<p><strong>Text:</strong><br/>
+紐約水牛城的一座博物館最近發現，它的收藏品中有一顆罕見的象鳥蛋，數十年來一直被誤認為模型。水牛城科學博物館的一名收藏品經理，之前更新電子系統目錄時，在超過1000顆蛋類收藏品中，發現這顆「真正的」淡黃色的蛋。這顆局部化石化的蛋，圓周約28英寸，重達3磅多。該名博物館員將蛋拿到美國紐約州立大學水牛城分校的藝術修護學系，接受放射線攝影，那是一種透過X射線檢視物品內部的技術。這項檢驗不僅證實他們的猜測，還照出了顯示這顆蛋已經受精的「白點」。博物館紀錄顯示，一名前館員1939年從倫敦一名動物標本製作者手中，以92美元購得這顆象鳥蛋。該名標本師在（非洲東南方海岸外、印度洋上的）馬達加斯加島買下這顆蛋，那座島是這種鳥類的原產地。這種不會飛的鳥類能長到10英尺高，重量介於770磅至1100磅之間，所產的蛋是脊椎動物中最大的，甚至比恐龍蛋還大。牠已在600多年前滅絕。</p>
+<p><strong>Bio:</strong><br/>
+A museum in Buffalo, N.Y., recently discovered that a rare elephant bird egg in its collection had been mislabeled as a model for decades.A collections manager at the Buffalo Museum of Science was updating its catalog to a digital system when she discovered the "realistic" cream-colored egg among its collection of more than 1,000 eggs. The partially fossilized egg measured 28 inches around and weighed more than 3 pounds.The curators took the egg to the Art Conservation Department at the State University of New York at Buffalo for a radiography — a technique that uses X-rays to see inside an object. The test not only confirmed their suspicions, but it also showed "specs of white" that indicated it could have been fertilized.Museum records showed a previous curator had acquired the elephant bird egg in 1939 from a London taxidermist for $92. The taxidermist had bought the egg on the island of Madagascar — located off the southeast coast of Africa in the Indian Ocean — the birds’ native habitat.The flightless bird grew to be 10 feet tall, weighed between 770 and 1,100 pounds and laid the largest eggs of any vertebrate — even dinosaurs. It went extinct more than 600 years ago.</p>
+<p><strong>Machine:</strong><br/>
+<strong>A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades.</strong> A collection manager at the Buffalo Museum of Science, when updating the electronic system catalog, discovered this "real" pale yellow egg in more than 1,000 egg collections. This localized fossilized egg has a circumference of about 28 inches and weighs more than 3 poun<strong>The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays</strong>This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized.<strong>tilized. According to museum records, a former librarian bought the elephant egg at $92 from a hand-made specimen maker in London in 1939. The specimen bought the egg on Madagascar (outside the coast of Southeast Africa, on the Indian Ocean), and the island was the origin of this bird. This non-flying bird can grow up to 10 feet high and weigh between 770 pounds and 1</strong>It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs<strong>It has been extinguished more than 600 years ago.</strong>n 600 years ago.</p>
+<hr/>
+<p><strong>"The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays."</strong></p>
+<p><strong>Text:</strong><br/>
+紐約水牛城的一座博物館最近發現，它的收藏品中有一顆罕見的象鳥蛋，數十年來一直被誤認為模型。水牛城科學博物館的一名收藏品經理，之前更新電子系統目錄時，在超過1000顆蛋類收藏品中，發現這顆「真正的」淡黃色的蛋。這顆局部化石化的蛋，圓周約28英寸，重達3磅多。該名博物館員將蛋拿到美國紐約州立大學水牛城分校的藝術修護學系，接受放射線攝影，那是一種透過X射線檢視物品內部的技術。這項檢驗不僅證實他們的猜測，還照出了顯示這顆蛋已經受精的「白點」。博物館紀錄顯示，一名前館員1939年從倫敦一名動物標本製作者手中，以92美元購得這顆象鳥蛋。該名標本師在（非洲東南方海岸外、印度洋上的）馬達加斯加島買下這顆蛋，那座島是這種鳥類的原產地。這種不會飛的鳥類能長到10英尺高，重量介於770磅至1100磅之間，所產的蛋是脊椎動物中最大的，甚至比恐龍蛋還大。牠已在600多年前滅絕。</p>
+<p><strong>Bio:</strong><br/>
+A museum in Buffalo, N.Y., recently discovered that a rare elephant bird egg in its collection had been mislabeled as a model for decades.A collections manager at the Buffalo Museum of Science was updating its catalog to a digital system when she discovered the "realistic" cream-colored egg among its collection of more than 1,000 eggs. The partially fossilized egg measured 28 inches around and weighed more than 3 pounds.The curators took the egg to the Art Conservation Department at the State University of New York at Buffalo for a radiography — a technique that uses X-rays to see inside an object. The test not only confirmed their suspicions, but it also showed "specs of white" that indicated it could have been fertilized.Museum records showed a previous curator had acquired the elephant bird egg in 1939 from a London taxidermist for $92. The taxidermist had bought the egg on the island of Madagascar — located off the southeast coast of Africa in the Indian Ocean — the birds’ native habitat.The flightless bird grew to be 10 feet tall, weighed between 770 and 1,100 pounds and laid the largest eggs of any vertebrate — even dinosaurs. It went extinct more than 600 years ago.</p>
+<p><strong>Machine:</strong><br/>
+<strong>A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades.</strong> A collection manager at the Buffalo Museum of Science, when updating the electronic system catalog, discovered this "real" pale yellow egg in more than 1,000 egg collections. This localized fossilized egg has a circumference of about 28 inches and weighs more than 3 poun<strong>The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays</strong>This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized.<strong>tilized. According to museum records, a former librarian bought the elephant egg at $92 from a hand-made specimen maker in London in 1939. The specimen bought the egg on Madagascar (outside the coast of Southeast Africa, on the Indian Ocean), and the island was the origin of this bird. This non-flying bird can grow up to 10 feet high and weigh between 770 pounds and 1</strong>It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs<strong>It has been extinguished more than 600 years ago.</strong>n 600 years ago.</p>
+<hr/>
+<p><strong>"This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized."</strong></p>
+<p><strong>Text:</strong><br/>
+紐約水牛城的一座博物館最近發現，它的收藏品中有一顆罕見的象鳥蛋，數十年來一直被誤認為模型。水牛城科學博物館的一名收藏品經理，之前更新電子系統目錄時，在超過1000顆蛋類收藏品中，發現這顆「真正的」淡黃色的蛋。這顆局部化石化的蛋，圓周約28英寸，重達3磅多。該名博物館員將蛋拿到美國紐約州立大學水牛城分校的藝術修護學系，接受放射線攝影，那是一種透過X射線檢視物品內部的技術。這項檢驗不僅證實他們的猜測，還照出了顯示這顆蛋已經受精的「白點」。博物館紀錄顯示，一名前館員1939年從倫敦一名動物標本製作者手中，以92美元購得這顆象鳥蛋。該名標本師在（非洲東南方海岸外、印度洋上的）馬達加斯加島買下這顆蛋，那座島是這種鳥類的原產地。這種不會飛的鳥類能長到10英尺高，重量介於770磅至1100磅之間，所產的蛋是脊椎動物中最大的，甚至比恐龍蛋還大。牠已在600多年前滅絕。</p>
+<p><strong>Bio:</strong><br/>
+A museum in Buffalo, N.Y., recently discovered that a rare elephant bird egg in its collection had been mislabeled as a model for decades.A collections manager at the Buffalo Museum of Science was updating its catalog to a digital system when she discovered the "realistic" cream-colored egg among its collection of more than 1,000 eggs. The partially fossilized egg measured 28 inches around and weighed more than 3 pounds.The curators took the egg to the Art Conservation Department at the State University of New York at Buffalo for a radiography — a technique that uses X-rays to see inside an object. The test not only confirmed their suspicions, but it also showed "specs of white" that indicated it could have been fertilized.Museum records showed a previous curator had acquired the elephant bird egg in 1939 from a London taxidermist for $92. The taxidermist had bought the egg on the island of Madagascar — located off the southeast coast of Africa in the Indian Ocean — the birds’ native habitat.The flightless bird grew to be 10 feet tall, weighed between 770 and 1,100 pounds and laid the largest eggs of any vertebrate — even dinosaurs. It went extinct more than 600 years ago.</p>
+<p><strong>Machine:</strong><br/>
+<strong>A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades.</strong> A collection manager at the Buffalo Museum of Science, when updating the electronic system catalog, discovered this "real" pale yellow egg in more than 1,000 egg collections. This localized fossilized egg has a circumference of about 28 inches and weighs more than 3 poun<strong>The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays</strong>This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized.<strong>tilized. According to museum records, a former librarian bought the elephant egg at $92 from a hand-made specimen maker in London in 1939. The specimen bought the egg on Madagascar (outside the coast of Southeast Africa, on the Indian Ocean), and the island was the origin of this bird. This non-flying bird can grow up to 10 feet high and weigh between 770 pounds and 1</strong>It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs<strong>It has been extinguished more than 600 years ago.</strong>n 600 years ago.</p>
+<hr/>
+<p><strong>"It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs."</strong></p>
+<p><strong>Text:</strong><br/>
+紐約水牛城的一座博物館最近發現，它的收藏品中有一顆罕見的象鳥蛋，數十年來一直被誤認為模型。水牛城科學博物館的一名收藏品經理，之前更新電子系統目錄時，在超過1000顆蛋類收藏品中，發現這顆「真正的」淡黃色的蛋。這顆局部化石化的蛋，圓周約28英寸，重達3磅多。該名博物館員將蛋拿到美國紐約州立大學水牛城分校的藝術修護學系，接受放射線攝影，那是一種透過X射線檢視物品內部的技術。這項檢驗不僅證實他們的猜測，還照出了顯示這顆蛋已經受精的「白點」。博物館紀錄顯示，一名前館員1939年從倫敦一名動物標本製作者手中，以92美元購得這顆象鳥蛋。該名標本師在（非洲東南方海岸外、印度洋上的）馬達加斯加島買下這顆蛋，那座島是這種鳥類的原產地。這種不會飛的鳥類能長到10英尺高，重量介於770磅至1100磅之間，所產的蛋是脊椎動物中最大的，甚至比恐龍蛋還大。牠已在600多年前滅絕。</p>
+<p><strong>Bio:</strong><br/>
+A museum in Buffalo, N.Y., recently discovered that a rare elephant bird egg in its collection had been mislabeled as a model for decades.A collections manager at the Buffalo Museum of Science was updating its catalog to a digital system when she discovered the "realistic" cream-colored egg among its collection of more than 1,000 eggs. The partially fossilized egg measured 28 inches around and weighed more than 3 pounds.The curators took the egg to the Art Conservation Department at the State University of New York at Buffalo for a radiography — a technique that uses X-rays to see inside an object. The test not only confirmed their suspicions, but it also showed "specs of white" that indicated it could have been fertilized.Museum records showed a previous curator had acquired the elephant bird egg in 1939 from a London taxidermist for $92. The taxidermist had bought the egg on the island of Madagascar — located off the southeast coast of Africa in the Indian Ocean — the birds’ native habitat.The flightless bird grew to be 10 feet tall, weighed between 770 and 1,100 pounds and laid the largest eggs of any vertebrate — even dinosaurs. It went extinct more than 600 years ago.</p>
+<p><strong>Machine:</strong><br/>
+<strong>A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades.</strong> A collection manager at the Buffalo Museum of Science, when updating the electronic system catalog, discovered this "real" pale yellow egg in more than 1,000 egg collections. This localized fossilized egg has a circumference of about 28 inches and weighs more than 3 poun<strong>The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays</strong>This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized.<strong>tilized. According to museum records, a former librarian bought the elephant egg at $92 from a hand-made specimen maker in London in 1939. The specimen bought the egg on Madagascar (outside the coast of Southeast Africa, on the Indian Ocean), and the island was the origin of this bird. This non-flying bird can grow up to 10 feet high and weigh between 770 pounds and 1</strong>It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs<strong>It has been extinguished more than 600 years ago.</strong>n 600 years ago.</p>
+<hr/>
+<p><strong>"It has been extinguished more than 600 years ago."</strong></p>
+<p><strong>Text:</strong><br/>
+紐約水牛城的一座博物館最近發現，它的收藏品中有一顆罕見的象鳥蛋，數十年來一直被誤認為模型。水牛城科學博物館的一名收藏品經理，之前更新電子系統目錄時，在超過1000顆蛋類收藏品中，發現這顆「真正的」淡黃色的蛋。這顆局部化石化的蛋，圓周約28英寸，重達3磅多。該名博物館員將蛋拿到美國紐約州立大學水牛城分校的藝術修護學系，接受放射線攝影，那是一種透過X射線檢視物品內部的技術。這項檢驗不僅證實他們的猜測，還照出了顯示這顆蛋已經受精的「白點」。博物館紀錄顯示，一名前館員1939年從倫敦一名動物標本製作者手中，以92美元購得這顆象鳥蛋。該名標本師在（非洲東南方海岸外、印度洋上的）馬達加斯加島買下這顆蛋，那座島是這種鳥類的原產地。這種不會飛的鳥類能長到10英尺高，重量介於770磅至1100磅之間，所產的蛋是脊椎動物中最大的，甚至比恐龍蛋還大。牠已在600多年前滅絕。</p>
+<p><strong>Bio:</strong><br/>
+A museum in Buffalo, N.Y., recently discovered that a rare elephant bird egg in its collection had been mislabeled as a model for decades.A collections manager at the Buffalo Museum of Science was updating its catalog to a digital system when she discovered the "realistic" cream-colored egg among its collection of more than 1,000 eggs. The partially fossilized egg measured 28 inches around and weighed more than 3 pounds.The curators took the egg to the Art Conservation Department at the State University of New York at Buffalo for a radiography — a technique that uses X-rays to see inside an object. The test not only confirmed their suspicions, but it also showed "specs of white" that indicated it could have been fertilized.Museum records showed a previous curator had acquired the elephant bird egg in 1939 from a London taxidermist for $92. The taxidermist had bought the egg on the island of Madagascar — located off the southeast coast of Africa in the Indian Ocean — the birds’ native habitat.The flightless bird grew to be 10 feet tall, weighed between 770 and 1,100 pounds and laid the largest eggs of any vertebrate — even dinosaurs. It went extinct more than 600 years ago.</p>
+<p><strong>Machine:</strong><br/>
+<strong>A museum in Buffalo, New York, recently discovered that its collection contains a rare bird egg that has been mistaken for decades.</strong> A collection manager at the Buffalo Museum of Science, when updating the electronic system catalog, discovered this "real" pale yellow egg in more than 1,000 egg collections. This localized fossilized egg has a circumference of about 28 inches and weighs more than 3 poun<strong>The museum member took the egg to the Department of Art and Repair at the State University of New York at Buffalo, where he received radiography, a technique for examining the interior of the item through X-rays</strong>This test not only confirms their guess but also shows the "white point" indicating that the egg has been fertilized.<strong>tilized. According to museum records, a former librarian bought the elephant egg at $92 from a hand-made specimen maker in London in 1939. The specimen bought the egg on Madagascar (outside the coast of Southeast Africa, on the Indian Ocean), and the island was the origin of this bird. This non-flying bird can grow up to 10 feet high and weigh between 770 pounds and 1</strong>It produces eggs that are the largest of vertebrates, even larger than dinosaur eggs<strong>It has been extinguished more than 600 years ago.</strong>n 600 years ago.</p>
+<hr/>
+<p><strong>"Travel agencies that have offered similar travel itineraries have said that since the two-nation summit, business has been booming."</strong></p>
+<p><strong>Text:</strong><br/>
+在兩韓之間持續求和下，（南韓）地方政府正沿著北韓邊界一帶推動「和平主題」觀光。和南、北韓非軍事區東半部接壤的南韓江原道，就希望自4月27日兩韓峰會以來，兩韓持續求和以及國際間對朝鮮半島的聚焦，會吸引外國觀光客、振興當地經濟。本（5）月稍早，江原道及「韓國觀光公社」為200家旅行社、在社群媒體上擁有影響力的人士和外國交換學生，主辦一系列的兩韓非軍事區遊覽。已提供類似旅遊行程的旅行社說，自兩韓峰會以來，生意蒸蒸日上。</p>
+<p><strong>Bio:</strong><br/>
+Local governments are promoting "peace-themed" tours along their border with North Korea amid the continuing peace overtures between the two Koreas.Gangwon Province, which borders the eastern half of the Demilitarized Zone (DMZ), hopes the continuing peace overtures and international spotlight on the Korea Peninsula since the April 27 summit will attract foreign tourists and revive the local economy.Earlier this month, Gangwon Province and the KTO hosted a series of DMZ tours for 200 foreign travel agents, people with social media influence, and exchange students. Travel agencies that already provide similar tours say business has boomed since the inter-Korean summit.</p>
+<p><strong>Machine:</strong><br/>
+Under the continuous rapprochement between the two Koreas, local government (South Korea) is promoting "peace theme" tourism along the North Korean border. South Korea’s Gangwon Province, which borders the eastern half of the demilitarized zone between South and North Korea, hopes that since the two Koreas summit on April 27, the two Koreas will continue to sum up and the international focus on the Korean Peninsula will attract foreign tourists and rejuvenate the local area. economic. Earlier this month (May), Gangwon-do and Korea Tourism Corporation sponsored a series of tours of the two countries’ non-military region with 200 travel agencies, influential people in social media, and foreign exchange students. <strong>Travel agencies that have offered similar travel itineraries have said that since the two-nation summit, business has been booming.</strong></p>
+<hr/>
+<p><strong>"Novayes dispatched his animals to help the people suffering from stress and anxiety."</strong></p>
+<p><strong>Text:</strong><br/>
+在馬德里外圍的瓜達利斯山裡，阿根廷馴馬師費爾南多．諾瓦耶斯出動他的動物，來幫助蒙受壓力與焦慮的民眾。這位曾在巴塔哥尼亞原野與馬兒生活多年的57歲男子，用這些動物做為病人解讀與控制自身情緒的一種方法。每堂課收費高達120歐元的諾瓦耶斯說，來到他課堂的民眾和馬兒共度時光，並透過馬兒的動作，來認識自身當下的心理狀態。他說，「馬是面鏡子。」「牠們是群居動物，天生活在馬群裡。」這種療法在於監測馬兒如何呼應客戶心情。他說，從觀察馬的反應，客戶學會如何辨識和控制情緒。他說：「處於困難心理狀態之中時，民眾上第一堂課，看著一匹動不停、甚至狂奔的馬兒。這匹馬對你顯示了一顆受到折磨的不停歇的心。」（路透）</p>
+<p><strong>Bio:</strong><br/>
+In the Guadalix mountains outside Madrid, Argentine horse whisperer Fernando Noailles uses his animals to help people suffering from stress and anxiety.The 57-year-old, who spent many years in the Patagonian wilderness living with horses, uses the animals as a way for patients to interpret and control their emotions.People who come to his sessions spend time with the horses and learn through the movement of the animal what mental state they themselves are in, says Noailles, who charges up to 120 euros per session."The horse is a mirror," he says. "They are gregarious creatures, born to live in herds."The therapy consists in monitoring how the horse responds to the client’s moods. From watching the horse’s reaction, the client learns how to identify and control emotions, he says."People in the first session, when they are in a difficult state of mind, see a horse that doesn’t stop, that moves, that even gallops. The horse is showing you a mind that doesn’t stop, that is tormented," he says.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+In the Guadalís Mountains outside Madrid, Fernando Fernando of Argentina. <strong>Novayes dispatched his animals to help the people suffering from stress and anxiety.</strong> The 57-year-old man who had lived with the horse for many years in the Patagonian wilderness used these animals as a way to interpret and control his own emotions for the patient. Novayes, who charges up to 120 euros per class, said that the people who came to his class spent time with the horses, and through the movements of the horses, to understand their own current state of mind. He said, "The horse is a mirror." "They are gregarious animals and live in the horses for a long time." The therapy is to monitor how the horse responds to custome<strong>He said that from observing the horse's reaction, the client learned how to identify and control emotions.</strong>ons. He said: "When in a difficult state of mind, the people attend the first lesson and watch a horse that is constantly on the move, even rushing. This horse shows you a tortured and non-stop heart. (Reuters)</p>
+<hr/>
+<p><strong>"He said that from observing the horse's reaction, the client learned how to identify and control emotions."</strong></p>
+<p><strong>Text:</strong><br/>
+在馬德里外圍的瓜達利斯山裡，阿根廷馴馬師費爾南多．諾瓦耶斯出動他的動物，來幫助蒙受壓力與焦慮的民眾。這位曾在巴塔哥尼亞原野與馬兒生活多年的57歲男子，用這些動物做為病人解讀與控制自身情緒的一種方法。每堂課收費高達120歐元的諾瓦耶斯說，來到他課堂的民眾和馬兒共度時光，並透過馬兒的動作，來認識自身當下的心理狀態。他說，「馬是面鏡子。」「牠們是群居動物，天生活在馬群裡。」這種療法在於監測馬兒如何呼應客戶心情。他說，從觀察馬的反應，客戶學會如何辨識和控制情緒。他說：「處於困難心理狀態之中時，民眾上第一堂課，看著一匹動不停、甚至狂奔的馬兒。這匹馬對你顯示了一顆受到折磨的不停歇的心。」（路透）</p>
+<p><strong>Bio:</strong><br/>
+In the Guadalix mountains outside Madrid, Argentine horse whisperer Fernando Noailles uses his animals to help people suffering from stress and anxiety.The 57-year-old, who spent many years in the Patagonian wilderness living with horses, uses the animals as a way for patients to interpret and control their emotions.People who come to his sessions spend time with the horses and learn through the movement of the animal what mental state they themselves are in, says Noailles, who charges up to 120 euros per session."The horse is a mirror," he says. "They are gregarious creatures, born to live in herds."The therapy consists in monitoring how the horse responds to the client’s moods. From watching the horse’s reaction, the client learns how to identify and control emotions, he says."People in the first session, when they are in a difficult state of mind, see a horse that doesn’t stop, that moves, that even gallops. The horse is showing you a mind that doesn’t stop, that is tormented," he says.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+In the Guadalís Mountains outside Madrid, Fernando Fernando of Argentina. <strong>Novayes dispatched his animals to help the people suffering from stress and anxiety.</strong> The 57-year-old man who had lived with the horse for many years in the Patagonian wilderness used these animals as a way to interpret and control his own emotions for the patient. Novayes, who charges up to 120 euros per class, said that the people who came to his class spent time with the horses, and through the movements of the horses, to understand their own current state of mind. He said, "The horse is a mirror." "They are gregarious animals and live in the horses for a long time." The therapy is to monitor how the horse responds to custome<strong>He said that from observing the horse's reaction, the client learned how to identify and control emotions.</strong>ons. He said: "When in a difficult state of mind, the people attend the first lesson and watch a horse that is constantly on the move, even rushing. This horse shows you a tortured and non-stop heart. (Reuters)</p>
+<hr/>
+<p><strong>"(USA) The Cansville Elementary School in Ogden, Utah Each year, a six-dollar ball will be held on Valentine's Day to encourage students to integrate into harmony."</strong></p>
+<p><strong>Text:</strong><br/>
+（美國）猶他州歐格登的坎斯維爾小學每年西洋情人節當天都會舉行小六生舞會，藉此鼓勵學童融入與和睦，傳統上老師會告訴學生，被同學邀舞時要說好。但時代變了，而且在得知今年的舞會禮節後，部分學生家長火大了。當娜塔莉．李察從念小六的女兒處得知，不能在即將到來的舞會中拒絕男生的邀舞時，她為此震驚不已。值此家長教導孩子沒有必要擁抱朋友或甚至親吻其祖父母的時代，孩童掌握對自己身體的主控權已蔚為運動。對許多家長來說，無法拒絕舞伴有違此一原則。「此種女孩必須答應的作法，對女孩傳達一種不良訊息－－女孩不能說『不』，也對男孩傳達不良訊息。」李察說。</p>
+<p><strong>Bio:</strong><br/>
+Kanesville Elementary School in Ogden, Utah, holds a sixth-grade dance on Valentine’s Day each year. The dance is intended to promote inclusion and kindness, and students have traditionally been told by their teachers to say yes when a classmate asks them to dance.But times have changed, and some parents were angry when they got wind of the dance’s protocol this year.Natalie Richard was shocked when her sixth-grade daughter told her she couldn’t refuse a dance with a boy at the upcoming dance.At a time when parents are teaching kids they don’t need to hug a friend or even kiss their grandparents, there’s been a movement toward children maintaining control of their own bodies.To many parents, not being able to turn down a dance partner goes against that.It "sends a bad message to girls that girls have to say ’yes’ － sends a bad message to boys that girls can’t say ’no,’" Richard said.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(USA) The Cansville Elementary School in Ogden, Utah Each year, a six-dollar ball will be held on Valentine's Day to encourage students to integrate into harmony.</strong> Traditionally, teachers will tell students that they should be good when invited by classmates. However, the times have changed, and after learning of this year's dance etiquette, some students’ parents have become very hot. When Natal<strong>When Richard learned from the daughter of Nian Xiaoliu that she could not reject the boy's invitation dance at the upcoming dance party, she was shocked by this.</strong>his. Parents teach children that there is no need to embrace friends or even kiss their grandparents. Children have mastered the right to exercise control over their <strong>For many parents, the inability to refuse the partner violates this principle.</strong>inciple. "This kind of girl must agree to the practice, to convey a bad message to the girl - the girl can not say "no", but also to convey bad news to the boy." Richard said.</p>
+<hr/>
+<p><strong>"When Richard learned from the daughter of Nian Xiaoliu that she could not reject the boy's invitation dance at the upcoming dance party, she was shocked by this."</strong></p>
+<p><strong>Text:</strong><br/>
+（美國）猶他州歐格登的坎斯維爾小學每年西洋情人節當天都會舉行小六生舞會，藉此鼓勵學童融入與和睦，傳統上老師會告訴學生，被同學邀舞時要說好。但時代變了，而且在得知今年的舞會禮節後，部分學生家長火大了。當娜塔莉．李察從念小六的女兒處得知，不能在即將到來的舞會中拒絕男生的邀舞時，她為此震驚不已。值此家長教導孩子沒有必要擁抱朋友或甚至親吻其祖父母的時代，孩童掌握對自己身體的主控權已蔚為運動。對許多家長來說，無法拒絕舞伴有違此一原則。「此種女孩必須答應的作法，對女孩傳達一種不良訊息－－女孩不能說『不』，也對男孩傳達不良訊息。」李察說。</p>
+<p><strong>Bio:</strong><br/>
+Kanesville Elementary School in Ogden, Utah, holds a sixth-grade dance on Valentine’s Day each year. The dance is intended to promote inclusion and kindness, and students have traditionally been told by their teachers to say yes when a classmate asks them to dance.But times have changed, and some parents were angry when they got wind of the dance’s protocol this year.Natalie Richard was shocked when her sixth-grade daughter told her she couldn’t refuse a dance with a boy at the upcoming dance.At a time when parents are teaching kids they don’t need to hug a friend or even kiss their grandparents, there’s been a movement toward children maintaining control of their own bodies.To many parents, not being able to turn down a dance partner goes against that.It "sends a bad message to girls that girls have to say ’yes’ － sends a bad message to boys that girls can’t say ’no,’" Richard said.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(USA) The Cansville Elementary School in Ogden, Utah Each year, a six-dollar ball will be held on Valentine's Day to encourage students to integrate into harmony.</strong> Traditionally, teachers will tell students that they should be good when invited by classmates. However, the times have changed, and after learning of this year's dance etiquette, some students’ parents have become very hot. When Natal<strong>When Richard learned from the daughter of Nian Xiaoliu that she could not reject the boy's invitation dance at the upcoming dance party, she was shocked by this.</strong>his. Parents teach children that there is no need to embrace friends or even kiss their grandparents. Children have mastered the right to exercise control over their <strong>For many parents, the inability to refuse the partner violates this principle.</strong>inciple. "This kind of girl must agree to the practice, to convey a bad message to the girl - the girl can not say "no", but also to convey bad news to the boy." Richard said.</p>
+<hr/>
+<p><strong>"For many parents, the inability to refuse the partner violates this principle."</strong></p>
+<p><strong>Text:</strong><br/>
+（美國）猶他州歐格登的坎斯維爾小學每年西洋情人節當天都會舉行小六生舞會，藉此鼓勵學童融入與和睦，傳統上老師會告訴學生，被同學邀舞時要說好。但時代變了，而且在得知今年的舞會禮節後，部分學生家長火大了。當娜塔莉．李察從念小六的女兒處得知，不能在即將到來的舞會中拒絕男生的邀舞時，她為此震驚不已。值此家長教導孩子沒有必要擁抱朋友或甚至親吻其祖父母的時代，孩童掌握對自己身體的主控權已蔚為運動。對許多家長來說，無法拒絕舞伴有違此一原則。「此種女孩必須答應的作法，對女孩傳達一種不良訊息－－女孩不能說『不』，也對男孩傳達不良訊息。」李察說。</p>
+<p><strong>Bio:</strong><br/>
+Kanesville Elementary School in Ogden, Utah, holds a sixth-grade dance on Valentine’s Day each year. The dance is intended to promote inclusion and kindness, and students have traditionally been told by their teachers to say yes when a classmate asks them to dance.But times have changed, and some parents were angry when they got wind of the dance’s protocol this year.Natalie Richard was shocked when her sixth-grade daughter told her she couldn’t refuse a dance with a boy at the upcoming dance.At a time when parents are teaching kids they don’t need to hug a friend or even kiss their grandparents, there’s been a movement toward children maintaining control of their own bodies.To many parents, not being able to turn down a dance partner goes against that.It "sends a bad message to girls that girls have to say ’yes’ － sends a bad message to boys that girls can’t say ’no,’" Richard said.</p>
+<p><strong>Machine:</strong><br/>
+<strong>(USA) The Cansville Elementary School in Ogden, Utah Each year, a six-dollar ball will be held on Valentine's Day to encourage students to integrate into harmony.</strong> Traditionally, teachers will tell students that they should be good when invited by classmates. However, the times have changed, and after learning of this year's dance etiquette, some students’ parents have become very hot. When Natal<strong>When Richard learned from the daughter of Nian Xiaoliu that she could not reject the boy's invitation dance at the upcoming dance party, she was shocked by this.</strong>his. Parents teach children that there is no need to embrace friends or even kiss their grandparents. Children have mastered the right to exercise control over their <strong>For many parents, the inability to refuse the partner violates this principle.</strong>inciple. "This kind of girl must agree to the practice, to convey a bad message to the girl - the girl can not say "no", but also to convey bad news to the boy." Richard said.</p>
+<hr/>
+<p><strong>"Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil."</strong></p>
+<p><strong>Text:</strong><br/>
+瑪索梅．阿堤被公公朝臉上潑酸而失明，但她不想只因為曾遭到邪惡對待，而被人們記住。她想成為一名藝術家。8年前，這名35歲的伊朗婦女永久性毀容，只因為她提出離婚。由於伊朗厲行伊斯蘭教律法，她從未獲得平反。最後，夫家還威脅，若她提出告訴，她的兒子將遭到相同懲罰。她說：「我選擇了兒子，而非正義。」但她也說，她已放下這個令人痛心疾首的決定，拒絕因為這個決定而精神崩潰。最近，她參加一個由其他潑酸受害者組成的團體，一起在德黑蘭一家藝廊展出作品，以提升社會關注及募款。阿堤創作陶器，雕刻碗盆和雕塑品。逃家後，她現在與12歲的兒子住在德黑蘭，為其他失明者上藝術課。她自豪地說，自己已「完全獨立」。</p>
+<p><strong>Bio:</strong><br/>
+Massoumeh Attaie does not want to be defined only by the evil that drove her father-in-law to blind her with acid in her face. She wants to be known as an artist.Eight years ago, the 35-year-old Iranian was left permanently disfigured, only because she had sought a divorce.She never got justice under Iran’s Islamic law. And in the end, the family threatened that the same punishment would befall her son if she pressed charges."I chose my son over justice," she said － a terrible choice she says she has put behind her and refuses to let crush her spirit.Recently, she joined a group of other victims of acid attacks presenting their work at a gallery in Tehran to raise awareness and money. Attaie makes pottery, sculpted bowls and statuettes.She now lives in Tehran with her 12-year-old son, having fled her family, gives art classes to other blind people and proudly says she is "totally independent".</p>
+<p><strong>Machine:</strong><br/>
+Marsomer. <strong>Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil.</strong> She wants to be an arti<strong>Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce.</strong>rce. Since Iran’s strict implementation of Islamic law, she has never been rehabil<strong>In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment</strong>She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision.<strong>is decision. Recently, she participated in a group of victims of other acid abuse, exhibiting works together at a gallery in Tehran to raise social concerns and fundraising. Adi created pottery, carved bowls and sculptures. After fleeing from home, she now lives in Tehran with her 12-year-old son and gives art classes to othe</strong>She said proudly that she was "completely independent."**ly independent."</p>
+<hr/>
+<p><strong>"Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce."</strong></p>
+<p><strong>Text:</strong><br/>
+瑪索梅．阿堤被公公朝臉上潑酸而失明，但她不想只因為曾遭到邪惡對待，而被人們記住。她想成為一名藝術家。8年前，這名35歲的伊朗婦女永久性毀容，只因為她提出離婚。由於伊朗厲行伊斯蘭教律法，她從未獲得平反。最後，夫家還威脅，若她提出告訴，她的兒子將遭到相同懲罰。她說：「我選擇了兒子，而非正義。」但她也說，她已放下這個令人痛心疾首的決定，拒絕因為這個決定而精神崩潰。最近，她參加一個由其他潑酸受害者組成的團體，一起在德黑蘭一家藝廊展出作品，以提升社會關注及募款。阿堤創作陶器，雕刻碗盆和雕塑品。逃家後，她現在與12歲的兒子住在德黑蘭，為其他失明者上藝術課。她自豪地說，自己已「完全獨立」。</p>
+<p><strong>Bio:</strong><br/>
+Massoumeh Attaie does not want to be defined only by the evil that drove her father-in-law to blind her with acid in her face. She wants to be known as an artist.Eight years ago, the 35-year-old Iranian was left permanently disfigured, only because she had sought a divorce.She never got justice under Iran’s Islamic law. And in the end, the family threatened that the same punishment would befall her son if she pressed charges."I chose my son over justice," she said － a terrible choice she says she has put behind her and refuses to let crush her spirit.Recently, she joined a group of other victims of acid attacks presenting their work at a gallery in Tehran to raise awareness and money. Attaie makes pottery, sculpted bowls and statuettes.She now lives in Tehran with her 12-year-old son, having fled her family, gives art classes to other blind people and proudly says she is "totally independent".</p>
+<p><strong>Machine:</strong><br/>
+Marsomer. <strong>Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil.</strong> She wants to be an arti<strong>Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce.</strong>rce. Since Iran’s strict implementation of Islamic law, she has never been rehabil<strong>In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment</strong>She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision.<strong>is decision. Recently, she participated in a group of victims of other acid abuse, exhibiting works together at a gallery in Tehran to raise social concerns and fundraising. Adi created pottery, carved bowls and sculptures. After fleeing from home, she now lives in Tehran with her 12-year-old son and gives art classes to othe</strong>She said proudly that she was "completely independent."**ly independent."</p>
+<hr/>
+<p><strong>"In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment."</strong></p>
+<p><strong>Text:</strong><br/>
+瑪索梅．阿堤被公公朝臉上潑酸而失明，但她不想只因為曾遭到邪惡對待，而被人們記住。她想成為一名藝術家。8年前，這名35歲的伊朗婦女永久性毀容，只因為她提出離婚。由於伊朗厲行伊斯蘭教律法，她從未獲得平反。最後，夫家還威脅，若她提出告訴，她的兒子將遭到相同懲罰。她說：「我選擇了兒子，而非正義。」但她也說，她已放下這個令人痛心疾首的決定，拒絕因為這個決定而精神崩潰。最近，她參加一個由其他潑酸受害者組成的團體，一起在德黑蘭一家藝廊展出作品，以提升社會關注及募款。阿堤創作陶器，雕刻碗盆和雕塑品。逃家後，她現在與12歲的兒子住在德黑蘭，為其他失明者上藝術課。她自豪地說，自己已「完全獨立」。</p>
+<p><strong>Bio:</strong><br/>
+Massoumeh Attaie does not want to be defined only by the evil that drove her father-in-law to blind her with acid in her face. She wants to be known as an artist.Eight years ago, the 35-year-old Iranian was left permanently disfigured, only because she had sought a divorce.She never got justice under Iran’s Islamic law. And in the end, the family threatened that the same punishment would befall her son if she pressed charges."I chose my son over justice," she said － a terrible choice she says she has put behind her and refuses to let crush her spirit.Recently, she joined a group of other victims of acid attacks presenting their work at a gallery in Tehran to raise awareness and money. Attaie makes pottery, sculpted bowls and statuettes.She now lives in Tehran with her 12-year-old son, having fled her family, gives art classes to other blind people and proudly says she is "totally independent".</p>
+<p><strong>Machine:</strong><br/>
+Marsomer. <strong>Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil.</strong> She wants to be an arti<strong>Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce.</strong>rce. Since Iran’s strict implementation of Islamic law, she has never been rehabil<strong>In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment</strong>She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision.<strong>is decision. Recently, she participated in a group of victims of other acid abuse, exhibiting works together at a gallery in Tehran to raise social concerns and fundraising. Adi created pottery, carved bowls and sculptures. After fleeing from home, she now lives in Tehran with her 12-year-old son and gives art classes to othe</strong>She said proudly that she was "completely independent."**ly independent."</p>
+<hr/>
+<p><strong>"She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision."</strong></p>
+<p><strong>Text:</strong><br/>
+瑪索梅．阿堤被公公朝臉上潑酸而失明，但她不想只因為曾遭到邪惡對待，而被人們記住。她想成為一名藝術家。8年前，這名35歲的伊朗婦女永久性毀容，只因為她提出離婚。由於伊朗厲行伊斯蘭教律法，她從未獲得平反。最後，夫家還威脅，若她提出告訴，她的兒子將遭到相同懲罰。她說：「我選擇了兒子，而非正義。」但她也說，她已放下這個令人痛心疾首的決定，拒絕因為這個決定而精神崩潰。最近，她參加一個由其他潑酸受害者組成的團體，一起在德黑蘭一家藝廊展出作品，以提升社會關注及募款。阿堤創作陶器，雕刻碗盆和雕塑品。逃家後，她現在與12歲的兒子住在德黑蘭，為其他失明者上藝術課。她自豪地說，自己已「完全獨立」。</p>
+<p><strong>Bio:</strong><br/>
+Massoumeh Attaie does not want to be defined only by the evil that drove her father-in-law to blind her with acid in her face. She wants to be known as an artist.Eight years ago, the 35-year-old Iranian was left permanently disfigured, only because she had sought a divorce.She never got justice under Iran’s Islamic law. And in the end, the family threatened that the same punishment would befall her son if she pressed charges."I chose my son over justice," she said － a terrible choice she says she has put behind her and refuses to let crush her spirit.Recently, she joined a group of other victims of acid attacks presenting their work at a gallery in Tehran to raise awareness and money. Attaie makes pottery, sculpted bowls and statuettes.She now lives in Tehran with her 12-year-old son, having fled her family, gives art classes to other blind people and proudly says she is "totally independent".</p>
+<p><strong>Machine:</strong><br/>
+Marsomer. <strong>Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil.</strong> She wants to be an arti<strong>Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce.</strong>rce. Since Iran’s strict implementation of Islamic law, she has never been rehabil<strong>In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment</strong>She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision.<strong>is decision. Recently, she participated in a group of victims of other acid abuse, exhibiting works together at a gallery in Tehran to raise social concerns and fundraising. Adi created pottery, carved bowls and sculptures. After fleeing from home, she now lives in Tehran with her 12-year-old son and gives art classes to othe</strong>She said proudly that she was "completely independent."**ly independent."</p>
+<hr/>
+<p><strong>"She said proudly that she was "completely independent.""</strong></p>
+<p><strong>Text:</strong><br/>
+瑪索梅．阿堤被公公朝臉上潑酸而失明，但她不想只因為曾遭到邪惡對待，而被人們記住。她想成為一名藝術家。8年前，這名35歲的伊朗婦女永久性毀容，只因為她提出離婚。由於伊朗厲行伊斯蘭教律法，她從未獲得平反。最後，夫家還威脅，若她提出告訴，她的兒子將遭到相同懲罰。她說：「我選擇了兒子，而非正義。」但她也說，她已放下這個令人痛心疾首的決定，拒絕因為這個決定而精神崩潰。最近，她參加一個由其他潑酸受害者組成的團體，一起在德黑蘭一家藝廊展出作品，以提升社會關注及募款。阿堤創作陶器，雕刻碗盆和雕塑品。逃家後，她現在與12歲的兒子住在德黑蘭，為其他失明者上藝術課。她自豪地說，自己已「完全獨立」。</p>
+<p><strong>Bio:</strong><br/>
+Massoumeh Attaie does not want to be defined only by the evil that drove her father-in-law to blind her with acid in her face. She wants to be known as an artist.Eight years ago, the 35-year-old Iranian was left permanently disfigured, only because she had sought a divorce.She never got justice under Iran’s Islamic law. And in the end, the family threatened that the same punishment would befall her son if she pressed charges."I chose my son over justice," she said － a terrible choice she says she has put behind her and refuses to let crush her spirit.Recently, she joined a group of other victims of acid attacks presenting their work at a gallery in Tehran to raise awareness and money. Attaie makes pottery, sculpted bowls and statuettes.She now lives in Tehran with her 12-year-old son, having fled her family, gives art classes to other blind people and proudly says she is "totally independent".</p>
+<p><strong>Machine:</strong><br/>
+Marsomer. <strong>Adi was blinded by his father-in-law, but she did not want to be remembered for being treated only by evil.</strong> She wants to be an arti<strong>Eight years ago, the 35-year-old Iranian woman was permanently disfigured simply because she had filed a divorce.</strong>rce. Since Iran’s strict implementation of Islamic law, she has never been rehabil<strong>In the end, the husband’s family also threatened that if she offered to tell, her son would suffer the same punishment</strong>She said: "I chose my son, not justice." But she also said that she had let go of this heartbreaking decision and refused to collapse because of this decision.<strong>is decision. Recently, she participated in a group of victims of other acid abuse, exhibiting works together at a gallery in Tehran to raise social concerns and fundraising. Adi created pottery, carved bowls and sculptures. After fleeing from home, she now lives in Tehran with her 12-year-old son and gives art classes to othe</strong>She said proudly that she was "completely independent."**ly independent."</p>
+<hr/>
+<p><strong>"The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>"But I haven't raised a dog in this city yet," McCarthy said."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>""I also saw advertisements for many personal trainers."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>"So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>"The "deaf teacher" started operations with a one-person operation two years ago."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>"People can choose routes and walking partners on the website."</strong></p>
+<p><strong>Text:</strong><br/>
+查克．麥卡錫的散步服務以每小時30美元的價格，提供新鮮空氣、運動與同伴情誼—不過在樹旁撒尿可絕對不行。這位洛杉磯企業家作為該市第一個遛人公司的創辦人，是與人類配合工作，而非動物，並捍衛健康與社會包容。「我考慮成為一名遛狗師。但我未曾在這座城市養過狗。」麥卡錫說。「我也看到許多私人教練的廣告。因此我對女友說『或許我就成為遛人師』。」麥卡錫在說笑，但當他越加思考，就越了解有對他能提供的那種同伴之誼的需求。「遛人師」2年前以1人運作方式開始營運。但需求之高，致使麥卡錫現在值勤表上有35名陪走者，人們可在網站上選擇路線與步行夥伴。不是因為人們的朋友變少，專家說，而是「零工經濟」已產生一個自由工作者世代，相關工作沒有傳統上聯繫工作者的例行公事或社會連結。</p>
+<p><strong>Bio:</strong><br/>
+Chuck McCarthy’s walking service provides fresh air, exercise and companionship for $30 an hour － but peeing on trees is an absolute no-no. The Los Angeles-based entrepreneur works with humans, not animals, and is striking a blow for health and social inclusion as the founder of the city’s first people-walking business. "I was thinking about becoming a dog walker. But I’ve never had a dog in the city," McCarthy said. "I was also seeing a lot of personal trainer ads. And so I said to my girlfriend, ’Maybe I’ll just become a people walker.’" McCarthy was joking but the more he thought about it, the more he realized there was a need for the kind of comradeship he could provide. The People Walker started as a one-man operation two years ago. But demand was so high that McCarthy now has a roster of 35 walkers, and a website where people can choose routes and walking partners. It’s not that people have fewer friends, say experts, but rather that the "gig economy" has produced a generation of freelancers with none of the routines or social bonds that traditionally connected workers.</p>
+<p><strong>Machine:</strong><br/>
+Chuck. McCarthy's walking service offers fresh air, exercise and companionship for $30 an hour – but peeing at the side of the tree is definitely not enough. <strong>The Los Angeles entrepreneur, who was the founder of the city's first deaf company, worked with humans instead of animals and defended health and social inclusion.</strong> "I considered becoming a dog train<strong>But I haven't raised a dog in this city yet," McCarthy said</strong>"I also saw advertisements for many personal trainers<strong>So I said to my girlfriend, "Perhaps I became a deaf teacher." McCarthy was joking, but as he thought more, the more he knew about the kind of companion he could provide.</strong>uld provide. The needs<strong>The "deaf teacher" started operations with a one-person operation two years ago.</strong>n two years ago. However, the demand is high, resulting in McCarthy now has 35 pa<strong>People can choose routes and walking partners on the website.</strong>ners on the website. Not because people's friends have become smaller, experts say, but the "jobless economy" has produced a generation of free workers, and related work does not have the routine or social connections traditionally linked to workers.</p>
+<hr/>
+<p><strong>"The victim of sexual assault, Juan Carlos Cruz, told the “National News” that the pope told him in a private conversation: “You are gay and it is not important."</strong></p>
+<p><strong>Text:</strong><br/>
+西班牙文「國家報」報導，一名受到神職人員性侵犯的智利男子表示，教宗方濟各告訴他，天主造他為同志，也愛如此的他。性侵受害者胡安‧卡洛斯‧克魯茲告訴「國家報」，教宗在私下對話時告訴他：「你是同性戀並不重要。天主如此造你，也愛如此的你，我不會在乎。教宗愛如此的你，你必須對自己感到快樂。」</p>
+<p><strong>Bio:</strong><br/>
+A Chilean man who suffered clerical sexual abuse has said Pope Francis told him that God had made him gay and loved him that way, according to the Spanish newspaper El Pais.Abuse victim Juan Carlos Cruz told El Pais that Pope Francis had told in a private conversation: "The fact that you are gay does not matter. God made you this way and loves you this way, and it doesn’t matter to me. The pope loves you this way, you must be happy the way you are."Cruz, a survivor of sexual abuse, spent three days with Pope Francis at the Vatican in April, in which he discussed his sexuality and the abuse he suffered at the hands of a Chilean priest. The man was found guilty of abuse by the Vatican in 2011.</p>
+<p><strong>Machine:</strong><br/>
+The Spanish National News reported that a Chilean man who had been sexually assaulted by a clergyman stated that Pope Francis told him that God made him a comrade and loved him. <strong>The victim of sexual assault, Juan Carlos Cruz, told the “National News” that the pope told him in a private conversation: “You are gay and it is not important</strong>God made you and loved you so, I would not care.**are. Pope loves you and you must feel happy about yourself."</p>
+<hr/>
+<p><strong>"God made you and loved you so, I would not care."</strong></p>
+<p><strong>Text:</strong><br/>
+西班牙文「國家報」報導，一名受到神職人員性侵犯的智利男子表示，教宗方濟各告訴他，天主造他為同志，也愛如此的他。性侵受害者胡安‧卡洛斯‧克魯茲告訴「國家報」，教宗在私下對話時告訴他：「你是同性戀並不重要。天主如此造你，也愛如此的你，我不會在乎。教宗愛如此的你，你必須對自己感到快樂。」</p>
+<p><strong>Bio:</strong><br/>
+A Chilean man who suffered clerical sexual abuse has said Pope Francis told him that God had made him gay and loved him that way, according to the Spanish newspaper El Pais.Abuse victim Juan Carlos Cruz told El Pais that Pope Francis had told in a private conversation: "The fact that you are gay does not matter. God made you this way and loves you this way, and it doesn’t matter to me. The pope loves you this way, you must be happy the way you are."Cruz, a survivor of sexual abuse, spent three days with Pope Francis at the Vatican in April, in which he discussed his sexuality and the abuse he suffered at the hands of a Chilean priest. The man was found guilty of abuse by the Vatican in 2011.</p>
+<p><strong>Machine:</strong><br/>
+The Spanish National News reported that a Chilean man who had been sexually assaulted by a clergyman stated that Pope Francis told him that God made him a comrade and loved him. <strong>The victim of sexual assault, Juan Carlos Cruz, told the “National News” that the pope told him in a private conversation: “You are gay and it is not important</strong>God made you and loved you so, I would not care.**are. Pope loves you and you must feel happy about yourself."</p>
+<hr/>
+<p><strong>"A newly developed sorbent has recently shown that even if relative humidity drops to about 10%, it can also harvest moisture from the atmosphere."</strong></p>
+<p><strong>Text:</strong><br/>
+地球的大氣中，無時無刻都含有約13兆公升的水蒸氣，相當於地表上所有淡水資源的10%。一款新開發的吸附劑近來顯示，即便相對濕度降至約10%，它也能從大氣中收穫水汽。在這種條件下，每100萬公升的空氣可產出約3公升的水。這款概念驗證裝置由美國麻省理工學院、加州大學柏克萊分校的協同團隊研發，使用柏克萊化學系教授奧馬．亞吉在1990年代發明的一種「金屬有機骨架（MOF）」材料。化學家利用金屬和有機分子，控制能與「金屬有機骨架」結合的氣體種類及其鍵結強度。該裝置本身可簡單分為兩個主要部分：吸收層（又稱MOF）和作為空氣冷凝器的封套。MOF的背面會塗成黑色，用來吸收太陽能。</p>
+<p><strong>Bio:</strong><br/>
+Earth’s atmosphere contains an estimated 13 trillion liters of water vapor at any given time － that’s the equivalent to 10 percent of all of the planet’s available surface freshwater. A newly developed sorbent has recently shown that it can harvest atmospheric moisture even when the relative humidity drops to around 10 percent. Under those conditions, that works out to around three liters of water for every million liters of air. Created by a collaborative team from MIT and UC Berkeley, this proof of concept device uses a metal-organic framework （MOFs）, a material invented in the 1990s by UC Berkeley chemistry professor Omar Yaghi. Depending on the metal and organic molecules used, chemists can control what gases will bind to the MOF and how strong those connections will be.The device itself is a simple design with two main parts：the absorption layer （aka the MOF） and an enclosed, an air-cooled condenser. The backside of the MOF is painted black, to operate as a solar absorber.</p>
+<p><strong>Machine:</strong><br/>
+The Earth’s atmosphere contains about 13 trillion liters of water vapor at all times, which is equivalent to 10% of all freshwater resources on the surface. <strong>A newly developed sorbent has recently shown that even if relative humidity drops to about 10%, it can also harvest moisture from the atmosphere</strong>Under this condition, about 3 liters of water can be produced per one million liters of air.<strong>air. This proof-of-concept device was developed by a collaborative team of the Massachusetts Institute of Technology and the University of California, Berkeley, using the Berkeley chemistry professor Omar. Yagi invented a metal-organic framework (MOF) material in the 1990s. Chemists use metals and organic molecules to control the types of gases that can bind to "metal organic frameworks" and their bonding st</strong>The device itself can be simply divided into two main parts: the absorber layer (also known as MOF) and the envelope as an air condenser.**ndenser. The back of the MOF will be painted black to absorb solar energy.</p>
+<hr/>
+<p><strong>"Under this condition, about 3 liters of water can be produced per one million liters of air."</strong></p>
+<p><strong>Text:</strong><br/>
+地球的大氣中，無時無刻都含有約13兆公升的水蒸氣，相當於地表上所有淡水資源的10%。一款新開發的吸附劑近來顯示，即便相對濕度降至約10%，它也能從大氣中收穫水汽。在這種條件下，每100萬公升的空氣可產出約3公升的水。這款概念驗證裝置由美國麻省理工學院、加州大學柏克萊分校的協同團隊研發，使用柏克萊化學系教授奧馬．亞吉在1990年代發明的一種「金屬有機骨架（MOF）」材料。化學家利用金屬和有機分子，控制能與「金屬有機骨架」結合的氣體種類及其鍵結強度。該裝置本身可簡單分為兩個主要部分：吸收層（又稱MOF）和作為空氣冷凝器的封套。MOF的背面會塗成黑色，用來吸收太陽能。</p>
+<p><strong>Bio:</strong><br/>
+Earth’s atmosphere contains an estimated 13 trillion liters of water vapor at any given time － that’s the equivalent to 10 percent of all of the planet’s available surface freshwater. A newly developed sorbent has recently shown that it can harvest atmospheric moisture even when the relative humidity drops to around 10 percent. Under those conditions, that works out to around three liters of water for every million liters of air. Created by a collaborative team from MIT and UC Berkeley, this proof of concept device uses a metal-organic framework （MOFs）, a material invented in the 1990s by UC Berkeley chemistry professor Omar Yaghi. Depending on the metal and organic molecules used, chemists can control what gases will bind to the MOF and how strong those connections will be.The device itself is a simple design with two main parts：the absorption layer （aka the MOF） and an enclosed, an air-cooled condenser. The backside of the MOF is painted black, to operate as a solar absorber.</p>
+<p><strong>Machine:</strong><br/>
+The Earth’s atmosphere contains about 13 trillion liters of water vapor at all times, which is equivalent to 10% of all freshwater resources on the surface. <strong>A newly developed sorbent has recently shown that even if relative humidity drops to about 10%, it can also harvest moisture from the atmosphere</strong>Under this condition, about 3 liters of water can be produced per one million liters of air.<strong>air. This proof-of-concept device was developed by a collaborative team of the Massachusetts Institute of Technology and the University of California, Berkeley, using the Berkeley chemistry professor Omar. Yagi invented a metal-organic framework (MOF) material in the 1990s. Chemists use metals and organic molecules to control the types of gases that can bind to "metal organic frameworks" and their bonding st</strong>The device itself can be simply divided into two main parts: the absorber layer (also known as MOF) and the envelope as an air condenser.**ndenser. The back of the MOF will be painted black to absorb solar energy.</p>
+<hr/>
+<p><strong>"The device itself can be simply divided into two main parts: the absorber layer (also known as MOF) and the envelope as an air condenser."</strong></p>
+<p><strong>Text:</strong><br/>
+地球的大氣中，無時無刻都含有約13兆公升的水蒸氣，相當於地表上所有淡水資源的10%。一款新開發的吸附劑近來顯示，即便相對濕度降至約10%，它也能從大氣中收穫水汽。在這種條件下，每100萬公升的空氣可產出約3公升的水。這款概念驗證裝置由美國麻省理工學院、加州大學柏克萊分校的協同團隊研發，使用柏克萊化學系教授奧馬．亞吉在1990年代發明的一種「金屬有機骨架（MOF）」材料。化學家利用金屬和有機分子，控制能與「金屬有機骨架」結合的氣體種類及其鍵結強度。該裝置本身可簡單分為兩個主要部分：吸收層（又稱MOF）和作為空氣冷凝器的封套。MOF的背面會塗成黑色，用來吸收太陽能。</p>
+<p><strong>Bio:</strong><br/>
+Earth’s atmosphere contains an estimated 13 trillion liters of water vapor at any given time － that’s the equivalent to 10 percent of all of the planet’s available surface freshwater. A newly developed sorbent has recently shown that it can harvest atmospheric moisture even when the relative humidity drops to around 10 percent. Under those conditions, that works out to around three liters of water for every million liters of air. Created by a collaborative team from MIT and UC Berkeley, this proof of concept device uses a metal-organic framework （MOFs）, a material invented in the 1990s by UC Berkeley chemistry professor Omar Yaghi. Depending on the metal and organic molecules used, chemists can control what gases will bind to the MOF and how strong those connections will be.The device itself is a simple design with two main parts：the absorption layer （aka the MOF） and an enclosed, an air-cooled condenser. The backside of the MOF is painted black, to operate as a solar absorber.</p>
+<p><strong>Machine:</strong><br/>
+The Earth’s atmosphere contains about 13 trillion liters of water vapor at all times, which is equivalent to 10% of all freshwater resources on the surface. <strong>A newly developed sorbent has recently shown that even if relative humidity drops to about 10%, it can also harvest moisture from the atmosphere</strong>Under this condition, about 3 liters of water can be produced per one million liters of air.<strong>air. This proof-of-concept device was developed by a collaborative team of the Massachusetts Institute of Technology and the University of California, Berkeley, using the Berkeley chemistry professor Omar. Yagi invented a metal-organic framework (MOF) material in the 1990s. Chemists use metals and organic molecules to control the types of gases that can bind to "metal organic frameworks" and their bonding st</strong>The device itself can be simply divided into two main parts: the absorber layer (also known as MOF) and the envelope as an air condenser.**ndenser. The back of the MOF will be painted black to absorb solar energy.</p>
+<hr/>
+<p><strong>"Liu Junheng stated in the forum held by South Korean ruling party “Common Democrat” MP Kim Yeon-hyun that “because of the total number of soldiers, in order to subsidize the US garrison, South Korea has paid more than all kinds of expenses in Japan”."</strong></p>
+<p><strong>Text:</strong><br/>
+值此首爾和華府磋商前者在維持約2.85萬駐韓美軍開銷上的分攤比例之際，南韓國營「韓國國防研究院」副研究員柳俊亨發表相關分析。他估計，首爾2015年為駐韓美軍支出的經費約5.4兆韓元（50億美元），日本則支付近6.77兆韓元。但鑑於2015年駐日美軍的人數乃駐韓美軍的兩倍以上，故首爾負擔的費用更多。柳俊亨在南韓執政黨「共同民主黨」國會議員金炅俠舉辦的論壇中表示，「由於兵員的總數，為了資助美國駐軍，南韓在各類開支上付得都比日本多」。自1991年起，首爾即根據「特別措施協定」提供（美軍）財務及其他支持。</p>
+<p><strong>Bio:</strong><br/>
+Yu Jun-hyung, associate research fellow at the state-run Korea Institute for Defense Analyses, released the analysis as Seoul and Washington are in talks over the former’s share of the cost for maintaining some 28,500 US troops here.He put Seoul’s expenditure for the USFK in 2015 at some 5.4 trillion won （$5 billion）, with Japan’s spending around 6.77 trillion won. But Seoul shouldered a greater cost given that the American troop number in Japan was more than double that in the South in 2015."Given the total number of troops, South Korea pays more in all spending categories than Japan to support the US forces," he said during a forum organized by Rep. Kim Kyung-hyup of the ruling Democratic Party. Seoul has provided financial and other support under the Special Measures Agreement since 1991.</p>
+<p><strong>Machine:</strong><br/>
+At the time when Seoul and Washington negotiated that the former maintained an apportioned proportion of approximately 28,500 US military expenditures in Korea, Liu Junheng, an associate researcher at the South Korean National Defense Research Institute of South Korea, released a relevant analysis. He estimated that Seoul’s spending for the US military in South Korea in 2015 was about 5.4 trillion won (US$5 billion) while Japan’s paid nearly 6.77 trillion won. However, due to the fact that the number of U.S. troops stationed in Japan in 2015 was more than double that of U.S. troops stationed in South Korea, Seoul has paid more. <strong>Liu Junheng stated in the forum held by South Korean ruling party “Common Democrat” MP Kim Yeon-hyun that “because of the total number of soldiers, in order to subsidize the US garrison, South Korea has paid more than all kinds of expenses in Japan”</strong>Since 1991, Seoul has provided (US military) financial and other support under the "Special Measures Agreement."**nt."</p>
+<hr/>
+<p><strong>"Since 1991, Seoul has provided (US military) financial and other support under the "Special Measures Agreement.""</strong></p>
+<p><strong>Text:</strong><br/>
+值此首爾和華府磋商前者在維持約2.85萬駐韓美軍開銷上的分攤比例之際，南韓國營「韓國國防研究院」副研究員柳俊亨發表相關分析。他估計，首爾2015年為駐韓美軍支出的經費約5.4兆韓元（50億美元），日本則支付近6.77兆韓元。但鑑於2015年駐日美軍的人數乃駐韓美軍的兩倍以上，故首爾負擔的費用更多。柳俊亨在南韓執政黨「共同民主黨」國會議員金炅俠舉辦的論壇中表示，「由於兵員的總數，為了資助美國駐軍，南韓在各類開支上付得都比日本多」。自1991年起，首爾即根據「特別措施協定」提供（美軍）財務及其他支持。</p>
+<p><strong>Bio:</strong><br/>
+Yu Jun-hyung, associate research fellow at the state-run Korea Institute for Defense Analyses, released the analysis as Seoul and Washington are in talks over the former’s share of the cost for maintaining some 28,500 US troops here.He put Seoul’s expenditure for the USFK in 2015 at some 5.4 trillion won （$5 billion）, with Japan’s spending around 6.77 trillion won. But Seoul shouldered a greater cost given that the American troop number in Japan was more than double that in the South in 2015."Given the total number of troops, South Korea pays more in all spending categories than Japan to support the US forces," he said during a forum organized by Rep. Kim Kyung-hyup of the ruling Democratic Party. Seoul has provided financial and other support under the Special Measures Agreement since 1991.</p>
+<p><strong>Machine:</strong><br/>
+At the time when Seoul and Washington negotiated that the former maintained an apportioned proportion of approximately 28,500 US military expenditures in Korea, Liu Junheng, an associate researcher at the South Korean National Defense Research Institute of South Korea, released a relevant analysis. He estimated that Seoul’s spending for the US military in South Korea in 2015 was about 5.4 trillion won (US$5 billion) while Japan’s paid nearly 6.77 trillion won. However, due to the fact that the number of U.S. troops stationed in Japan in 2015 was more than double that of U.S. troops stationed in South Korea, Seoul has paid more. <strong>Liu Junheng stated in the forum held by South Korean ruling party “Common Democrat” MP Kim Yeon-hyun that “because of the total number of soldiers, in order to subsidize the US garrison, South Korea has paid more than all kinds of expenses in Japan”</strong>Since 1991, Seoul has provided (US military) financial and other support under the "Special Measures Agreement."**nt."</p>
+<hr/>
+<p><strong>"President Trump planted a tree on the White House land to celebrate the special relationship between the United States and France."</strong></p>
+<p><strong>Text:</strong><br/>
+法國總統艾曼紐．馬克宏上週前往華盛頓進行國是訪問期間，藉由和唐納．川普總統在白宮土地上種下一棵樹，慶祝美國與法國間的特殊關係。這棵橡樹苗現在不見了——至少是暫時的。白宮攝影師們注意到，這棵樹在種下後幾天消失了。謎團隨之而起。其實，來自法國貝洛森林——第一次世界大戰一場戰役美國將近兩千士兵葬身之處——的這棵樹，被種下不久後就被挖起來。根據美國與法國官員說法，它被隔離檢疫。問題出在：樹上的寄生蟲可能擴及白宮地產上的其他樹木。馬克宏辦公室一名官員說：「事實上，能夠在總統訪問當天種那棵樹，是川普給法國的特殊禮遇。」（路透）</p>
+<p><strong>Bio:</strong><br/>
+French President Emmanuel Macron celebrated the special relationship between the United States and France during his state visit to Washington last week by planting a tree with President Donald Trump on the grounds of the White House.Now the oak sapling is gone - at least temporarily.White House photographers noticed the tree was gone days after it had been planted. Mystery ensued. In fact, the tree, from Belleau Wood in France where almost 2,000 American soldiers died in a World War One battle, had been dug up not long after it was planted. It was put in quarantine, according to U.S. and French officials. The problem：Parasites on the tree could spread to others on the White House property.“It was actually a special favor from Trump to France to be able to plant the tree the day of the president’s visit,” an official from Macron’s office said.（Reuters）</p>
+<p><strong>Machine:</strong><br/>
+French President Emmanuel. Mark Macro went to Washington last week to conduct a state visit with Donner. <strong>President Trump planted a tree on the White House land to celebrate the special relationship between the United States and France.</strong> The oak seedling is now missing - at least for the time being. White House photographers noticed that the tree disappeared a few days after it was planted. The mystery goes <strong>In fact, the tree from France's Belo Forest - a battle in the First World War that killed nearly 2,000 soldiers in the United States - was dug shortly after being planted</strong>According to US and French officials, it was quarantined<strong>The problem lies in the fact that parasites in trees may spread to other trees on the White House estate.</strong>ouse estate. An official in Mark Hong’s office said: “Actually, the kind of tree that can be planted on the day of the president’s visit is a special courtesy to Trump by Trump.” (Reuters)</p>
+<hr/>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+</div>
+	<hr>
+	<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'translation-corpora'; 
+    var disqus_title = 'Sims Top 0-30';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+		</div>
+	</div> 	<!-- <hr> -->
+</div> <!-- /container -->
+<footer class="aw-footer bg-danger">
+	<div class="container"> <!-- footer -->
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-3">
+						<h4>Navigation</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://shaynemei.github.io">Translation Corpora</a></li>
+							<li><a href="https://shaynemei.github.io/feeds/all.atom.xml" type="application/atom+xml"><i class="fa fa-rss "></i> atom</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Author</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://facebook.com/shaynemei">Facebook</a></li>
+							<li><a href="www.linkedin.com/in/shaynemei">LinkedIn</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Categories</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://shaynemei.github.io/category/ch.html">CH (10)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_high.html">EN_high (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_low.html">EN_low (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_mid.html">EN_mid (2)</a></li>
+							<li><a href="https://shaynemei.github.io/category/en_top.html">EN_top (2)</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h4>Links</h4>
+						<ul class="list-unstyled my-list-style">
+							<li><a href="https://www.nltk.org">NLTK</a></li>
+							<li><a href="http://getpelican.com/">Pelican</a></li>
+							<li><a href="http://python.org/">Python.org</a></li>
+							<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center center-block aw-bottom">
+			<p>&copy; Shayne 2016</p>
+			<p>Powered by Pelican</p>
+		</div>
+	</div>
+</div>
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$("div.collapseheader").click(function () {
+		$header = $(this).children("span").first();
+		$codearea = $(this).children(".input_area");
+		$codearea.slideToggle(500, function () {
+			$header.text(function () {
+				return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+			});
+		});
+	});
+});
+</script>
+</body>
+</html>
