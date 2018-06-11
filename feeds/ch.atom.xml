@@ -996,10 +996,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="d1d3482d-770d-4cff-ae8a-6284d1d79eb7"&gt;&lt;/div&gt;
+&lt;div id="c8709e1e-8c6b-43cf-b9ad-2a465491df71"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#d1d3482d-770d-4cff-ae8a-6284d1d79eb7');
+var element = $('#c8709e1e-8c6b-43cf-b9ad-2a465491df71');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -2166,10 +2166,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="d90eaeef-7edd-4552-940b-e5408ed4d449"&gt;&lt;/div&gt;
+&lt;div id="d6d3b612-03b2-49f4-acf1-9b3fe66c833a"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#d90eaeef-7edd-4552-940b-e5408ed4d449');
+var element = $('#d6d3b612-03b2-49f4-acf1-9b3fe66c833a');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -3336,10 +3336,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="26d91d13-d791-4077-98a6-b33335df70d4"&gt;&lt;/div&gt;
+&lt;div id="751e2e4d-a1a7-4b78-8f8f-524eb8f6d997"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#26d91d13-d791-4077-98a6-b33335df70d4');
+var element = $('#751e2e4d-a1a7-4b78-8f8f-524eb8f6d997');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -4506,10 +4506,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="396f73ea-21df-48e9-844d-a4fc6074d748"&gt;&lt;/div&gt;
+&lt;div id="a7e2c7c5-f547-4096-983e-70b0d3263334"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#396f73ea-21df-48e9-844d-a4fc6074d748');
+var element = $('#a7e2c7c5-f547-4096-983e-70b0d3263334');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -5676,10 +5676,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="ddfda6ca-7ce4-4fb4-97e7-e1684c0de664"&gt;&lt;/div&gt;
+&lt;div id="d73ad8a4-feef-43da-852a-573e308f3a85"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#ddfda6ca-7ce4-4fb4-97e7-e1684c0de664');
+var element = $('#d73ad8a4-feef-43da-852a-573e308f3a85');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -6846,10 +6846,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="2f834c26-9251-4d42-bdaa-f5896ef37093"&gt;&lt;/div&gt;
+&lt;div id="3aac4a80-3765-4410-b73d-da51f56103cf"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#2f834c26-9251-4d42-bdaa-f5896ef37093');
+var element = $('#3aac4a80-3765-4410-b73d-da51f56103cf');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -8016,10 +8016,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="08597f5d-82d9-4cb1-88ab-ea7cfe5affa2"&gt;&lt;/div&gt;
+&lt;div id="363af9aa-11bd-4b3f-9716-d31fe3c449a6"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#08597f5d-82d9-4cb1-88ab-ea7cfe5affa2');
+var element = $('#363af9aa-11bd-4b3f-9716-d31fe3c449a6');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -9186,10 +9186,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="51030dd3-f9c7-4c9f-b616-e8eff20a261a"&gt;&lt;/div&gt;
+&lt;div id="be34fbb3-572a-4977-8006-2095460e8e5e"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#51030dd3-f9c7-4c9f-b616-e8eff20a261a');
+var element = $('#be34fbb3-572a-4977-8006-2095460e8e5e');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -10356,10 +10356,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="705b5123-17e5-4b67-91f7-bbd50f1cb442"&gt;&lt;/div&gt;
+&lt;div id="0eaa215f-2f1a-49a8-be51-6a95e18c9716"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#705b5123-17e5-4b67-91f7-bbd50f1cb442');
+var element = $('#0eaa215f-2f1a-49a8-be51-6a95e18c9716');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
@@ -11526,10 +11526,10 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="e5c30617-5b01-4e7f-9eaf-9f8da2a4229e"&gt;&lt;/div&gt;
+&lt;div id="4a59b017-07ed-4c7d-b2bb-8a1c314bda03"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#e5c30617-5b01-4e7f-9eaf-9f8da2a4229e');
+var element = $('#4a59b017-07ed-4c7d-b2bb-8a1c314bda03');
 IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }

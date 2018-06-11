@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Articles 31-40 — Translation Corpora</title>
-	<meta name="description" content="Title: Articles 31-40; Date: 2018-06-07; Author: Shayne">
+	<title>Gensim Code — Translation Corpora</title>
+	<meta name="description" content="Title: Gensim Code; Date: 2018-05-07; Author: Shayne">
 	<meta name="author" content="Shayne">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -26,16 +26,16 @@
 		<div class="col-md-8 col-md-offset-2">
 <div class="article" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="text-center article-header">
-		<h1 itemprop="name headline" class="article-title">Articles 31-40</h1>
+		<h1 itemprop="name headline" class="article-title">Gensim Code</h1>
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<h4 itemprop="name">Shayne</h4>
 		</span>
-		<time datetime="2018-06-07T18:00:00+08:00" itemprop="datePublished">Thu 07 June 2018</time>
+		<time datetime="2018-05-07T18:00:00+08:00" itemprop="datePublished">Mon 07 May 2018</time>
 	</div>
 	<div>
 		Category:
 		<span itemprop="articleSection">
-			<a href="https://shaynemei.github.io/category/ch.html" rel="category">CH</a>
+			<a href="https://shaynemei.github.io/category/code.html" rel="category">Code</a>
 		</span>
 	</div>
 	<div itemprop="articleBody" class="article-body"><style type="text/css">/*!
@@ -1010,171 +1010,157 @@ h6:hover .anchor-link {
 
 .ansi-bold { font-weight: bold; }
 </style>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Articles-31-40">Articles 31-40<a class="anchor-link" href="#Articles-31-40">¶</a></h2>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [1]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="nx">javascript</span>
-<span class="nx">IPython</span><span class="p">.</span><span class="nx">OutputArea</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">_should_scroll</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">lines</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area">
-<div class="prompt"></div>
-<div id="a7e2c7c5-f547-4096-983e-70b0d3263334"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#a7e2c7c5-f547-4096-983e-70b0d3263334');
-IPython.OutputArea.prototype._should_scroll = function(lines) {
-    return false;
-}
-</script>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [3]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">'/Users/Shayne/webScraping/final_fixed.xlsx'</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">):</span>
-    <span class="n">article</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">n</span><span class="p">,</span> <span class="p">[</span><span class="s1">'articleEN'</span><span class="p">,</span> <span class="s1">'articleCH'</span><span class="p">,</span> <span class="s1">'Translated'</span><span class="p">]]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">article</span><span class="p">[</span><span class="s1">'articleEN'</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">article</span><span class="p">[</span><span class="s1">'articleCH'</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">article</span><span class="p">[</span><span class="s1">'Translated'</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'--------------------------------------------------'</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+
+<span class="kn">from</span> <span class="nn">gensim</span> <span class="k">import</span> <span class="n">corpora</span><span class="p">,</span> <span class="n">models</span><span class="p">,</span> <span class="n">similarities</span>
+
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'stopwords'</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="k">import</span> <span class="n">stopwords</span>
+<span class="kn">import</span> <span class="nn">nltk.data</span>
+<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'punkt'</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">'</span><span class="si">%(asctime)s</span><span class="s1"> : </span><span class="si">%(levelname)s</span><span class="s1"> : </span><span class="si">%(message)s</span><span class="s1">'</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">'/Users/Shayne/webScraping/final_EN.xlsx'</span><span class="p">)</span>
+
+<span class="c1"># Convert Series slice into numpy array</span>
+<span class="n">documents</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">'articleEN'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># Save numpy array as txt file</span>
+<span class="c1"># IMPORTANT: Separate each item in array by lines (\n)</span>
+<span class="c1"># np.savetxt('documents.txt',documents,fmt='%s',delimiter='\n')</span>
+
+<span class="n">documents1D</span> <span class="o">=</span> <span class="n">documents</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+<span class="n">documents1D</span> <span class="o">=</span> <span class="n">documents1D</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+<span class="c1"># Tokenise corpus with nltk</span>
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'tokenizers/punkt/english.pickle'</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">documents1D</span><span class="p">:</span>
+    <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">item</span><span class="p">))</span>
+<span class="n">data_flat</span> <span class="o">=</span> <span class="p">[</span><span class="n">j</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">data</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">sub</span><span class="p">]</span>
+
+<span class="c1"># Save tokenised data one doc per line</span>
+<span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'documents.txt'</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data_flat</span><span class="p">:</span>
+    <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">"</span><span class="si">%s</span><span class="se">\n</span><span class="s2">"</span> <span class="o">%</span> <span class="n">item</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">MyCorpus</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'documents.txt'</span><span class="p">):</span>
+            <span class="c1"># assume there's one document per line, tokens separated by whitespace</span>
+            <span class="k">yield</span> <span class="n">dictionary</span><span class="o">.</span><span class="n">doc2bow</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+
+<span class="n">corpus</span> <span class="o">=</span> <span class="n">MyCorpus</span><span class="p">()</span>
+
+<span class="c1"># Construct dictionary without loading the entire file into memory</span>
+<span class="kn">from</span> <span class="nn">six</span> <span class="k">import</span> <span class="n">iteritems</span>
+
+<span class="c1"># Get a set of stopwords from NLTK </span>
+<span class="n">stopwords</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">'english'</span><span class="p">))</span>
+
+<span class="c1"># collect statistics about all tokens</span>
+<span class="n">dictionary</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'documents.txt'</span><span class="p">))</span>
+
+<span class="c1"># remove stop words and words that appear only once</span>
+<span class="n">stop_ids</span> <span class="o">=</span> <span class="p">[</span><span class="n">dictionary</span><span class="o">.</span><span class="n">token2id</span><span class="p">[</span><span class="n">stopword</span><span class="p">]</span> <span class="k">for</span> <span class="n">stopword</span> <span class="ow">in</span> <span class="n">stopwords</span> <span class="k">if</span> <span class="n">stopword</span> <span class="ow">in</span> <span class="n">dictionary</span><span class="o">.</span><span class="n">token2id</span><span class="p">]</span>
+<span class="n">once_ids</span> <span class="o">=</span> <span class="p">[</span><span class="n">tokenid</span> <span class="k">for</span> <span class="n">tokenid</span><span class="p">,</span> <span class="n">docfreq</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">dictionary</span><span class="o">.</span><span class="n">dfs</span><span class="p">)</span> <span class="k">if</span> <span class="n">docfreq</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># remove stop words and words that appear only once</span>
+<span class="n">dictionary</span><span class="o">.</span><span class="n">filter_tokens</span><span class="p">(</span><span class="n">stop_ids</span> <span class="o">+</span> <span class="n">once_ids</span><span class="p">)</span>
+
+<span class="c1"># remove gaps in id sequence after words that were removed</span>
+<span class="n">dictionary</span><span class="o">.</span><span class="n">compactify</span><span class="p">()</span>
+
+<span class="c1"># Save dictionary </span>
+<span class="n">dictionary</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">'corpus.dict'</span><span class="p">)</span>
+
+<span class="c1"># Save corpus in the Matrix Market format</span>
+<span class="n">corpora</span><span class="o">.</span><span class="n">MmCorpus</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="s1">'corpus.mm'</span><span class="p">,</span> <span class="n">corpus</span><span class="p">)</span>
+
+<span class="c1"># Load corpus and dictionary </span>
+<span class="k">if</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="s2">"corpus.dict"</span><span class="p">)):</span>
+    <span class="n">dictionary</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'corpus.dict'</span><span class="p">)</span>
+    <span class="n">corpus</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">MmCorpus</span><span class="p">(</span><span class="s1">'corpus.mm'</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Used files generated from first tutorial"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Please run first tutorial to generate data set"</span><span class="p">)</span>
+
+<span class="c1"># Step 1 -- initialize a model</span>
+<span class="n">tfidf</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">TfidfModel</span><span class="p">(</span><span class="n">corpus</span><span class="p">)</span>
+
+<span class="c1"># Step 2 -- apply transformation to the corpus</span>
+<span class="n">corpus_tfidf</span> <span class="o">=</span> <span class="n">tfidf</span><span class="p">[</span><span class="n">corpus</span><span class="p">]</span>
+
+<span class="c1"># initialize an LSI transformation</span>
+<span class="n">lsi</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">LsiModel</span><span class="p">(</span><span class="n">corpus_tfidf</span><span class="p">,</span> <span class="n">id2word</span><span class="o">=</span><span class="n">dictionary</span><span class="p">,</span> <span class="n">num_topics</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span> 
+
+<span class="c1"># create a double wrapper over the original corpus: bow-&gt;tfidf-&gt;fold-in-lsi</span>
+<span class="n">corpus_lsi</span> <span class="o">=</span> <span class="n">lsi</span><span class="p">[</span><span class="n">corpus_tfidf</span><span class="p">]</span> 
+
+<span class="c1"># Save model</span>
+<span class="n">lsi</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">'model.lsi'</span><span class="p">)</span>
+
+<span class="c1"># transform corpus to LSI space and index it</span>
+<span class="n">index</span> <span class="o">=</span> <span class="n">similarities</span><span class="o">.</span><span class="n">MatrixSimilarity</span><span class="p">(</span><span class="n">lsi</span><span class="p">[</span><span class="n">corpus</span><span class="p">],</span> <span class="n">num_features</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">dictionary</span><span class="p">))</span>
+
+<span class="c1"># Save index</span>
+<span class="n">index</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">'corpus.index'</span><span class="p">)</span>
+
+<span class="n">documents_tr</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">'translatedEN'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">),</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">documents1D_tr</span> <span class="o">=</span> <span class="n">documents_tr</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+<span class="n">documents1D_tr</span> <span class="o">=</span> <span class="n">documents1D_tr</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'tokenizers/punkt/english.pickle'</span><span class="p">)</span>
+<span class="n">data_translated</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">documents1D_tr</span><span class="p">:</span>
+    <span class="n">data_translated</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">item</span><span class="p">))</span>
+<span class="n">data_translated</span> <span class="o">=</span> <span class="p">[</span><span class="n">j</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">data_translated</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">sub</span><span class="p">]</span>
+
+<span class="c1"># Save tokenised data to txt</span>
+<span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'documents_translated.txt'</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data_translated</span><span class="p">:</span>
+    <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">"</span><span class="si">%s</span><span class="se">\n</span><span class="s2">"</span> <span class="o">%</span> <span class="n">item</span><span class="p">)</span>
+
+<span class="c1"># Save tokenised data to csv</span>
+<span class="n">temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">{</span><span class="s2">"translated"</span><span class="p">:</span> <span class="n">data_translated</span><span class="p">})</span>
+<span class="n">temp</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"./documents_translated.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">','</span><span class="p">)</span>
+
+<span class="c1"># Load corpus</span>
+<span class="n">corpus</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">MmCorpus</span><span class="p">(</span><span class="s1">'corpus.mm'</span><span class="p">)</span>
+<span class="c1"># Load dictionary</span>
+<span class="n">dictionary</span> <span class="o">=</span> <span class="n">corpora</span><span class="o">.</span><span class="n">Dictionary</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'corpus.dict'</span><span class="p">)</span>
+<span class="c1"># Load model</span>
+<span class="n">lsi</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">LsiModel</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'model.lsi'</span><span class="p">)</span>
+<span class="c1"># Load index</span>
+<span class="n">index</span> <span class="o">=</span> <span class="n">similarities</span><span class="o">.</span><span class="n">MatrixSimilarity</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'corpus.index'</span><span class="p">)</span>
+
+<span class="c1"># Calculate sims</span>
+<span class="n">sims_all</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data_translated</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">idx</span><span class="o">%</span><span class="k">500</span>) == 0:
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'Completed 500 lines! Hooray!!!! '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">queryLen</span> <span class="o">-</span> <span class="n">idx</span><span class="p">)</span> <span class="o">+</span> <span class="s1">' more lines to go!'</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">vec_bow</span> <span class="o">=</span> <span class="n">dictionary</span><span class="o">.</span><span class="n">doc2bow</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+        <span class="n">vec_lsi</span> <span class="o">=</span> <span class="n">lsi</span><span class="p">[</span><span class="n">vec_bow</span><span class="p">]</span>
+        <span class="n">sims_all</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">index</span><span class="p">[</span><span class="n">vec_lsi</span><span class="p">]))</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+        <span class="n">sims_all</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">'null'</span><span class="p">)</span>
+
+<span class="c1"># Save tokenised data to csv</span>
+<span class="n">temp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">{</span><span class="s2">"sims"</span><span class="p">:</span> <span class="n">sims_all</span><span class="p">})</span>
+<span class="n">temp</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"./sims.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">','</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-
-An overpowering stench of raw garbage, cockroaches scuttling up the walls and junk piled high in every nook and cranny：It’s hard to believe that anyone would call it home.Welcome to a typical "trash house," a term coined for dwellings whose residents seem to have given up on basic norms of hygiene by throwing nothing away.It is a growing problem for local authorities across Japan faced with clearing out these homes so the occupants can put their lives back together.Dementia and depression can be factors behind hoarding, but there are also other causes.The son of a woman in her 80s living alone in Osaka Prefecture got the shock of his life on a rare visit home to find an awful mess inside.It wasn’t just the smell of garbage, or the flies and the cockroaches. The dining room was piled 30 centimeters high with everything from a carton of eggs to dirty bed linen and a cookbook.
-
-
-令人無法忍受的生廚餘惡臭、竄爬上牆的蟑螂，以及堆得到處都是的垃圾，令人難以想像有人能將此處稱之為家。歡迎來到典型的「垃圾屋」，這是專為看似放棄基本衛生準則、什麼東西都不丟掉的居住者的住處所打造的詞彙。「垃圾屋」問題令日本各地方政府愈來愈頭大，得清理這些住處好讓居住者能回歸正常生活。失智與憂鬱可能是（導致）居家囤積垃圾的因素，但也還有其他原因。大阪府1名80多歲獨居老嫗的兒子難得造訪母親的家，結果發現家裡一團亂而嚇了一大跳。令人驚嚇的不只是垃圾的惡臭或蒼蠅與蟑螂。堆積在餐廳的垃圾足足有30公分高，從一盒蛋到髒床單與食譜什麼都有。
-
-
-生garbage over的恶臭，蟑螂在墙壁上坍塌，垃圾堆积在每一个角落和裂缝中：很难相信任何人都会把它称之为家。欢迎来到典型的“垃圾房”，这是一个为住户放弃了基本的卫生规范。日本各地的地方政府面临着清理这些住宅的问题，这使居住者可以将生活重新放在一起，这是一个日益严重的问题。痴呆和抑郁症可能是囤积居留的原因，但还有其他的原因。一位80多岁的独居在大阪府的女子的儿子在一次难得的访问中受到了他的生命冲击，在里面发现了一个可怕的混乱。不仅是垃圾的味道，还有苍蝇和蟑螂。餐厅堆满了30厘米高的一切，从一箱鸡蛋到肮脏的床单和一本食谱。
---------------------------------------------------
-
-
-When Lebanese chef Alan Geaam first arrived in Paris two decades ago he found himself sleeping on the streets, lost and penniless with hardly a word of French.Geaam, who began his career as a dishwasher, finally received his first Michelin star from the French gastronomic bible for his acclaimed new restaurant.In the childhood Geaam had a fascination with food, watching cookery shows on television rather than cartoons after school. He started cooking while doing his national service in Lebanon, and the colonel of his regiment was so impressed he made him his personal chef.But Geaam never thought he would be able to cut the mustard in France. "I worked during the day as a construction worker and at night delivering pizzas and washing dishes. One night the cook cut his hand and had to go to hospital. No one asked me, but I just took over. There were 14 tables and I just feed the customers and at the end of the night they were delighted."
-
-
-黎巴嫩裔廚師艾倫．吉姆20年前初到巴黎時，身無分文只能露宿街頭，而且法語一竅不通，找不到人生方向。從擔任一名洗碗工開始打拚事業的吉姆，憑藉備受讚揚的新餐廳，終於首度榮獲法國飲食界聖經「米其林」的一星評價。吉姆從小便著迷於食物，放學後看電視不是看卡通，而是烹飪節目。他在黎巴嫩服役時開始下廚，讓隊裡的上校印象深刻，還邀請他擔任私人廚師。然而，吉姆來到法國後不曾想過自己夠資格下廚。「我白天是建築工，晚上去送披薩和洗碗。有一晚，廚師切傷手進了醫院。雖然沒人問我，但我接手他的工作。當時有14桌客人，我就煮給他們吃，最後他們吃得很盡興。」
-
-
-二十年前，当黎巴嫩厨师Alan Geaam第一次来到巴黎时，他发现自己在街头流浪，失去了身无分文的法语.Geaam最初是一名洗碗机，最后他从法国美食学院获得了他的第一颗米其林星级圣经为他着名的新餐厅。童年Geaam有食物的魅力，看电视上的烹饪节目，而不是放学后的漫画。他在黎巴嫩服役期间开始烹饪，他的团队上校对他的个人厨师印象深刻，他让他成为他的私人厨师。但是基亚姆从来没有想过他能够切断法国的芥末。 “我白天做一名建筑工人，晚上做比萨饼和洗盘子，一天晚上厨师剪了手，不得不去医院，没有人问我，但我刚接手，有14张桌子，我只是为客户提供食物，在晚上他们很高兴。“
---------------------------------------------------
-
-
-Sculpture artists gathered in Scotland on Sunday to compete for the title of champion stone stacker. More than 30 participants from America, Spain, Italy and from around Britain converged on Dunbar, near Edinburgh, for the second European Stone Stacking Championships. Competitors must create the most complex and gravity-defying artistic sculptures from rocks and pebbles gathered on the town’s Eye Cave Beach. "（It’s） the most ancient art form that there is," James Craig Page, the fledgling contest’s founder, said. Stone stacking however has angered some conservationists who accuse enthusiasts of "rubbing out history" by removing rocks from ancient neolithic monuments. Page insists the professional artists take care to preserve the natural and historic environment. Pedro Duran, from Spain, was named European champion for the second year running for his stone archway, while James Brunt, 46, from the English city Sheffield, won runner-up for his intricate sculpture of a rollercoaster. "I got into stone stacking about seven years ago," said Brunt. "Everyone thought it was a kind of magic, and I saw the science behind it."
-
-
-雕塑藝術家週日齊聚蘇格蘭，為堆石頭冠軍頭銜一較高下。逾30名來自美國、西班牙、義大利及英國各地的參賽者，為了第二屆歐洲堆石錦標賽，聚集在愛丁堡附近的鄧巴。參賽者必須以取自該鎮眼洞海灘的石塊與小卵石，創造出最複雜與挑戰地心引力的藝術雕塑。「這是現存最古老的藝術形式。」這個剛起步的競賽創辦人佩吉說。然而，堆石頭激怒一些生態保育人士，他們指控狂熱份子搬動新石器時代遺址的石塊，「抹除歷史」。佩吉堅稱，專業的藝術家會小心維護自然與歷史環境。來自西班牙的杜蘭以他的石頭拱門，連續第二年獲頒歐洲冠軍；現年46歲、來自英國城市雪菲爾的布朗特，則以他複雜精細的雲霄飛車雕塑贏得亞軍。「約在7年前我對堆石產生興趣，」 布朗特說。「大家以為這是一種魔術，但我看到背後的科學。」
-
-
-周日，苏格兰的雕塑艺术家聚集在一起，争夺冠军石头堆积者的头衔。来自美国，西班牙，意大利和英国各地的30多名参赛者聚集在爱丁堡附近的邓巴举办第二届欧洲石牌堆叠锦标赛。参赛者必须从城镇的眼洞海滩聚集的石块和鹅卵石制作出最复杂，最具挑战性的艺术雕塑。 “（这是）最古老的艺术形式，”羽翼未丰的比赛创始人詹姆斯克雷格佩奇说。然而，石材堆放激怒了一些环保主义者，他们指责发烧友通过从古代新石器时代纪念碑中移除岩石来“剔除历史”。页面坚持专业艺术家注意保护自然和历史环境。来自西班牙的佩德罗杜兰因其石拱门而连续第二年获得欧洲冠军，而来自英国谢菲尔德市的46岁的詹姆斯布伦特因其精湛的过山车雕塑而获得亚军。 “我大约七年前就进入了石头堆积，”布伦特说。 “每个人都认为这是一种魔术，我看到了它背后的科学。”
---------------------------------------------------
-
-
-Migrants hoping to start a new life in New Zealand can add a new skill to their visa applications. Under a new plan, would-be immigrants can claim points as skilled sex workers and escorts.According to information on Immigration New Zealand’s website, sex work is listed as ANZSCO level 5 skilled employment, and applicants could claim points towards their VISA if they are paid at or above NZ$ 36.44 per hour. They should also have relevant recognized qualifications or have at least three years of work experience in the relevant industry. But New Zealand Association of Migration and Investment（NZAMI）spokesperson Peter Moses said prostitution is listed as skilled employment, but applying for a resident visa as a sex worker would still be extremely difficult. Escort and sex work are on the skilled employment list, but they are not included on the skill-shortage list.
-
-
-希望在紐西蘭展開新生活的移民，可在簽證申請表上增加一項新技能。根據一項新的計畫，準移民能以有技術的性工作者及伴遊身分要求加分。紐西蘭移民資訊網站顯示，性工作被列為「澳紐標準職業分類」第5級技術性職業，申請者只要時薪36.44紐幣以上，即可就其簽證要求加分。他們也應擁有相關認證資格，或有相關產業至少3年工作經驗。
-
-
-希望在新西兰开始新生活的移民可以为他们的签证申请增加一项新技能。根据一项新计划，即将入境的移民可以获得积分作为熟练的性工作者和护送人员。根据新西兰移民局网站上的信息，性工作被列为ANZSCO第5级熟练工，并且申请人可以向VISA申请积分支付每小时36.44新元或以上。他们还应具有相关的认可资格，或在相关行业至少有三年的工作经验。但新西兰移民与投资协会（NZAMI）发言人彼得摩西表示，卖淫被列为熟练工，但申请居民签证作为性工作者仍然非常困难。护卫和性工作都在熟练的就业名单上，但他们不包括在技能短缺名单中。
---------------------------------------------------
-
-
-Night owls may be more fun at parties, but a preference for staying out late may come with some serious drawbacks, suggests a new study published this week in Chronobiology International.Researchers looked data from a large, ongoing population study of UK residents, known as the UK Biobank Study. Around a half a million participants enrolled in the study from 2006 to 2010 and have had their health tracked ever since. In the current study, the researchers specifically looked at over 400,000 volunteers between the ages of 38 to 73 who answered a question about whether they were a morning or evening type, then followed them for an average 6.5 years.Over 10,000 of those people died during the study period. And compared to people who described themselves as definite morning people, night owls were about 10 percent more likely to have died. More than that, night owls were also just generally unhealthier.According to the authors, it’s the first to suggest that gastrointestinal and neurological problems are more common among owls.
-
-
-夜貓子更能在派對上玩開，然其對熬夜的偏好，可能招致若干嚴重的壞處，一項本週發表於《國際時間生物學》期刊的新研究指出。研究人員檢視一項持續進行中的大型英國居民人口研究「英國人體生物資料庫」的數據。自2006年至2010年，約有50萬人報名參與這項研究，啟動他們的健康情況追蹤。在該次研究中，研究人員聚焦於年齡介於38歲至73歲、曾自述為晨型人或夜型人的逾40萬名志願者，平均追蹤他們6.5年。研究期間，這些志願者中有超過1萬人逝世。而相較於明確形容自己為晨型人的志願者，夜貓子的死亡機率高出約10％。不僅如此，夜貓子也普遍地更不健康。這項研究的作者指出，該研究首次顯示夜貓子更常有胃腸和神經問題。
-
-
-夜猫子在派对上可能会更有趣，但是对于迟到的偏好可能会带来一些严重的缺陷，建议本周在Chronobiology International上发布一项新的研究。研究人员查看了一项正在进行的大规模英国居民人口研究的数据，英国生物银行研究。从2006年到2010年，约有50万参与者参加了这项研究，并从此开始追踪他们的健康状况。在目前的研究中，研究人员专门研究了40岁以上的38岁至73岁的志愿者，他们回答了他们是否是早上或晚上类型的问题，然后跟踪他们平均6。5年。这些人中有超过1万人死于研究期间。与那些将自己描述为明确的早晨人群的人相比，夜猫子的死亡可能性大约为10％。不仅如此，夜猫子通常也不健康。据作者说，这是第一个表明猫头鹰中胃肠和神经问题更为常见的病例。
---------------------------------------------------
-
-
-The North has conducted its all six nuclear detonations at the Punggye-ri facility in North Hamgyong Province. Last month, the U.S.-based North Korean analysis website 38 North assessed that the reduction in activity could be attributed to recent diplomacy between Pyongyang and Seoul and Washington."It appears that the North is trying to show that its proposal to denuclearize is not an empty promise," Yang Moo-jin, a professor at the University of North Korean studies, said.The head of South Korea’s weather agency, Korea Meteorological Administration, warned last year during a parliamentary meeting that another nuclear blast could trigger a collapse of the North’s mountainous test site and a leak of radioactive materials. Geological experts have raised concerns that the site’s nuclear tests may have influenced volcanic activities in the nearby Mt.Paekdu, which can lead to serious environmental consequences.
-
-
-北韓迄今的6次核子試爆，均在咸鏡北道豐溪里核試場進行。上月份，位在美國的北韓事務分析網站「北緯38度」研判，北韓核子相關活動的減少，可能與近來平壤和首爾、華府之間的外交接觸有關。南韓「北韓大學院大學」教授楊武仁（譯音）說，「北韓似乎正試圖展現，它的非核化提議並非空頭承諾。」南韓氣象當局「氣象廳」廳長去年曾在國會會議中警告，再有一次核試，恐引發位處山區的豐溪里核試場崩塌及輻射物質外洩。地質專家擔憂，在當地核試可能影響附近白頭山的火山活動，可能對環境造成嚴重後果。
-
-
-北部在咸镜北部的丰业里设施进行了六次核爆炸。上个月，总部位于美国的北韩分析网站38North评估说，活动的减少可能是由于平壤，首尔和华盛顿之间最近的外交所致。“看起来，北韩试图表明它的无核化建议不是朝鲜研究院教授杨谟金说。韩国气象局局长韩国气象局去年在一次议会会议上警告说，另一次核爆炸可能会引发北部的山区试验场和放射性物质泄漏。地质专家担心该场址的核试验可能会影响附近Mt.Paekdu山的火山活动，这可能会导致严重的环境后果。
---------------------------------------------------
-
-
-A man in northeastern China who always wanted to own an aircraft is doing the next best thing：building a full-scale replica of an Airbus A320 jet.Zhu Yue, an aviation buff who worked as a welder and an auto mechanic, spent months studying plane models and technical drawings before he started building a homemade version a year ago with his friends.Zhu, 40, who lives in the city of Kaiyuan in Liaoning province, said he planned to turn the replica into an aviation-themed restaurant."I want to make sure the plane is created with finesse and be the best A320 model in China," he said.The replica - 37.8 meters long with a wingspan of 36 meters and height of 12 meters - will feature model engine turbines that can rotate and a simulation cockpit, he added.Zhu, who has so far spent more than 1 million yuan of his savings and used 40 tonnes of steel on his project, hopes to complete it by the end of year at a total cost of 2 million yuan. （Reuters） 
-
-
-中國東北一位一直想要擁有一架飛機的男子，正進行退而求其次的方案：打造一架空中巴士A320噴射機的原尺寸仿製品。朱躍，一名擔任焊工和汽車技工的飛機迷，在他1年前和朋友們開始打造手工版本前，花了數個月研究飛機模型與工程製圖。40歲的朱躍住在遼寧省開原市，他說計畫把這架仿製品變身為一間飛機主題餐廳。他說：「我想確保這架飛機製造精美，並且是中國最棒的A320模型。」他補充，這件仿製品——37.8公尺長，翼展36公尺，以及12公尺高——將主打可旋轉的模型渦輪引擎以及模擬駕駛艙。朱躍至今已在他的計畫投入超過100萬人民幣積蓄及40公噸的鋼材，希望在年底前以總造價200萬人民幣完成它。（路透）
-
-
-中国东北部一直想拥有一架飞机的男士正在做的第二件事是：制造一架空中客车A320喷气式飞机的全面复制品。作为焊工和汽车修理工的航空爱好者朱跃花了几个月的时间学习飞机模型和技术图纸，一年前他和他的朋友们开始制作自制版本。居住在辽宁省开元市的朱，40岁，他表示他计划把复制品变成一个以航空为主题的餐厅。“我希望确保飞机的制造精良，并成为中国最好的A320飞机型号。“他说。副翼 -  37.8米长，翼展36米，高12米 - 将配备可旋转的模型发动机涡轮机一个模拟驾驶舱。他补充说。迄今为止，他的储蓄已经花费了100多万元人民币，并且在他的项目中使用了40吨钢材，他希望在年底之前完成该项目，总成本为200万元人民币。 （路透社）
---------------------------------------------------
-
-
-The driver of a high-speed Shinkansen bullet train admitted to being asleep at the wheel when he pulled into JR Sendai Station on April 1 and overshot the stopping point.The Tohoku Shinkansen Line train arrived at the station at faster than normal speed, forcing the conductor to apply the emergency brakes.The train came to a halt 20 meters beyond its designated stop, and had to reverse, according to the Sendai branch office of operator East Japan Railway Co. （JR East） on April 13.Initially, the driver in his 40s said that he mistook the stopping point. But on April 13, he admitted that he had been nodding off at the time.The train carried 500 or so passengers, none of whom was injured.According to the branch office, the Shinkansen, Yamabiko No. 59, departed from Tokyo and was bound for Morioka. The incident occurred around 10：20 p.m.
-
-
-一名（日本）高速新幹線子彈列車的駕駛員坦承，他在4月1日駛進JR仙台站時睡著，衝過停車點。這列東北新幹線列車以高於正常的速度抵達該站，迫使車掌啟動緊急煞車。根據負責營運的JR東日本鐵路公司仙台支社4月13日的說法，該列車最後在超出指定停車點20公尺處停下，還被迫倒車。起初，該名40幾歲的駕駛員表示，他弄錯了停車點。但在4月13日，他坦承當時在打瞌睡。該列車搭載約500名旅客，所幸無人因此受傷。仙台支社表示，這班「山彥」59號列車從東京出發，目的地是盛岡。此事發生在晚間約10時20分。
-
-
-4月1日，当他驶入JR仙台站时，高速新干线子弹头列车的司机承认在车轮上睡着了，并超过了停靠点。东北新干线列车以高于正常速度的速度抵达车站，迫使根据运营商东日本铁路株式会社（东日本铁路株式会社）的仙台分公司，4月13日，列车停在离指定站点20米处停车，并且不得不扭转。最初，司机在40多岁的时候说他误解了停车点。但在4月13日，他承认他当时正在点头。火车上载有500名左右的乘客，其中没有人受伤。根据分支机构，新干线山马子59号从东京出发，当时是开往盛冈。事件发生在晚上十点二十分左右
---------------------------------------------------
-
-
-Mao Shan Wang, a Singapore eatery themed with durian, has caught the opportunity of success as patrons flock to the cafe in droves for a bite of its exotic offerings.The pungent tropical fruit long regarded as a delicacy in Southeast Asia has left a divisive trail － you either love it or hate it.Detractors often describe its intense smell as a mix of gym socks and onions, while enthusiasts liken the creamy texture and intense aroma to blue cheese.While the "bittersweet" fruit is usually eaten on its own or as dessert, the Mao Shan Wang cafe has a special menu with durian in all dishes.Customers can opt for chicken nuggets with a durian dip, pizza topped with durian flesh, all washed down with coffee － durian infused, of course."What our company wanted to do was put it with savory stuff like fries and nuggets. We will be looking to expand the offerings as well, with maybe rice, pasta and other things," company spokesman Lance Lee said.
-
-
-「貓山王」是新加坡一家榴槤主題餐廳，隨著饕客蜂擁而至想一嚐異國風味料理，這家餐廳抓住了成功的契機。這種味道具刺激性的熱帶水果，長期被視為東南亞的佳餚，但也引發兩極意見——不是喜愛就是討厭。討厭的人通常將榴槤強烈的味道，形容為體育館裡的襪子和洋蔥的混合物，喜愛的人則將其綿密的果肉和濃郁的香氣，與藍紋乳酪相提並論。雖然這種「愛恨分明」的水果通常都是直接吃或做成甜點，但貓山王的特別菜單上有著用榴槤做成的各種菜餚。顧客可選擇搭配榴槤沾醬的炸雞、鋪滿榴槤果肉的披薩，或者隨著咖啡一飲而盡——榴槤當然加在裡頭。該店發言人蘭斯．李表示：「我們的店想主打結合榴槤和薯條、炸雞等鹹食的餐點。我們也會嘗試擴增菜單，可能與米飯、義大利麵和其他食物一起搭配。」
-
-
-以榴莲为主题的新加坡餐馆毛山王，抓住了成功的机会，因为顾客蜂拥而至，挤满了咖啡馆，吃了一口其异国情调的东西。长期以来在东南亚被视为美味的辛辣热带水果已经留下了一条分裂的道路 - 你要么喜欢它，要么讨厌它。修饰者通常将其强烈的气味描述为健身袜和洋葱的混合物，而热爱者将奶油质地和强烈的香气比作蓝乳酪。虽然“苦乐参半”的水果通常自己吃，或者作为甜点，毛山王咖啡馆在所有菜肴中都有榴莲的特别菜单。顾客可以选择带有榴莲蘸料的鸡块，披上榴莲肉的披萨，当然都是用咖啡 - 榴莲注入。“公司发言人Lance Lee说，公司想要做的就是将薯条和金块等咸味食品放入其中，我们也希望扩大产品范围，包括大米，面食和其他东西，“公司发言人Lance Lee说。
---------------------------------------------------
-
-
-Visitors to a zoo in southeastern China killed one kangaroo and injured another by throwing bricks at them in an attempt to get a reaction from the big marsupials, state media reported. A 12-year-old female kangaroo suffered a severely injured foot when it was struck by bricks and concrete chunks on February 28 at the Fuzhou Zoo in Fujian province, China Central Television reported. The kangaroo died days later and an examination by a veterinarian revealed that the cause of death was likely a ruptured kidney caused by being struck by the projectiles. A few weeks later, a five-year-old male kangaroo at the same zoo was slightly injured in a similar way, said the report. The report included pictures of the first kangaroo’s smashed and nearly severed foot, and of the animal receiving treatment via intravenous drip before it died. Visitors to the zoo were known to try to provoke the Australia marsupials to get them to display their signature hopping mode of locomotion using their powerful hind legs. The report did not mention whether anyone was punished over the matter, but it said the dead female would be stuffed and put on display and the zoo would look to install security cameras to deter visitors from harming animals. 
-
-
-中國東南部一座動物園的遊客對袋鼠丟磚塊，試圖獲取這類大型有袋動物的反應，結果砸死一頭袋鼠，並砸傷另一頭，國營媒體報導。12歲的母袋鼠2月28日在福建省福州動物園被磚頭與水泥塊擊中，腳部重傷，中國中央電視台報導。這頭袋鼠幾天後死亡，獸醫的檢查揭示，死因可能是被拋射物擊中而導致腎臟破裂。幾週後，同一座動物園的5歲公袋鼠也因類似情況受到輕傷，報導指出。報導包括第一頭袋鼠遭猛擊、幾近斷裂的腳，以及牠死前接受靜脈點滴治療的照片。眾所周知，該動物園的遊客會試圖刺激這種澳洲有袋動物，讓牠們以有力後腿展現其招牌跳躍的移動模式。報導並未提及是否有任何人因此事受罰，僅表示死亡的母袋鼠將被填充並陳列展示，動物園也將裝設監視器，以遏阻遊客傷害動物。
-
-
-官方媒体报道，去中国东南部动物园的游客为了试图从大型有袋动物身上得到反应，杀死了一只袋鼠，并给他们扔砖头而使另一只受伤。据中央电视台报道，一只12岁的女袋鼠在2月28日在福建省福州动物园被砖块和混凝土块击中时脚受重伤。几天后，袋鼠死亡，兽医检查发现死亡原因可能是被射弹击中造成的肾脏破裂。报道说，几周后，在同一动物园的一只五岁的雄性袋鼠受到类似的伤害。这份报告包括第一只袋鼠被撞碎和几乎断裂的脚的照片，以及在死亡前通过静脉滴注接受治疗的动物的照片。知道动物园的游客试图挑起澳大利亚有袋动物，让他们用强大的后腿展示他们的运动标志性跳跃模式。该报道没有提到是否有人受到处罚，但它说死去的女性会被塞进并展示，动物园会安装安全摄像头来阻止访客伤害动物。
---------------------------------------------------
-</pre>
-</div>
 </div>
 </div>
 </div>
@@ -1214,7 +1200,7 @@ Visitors to a zoo in southeastern China killed one kangaroo and injured another 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'translation-corpora'; 
-    var disqus_title = 'Articles 31-40';
+    var disqus_title = 'Gensim Code';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
